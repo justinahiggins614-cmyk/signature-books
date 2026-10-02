@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SITE TITLE PROVISIONAL — awaiting Manon's confirmation; safe to rename everywhere -->
+<title>The Signature Book Depository</title>
+<meta name="description" content="The Signature Book Depository: original Signature books — fiction, textbooks, children's, poetry, manuals — marching to 1,000,000 finished volumes. Free, no login.">
+<link rel="canonical" href="https://justinahiggins614-cmyk.github.io/signature-books/">
+<meta property="og:title" content="The Signature Book Depository">
+<meta property="og:description" content="Finished Signature books with covers, full text, and read-aloud. Marching to 1,000,000.">
+<meta property="og:url" content="https://justinahiggins614-cmyk.github.io/signature-books/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"The Signature Book Depository","url":"https://justinahiggins614-cmyk.github.io/signature-books/","creator":{"@type":"Person","name":"Justin Addam Higgins"},"description":"Original generated books by/for the Signature system: fiction, textbooks, children's, poetry, technical manuals."}</script>
+<style>
+:root{--ink:#171208;--ink2:#241c0e;--parch:#f3ead2;--parch2:#e9dcbc;--gold:#c9a227;--gold2:#e8c860;--ox:#6b2323;--line:#4a3a1e;--mut:#a89878;--card:#221a0e}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -80px,#2c2314 0%,var(--ink) 60%);color:var(--parch);font-family:Georgia,'Times New Roman',serif;line-height:1.55}
+a{color:var(--gold2)}
+.jahnet{background:#0a0f1e;color:#9aa4b2;font-size:.76em;padding:7px 10px;text-align:center;line-height:2;letter-spacing:.02em;border-bottom:1px solid #2a3a5f;font-family:Arial,Helvetica,sans-serif}
+.jahnet-t{color:#c9a227;font-weight:700;letter-spacing:.25em;margin-right:10px}
+.jahnet a{color:#9fc2ff;text-decoration:none;margin:0 7px;white-space:nowrap}
+.jahnet a:hover{text-decoration:underline}
+.jahnet .cur{color:#c9a227;font-weight:700;margin:0 7px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 14px}
+header.hero{text-align:center;padding:34px 14px 18px;border-bottom:3px double var(--line)}
+.hero h1{font-size:2.1em;margin:.1em 0;letter-spacing:.06em;color:var(--gold2);text-shadow:0 2px 12px rgba(201,162,39,.25)}
+.hero .sub{color:var(--mut);font-style:italic;margin:.2em 0 .8em}
+.stats{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:12px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 16px;min-width:130px}
+.stat b{display:block;font-size:1.35em;color:var(--gold2)}
+.stat span{font-size:.78em;color:var(--mut)}
+.march{max-width:640px;margin:10px auto 4px}
+.march .bar{height:12px;background:#0e0a05;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.march .fill{height:100%;background:linear-gradient(90deg,var(--ox),var(--gold));width:0%}
+.march small{color:var(--mut)}
+.controls{position:sticky;top:0;z-index:20;background:rgba(23,18,8,.97);border-bottom:1px solid var(--line);padding:10px 0}
+.controls .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}
+input[type=search],select{background:#0e0a05;color:var(--parch);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font-size:1em;font-family:inherit}
+input[type=search]{min-width:min(420px,90vw)}
+button{cursor:pointer}
+.btn{background:linear-gradient(180deg,#3a2c12,#241a08);color:var(--gold2);border:1px solid var(--gold);border-radius:8px;padding:9px 14px;font-family:inherit;font-size:.95em}
+.btn:hover{background:linear-gradient(180deg,#4a3a18,#2c2210)}
+.btn.ghost{background:transparent}
+.az{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:8px}
+.az button{background:transparent;border:1px solid var(--line);color:var(--mut);border-radius:6px;min-width:30px;padding:4px 6px;font-family:inherit}
+.az button.on{background:var(--ox);color:#fff;border-color:var(--gold)}
+.viewtoggle{display:flex;gap:6px}
+#results{padding:18px 0 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .15s}
+.card:hover{transform:translateY(-3px);border-color:var(--gold)}
+.card svg{display:block;width:100%;height:auto}
+.card .meta{padding:9px 10px 11px}
+.card .t{font-weight:700;font-size:.95em;line-height:1.3;min-height:2.5em}
+.card .a{font-size:.8em;color:var(--mut)}
+.card .g{font-size:.75em;color:var(--gold2);margin-top:3px}
+.card .w{font-size:.72em;color:var(--mut)}
+.listrow{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;margin-bottom:8px;cursor:pointer}
+.listrow svg{width:64px;height:96px;flex:0 0 auto;border-radius:4px}
+.listrow .t{font-weight:700}
+.listrow .a{font-size:.82em;color:var(--mut)}
+.listrow .g{font-size:.78em;color:var(--gold2)}
+.more{display:block;margin:18px auto}
+/* book detail: cover FIRST, then the listing */
+.bookview{padding:20px 0 60px}
+.bv-top{display:grid;grid-template-columns:minmax(240px,340px) 1fr;gap:26px;align-items:start}
+@media(max-width:760px){.bv-top{grid-template-columns:1fr}.bv-cover{max-width:340px;margin:0 auto}}
+.bv-cover svg{width:100%;height:auto;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+.bv-info h1{margin:.1em 0;font-size:1.7em;color:var(--gold2)}
+.bv-info .byline{color:var(--mut);font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{background:#0e0a05;border:1px solid var(--line);border-radius:20px;padding:4px 12px;font-size:.8em;color:var(--gold2)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.desc{background:var(--card);border-left:3px solid var(--gold);padding:12px 16px;margin:14px 0;font-style:italic}
+.lineage{background:#101726;border:1px solid #2a3a5f;border-radius:10px;padding:12px 16px;margin:14px 0;font-family:Arial,Helvetica,sans-serif;font-size:.9em}
+.lineage h3{margin:.2em 0 .6em;color:#9fc2ff;font-size:1em}
+.lineage a{color:#9fc2ff}
+.honest{font-size:.82em;color:var(--mut);border:1px dashed var(--line);border-radius:8px;padding:10px 14px;margin:14px 0}
+.chapters h2{color:var(--gold2);border-bottom:1px solid var(--line);padding-bottom:6px}
+.ch{margin:0 0 22px}
+.ch h3{color:var(--parch2);margin-bottom:6px}
+.ch p{margin:.6em 0;white-space:pre-wrap}
+.poem p{text-align:center;font-style:italic}
+/* floating read-aloud bar */
+#rdbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;background:#0a0f1e;border-top:2px solid var(--gold);padding:10px 14px;font-family:Arial,Helvetica,sans-serif;align-items:center;gap:12px;justify-content:center;flex-wrap:wrap}
+#rdbar.show{display:flex}
+#rdbar .prog{color:#9fc2ff;font-size:.85em}
+footer{border-top:3px double var(--line);padding:26px 14px 60px;color:var(--mut);font-size:.88em;text-align:center}
+footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif;font-size:.85em}
+.note-provisional{font-size:.8em;color:var(--mut);font-style:italic}
+.loading{text-align:center;padding:40px;color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="jahnet"><span class="jahnet-t">THE JAH NETWORK</span><a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">The Signature AI Telephone Book</a><a href="https://justinahiggins614-cmyk.github.io/jah-calculator/">Signature Universal Paradox Immune Calculator</a><a href="https://justinahiggins614-cmyk.github.io/jah-dictionary/">The Signature Dictionary</a><a href="https://justinahiggins614-cmyk.github.io/jah-wiki/">JAH Wiki</a><a href="https://justinahiggins614-cmyk.github.io/jah-n-wiki-leaks/">JAH-N Wiki</a><a href="https://justinahiggins614-cmyk.github.io/cyber-patent-catalog/">Globally Rejustered Patent Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Signature Spec Catalog Pending Patents</a><a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a><a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">The Signature PC System Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Signature Cyber Mega Mall</a><a href="https://justinahiggins614-cmyk.github.io/signature-university/">Signature University</a><span class="cur">YOU ARE HERE: THE SIGNATURE BOOK DEPOSITORY</span></div>
+
+<div id="home">
+<header class="hero wrap">
+<h1>📚 The Signature Book Depository</h1>
+<div class="sub">Every book finished. Cover first, then the listing — fiction, textbooks, children's, poetry &amp; manuals.</div>
+<div class="stats" id="stats"><div class="stat"><b>…</b><span>loading</span></div></div>
+<div class="march"><div class="bar"><div class="fill" id="marchfill"></div></div><small id="marchtxt">Marching to 1,000,000 books</small></div>
+</header>
+
+<div class="controls"><div class="wrap">
+<div class="row">
+<input type="search" id="q" placeholder="Search title, description, or JAH-BOOK-######…" aria-label="Search books">
+<select id="genre" aria-label="Genre filter"><option value="">All genres</option></select>
+<select id="origin" aria-label="Source filter"><option value="">All sources</option><option value="original">Signature originals</option><option value="spec">From specs</option><option value="wiki">From JAH Wiki</option><option value="leaks">From JAH-N dossiers</option><option value="patent">From patents</option><option value="ai">From AIs</option><option value="mall">From mall products</option></select>
+<select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="title">Title A–Z</option><option value="long">Longest first</option></select>
+<div class="viewtoggle"><button class="btn ghost" id="vgrid" aria-label="Cover grid view">🖼 Covers</button><button class="btn ghost" id="vlist" aria-label="List view">☰ List</button></div>
+</div>
+<div class="az" id="az"></div>
+</div></div>
+
+<div class="wrap"><div id="results"><div class="loading">Loading the shelves…</div></div></div>
+</div>
+
+<div id="bookview" class="wrap" style="display:none"></div>
+
+<div id="rdbar"><span>🔊 <span class="prog" id="rdprog">Reading…</span></span><button class="btn" id="rdstop">⏹ Stop</button></div>
+
+<footer>
+<div class="wrap">
+<p><b style="color:var(--gold2)">The Signature Book Depository</b> — every volume an original generated work by/for the Signature system, by <b>Justin Addam Higgins</b>. No real-world authors, no borrowed text, no trademarked characters. Derived books name the network record that seeded them.</p>
+<p class="note-provisional">Site title provisional — Manon to confirm.</p>
+<div class="sites">THE JAH NETWORK ·
+<a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">Telephone Book</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/jah-calculator/">Calculator</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/jah-dictionary/">Dictionary</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/jah-wiki/">JAH Wiki</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/jah-n-wiki-leaks/">JAH-N Wiki</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/cyber-patent-catalog/">Patent Catalog</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Spec Catalog</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">PC Depository</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Mega Mall</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-university/">University</a></div>
+<p>Free forever. No login. Machine-readable: <a href="data/index/api.json">api.json</a> · <a href="data/index/books.idx.json.gz">book index</a></p>
+</div>
+</footer>
+<script>
+"use strict";
+/* ============ config & utils ============ */
+var CHUNK=100, IDX_URL="data/index/books.idx.json.gz", API_URL="data/index/api.json";
+var IDX=[], FILTERED=[], SHOWN=0, PAGE=48, VIEW="grid";
+function $(id){return document.getElementById(id)}
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+function hashStr(s){var h=2166136261;for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=(h*16777619)>>>0}return h}
+function numOf(id){return parseInt(id.slice(-6),10)}
+function chunkNo(id){return Math.ceil(numOf(id)/CHUNK)}
+function chunkPath(id){var n=chunkNo(id);return "data/volumes/books-c"+String(n).padStart(5,"0")+".json.gz"}
+function gunzip(buf){return new Response(buf).arrayBuffer().then(function(ab){
+  if(typeof DecompressionStream==="undefined")throw new Error("no gzip support");
+  return new Response(new Blob([ab]).stream().pipeThrough(new DecompressionStream("gzip"))).text()})}
+function fetchJSONgz(url){return fetch(url).then(function(r){if(!r.ok)throw new Error("fetch "+r.status);return r.arrayBuffer()}).then(gunzip).then(JSON.parse)}
+
+/* ============ deterministic cover art ============ */
+var PALS=[
+ {bg:["#1a2f3a","#0d1b22"],acc:"#e8b64c",ink:"#f5edd8"},
+ {bg:["#3a1a2e","#1c0d16"],acc:"#e86a4c",ink:"#f7e8d8"},
+ {bg:["#1e3a24","#0e1c11"],acc:"#9fd67a",ink:"#eef5e0"},
+ {bg:["#2a2350","#12102a"],acc:"#b48ce8",ink:"#ece8f7"},
+ {bg:["#4a2f14","#241505"],acc:"#f0c060",ink:"#f7ecd4"},
+ {bg:["#0f3a3a","#071c1c"],acc:"#5cd6d6",ink:"#e0f5f5"},
+ {bg:["#3a3a1e","#1c1c0e"],acc:"#d6c45c",ink:"#f5f2df"},
+ {bg:["#501818","#280b0b"],acc:"#f08c8c",ink:"#f7e4e4"}];
+function motifSVG(m,h,pal,W,H){
+  var acc=pal.acc, s="";
+  function rnd(n){h=(h*1103515245+12345)>>>0;return h%n}
+  if(m==="sun"){s='<circle cx="'+(W/2)+'" cy="'+(H*0.42)+'" r="90" fill="'+acc+'" opacity="0.9"/>'+
+    '<circle cx="'+(W/2)+'" cy="'+(H*0.42)+'" r="120" fill="none" stroke="'+acc+'" stroke-width="3" opacity="0.5"/>'+
+    '<circle cx="'+(W/2)+'" cy="'+(H*0.42)+'" r="150" fill="none" stroke="'+acc+'" stroke-width="2" opacity="0.3"/>';
+    for(var i=0;i<12;i++){var a=i*Math.PI/6;s+='<line x1="'+(W/2+Math.cos(a)*165)+'" y1="'+(H*0.42+Math.sin(a)*165)+'" x2="'+(W/2+Math.cos(a)*195)+'" y2="'+(H*0.42+Math.sin(a)*195)+'" stroke="'+acc+'" stroke-width="4" opacity="0.7"/>'}
+  }else if(m==="mountains"){var pts="0,"+H,s2="0,"+H;for(var x=0;x<=W;x+=40){var y=H*0.42+rnd(120);pts+=" "+x+","+y;s2+=" "+x+","+(y+70)}
+    s='<polygon points="'+pts+" "+W+","+H+'" fill="'+acc+'" opacity="0.55"/><polygon points="'+s2+" "+W+","+H+'" fill="'+acc+'" opacity="0.3"/>'}
+  else if(m==="waves"){for(var w=0;w<5;w++){var y=H*0.3+w*46;s+='<path d="M0,'+y+' Q100,'+(y-28)+' 200,'+y+' T400,'+y+'" fill="none" stroke="'+acc+'" stroke-width="'+(5-w)+'" opacity="'+(0.75-w*0.12)+'"/>'}}
+  else if(m==="stars"){s="";for(var st=0;st<46;st++){var sx=rnd(W),sy=rnd(H*0.62),r=1+rnd(3);s+='<circle cx="'+sx+'" cy="'+sy+'" r="'+r+'" fill="'+acc+'" opacity="'+(0.4+rnd(60)/100)+'"/>'}
+    s+='<circle cx="'+(W*0.78)+'" cy="'+(H*0.16)+'" r="34" fill="'+acc+'" opacity="0.85"/>'}
+  else if(m==="circles"){for(var c=5;c>0;c--){s+='<circle cx="'+(W/2)+'" cy="'+(H*0.36)+'" r="'+(c*34)+'" fill="none" stroke="'+acc+'" stroke-width="3" opacity="'+(0.25+c*0.12)+'"/>'}}
+  else if(m==="rays"){for(var rr=0;rr<16;rr++){var a2=rr*Math.PI/8;s+='<line x1="'+(W/2)+'" y1="'+(H*0.36)+'" x2="'+(W/2+Math.cos(a2)*320)+'" y2="'+(H*0.36+Math.sin(a2)*320)+'" stroke="'+acc+'" stroke-width="3" opacity="0.28"/>'}
+    s+='<circle cx="'+(W/2)+'" cy="'+(H*0.36)+'" r="46" fill="'+acc+'" opacity="0.85"/>'}
+  else if(m==="dots"){for(var dy=0;dy<9;dy++)for(var dx=0;dx<8;dx++){var ox=(dy%2)*14;s+='<circle cx="'+(24+dx*46+ox)+'" cy="'+(H*0.14+dy*34)+'" r="5" fill="'+acc+'" opacity="0.5"/>'}}
+  else{var aw=W*0.6,ax=(W-aw)/2;s='<path d="M'+ax+','+(H*0.62)+' L'+ax+','+(H*0.30)+' Q'+(W/2)+','+(H*0.16)+' '+(ax+aw)+','+(H*0.30)+' L'+(ax+aw)+','+(H*0.62)+'" fill="none" stroke="'+acc+'" stroke-width="10" opacity="0.85"/>'+
+    '<circle cx="'+(W/2)+'" cy="'+(H*0.30)+'" r="26" fill="'+acc+'" opacity="0.9"/>'}
+  return s;
+}
+function wrapTitle(t){var words=String(t).split(/\s+/),lines=[],cur="";
+  words.forEach(function(w){if((cur+" "+w).trim().length>16){if(cur)lines.push(cur);cur=w}else cur=(cur+" "+w).trim()});
+  if(cur)lines.push(cur);return lines.slice(0,5)}
+function coverSVG(b){
+  var h=hashStr(b.id), pal=PALS[h%PALS.length], W=400,H=600;
+  var motifs=["sun","mountains","waves","stars","circles","rays","dots","arch"];
+  var art=motifSVG(motifs[(h>>3)%motifs.length],h>>5,pal,W,H);
+  var lines=wrapTitle(b.t), ty=120, tsvg="";
+  lines.forEach(function(ln,i){tsvg+='<text x="'+(W/2)+'" y="'+(ty+i*40)+'" text-anchor="middle" font-family="Georgia,serif" font-weight="bold" font-size="32" fill="'+pal.ink+'">'+esc(ln)+"</text>"});
+  var gid="g"+(h%100000);
+  return '<svg viewBox="0 0 '+W+" "+H+'" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cover of '+esc(b.t)+'">'+
+   '<defs><linearGradient id="'+gid+'" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="'+pal.bg[0]+'"/><stop offset="1" stop-color="'+pal.bg[1]+'"/></linearGradient></defs>'+
+   '<rect width="'+W+'" height="'+H+'" fill="url(#'+gid+')"/>'+art+
+   '<rect x="14" y="14" width="'+(W-28)+'" height="'+(H-28)+'" fill="none" stroke="'+pal.acc+'" stroke-width="3" opacity="0.8"/>'+
+   '<rect x="24" y="24" width="'+(W-48)+'" height="'+(H-48)+'" fill="none" stroke="'+pal.acc+'" stroke-width="1" opacity="0.4"/>'+
+   tsvg+
+   '<text x="'+(W/2)+'" y="'+(H-108)+'" text-anchor="middle" font-family="Georgia,serif" font-size="21" font-style="italic" fill="'+pal.ink+'" opacity="0.92">'+esc(b.a)+"</text>"+
+   '<text x="'+(W/2)+'" y="'+(H-72)+'" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="6" fill="'+pal.acc+'">SIGNATURE</text>'+
+   '<text x="'+(W/2)+'" y="'+(H-44)+'" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="'+pal.ink+'" opacity="0.6">'+esc(b.id)+"</text>"+
+   "</svg>";
+}
+
+/* ============ loading & stats ============ */
+var ORIGIN_LABEL={original:"Signature original",spec:"From spec",wiki:"From JAH Wiki",leaks:"From dossier",patent:"From patent",ai:"From AI",mall:"From mall"};
+function init(){
+  fetch(API_URL).then(function(r){return r.json()}).then(function(api){
+    var nb=api.total_books||0, nw=api.total_words||0;
+    $("stats").innerHTML=
+     '<div class="stat"><b>'+nb.toLocaleString()+"</b><span>finished books</span></div>"+
+     '<div class="stat"><b>'+(nw/1e6).toFixed(1)+"M</b><span>words of prose</span></div>"+
+     '<div class="stat"><b>'+Object.keys(api.genres||{}).length+"</b><span>genres</span></div>"+
+     '<div class="stat"><b>'+Object.keys(api.origins||{}).length+"</b><span>source streams</span></div>";
+    var pct=Math.min(100,nb/1000000*100);
+    $("marchfill").style.width=Math.max(pct,0.4)+"%";
+    $("marchtxt").textContent=nb.toLocaleString()+" of 1,000,000 books ("+pct.toFixed(2)+"%)";
+    var gs=$("genre");Object.keys(api.genres||{}).sort().forEach(function(g){
+      var o=document.createElement("option");o.value=g;o.textContent=g+" ("+(api.genres[g]).toLocaleString()+")";gs.appendChild(o)});
+  }).catch(function(){});
+  fetchJSONgz(IDX_URL).then(function(idx){IDX=idx;buildAZ();applyFilters()})
+    .catch(function(e){$("results").innerHTML='<div class="loading">Could not load the catalog index. Check your connection and reload.</div>'});
+  var q=$("q");q.addEventListener("input",function(){applyFilters()});
+  ["genre","origin","sort"].forEach(function(id){$(id).addEventListener("change",applyFilters)});
+  $("vgrid").onclick=function(){VIEW="grid";render()};$("vlist").onclick=function(){VIEW="list";render()};
+  window.addEventListener("hashchange",route);
+  route();
+}
+function buildAZ(){
+  var box=$("az");box.innerHTML="";
+  var mk=function(lbl,val){var b=document.createElement("button");b.textContent=lbl;b.dataset.v=val;
+    b.onclick=function(){box.querySelectorAll("button").forEach(function(x){x.classList.remove("on")});b.classList.add("on");applyFilters()};box.appendChild(b);return b};
+  var all=mk("★","");all.classList.add("on");
+  for(var c=65;c<=90;c++)mk(String.fromCharCode(c),String.fromCharCode(c));
+  mk("0-9","#");
+}
+function azVal(){var b=$("az").querySelector("button.on");return b?b.dataset.v:""}
+function titleKey(t){return String(t).replace(/^(The|A|An)\s+/i,"")}
+function applyFilters(){
+  var q=$("q").value.trim().toLowerCase(), g=$("genre").value, o=$("origin").value,
+      s=$("sort").value, az=azVal();
+  FILTERED=IDX.filter(function(b){
+    if(g&&b.g!==g)return false;
+    if(o&&b.o!==o)return false;
+    if(az){var k=titleKey(b.t).charAt(0).toUpperCase();if(az==="#"){if(!/[0-9]/.test(k))return false}else if(k!==az)return false}
+    if(q){var hay=(b.t+" "+b.d+" "+b.id+" "+b.g).toLowerCase();if(hay.indexOf(q)<0)return false}
+    return true});
+  if(s==="title")FILTERED.sort(function(a,b){return titleKey(a.t).localeCompare(titleKey(b.t))});
+  else if(s==="long")FILTERED.sort(function(a,b){return b.w-a.w});
+  else FILTERED.sort(function(a,b){return b.id<a.id?-1:1});
+  SHOWN=0;render();
+}
+function cardHTML(b){
+  return '<div class="card" data-id="'+b.id+'"><div>'+coverSVG(b)+'</div><div class="meta"><div class="t">'+esc(b.t)+
+   '</div><div class="a">'+esc(b.a)+'</div><div class="g">'+esc(b.g)+'</div><div class="w">'+
+   b.w.toLocaleString()+' words · '+esc(b.id)+'</div></div></div>';
+}
+function listHTML(b){
+  return '<div class="listrow" data-id="'+b.id+'">'+coverSVG(b)+'<div><div class="t">'+esc(b.t)+
+   '</div><div class="a">'+esc(b.a)+' · '+b.w.toLocaleString()+' words</div><div class="g">'+esc(b.g)+" · "+esc(ORIGIN_LABEL[b.o]||b.o)+'</div><div class="a">'+esc(b.d.slice(0,140))+'…</div></div></div>';
+}
+function render(){
+  var box=$("results");
+  if(!FILTERED.length){box.innerHTML='<div class="loading">No books match. Try another search.</div>';return}
+  var slice=FILTERED.slice(0,SHOWN+PAGE);
+  var html='<p style="color:var(--mut)">'+FILTERED.length.toLocaleString()+' books · showing '+slice.length+'</p>';
+  if(VIEW==="grid"){html+='<div class="grid">'+slice.map(cardHTML).join("")+"</div>"}
+  else{html+=slice.map(listHTML).join("")}
+  if(slice.length<FILTERED.length)html+='<button class="btn more" id="morebtn">Show more</button>';
+  box.innerHTML=html;
+  box.querySelectorAll("[data-id]").forEach(function(el){el.onclick=function(){location.hash="#book="+el.dataset.id}});
+  var mb=$("morebtn");if(mb)mb.onclick=function(){SHOWN+=PAGE;render();window.scrollTo(0,document.body.scrollHeight)};
+}
+
+/* ============ book detail ============ */
+var CUR=null, CURTEXT="";
+function route(){
+  var m=/^#book=(JAH-BOOK-\d{6})/.exec(location.hash||"");
+  if(m)openBook(m[0].slice(6));
+  else{rdStop();$("bookview").style.display="none";$("home").style.display="block";document.title="The Signature Book Depository"}
+}
+function findIdx(id){for(var i=0;i<IDX.length;i++)if(IDX[i].id===id)return IDX[i];return null}
+function openBook(id){
+  rdStop();$("home").style.display="none";var bv=$("bookview");bv.style.display="block";
+  bv.innerHTML='<div class="loading">Opening '+esc(id)+'…</div>';
+  window.scrollTo(0,0);
+  fetchJSONgz(chunkPath(id)).then(function(recs){
+    var rec=null;for(var i=0;i<recs.length;i++)if(recs[i].id===id)rec=recs[i];
+    if(!rec)throw new Error("not in chunk");
+    CUR=rec;CURTEXT=bookText(rec);renderBook(rec);
+    document.title=rec.title+" — The Signature Book Depository";
+    if(location.hash.indexOf("source-lineage")>0){var el=$("source-lineage");if(el)el.scrollIntoView()}
+  }).catch(function(){bv.innerHTML='<div class="loading">Could not open '+esc(id)+'. <a href="#">Back to shelves</a></div>'});
+}
+function bookText(rec){
+  var t=rec.title+" by "+rec.author+". "+rec.desc+" ";
+  rec.chapters.forEach(function(c){t+=c.t+". "+c.b.replace(/\n+/g," ")+" "});
+  return t;
+}
+function renderBook(rec){
+  var poem=rec.gkey==="poetry";
+  var lin=(rec.sources||[]).map(function(s){
+    return '<div>🔗 <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.label)+"</a>"+
+     (s.title?'<br><small style="color:#9aa4b2">“'+esc(s.title)+'”</small>':"")+"</div>"}).join("");
+  var chs=rec.chapters.map(function(c){
+    var body=esc(c.b).replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>");
+    return '<div class="ch'+(poem?" poem":"")+'"><h3>'+esc(c.t)+"</h3><p>"+body+"</p></div>"}).join("");
+  $("bookview").innerHTML=
+   '<div class="bookview"><p><a href="#">← Back to the shelves</a></p>'+
+   '<div class="bv-top"><div class="bv-cover">'+coverSVG({id:rec.id,t:rec.title,a:rec.author})+"</div>"+
+   '<div class="bv-info"><h1>'+esc(rec.title)+"</h1>"+
+   '<div class="byline">by '+esc(rec.author)+" · "+esc(rec.id)+"</div>"+
+   '<div class="chips"><span class="chip">'+esc(rec.genre)+'</span><span class="chip">'+rec.words.toLocaleString()+' words</span><span class="chip">'+rec.chapters.length+' chapters</span><span class="chip">'+esc(ORIGIN_LABEL[rec.origin]||rec.origin)+"</span></div>"+
+   '<div class="actions"><button class="btn" id="rdbtn">🔊 Read aloud</button>'+
+   '<button class="btn ghost" id="copybtn">⧉ Copy text</button>'+
+   '<button class="btn ghost" id="dlbtn">⬇ Download .txt</button>'+
+   '<button class="btn ghost" id="dljson">⬇ .json</button></div>'+
+   '<div class="desc">'+esc(rec.desc)+"</div>"+
+   (lin?'<div class="lineage" id="source-lineage"><h3>⛓ Source lineage</h3>'+lin+
+     '<div style="margin-top:6px"><small style="color:#9aa4b2">Stable anchor: <a href="#book='+rec.id+'#source-lineage">#source-lineage</a> — the originating sites can link back here.</small></div></div>':"")+
+   '<div class="honest">✦ '+esc(rec.note)+"</div>"+
+   "</div></div>"+
+   '<div class="chapters"><h2>Full text</h2>'+chs+"</div>"+
+   '<p><a href="#">← Back to the shelves</a></p></div>';
+  $("rdbtn").onclick=function(){rdSpeak(CURTEXT)};
+  $("copybtn").onclick=function(){copyText(CURTEXT,"copybtn")};
+  $("dlbtn").onclick=function(){download(rec.id+".txt",CURTEXT,"text/plain")};
+  $("dljson").onclick=function(){download(rec.id+".json",JSON.stringify(rec,null,1),"application/json")};
+}
+function copyText(t,btnId){
+  function done(ok){var b=$(btnId);if(b)b.textContent=ok?"✓ Copied":"Copy failed";setTimeout(function(){if(b)b.textContent="⧉ Copy text"},1800)}
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){done(true)},function(){done(false)});
+  else{var ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done(true)}catch(e){done(false)}ta.remove()}
+}
+function download(name,text,mime){
+  var b=new Blob([text],{type:mime}),u=URL.createObjectURL(b),a=document.createElement("a");
+  a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000);
+}
+
+/* ============ read aloud: tiered TTS (proven pattern: ResponsiveVoice en-US
+   female first, then two Google TTS failover hosts; per-chunk retry with
+   fail-fast tier rotation; direct audio-element playback — Google TTS
+   sends no CORS headers) ============ */
+var RD={audio:null,queue:[],playing:false,stopped:true,timer:null,speed:1,total:0};
+var RD_TIERS=[
+ function(t){return "https://code.responsivevoice.org/getvoice.php?t="+encodeURIComponent(t)+"&tl=en-US&sv=g2&vn=&pitch=0.5&rate=0.95"},
+ function(t){return "https://translate.google.com/translate_tts?ie=UTF-8&q="+encodeURIComponent(t)+"&tl=en&client=tw-ob"},
+ function(t){return "https://translate.googleapis.com/translate_tts?ie=UTF-8&q="+encodeURIComponent(t)+"&tl=en&client=tw-ob"}];
+function rdChunks(t,maxChunks){t=String(t).replace(/\s+/g," ").trim();var out=[],cur="";
+  t.split(/(?<=[.!?])\s+/).forEach(function(s){if((cur+" "+s).length>170){if(cur)out.push(cur);cur=s}else cur=(cur?cur+" ":"")+s});
+  if(cur)out.push(cur);return out.slice(0,maxChunks||400)}
+function rdStop(){RD.stopped=true;RD.playing=false;RD.queue=[];if(RD.timer){clearTimeout(RD.timer);RD.timer=null}
+  if(RD.audio){try{RD.audio.pause()}catch(e){}RD.audio=null}
+  var b=$("rdbtn");if(b)b.textContent="🔊 Read aloud";$("rdbar").classList.remove("show")}
+function rdPlayTier(chunk,tier,done){
+  if(tier>=RD_TIERS.length){done(false);return}
+  var url=RD_TIERS[tier](chunk),a=new Audio();RD.audio=a;a.playbackRate=RD.speed;
+  var finished=false;
+  function next(ok){if(finished)return;finished=true;try{a.pause()}catch(e){}done(ok)}
+  a.onended=function(){next(true)};a.onerror=function(){next(false)};
+  RD.timer=setTimeout(function(){rdPlayTier(chunk,tier+1,done)},12000);
+  a.src=url;var p=a.play();if(p&&p.catch)p.catch(function(){next(false)});
+  var iv=setInterval(function(){if(finished){clearInterval(iv);return}if(!RD.timer){clearInterval(iv);return}},500);
+  var oldNext=next;next=function(ok){if(RD.timer){clearTimeout(RD.timer);RD.timer=null}clearInterval(iv);oldNext(ok)};
+}
+function rdNext(){
+  if(RD.stopped||!RD.queue.length){rdStop();return}
+  RD.playing=true;var chunk=RD.queue.shift(),tier=0;
+  $("rdprog").textContent="Reading chunk "+(RD.total-RD.queue.length)+" of "+RD.total+"…";
+  (function attempt(){
+    if(RD.stopped)return;
+    rdPlayTier(chunk,tier,function(ok){
+      if(RD.stopped)return;
+      if(ok){setTimeout(rdNext,250)}else{tier++;if(tier<RD_TIERS.length)attempt();else setTimeout(rdNext,250)}
+    });
+  })();
+}
+function rdSpeak(text){
+  if(RD.playing&&!RD.stopped){rdStop();return}
+  rdStop();RD.queue=rdChunks(text,400);RD.total=RD.queue.length;
+  if(!RD.queue.length)return;RD.stopped=false;
+  var b=$("rdbtn");if(b)b.textContent="⏹ Stop";
+  $("rdbar").classList.add("show");rdNext();
+}
+$("rdstop").onclick=rdStop;
+init();
+</script>
+</body>
+</html>
