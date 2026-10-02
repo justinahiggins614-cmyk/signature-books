@@ -26,6 +26,7 @@ is labeled as generated on the site.
 import argparse, gzip, json, math, os, random, sys, datetime
 from source_samplers import (build_pools, pick as pool_pick, rec_terms,
                              rec_short)
+from trademark_safe import sanitize_book_text
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -1181,6 +1182,17 @@ def make_book(idx, pools=None):
         title, desc, chapters = build_business(g, idx, rec, lin)
     else:
         raise ValueError(gkey)
+    # ---- trademark-safety guard (Manon's rule): reject-and-regenerate ----
+    # Any trademarked term or thin knockoff ("Hairy Potter") that slipped in
+    # via source-record terms, banks, or invented names is replaced with an
+    # invented substitute. sanitize_book_text masks lineage citations first
+    # ("Based on ...", "Case Study:" titles, record IDs) so attribution
+    # links stay truthful. It only draws from g when a hit exists, so clean
+    # books are byte-identical to before (determinism preserved).
+    title = sanitize_book_text(title, g)[0]
+    desc = sanitize_book_text(desc, g)[0]
+    chapters = [{"t": sanitize_book_text(c["t"], g)[0],
+                 "b": sanitize_book_text(c["b"], g)[0]} for c in chapters]
     words = sum(words_of(c["b"]) + words_of(c["t"]) for c in chapters)
     words += words_of(title) + words_of(desc)
     bid = f"JAH-BOOK-{idx:06d}"

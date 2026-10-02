@@ -1,7 +1,7 @@
 {
  "site": "The Signature Book Depository",
  "total_books": 3000,
- "total_words": 4235554,
+ "total_words": 4236104,
  "genres": {
   "Science Fiction": 300,
   "Fantasy": 300,
@@ -34,5 +34,5 @@
  "march_goal": 1000000,
  "updated": "2026-10-02T03:24:01.012180+00:00",
  "index": "data/index/books.idx.json.gz",
- "note": "All books are original generated works by/for the Signature system. Derived books carry source-lineage links to the network record that seeded them."
+ "note": "All books are original generated works by/for the Signature system. Derived books carry source-lineage links to the network record that seeded them. Trademark-safety pass 2026-10-02: all titles and text screened; any trademarked term or knockoff replaced with invented names."
 }
