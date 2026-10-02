@@ -279,10 +279,16 @@ function render(){
 
 /* ============ book detail ============ */
 var CUR=null, CURTEXT="";
+/* per-book head (meta/canonical) for crawlers & sharing — additive, no visual change */
+var _bhome=null;
+function bHome(){if(!_bhome){var md=document.querySelector('meta[name="description"]'),cl=document.querySelector('link[rel="canonical"]');_bhome={d:md?md.getAttribute("content"):"",c:cl?cl.getAttribute("href"):"https://justinahiggins614-cmyk.github.io/signature-books/"}}return _bhome}
+function setBookHead(rec){var h=bHome();var md=document.querySelector('meta[name="description"]');var cl=document.querySelector('link[rel="canonical"]');if(rec){if(md)md.setAttribute("content",String(rec.desc||"").slice(0,300));if(cl)cl.setAttribute("href","https://justinahiggins614-cmyk.github.io/signature-books/?book="+rec.id)}else{if(md)md.setAttribute("content",h.d);if(cl)cl.setAttribute("href",h.c)}}
 function route(){
   var m=/^#book=(JAH-BOOK-\d{6})/.exec(location.hash||"");
-  if(m)openBook(m[0].slice(6));
-  else{rdStop();$("bookview").style.display="none";$("home").style.display="block";document.title="The Signature Book Depository"}
+  if(!m){var qb=null;try{qb=new URLSearchParams(location.search).get("book")}catch(e){}
+    if(qb&&/^JAH-BOOK-\d{6}$/.test(qb)){try{history.replaceState(null,"","./")}catch(e2){}location.hash="#book="+qb;return;}}
+  else openBook(m[0].slice(6));
+  rdStop();$("bookview").style.display="none";$("home").style.display="block";document.title="The Signature Book Depository";setBookHead(null);
 }
 function findIdx(id){for(var i=0;i<IDX.length;i++)if(IDX[i].id===id)return IDX[i];return null}
 function openBook(id){
@@ -293,7 +299,7 @@ function openBook(id){
     var rec=null;for(var i=0;i<recs.length;i++)if(recs[i].id===id)rec=recs[i];
     if(!rec)throw new Error("not in chunk");
     CUR=rec;CURTEXT=bookText(rec);renderBook(rec);
-    document.title=rec.title+" — The Signature Book Depository";
+    document.title=rec.title+" — The Signature Book Depository";setBookHead(rec);
     if(location.hash.indexOf("source-lineage")>0){var el=$("source-lineage");if(el)el.scrollIntoView()}
   }).catch(function(){bv.innerHTML='<div class="loading">Could not open '+esc(id)+'. <a href="#">Back to shelves</a></div>'});
 }

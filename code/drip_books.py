@@ -1255,12 +1255,18 @@ def write_api(total, words, per_genre, n_chunks, per_source=None):
         json.dump(api, f, ensure_ascii=False, indent=1)
 
 def write_sitemap(total):
+    import math
     base = "https://justinahiggins614-cmyk.github.io/signature-books/"
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
              f"<url><loc>{base}</loc></url>"]
     for i in range(1, total + 1):
         lines.append(f"<url><loc>{base}?book=JAH-BOOK-{i:06d}</loc></url>")
+    # static crawlable browse pages (built by code/build_browse.py)
+    lines.append(f"<url><loc>{base}browse/</loc></url>")
+    lines.append(f"<url><loc>{base}browse/genres.html</loc></url>")
+    for s in range(1, math.ceil(total / 1000) + 1):
+        lines.append(f"<url><loc>{base}browse/books-{s:03d}.html</loc></url>")
     lines.append("</urlset>")
     with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:
         f.write("\n".join(lines))
