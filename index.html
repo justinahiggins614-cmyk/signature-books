@@ -105,7 +105,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 </style>
 </head>
 <body>
-<div class="jahnet"><span class="jahnet-t">THE JAH NETWORK</span><a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">The Signature AI Telephone Book</a><a href="https://justinahiggins614-cmyk.github.io/jah-calculator/">Signature Universal Paradox Immune Calculator</a><a href="https://justinahiggins614-cmyk.github.io/jah-dictionary/">The Signature Dictionary</a><a href="https://justinahiggins614-cmyk.github.io/jah-wiki/">JAH Wiki</a><a href="https://justinahiggins614-cmyk.github.io/jah-n-wiki-leaks/">JAH-N Wiki</a><a href="https://justinahiggins614-cmyk.github.io/cyber-patent-catalog/">Globally Rejustered Patent Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Signature Spec Catalog Pending Patents</a><a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a><a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">The Signature PC System Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Signature Cyber Mega Mall</a><a href="https://justinahiggins614-cmyk.github.io/signature-university/">Signature University</a><span class="cur">YOU ARE HERE: THE SIGNATURE BOOK DEPOSITORY</span></div>
+<div class="jahnet"><span class="jahnet-t">THE JAH NETWORK</span><a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">Telephone Book</a><a href="https://justinahiggins614-cmyk.github.io/jah-calculator/">Calculator</a><a href="https://justinahiggins614-cmyk.github.io/jah-dictionary/">Dictionary</a><a href="https://justinahiggins614-cmyk.github.io/jah-wiki/">JAH Wiki</a><a href="https://justinahiggins614-cmyk.github.io/jah-n-wiki-leaks/">JAH-N Wiki</a><a href="https://justinahiggins614-cmyk.github.io/cyber-patent-catalog/">Patent Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Spec Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a><a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">PC Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Mega-Mall</a><a href="https://justinahiggins614-cmyk.github.io/signature-university/">University</a><span class="cur">YOU ARE HERE: THE SIGNATURE BOOK DEPOSITORY</span><a href="https://justinahiggins614-cmyk.github.io/signature-comics/">Comic Store</a><a href="https://justinahiggins614-cmyk.github.io/signature-newspapers/">Newspaper Archive</a><a href="https://justinahiggins614-cmyk.github.io/signature-3d-print/">3D Print Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-backend/">Backend</a><a href="https://justinahiggins614-cmyk.github.io/signature-boundless-generators/">Generator Archive</a></div>
 <div class="wingnav"><a href="./" class="cur">📚 Books</a><a href="magazines.html">📰 Magazines</a><a href="library.html">🏛 Library</a></div>
 
 <div id="home">
@@ -123,6 +123,24 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <select id="origin" aria-label="Source filter"><option value="">All sources</option><option value="original">Signature originals</option><option value="spec">From specs</option><option value="wiki">From JAH Wiki</option><option value="leaks">From JAH-N dossiers</option><option value="patent">From patents</option><option value="ai">From AIs</option><option value="mall">From mall products</option></select>
 <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="title">Title A–Z</option><option value="long">Longest first</option></select>
 <div class="viewtoggle"><button class="btn ghost" id="vgrid" aria-label="Cover grid view">🖼 Covers</button><button class="btn ghost" id="vlist" aria-label="List view">☰ List</button></div>
+</div>
+<style>
+/* BOOK FINDER — additive, does not restyle existing components */
+.finder{margin:10px 0;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#0e0a05}
+.finder .fhead{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+.finder .fhead b{color:var(--gold2);letter-spacing:.06em}
+.finder .fhead span{display:block;font-size:.82em;color:var(--mut)}
+.finder .frow{display:flex;gap:8px;flex-wrap:wrap}
+.finder .frow input{flex:1;min-width:200px}
+.finder .fcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-top:10px}
+.finder .fcard{border:1px solid var(--line);border-radius:10px;padding:12px;background:#171107;cursor:pointer}
+.finder .fcard h4{margin:2px 0 4px}
+.finder .fcard .go{color:var(--gold2);font-weight:700;text-decoration:none}
+</style>
+<div class="finder" id="finder">
+<div class="fhead"><span aria-hidden="true">&#x1F50E;</span><div><b>BOOK FINDER</b><span>describe the book you want in plain words — it searches the shelves' own index</span></div></div>
+<div class="frow"><input id="fq" maxlength="160" placeholder="Describe what you&apos;re looking for&hellip;" aria-label="Describe the book you want"><button class="btn" id="fGo">Find</button></div>
+<div id="fresults"></div>
 </div>
 <div class="az" id="az"></div>
 </div></div>
@@ -148,8 +166,14 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Spec Catalog</a> ·
 <a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a> ·
 <a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">PC Depository</a> ·
-<a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Mega Mall</a> ·
-<a href="https://justinahiggins614-cmyk.github.io/signature-university/">University</a></div>
+<a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Mega-Mall</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-university/">University</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-books/">Book Depository</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-comics/">Comic Store</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-newspapers/">Newspaper Archive</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-3d-print/">3D Print Depository</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-backend/">Backend</a> ·
+<a href="https://justinahiggins614-cmyk.github.io/signature-boundless-generators/">Generator Archive</a></div>
 <p>Free forever. No login. Machine-readable: <a href="data/index/api.json">api.json</a> · <a href="data/index/books.idx.json.gz">book index</a></p>
 </div>
 </footer>
@@ -291,6 +315,32 @@ function render(){
   var mb=$("morebtn");if(mb)mb.onclick=function(){SHOWN+=PAGE;render();window.scrollTo(0,document.body.scrollHeight)};
 }
 
+/* ============ BOOK FINDER (additive): deterministic keyword finder over the shelves' own index ============ */
+var Finder={};
+Finder.STOP={a:1,an:1,the:1,and:1,or:1,but:1,if:1,then:1,of:1,to:1,in:1,on:1,for:1,with:1,by:1,from:1,at:1,as:1,is:1,are:1,was:1,were:1,be:1,been:1,it:1,its:1,this:1,that:1,these:1,those:1,what:1,when:1,where:1,which:1,who:1,whom:1,how:1,why:1,does:1,do:1,did:1,can:1,could:1,would:1,should:1,will:1,about:1,into:1,over:1,under:1,again:1,there:1,their:1,them:1,they:1,you:1,your:1,tell:1,me:1,please:1,find:1,looking:1,look:1,show:1,want:1,need:1,get:1,some:1,any:1,all:1,both:1,more:1,most:1,very:1,just:1,like:1,such:1,than:1,book:1,books:1,read:1,reads:1,novel:1,story:1,stories:1,one:1,thing:1,kind:1,type:1};
+Finder.keywords=function(q){return String(q||"").toLowerCase().replace(/[^a-z0-9]+/g," ").split(" ").filter(function(w){return w.length>=3&&!Finder.STOP[w]})};
+/* same hay rule as applyFilters — reuses the site's own search, no second index */
+Finder.ask=function(){
+  var box=$("fresults"),kws=Finder.keywords($("fq").value);
+  if(!kws.length){box.innerHTML='<p class="dim" style="margin-top:8px">Describe what you want — a topic, a genre, a mood — and I will match the shelves&apos; own records.</p>';return}
+  if(!IDX.length){box.innerHTML='<p class="dim" style="margin-top:8px">The shelf index is still loading — one moment.</p>';return}
+  var scored=IDX.map(function(b){var hay=(b.t+" "+b.d+" "+b.id+" "+b.g).toLowerCase(),sc=0;kws.forEach(function(k){if(hay.indexOf(k)>=0)sc++});return{b:b,sc:sc}}).filter(function(x){return x.sc>0});
+  scored.sort(function(a,b2){return b2.sc-a.sc});
+  var top=scored.slice(0,5);
+  if(!top.length){box.innerHTML='<p class="dim" style="margin-top:8px"><b>Nothing matched.</b> Try fewer, simpler words.</p>';return}
+  box.innerHTML='<p class="dim" style="margin-top:8px">'+top.length+' of '+scored.length.toLocaleString()+' matches for &ldquo;'+esc(kws.join(" "))+'&rdquo;:</p>'+
+    '<div class="fcards">'+top.map(function(x){var b=x.b;
+      return '<div class="fcard" data-id="'+b.id+'" role="button" tabindex="0"><div class="g">'+esc(b.id)+'</div><h4>'+esc(b.t)+'</h4><div class="a">'+esc(ORIGIN_LABEL[b.o]||b.o)+' · '+esc(b.g)+'</div><p class="n"><a class="go" href="#book='+b.id+'" data-dl="1">Take me there &rarr;</a></p></div>';
+    }).join("")+'</div>';
+  box.querySelectorAll(".fcard").forEach(function(el){
+    el.addEventListener("click",function(e){if(e.target.getAttribute("data-dl"))return;location.hash="#book="+el.getAttribute("data-id")});
+    el.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" ")location.hash="#book="+el.getAttribute("data-id")});
+  });
+};
+document.addEventListener("DOMContentLoaded",function(){
+  var g=$("fGo");if(g)g.addEventListener("click",Finder.ask);
+  var fq=$("fq");if(fq)fq.addEventListener("keydown",function(e){if(e.key==="Enter")Finder.ask()});
+});
 /* ============ book detail ============ */
 var CUR=null, CURTEXT="";
 /* per-book head (meta/canonical) for crawlers & sharing — additive, no visual change */

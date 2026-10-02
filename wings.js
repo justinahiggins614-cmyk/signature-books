@@ -77,7 +77,7 @@ function init(){
     $("marchfill").style.width=pct+"%";
     $("marchlbl").textContent=Number(api[WING.apiTotal]).toLocaleString()+" of 1,000,000 "+WING.unitPlural+" ("+pct.toFixed(2)+"%)";
   }).catch(function(){});
-  fetchJSONgz(WING.idxUrl).then(function(idx){IDX=idx;buildFilters();buildAZ();route();})
+  Finder.setup();fetchJSONgz(WING.idxUrl).then(function(idx){IDX=idx;buildFilters();buildAZ();route();})
     .catch(function(){$("results").innerHTML='<div class="loading">Could not load the catalog index. Check your connection and reload.</div>'});
   var q=$("q"); if(q)q.addEventListener("input",function(){applyFilters()});
   var fs=$("fcat"); if(fs)fs.addEventListener("change",applyFilters);
@@ -278,4 +278,49 @@ function rdSpeak(text){
   var b=$("rdbtn");if(b)b.textContent="⏹ Stop";
   $("rdbar").classList.add("show");rdNext();
 }
+
+/* ---------------- FINDER (additive): deterministic keyword finder over the wing's own index ---------------- */
+var Finder={};
+Finder.STOP={a:1,an:1,the:1,and:1,or:1,but:1,if:1,then:1,of:1,to:1,in:1,on:1,for:1,with:1,by:1,from:1,at:1,as:1,is:1,are:1,was:1,were:1,be:1,been:1,it:1,its:1,this:1,that:1,these:1,those:1,what:1,when:1,where:1,which:1,who:1,whom:1,how:1,why:1,does:1,do:1,did:1,can:1,could:1,would:1,should:1,will:1,about:1,into:1,over:1,under:1,again:1,there:1,their:1,them:1,they:1,you:1,your:1,tell:1,me:1,please:1,find:1,looking:1,look:1,show:1,want:1,need:1,get:1,some:1,any:1,all:1,both:1,more:1,most:1,very:1,just:1,like:1,such:1,than:1,one:1,thing:1,kind:1,type:1};
+Finder.keywords=function(q){return String(q||"").toLowerCase().replace(/[^a-z0-9]+/g," ").split(" ").filter(function(w){return w.length>=3&&!Finder.STOP[w]})};
+Finder.setup=function(){
+  var az=$("az");if(!az||$("finder"))return;
+  var st=document.createElement("style");
+  st.textContent=".finder{margin:10px 0;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#0e0a05}"+
+    ".finder .fhead{display:flex;gap:10px;align-items:center;margin-bottom:8px}"+
+    ".finder .fhead b{color:var(--gold2);letter-spacing:.06em}"+
+    ".finder .fhead span{display:block;font-size:.82em;color:var(--mut)}"+
+    ".finder .frow{display:flex;gap:8px;flex-wrap:wrap}"+
+    ".finder .frow input{flex:1;min-width:200px}"+
+    ".finder .fcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-top:10px}"+
+    ".finder .fcard{border:1px solid var(--line);border-radius:10px;padding:12px;background:#171107;cursor:pointer}"+
+    ".finder .fcard h4{margin:2px 0 4px}"+
+    ".finder .fcard .go{color:var(--gold2);font-weight:700;text-decoration:none}";
+  document.head.appendChild(st);
+  var d=document.createElement("div");d.className="finder";d.id="finder";
+  d.innerHTML='<div class="fhead"><span aria-hidden="true">\uD83D\uDD0E</span><div><b>FINDER</b><span>describe the '+esc(WING.unitSing)+' you want in plain words — it searches this wing\u2019s own index</span></div></div>'+
+    '<div class="frow"><input id="fq" maxlength="160" placeholder="Describe what you\u2019re looking for\u2026" aria-label="Describe the '+esc(WING.unitSing)+' you want"><button class="btn" id="fGo">Find</button></div>'+
+    '<div id="fresults"></div>';
+  az.parentNode.insertBefore(d,az);
+  $("fGo").onclick=Finder.ask;
+  $("fq").addEventListener("keydown",function(e){if(e.key==="Enter")Finder.ask()});
+};
+/* same hay rule as applyFilters — reuses the wing's own search, no second index */
+Finder.ask=function(){
+  var box=$("fresults"),kws=Finder.keywords($("fq").value);
+  if(!kws.length){box.innerHTML='<p class="dim" style="margin-top:8px">Describe what you want — a topic, a subject, a mood — and I will match this wing\u2019s own records.</p>';return}
+  if(!IDX.length){box.innerHTML='<p class="dim" style="margin-top:8px">The index is still loading — one moment.</p>';return}
+  var scored=IDX.map(function(e){var hay=WING.hay(e).toLowerCase(),sc=0;kws.forEach(function(k){if(hay.indexOf(k)>=0)sc++});return{e:e,sc:sc}}).filter(function(x){return x.sc>0});
+  scored.sort(function(a,b){return b.sc-a.sc});
+  var top=scored.slice(0,5);
+  if(!top.length){box.innerHTML='<p class="dim" style="margin-top:8px"><b>Nothing matched.</b> Try fewer, simpler words.</p>';return}
+  box.innerHTML='<p class="dim" style="margin-top:8px">'+top.length+' of '+scored.length.toLocaleString()+' matches for \u201C'+esc(kws.join(" "))+'\u201D:</p>'+
+    '<div class="fcards">'+top.map(function(x){var e=x.e;
+      return '<div class="fcard" data-id="'+e.id+'" role="button" tabindex="0"><div class="g">'+esc(e.id)+'</div><h4>'+esc(WING.cardTitle(e))+'</h4><div class="a">'+esc(WING.cardSub(e))+'</div><p class="n"><a class="go" href="'+WING.pageFile+'#'+WING.deepParam+'='+e.id+'" data-dl="1">Take me there &rarr;</a></p></div>';
+    }).join("")+'</div>';
+  box.querySelectorAll(".fcard").forEach(function(el){
+    el.addEventListener("click",function(e){if(e.target.getAttribute("data-dl"))return;location.hash="#"+WING.deepParam+"="+el.getAttribute("data-id")});
+    el.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" ")location.hash="#"+WING.deepParam+"="+el.getAttribute("data-id")});
+  });
+};
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
