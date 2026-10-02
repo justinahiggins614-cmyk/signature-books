@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signature Library — The Signature Book Depository</title>
+<meta name="description" content="The Signature Library: microfilm archive reels, world atlases, manuscripts, reference volumes and special collections — everything a great library holds, in Signature versions. Marching to 1,000,000 artifacts. Free, no login.">
+<link rel="canonical" href="https://justinahiggins614-cmyk.github.io/signature-books/library.html">
+<style>
+:root{--ink:#171208;--parch:#f3ead2;--parch2:#e9dcbc;--gold:#c9a227;--gold2:#e8c860;--ox:#6b2323;--line:#4a3a1e;--mut:#a89878;--card:#221a0e}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -80px,#2c2314 0%,var(--ink) 60%);color:var(--parch);font-family:Georgia,'Times New Roman',serif;line-height:1.55}
+a{color:var(--gold2)}
+.jahnet{background:#0a0f1e;color:#9aa4b2;font-size:.76em;padding:7px 10px;text-align:center;line-height:2;letter-spacing:.02em;border-bottom:1px solid #2a3a5f;font-family:Arial,Helvetica,sans-serif}
+.jahnet-t{color:#c9a227;font-weight:700;letter-spacing:.25em;margin-right:10px}
+.jahnet a{color:#9fc2ff;text-decoration:none;margin:0 7px;white-space:nowrap}
+.jahnet a:hover{text-decoration:underline}
+.wings{background:#0e0a05;border-bottom:1px solid var(--line);text-align:center;padding:8px;font-family:Arial,Helvetica,sans-serif;font-size:.85em}
+.wings a{margin:0 12px;text-decoration:none;color:var(--mut)}
+.wings a.cur{color:var(--gold2);font-weight:700}
+.wrap{max-width:1180px;margin:0 auto;padding:0 14px}
+header.hero{text-align:center;padding:30px 14px 14px;border-bottom:3px double var(--line)}
+.hero h1{font-size:2em;margin:.1em 0;color:var(--gold2)}
+.hero .sub{color:var(--mut);font-style:italic}
+.stats{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:12px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 16px;min-width:130px;text-align:center}
+.stat b{display:block;font-size:1.35em;color:var(--gold2)}
+.stat span{font-size:.78em;color:var(--mut)}
+.march{max-width:640px;margin:10px auto 4px;text-align:center}
+.march .bar{height:12px;background:#0e0a05;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.march .fill{height:100%;background:linear-gradient(90deg,var(--ox),var(--gold));width:0%}
+.march small{color:var(--mut)}
+.controls{position:sticky;top:0;z-index:20;background:rgba(23,18,8,.97);border-bottom:1px solid var(--line);padding:10px 0}
+.controls .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}
+input[type=search],input[type=text],select{background:#0e0a05;color:var(--parch);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font-size:1em;font-family:inherit}
+input[type=search]{min-width:min(420px,90vw)}
+button{cursor:pointer}
+.btn{background:linear-gradient(180deg,#3a2c12,#241a08);color:var(--gold2);border:1px solid var(--gold);border-radius:8px;padding:9px 14px;font-family:inherit;font-size:.95em}
+.btn.ghost{background:transparent}
+.az{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:8px}
+.az button{background:transparent;border:1px solid var(--line);color:var(--mut);border-radius:6px;min-width:30px;padding:4px 6px;font-family:inherit}
+.az button.on{background:var(--ox);color:#fff;border-color:var(--gold)}
+#results{padding:18px 0 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer}
+.card:hover{transform:translateY(-3px);border-color:var(--gold)}
+.card svg{display:block;width:100%;height:auto}
+.card .meta{padding:9px 10px 11px}
+.card .t{font-weight:700;font-size:.95em;line-height:1.3;min-height:2.5em}
+.card .a{font-size:.8em;color:var(--mut)}
+.card .g{font-size:.75em;color:var(--gold2);margin-top:3px}
+.listrow{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;margin-bottom:8px;cursor:pointer}
+.listrow svg{width:64px;height:96px;flex:0 0 auto;border-radius:4px}
+.listrow .t{font-weight:700}
+.listrow .a{font-size:.82em;color:var(--mut)}
+.listrow .g{font-size:.78em;color:var(--gold2)}
+.more{display:block;margin:18px auto}
+.bookview{padding:20px 0 60px}
+.bv-top{display:grid;grid-template-columns:minmax(240px,340px) 1fr;gap:26px;align-items:start}
+@media(max-width:760px){.bv-top{grid-template-columns:1fr}.bv-cover{max-width:340px;margin:0 auto}}
+.bv-cover svg{width:100%;height:auto;border-radius:8px;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+.bv-info h1{margin:.1em 0;font-size:1.6em;color:var(--gold2)}
+.bv-info .byline{color:var(--mut);font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.chip{background:#0e0a05;border:1px solid var(--line);border-radius:20px;padding:4px 12px;font-size:.8em;color:var(--gold2)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.desc{background:var(--card);border-left:3px solid var(--gold);padding:12px 16px;margin:14px 0;font-style:italic}
+.honest{font-size:.82em;color:var(--mut);border:1px dashed var(--line);border-radius:8px;padding:10px 14px;margin:14px 0}
+.chapters h2{color:var(--gold2);border-bottom:1px solid var(--line);padding-bottom:6px}
+.ch{margin:0 0 22px}.ch h3{color:var(--parch2);margin-bottom:6px}.ch p{margin:.6em 0;white-space:pre-wrap}
+.aipanel{background:#101726;border:1px solid #2a3a5f;border-radius:10px;padding:14px 16px;margin:14px 0;font-family:Arial,Helvetica,sans-serif}
+.aipanel h3{margin:.2em 0 .4em;color:#9fc2ff}
+.aimeta{font-size:.82em;color:#8a93a5}
+.airow{display:flex;gap:8px;margin:8px 0}
+.airow input{flex:1}
+.aians{margin-top:8px;font-size:.95em}
+.aiquote{border-left:3px solid #2a3a5f;margin:8px 0;padding:6px 12px;font-style:italic;color:#d7dee9}
+.ailist{margin:.4em 0;padding-left:1.2em}
+.ainone{color:#8a93a5;font-style:italic}
+#rdbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;background:#0a0f1e;border-top:2px solid var(--gold);padding:10px 14px;font-family:Arial,Helvetica,sans-serif;align-items:center;gap:12px;justify-content:center;flex-wrap:wrap}
+#rdbar.show{display:flex}
+#rdbar .prog{color:#9fc2ff;font-size:.85em}
+footer{border-top:3px double var(--line);padding:26px 14px 60px;color:var(--mut);font-size:.88em;text-align:center}
+.loading{text-align:center;padding:40px;color:var(--mut)}
+.count{text-align:center;color:var(--mut);font-size:.85em;margin-top:6px}
+</style>
+</head>
+<body>
+<div class="jahnet"><span class="jahnet-t">THE JAH NETWORK</span><a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">The Signature AI Telephone Book</a><a href="https://justinahiggins614-cmyk.github.io/jah-calculator/">Signature Universal Paradox Immune Calculator</a><a href="https://justinahiggins614-cmyk.github.io/jah-dictionary/">The Signature Dictionary</a><a href="https://justinahiggins614-cmyk.github.io/jah-wiki/">JAH Wiki</a><a href="https://justinahiggins614-cmyk.github.io/jah-n-wiki-leaks/">JAH-N Wiki</a><a href="https://justinahiggins614-cmyk.github.io/cyber-patent-catalog/">Globally Rejustered Patent Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Signature Spec Catalog Pending Patents</a><a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a><a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">The Signature PC System Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Signature Cyber Mega Mall</a><a href="https://justinahiggins614-cmyk.github.io/signature-university/">Signature University</a><a href="https://justinahiggins614-cmyk.github.io/signature-books/">The Signature Book Depository</a></div>
+<div class="wings"><a href="./">📚 Books</a><a href="magazines.html">📰 Magazines</a><a href="library.html" class="cur">🏛 Library</a></div>
+
+<div id="home">
+<header class="hero wrap">
+<h1>🏛 The Signature Library</h1>
+<div class="sub">Everything a great library holds, in Signature versions — microfilm archive reels, world atlases, manuscripts, reference volumes &amp; special collections.</div>
+<div class="stats" id="stats"></div>
+<div class="march"><div class="bar"><div class="fill" id="marchfill"></div></div><small id="marchlbl"></small></div>
+</header>
+<div class="controls"><div class="wrap">
+<div class="row">
+<input type="search" id="q" placeholder="Search artifacts — title, kind, region, ID…" aria-label="Search artifacts">
+<select id="fcat" aria-label="Filter by kind"><option value="">All kinds</option></select>
+<select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="title">Title A–Z</option><option value="long">Longest first</option></select>
+<span class="viewtoggle"><button class="btn ghost" id="vgrid">▦</button><button class="btn ghost" id="vlist">☰</button></span>
+</div>
+<div class="az" id="az"></div>
+<div class="count" id="count"></div>
+</div></div>
+<div class="wrap"><div id="results"><div class="loading">Opening the archive doors…</div></div></div>
+</div>
+
+<div class="wrap"><div id="recview" style="display:none"></div></div>
+
+<div id="rdbar"><span class="prog" id="rdprog"></span><button class="btn ghost" id="rdstop">⏹ Stop</button></div>
+<script>
+var WING={
+  pageFile:"library.html",
+  pageTitle:"Signature Library — The Signature Book Depository",
+  unitSing:"artifact",unitPlural:"artifacts",itemWord:"entry",itemWordPlural:"entries",
+  apiUrl:"data/library/index/api.json",apiTotal:"total_artifacts",
+  idxUrl:"data/library/index/libs.idx.json.gz",
+  chunkDir:"data/library/volumes",chunkPrefix:"libs-c",chunkSize:100,
+  deepParam:"lib",idRe:"JAH-LIB-\\d{6}",
+  filterKey:"kind",filterGet:function(e){return e.k},
+  hay:function(e){return e.id+" "+e.k+" "+e.t+" "+e.d+" "+e.h.join(" ")},
+  titleKey:function(e){return e.t},
+  cardTitle:function(e){return e.t},
+  cardSub:function(e){return e.k+" · "+e.d},
+  recTitle:function(r){return r.title},
+  byline:function(r){return r.kind},
+  chips:function(r){var n=0;r.sections.forEach(function(s){n+=s.items.length});return [r.kind,r.words.toLocaleString()+" words",n+" entries","JAH-LIB"]},
+  desc:function(r){return r.desc},
+  authorOf:null,
+  sections:function(r){return r.sections.map(function(s){return {t:s.t,items:s.items.map(function(it){return {t:it.t,b:it.b}})}})},
+  text:function(r){var t=r.desc+" ";r.sections.forEach(function(s){s.items.forEach(function(it){t+=it.t+". "+it.b+" "})});return t},
+  coverKind:function(x){var k=x.kkey||({"Microfilm":"microfilm","Atlas":"atlas","Manuscript":"manuscript","Reference":"reference"})[x.k]||"special";return k}
+};
+</script>
+<script src="wings.js"></script>
+<script>$("rdstop").onclick=rdStop;</script>
+</body>
+</html>

@@ -1255,21 +1255,14 @@ def write_api(total, words, per_genre, n_chunks, per_source=None):
         json.dump(api, f, ensure_ascii=False, indent=1)
 
 def write_sitemap(total):
-    import math
-    base = "https://justinahiggins614-cmyk.github.io/signature-books/"
-    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-             f"<url><loc>{base}</loc></url>"]
-    for i in range(1, total + 1):
-        lines.append(f"<url><loc>{base}?book=JAH-BOOK-{i:06d}</loc></url>")
-    # static crawlable browse pages (built by code/build_browse.py)
-    lines.append(f"<url><loc>{base}browse/</loc></url>")
-    lines.append(f"<url><loc>{base}browse/genres.html</loc></url>")
-    for s in range(1, math.ceil(total / 1000) + 1):
-        lines.append(f"<url><loc>{base}browse/books-{s:03d}.html</loc></url>")
-    lines.append("</urlset>")
-    with open(os.path.join(ROOT, "sitemap.xml"), "w") as f:
-        f.write("\n".join(lines))
+    # Unified sitemap across all three wings (books + magazines + library).
+    # Delegates to code/sitemap_all.py so every drip keeps every wing fresh.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "sitemap_all", os.path.join(HERE, "sitemap_all.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    mod.write_sitemap()
 
 def write_robots():
     with open(os.path.join(ROOT, "robots.txt"), "w") as f:

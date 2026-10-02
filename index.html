@@ -89,10 +89,24 @@ footer{border-top:3px double var(--line);padding:26px 14px 60px;color:var(--mut)
 footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif;font-size:.85em}
 .note-provisional{font-size:.8em;color:var(--mut);font-style:italic}
 .loading{text-align:center;padding:40px;color:var(--mut)}
+/* per-book Ask AI */
+.aipanel{background:#101726;border:1px solid #2a3a5f;border-radius:10px;padding:14px 16px;margin:14px 0;font-family:Arial,Helvetica,sans-serif}
+.aipanel h3{margin:.2em 0 .4em;color:#9fc2ff;font-size:1.05em}
+.aimeta{font-size:.82em;color:#8a93a5}
+.airow{display:flex;gap:8px;margin:8px 0}
+.airow input{flex:1;background:#0a0f1e;color:#e8ecf4;border:1px solid #2a3a5f;border-radius:8px;padding:9px 12px;font-size:1em;font-family:inherit}
+.aians{margin-top:8px;font-size:.95em;color:#d7dee9}
+.aiquote{border-left:3px solid #2a3a5f;margin:8px 0;padding:6px 12px;font-style:italic;color:#d7dee9;font-family:Georgia,serif}
+.ailist{margin:.4em 0;padding-left:1.2em}
+.ainone{color:#8a93a5;font-style:italic}
+.wingnav{background:#0e0a05;border-bottom:1px solid var(--line);text-align:center;padding:8px;font-family:Arial,Helvetica,sans-serif;font-size:.85em}
+.wingnav a{margin:0 12px;text-decoration:none;color:var(--mut)}
+.wingnav a.cur{color:var(--gold2);font-weight:700}
 </style>
 </head>
 <body>
 <div class="jahnet"><span class="jahnet-t">THE JAH NETWORK</span><a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">The Signature AI Telephone Book</a><a href="https://justinahiggins614-cmyk.github.io/jah-calculator/">Signature Universal Paradox Immune Calculator</a><a href="https://justinahiggins614-cmyk.github.io/jah-dictionary/">The Signature Dictionary</a><a href="https://justinahiggins614-cmyk.github.io/jah-wiki/">JAH Wiki</a><a href="https://justinahiggins614-cmyk.github.io/jah-n-wiki-leaks/">JAH-N Wiki</a><a href="https://justinahiggins614-cmyk.github.io/cyber-patent-catalog/">Globally Rejustered Patent Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Signature Spec Catalog Pending Patents</a><a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a><a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">The Signature PC System Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Signature Cyber Mega Mall</a><a href="https://justinahiggins614-cmyk.github.io/signature-university/">Signature University</a><span class="cur">YOU ARE HERE: THE SIGNATURE BOOK DEPOSITORY</span></div>
+<div class="wingnav"><a href="./" class="cur">📚 Books</a><a href="magazines.html">📰 Magazines</a><a href="library.html">🏛 Library</a></div>
 
 <div id="home">
 <header class="hero wrap">
@@ -325,11 +339,16 @@ function renderBook(rec){
    '<div class="actions"><button class="btn" id="rdbtn">🔊 Read aloud</button>'+
    '<button class="btn ghost" id="copybtn">⧉ Copy text</button>'+
    '<button class="btn ghost" id="dlbtn">⬇ Download .txt</button>'+
-   '<button class="btn ghost" id="dljson">⬇ .json</button></div>'+
+   '<button class="btn ghost" id="dljson">⬇ .json</button>'+
+   '<button class="btn ghost" id="aibtn">💬 Ask about this book</button></div>'+
    '<div class="desc">'+esc(rec.desc)+"</div>"+
    (lin?'<div class="lineage" id="source-lineage"><h3>⛓ Source lineage</h3>'+lin+
      '<div style="margin-top:6px"><small style="color:#9aa4b2">Stable anchor: <a href="#book='+rec.id+'#source-lineage">#source-lineage</a> — the originating sites can link back here.</small></div></div>':"")+
    '<div class="honest">✦ '+esc(rec.note)+"</div>"+
+   '<div class="aipanel" id="aipanel" style="display:none"><h3>💬 Ask about this book</h3>'+
+   '<p class="aimeta">Answered from this book’s own text — it quotes and explains, and says plainly when something isn’t covered.</p>'+
+   '<div class="airow"><input type="text" id="aiq" placeholder="Ask a question about this book…" aria-label="Ask about this book"><button class="btn" id="aiask">Ask</button></div>'+
+   '<div class="aians" id="aians"></div></div>'+
    "</div></div>"+
    '<div class="chapters"><h2>Full text</h2>'+chs+"</div>"+
    '<p><a href="#">← Back to the shelves</a></p></div>';
@@ -337,6 +356,45 @@ function renderBook(rec){
   $("copybtn").onclick=function(){copyText(CURTEXT,"copybtn")};
   $("dlbtn").onclick=function(){download(rec.id+".txt",CURTEXT,"text/plain")};
   $("dljson").onclick=function(){download(rec.id+".json",JSON.stringify(rec,null,1),"application/json")};
+  $("aibtn").onclick=function(){var p=$("aipanel");p.style.display=p.style.display==="none"?"block":"none";if(p.style.display==="block")$("aiq").focus()};
+  $("aiask").onclick=function(){bookAsk(rec)};
+  $("aiq").addEventListener("keydown",function(e){if(e.key==="Enter")bookAsk(rec)});
+}
+/* per-book Ask AI: deterministic, grounded in the book's own chapters.
+   Never invents book content — quotes + explains, or says it's not covered. */
+var AI_STOP={a:1,an:1,the:1,and:1,or:1,but:1,if:1,then:1,of:1,to:1,in:1,on:1,for:1,with:1,by:1,from:1,at:1,as:1,is:1,are:1,was:1,were:1,be:1,been:1,it:1,its:1,this:1,that:1,these:1,those:1,what:1,when:1,where:1,which:1,who:1,whom:1,how:1,why:1,does:1,do:1,did:1,can:1,could:1,would:1,should:1,will:1,about:1,into:1,over:1,under:1,again:1,there:1,their:1,them:1,they:1,you:1,your:1,tell:1,me:1,please:1};
+function bookAsk(rec){
+  var q=$("aiq").value.trim(),box=$("aians");
+  if(!q){box.innerHTML='<p class="ainone">Type a question first.</p>';return}
+  box.innerHTML="<p class='ainone'>Thinking…</p>";
+  setTimeout(function(){box.innerHTML=bookAnswer(rec,q)},60);
+}
+function bookAnswer(rec,q){
+  var ql=q.toLowerCase(),chs=rec.chapters;
+  if(/who (wrote|author)/.test(ql))return "<p>This book was written by <b>"+esc(rec.author)+"</b>.</p>";
+  if(/how (many|long)|word count|words\b/.test(ql))return "<p><b>"+esc(rec.title)+"</b> runs <b>"+Number(rec.words).toLocaleString()+" words</b> across "+chs.length+" chapters.</p>";
+  if(/what genre|what kind|genre/.test(ql))return "<p>It is shelved under <b>"+esc(rec.genre)+"</b>.</p>";
+  if(/what (is|are) (this|it)|summar|about|describe|plot/.test(ql))return "<p>"+esc(rec.desc)+"</p>";
+  if(/(list|all|every).*(chapter)|table of contents|contents|chapters/.test(ql)){
+    return "<p>Its "+chs.length+" chapters:</p><ul class='ailist'>"+chs.map(function(c){return "<li><b>"+esc(c.t)+"</b></li>"}).join("")+"</ul>";
+  }
+  var kws=ql.split(/[^a-z0-9]+/).filter(function(w){return w.length>=3&&!AI_STOP[w]});
+  if(!kws.length)return "<p class='ainone'>I couldn't pick out searchable words from that. Try asking about a topic or a character.</p>";
+  var scored=chs.map(function(c){
+    var hay=(c.t+" "+c.b).toLowerCase(),sc=0;
+    kws.forEach(function(k){var i=hay.indexOf(k);while(i>=0){sc+=(c.t.toLowerCase().indexOf(k)>=0?3:1);i=hay.indexOf(k,i+1)}});
+    return {c:c,sc:sc}});
+  scored.sort(function(a,b){return b.sc-a.sc});
+  var best=scored[0];
+  if(!best||best.sc===0){
+    var tops=chs.slice(0,5).map(function(c){return esc(c.t)}).join("; ");
+    return "<p class='ainone'>This book doesn't seem to cover “"+esc(q)+"”. Its chapters include: "+tops+"… Try one of those.</p>";
+  }
+  var b=best.c.b,low=b.toLowerCase(),hit=-1;
+  kws.forEach(function(k){var i=low.indexOf(k);if(i>=0&&(hit<0||i<hit))hit=i});
+  var start=Math.max(0,hit-160),ex=b.slice(start,start+420);
+  if(start>0)ex="…"+ex;if(start+420<b.length)ex=ex+"…";
+  return "<p>From <b>“"+esc(best.c.t)+"”</b>:</p><blockquote class='aiquote'>"+esc(ex)+"</blockquote><p class='aimeta'>Answered from this book’s own text.</p>";
 }
 function copyText(t,btnId){
   function done(ok){var b=$(btnId);if(b)b.textContent=ok?"✓ Copied":"Copy failed";setTimeout(function(){if(b)b.textContent="⧉ Copy text"},1800)}
