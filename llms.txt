@@ -1,0 +1,54 @@
+# The Signature Book Depository — AI guide (llms.txt)
+
+Site 12 of 25 in THE JAH NETWORK. A catalog of original generated books by/for
+the Signature system, by Justin Addam Higgins. Marching to 1,000,000 books.
+
+## What this is
+- Every book is an ORIGINAL GENERATED WORK. No real-world authors, no borrowed
+  text, no trademarked characters, no fake ISBNs or publishers.
+- Derived books name the exact network record that seeded them (source lineage).
+- Records are immutable: books are written once, finished, and never regenerated.
+  The public catalog only lists PUBLISHED books ("Every book finished" = every
+  displayed book passed the finished-book bar).
+
+## Count authority
+- data/index/api.json is the authoritative manifest. Homepage, shelves, genre
+  counts, and sitemap all derive from it. Never hard-code counts.
+- Genres are mutually exclusive (sum == total_books). Origins are mutually
+  exclusive and cumulative (sum == total_books): each book carries exactly one
+  origin slot from the seven-source cycle (spec, wiki, leaks, patent, ai, mall,
+  original). "original" = standalone Signature-original; the other six = the
+  book was seeded by that network record type and carries a source-lineage link.
+
+## Machine-readable files
+- data/index/api.json — authoritative manifest (counts, genres, origins, notes)
+- data/index/books-manifest.json — site manifest (version, policy, links)
+- data/index/books-schema.json — JAH-BOOK-RECORD/1.0 (JSON Schema; documents
+  every record field, the compact index field map, the chunk standard, and the
+  internal DRAFT/GENERATING/VALIDATING/PUBLISHED/REVISED/RETIRED states)
+- data/index/book-record-example.json — one complete real record
+- data/index/chunks-manifest.json — 206 volume chunks with SHA-256, first/last
+  IDs, prev/next links (continuity verified: zero gaps)
+- data/index/books.idx.json.gz — compact index. This is a gzip archive served
+  as application/gzip (Content-Length ~1.5MB for 20,600 books; ~12MB decoded).
+  It is NOT transparently decoded by the server: fetch it as bytes and decode
+  with gzip/DecompressionStream. Field map: id, t=title, a=author, g=genre,
+  w=words, d=description, o=origin, ch=chapter titles.
+- data/volumes/books-cNNNNN.json.gz — full records, 100 per chunk (gzip JSON).
+- sitemap.xml — every ?book= deep link plus wing pages.
+- browse/ — static crawlable browse pages (21 book pages, genre pages).
+
+## Addressing a book
+- Canonical URL: https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-######
+- ID format: JAH-BOOK-###### (zero-padded, 000001..020600). Immutable, never
+  reused, never changed by a title change.
+- If a book ID is not in the catalog, answer BOOK_NOT_FOUND. Never invent books.
+
+## Lineage
+- Derived book -> sources[] -> {kind, id, label, url} pointing at the exact
+  source record (spec / wiki article / dossier / patent record / AI / mall
+  product). Only follow relationships actually present in sources[].
+
+## Wings
+- Books (this site, ./), Magazines (magazines.html), Library (library.html) are
+  separate record types. Do not count magazines or library artifacts as books.

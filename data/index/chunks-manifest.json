@@ -1,0 +1,2068 @@
+{
+ "chunk_count": 206,
+ "chunk_size": 100,
+ "total_books": 20600,
+ "continuity": "chunks numbered 00001..00206 with no gaps; book IDs contiguous JAH-BOOK-000001..020600",
+ "chunks": [
+  {
+   "chunk_id": "books-c00001",
+   "first_book_id": "JAH-BOOK-000001",
+   "last_book_id": "JAH-BOOK-000100",
+   "book_count": 100,
+   "content_sha256": "648693393b94740beb0623c1224c68c5833a9bc7cbd17ff24ed92e2e8ad4bc38",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00001.json.gz",
+   "previous_chunk": null,
+   "next_chunk": "books-c00002"
+  },
+  {
+   "chunk_id": "books-c00002",
+   "first_book_id": "JAH-BOOK-000101",
+   "last_book_id": "JAH-BOOK-000200",
+   "book_count": 100,
+   "content_sha256": "bd51ea1a194a221ff185bad97e814169a764cd32aea004120438d674251e16f1",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00002.json.gz",
+   "previous_chunk": "books-c00001",
+   "next_chunk": "books-c00003"
+  },
+  {
+   "chunk_id": "books-c00003",
+   "first_book_id": "JAH-BOOK-000201",
+   "last_book_id": "JAH-BOOK-000300",
+   "book_count": 100,
+   "content_sha256": "ec94203173bfaae4aff93b97984eaa07d749b2311460c51a92ff8fff9ae22c2e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00003.json.gz",
+   "previous_chunk": "books-c00002",
+   "next_chunk": "books-c00004"
+  },
+  {
+   "chunk_id": "books-c00004",
+   "first_book_id": "JAH-BOOK-000301",
+   "last_book_id": "JAH-BOOK-000400",
+   "book_count": 100,
+   "content_sha256": "8bf51f8a8cf496f769d7b0622e94583190e4ebce6e45ee06e887be98a618409d",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00004.json.gz",
+   "previous_chunk": "books-c00003",
+   "next_chunk": "books-c00005"
+  },
+  {
+   "chunk_id": "books-c00005",
+   "first_book_id": "JAH-BOOK-000401",
+   "last_book_id": "JAH-BOOK-000500",
+   "book_count": 100,
+   "content_sha256": "4dacedd9bd917408264c44ef25f83b7ce49ffd3b0f058bc8d3fa7564f40c87a4",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00005.json.gz",
+   "previous_chunk": "books-c00004",
+   "next_chunk": "books-c00006"
+  },
+  {
+   "chunk_id": "books-c00006",
+   "first_book_id": "JAH-BOOK-000501",
+   "last_book_id": "JAH-BOOK-000600",
+   "book_count": 100,
+   "content_sha256": "54322c55ab29171ce026c9f751b8e378f15e5f2eed35fe9389bddca143ea6719",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00006.json.gz",
+   "previous_chunk": "books-c00005",
+   "next_chunk": "books-c00007"
+  },
+  {
+   "chunk_id": "books-c00007",
+   "first_book_id": "JAH-BOOK-000601",
+   "last_book_id": "JAH-BOOK-000700",
+   "book_count": 100,
+   "content_sha256": "2b903d2d107e62897c5ad818ca7ed14dbe6d5da39af81b49585b5beac83f7679",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00007.json.gz",
+   "previous_chunk": "books-c00006",
+   "next_chunk": "books-c00008"
+  },
+  {
+   "chunk_id": "books-c00008",
+   "first_book_id": "JAH-BOOK-000701",
+   "last_book_id": "JAH-BOOK-000800",
+   "book_count": 100,
+   "content_sha256": "7c128bb1e024101b6ca278b229296ef61108af21ecfb19cb9fba0a644a12bba9",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00008.json.gz",
+   "previous_chunk": "books-c00007",
+   "next_chunk": "books-c00009"
+  },
+  {
+   "chunk_id": "books-c00009",
+   "first_book_id": "JAH-BOOK-000801",
+   "last_book_id": "JAH-BOOK-000900",
+   "book_count": 100,
+   "content_sha256": "b34c223ae35e1b2c5b968640fe845e8480518b11e7dc5564b23f5bf3b6cc145e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00009.json.gz",
+   "previous_chunk": "books-c00008",
+   "next_chunk": "books-c00010"
+  },
+  {
+   "chunk_id": "books-c00010",
+   "first_book_id": "JAH-BOOK-000901",
+   "last_book_id": "JAH-BOOK-001000",
+   "book_count": 100,
+   "content_sha256": "bb902dc5408cc4bd74d368e0d6d11d6f3ad8a9187d388ca45b08c628832824bc",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00010.json.gz",
+   "previous_chunk": "books-c00009",
+   "next_chunk": "books-c00011"
+  },
+  {
+   "chunk_id": "books-c00011",
+   "first_book_id": "JAH-BOOK-001001",
+   "last_book_id": "JAH-BOOK-001100",
+   "book_count": 100,
+   "content_sha256": "b27dfc46725acd6948d2c2218b41ca11145f9259946652f49ff465e8c8587dee",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00011.json.gz",
+   "previous_chunk": "books-c00010",
+   "next_chunk": "books-c00012"
+  },
+  {
+   "chunk_id": "books-c00012",
+   "first_book_id": "JAH-BOOK-001101",
+   "last_book_id": "JAH-BOOK-001200",
+   "book_count": 100,
+   "content_sha256": "e7ffb770da9804a74832ae5ac0f18af4b5c29a22a514701a447bdeb42a38bf83",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00012.json.gz",
+   "previous_chunk": "books-c00011",
+   "next_chunk": "books-c00013"
+  },
+  {
+   "chunk_id": "books-c00013",
+   "first_book_id": "JAH-BOOK-001201",
+   "last_book_id": "JAH-BOOK-001300",
+   "book_count": 100,
+   "content_sha256": "8e87cc9f396ff6aa55cae043038c1f7ebf89756423151052b6e8d4e3c147477e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00013.json.gz",
+   "previous_chunk": "books-c00012",
+   "next_chunk": "books-c00014"
+  },
+  {
+   "chunk_id": "books-c00014",
+   "first_book_id": "JAH-BOOK-001301",
+   "last_book_id": "JAH-BOOK-001400",
+   "book_count": 100,
+   "content_sha256": "f63e3873f7839e446183ac31e77d72b91618657f5af97efce57462168835047d",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00014.json.gz",
+   "previous_chunk": "books-c00013",
+   "next_chunk": "books-c00015"
+  },
+  {
+   "chunk_id": "books-c00015",
+   "first_book_id": "JAH-BOOK-001401",
+   "last_book_id": "JAH-BOOK-001500",
+   "book_count": 100,
+   "content_sha256": "1c7eb1986f3992912adb96ef95bb714050849de7d3609dae8e25dde467aa7832",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00015.json.gz",
+   "previous_chunk": "books-c00014",
+   "next_chunk": "books-c00016"
+  },
+  {
+   "chunk_id": "books-c00016",
+   "first_book_id": "JAH-BOOK-001501",
+   "last_book_id": "JAH-BOOK-001600",
+   "book_count": 100,
+   "content_sha256": "8784db300269fa68d28b6c944f50a88749cbf589cc3c1f307234d4677ec9ccb3",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00016.json.gz",
+   "previous_chunk": "books-c00015",
+   "next_chunk": "books-c00017"
+  },
+  {
+   "chunk_id": "books-c00017",
+   "first_book_id": "JAH-BOOK-001601",
+   "last_book_id": "JAH-BOOK-001700",
+   "book_count": 100,
+   "content_sha256": "f828a57f039763333ec19a00f49ecec3b478243f0057540bdf661fd595c46e5c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00017.json.gz",
+   "previous_chunk": "books-c00016",
+   "next_chunk": "books-c00018"
+  },
+  {
+   "chunk_id": "books-c00018",
+   "first_book_id": "JAH-BOOK-001701",
+   "last_book_id": "JAH-BOOK-001800",
+   "book_count": 100,
+   "content_sha256": "6231ed13183f42748c10becec514740ca4c134a19fee2c9b38a636369ad19450",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00018.json.gz",
+   "previous_chunk": "books-c00017",
+   "next_chunk": "books-c00019"
+  },
+  {
+   "chunk_id": "books-c00019",
+   "first_book_id": "JAH-BOOK-001801",
+   "last_book_id": "JAH-BOOK-001900",
+   "book_count": 100,
+   "content_sha256": "95567625857472547a046251dcc05cc32042259b42d4579f9823ad61f2210ed9",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00019.json.gz",
+   "previous_chunk": "books-c00018",
+   "next_chunk": "books-c00020"
+  },
+  {
+   "chunk_id": "books-c00020",
+   "first_book_id": "JAH-BOOK-001901",
+   "last_book_id": "JAH-BOOK-002000",
+   "book_count": 100,
+   "content_sha256": "cc4f48a9ea5faee69e70dab71213f5f24d10a883eb208d47602109736eb6cb18",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00020.json.gz",
+   "previous_chunk": "books-c00019",
+   "next_chunk": "books-c00021"
+  },
+  {
+   "chunk_id": "books-c00021",
+   "first_book_id": "JAH-BOOK-002001",
+   "last_book_id": "JAH-BOOK-002100",
+   "book_count": 100,
+   "content_sha256": "049e6210ace0f197c49fdc6950864b0301eb09b7ba0544a6da432679c4c365a7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00021.json.gz",
+   "previous_chunk": "books-c00020",
+   "next_chunk": "books-c00022"
+  },
+  {
+   "chunk_id": "books-c00022",
+   "first_book_id": "JAH-BOOK-002101",
+   "last_book_id": "JAH-BOOK-002200",
+   "book_count": 100,
+   "content_sha256": "0be0889a8f02e3d964e48b8779c266c22f92606d5e2409ae5f8b361a0189543f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00022.json.gz",
+   "previous_chunk": "books-c00021",
+   "next_chunk": "books-c00023"
+  },
+  {
+   "chunk_id": "books-c00023",
+   "first_book_id": "JAH-BOOK-002201",
+   "last_book_id": "JAH-BOOK-002300",
+   "book_count": 100,
+   "content_sha256": "7cfec9d9e641aadee68809ed8c2dcbf1b0642396d3dffb4c0d868b7e5547ac71",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00023.json.gz",
+   "previous_chunk": "books-c00022",
+   "next_chunk": "books-c00024"
+  },
+  {
+   "chunk_id": "books-c00024",
+   "first_book_id": "JAH-BOOK-002301",
+   "last_book_id": "JAH-BOOK-002400",
+   "book_count": 100,
+   "content_sha256": "0aa6a672bff4c6b55209119c7828db7ffa9d723137b55fd6171b0b0eca14ec14",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00024.json.gz",
+   "previous_chunk": "books-c00023",
+   "next_chunk": "books-c00025"
+  },
+  {
+   "chunk_id": "books-c00025",
+   "first_book_id": "JAH-BOOK-002401",
+   "last_book_id": "JAH-BOOK-002500",
+   "book_count": 100,
+   "content_sha256": "47639ae915ff8f5e87c7bb601dc098a398e06327a8ce2de055eb07bd46c1d35a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00025.json.gz",
+   "previous_chunk": "books-c00024",
+   "next_chunk": "books-c00026"
+  },
+  {
+   "chunk_id": "books-c00026",
+   "first_book_id": "JAH-BOOK-002501",
+   "last_book_id": "JAH-BOOK-002600",
+   "book_count": 100,
+   "content_sha256": "dd713ab1afd07c506d59bb57d8dc529618eda3a05ef83cb15d15e7dd9327b825",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00026.json.gz",
+   "previous_chunk": "books-c00025",
+   "next_chunk": "books-c00027"
+  },
+  {
+   "chunk_id": "books-c00027",
+   "first_book_id": "JAH-BOOK-002601",
+   "last_book_id": "JAH-BOOK-002700",
+   "book_count": 100,
+   "content_sha256": "45f155568ca699c4901c41295a0ff2e125565b9c7da9d7ba4d617a390d3cb0e7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00027.json.gz",
+   "previous_chunk": "books-c00026",
+   "next_chunk": "books-c00028"
+  },
+  {
+   "chunk_id": "books-c00028",
+   "first_book_id": "JAH-BOOK-002701",
+   "last_book_id": "JAH-BOOK-002800",
+   "book_count": 100,
+   "content_sha256": "9a95b3508a9614161d9d684851a0fd5ae5051710b5df371ac6d5b8360d0108fa",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00028.json.gz",
+   "previous_chunk": "books-c00027",
+   "next_chunk": "books-c00029"
+  },
+  {
+   "chunk_id": "books-c00029",
+   "first_book_id": "JAH-BOOK-002801",
+   "last_book_id": "JAH-BOOK-002900",
+   "book_count": 100,
+   "content_sha256": "9098d531cf229fe192b90f4f3a7c302bf2fd19e2f966dd0250deca293348c63c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00029.json.gz",
+   "previous_chunk": "books-c00028",
+   "next_chunk": "books-c00030"
+  },
+  {
+   "chunk_id": "books-c00030",
+   "first_book_id": "JAH-BOOK-002901",
+   "last_book_id": "JAH-BOOK-003000",
+   "book_count": 100,
+   "content_sha256": "b6709e06738b2775dc8c31ce33180af426209318158fdec582a9219ecad9f89e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00030.json.gz",
+   "previous_chunk": "books-c00029",
+   "next_chunk": "books-c00031"
+  },
+  {
+   "chunk_id": "books-c00031",
+   "first_book_id": "JAH-BOOK-003001",
+   "last_book_id": "JAH-BOOK-003100",
+   "book_count": 100,
+   "content_sha256": "bfc8fdc0b6e7893a8538589eaa2b5b5508c3786ba00206019afa736546271aec",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00031.json.gz",
+   "previous_chunk": "books-c00030",
+   "next_chunk": "books-c00032"
+  },
+  {
+   "chunk_id": "books-c00032",
+   "first_book_id": "JAH-BOOK-003101",
+   "last_book_id": "JAH-BOOK-003200",
+   "book_count": 100,
+   "content_sha256": "7bbdb855783fd30ad65edae6d90b792c2c3d741369f5ff1b9feba6ed225017e0",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00032.json.gz",
+   "previous_chunk": "books-c00031",
+   "next_chunk": "books-c00033"
+  },
+  {
+   "chunk_id": "books-c00033",
+   "first_book_id": "JAH-BOOK-003201",
+   "last_book_id": "JAH-BOOK-003300",
+   "book_count": 100,
+   "content_sha256": "00c4c5593c18f905fb8436dbf5c25762eb5b42eb6acdc530eae64cc233289983",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00033.json.gz",
+   "previous_chunk": "books-c00032",
+   "next_chunk": "books-c00034"
+  },
+  {
+   "chunk_id": "books-c00034",
+   "first_book_id": "JAH-BOOK-003301",
+   "last_book_id": "JAH-BOOK-003400",
+   "book_count": 100,
+   "content_sha256": "da3c467a448fb35a1e061a79aeaa232a9a9990d8bedc5aea805a6e74589a27c0",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00034.json.gz",
+   "previous_chunk": "books-c00033",
+   "next_chunk": "books-c00035"
+  },
+  {
+   "chunk_id": "books-c00035",
+   "first_book_id": "JAH-BOOK-003401",
+   "last_book_id": "JAH-BOOK-003500",
+   "book_count": 100,
+   "content_sha256": "67588f08edc4755446be77f57e54a109d6563d551d231f589ac2f8768ed05310",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00035.json.gz",
+   "previous_chunk": "books-c00034",
+   "next_chunk": "books-c00036"
+  },
+  {
+   "chunk_id": "books-c00036",
+   "first_book_id": "JAH-BOOK-003501",
+   "last_book_id": "JAH-BOOK-003600",
+   "book_count": 100,
+   "content_sha256": "9484f74d4887832e047f930905a1fc96bb13ce3912058758528b68ec8db45ae0",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00036.json.gz",
+   "previous_chunk": "books-c00035",
+   "next_chunk": "books-c00037"
+  },
+  {
+   "chunk_id": "books-c00037",
+   "first_book_id": "JAH-BOOK-003601",
+   "last_book_id": "JAH-BOOK-003700",
+   "book_count": 100,
+   "content_sha256": "17a7a37b23e77f385b7364ce775cad04c8c90aa9b882f44c1472aeb68d6e7716",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00037.json.gz",
+   "previous_chunk": "books-c00036",
+   "next_chunk": "books-c00038"
+  },
+  {
+   "chunk_id": "books-c00038",
+   "first_book_id": "JAH-BOOK-003701",
+   "last_book_id": "JAH-BOOK-003800",
+   "book_count": 100,
+   "content_sha256": "31468de58ac078d70042cef2ee15aff6e5c00192d50384ba83fc24c6ca0540b4",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00038.json.gz",
+   "previous_chunk": "books-c00037",
+   "next_chunk": "books-c00039"
+  },
+  {
+   "chunk_id": "books-c00039",
+   "first_book_id": "JAH-BOOK-003801",
+   "last_book_id": "JAH-BOOK-003900",
+   "book_count": 100,
+   "content_sha256": "0e213ea3be4587a3842acbf166aaf97663113212f24365bc021eef373a766bc8",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00039.json.gz",
+   "previous_chunk": "books-c00038",
+   "next_chunk": "books-c00040"
+  },
+  {
+   "chunk_id": "books-c00040",
+   "first_book_id": "JAH-BOOK-003901",
+   "last_book_id": "JAH-BOOK-004000",
+   "book_count": 100,
+   "content_sha256": "3eb0f2d8dd869fae9384bc5f099a7a7bfb6c4e1a0096d83fcbd7232cb566324f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00040.json.gz",
+   "previous_chunk": "books-c00039",
+   "next_chunk": "books-c00041"
+  },
+  {
+   "chunk_id": "books-c00041",
+   "first_book_id": "JAH-BOOK-004001",
+   "last_book_id": "JAH-BOOK-004100",
+   "book_count": 100,
+   "content_sha256": "86821a910be055bdcbed4b83ee7f1699a2c8b7632f139cd35e21460cbf479938",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00041.json.gz",
+   "previous_chunk": "books-c00040",
+   "next_chunk": "books-c00042"
+  },
+  {
+   "chunk_id": "books-c00042",
+   "first_book_id": "JAH-BOOK-004101",
+   "last_book_id": "JAH-BOOK-004200",
+   "book_count": 100,
+   "content_sha256": "2717aab4f2bd8e17fffbe4a1a76f363278d1b860ea7398d5c8099d202412c8df",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00042.json.gz",
+   "previous_chunk": "books-c00041",
+   "next_chunk": "books-c00043"
+  },
+  {
+   "chunk_id": "books-c00043",
+   "first_book_id": "JAH-BOOK-004201",
+   "last_book_id": "JAH-BOOK-004300",
+   "book_count": 100,
+   "content_sha256": "a93166a56e4812e7ffbda253265edff6ef01235cf8224d04149f11865bc3a9a9",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00043.json.gz",
+   "previous_chunk": "books-c00042",
+   "next_chunk": "books-c00044"
+  },
+  {
+   "chunk_id": "books-c00044",
+   "first_book_id": "JAH-BOOK-004301",
+   "last_book_id": "JAH-BOOK-004400",
+   "book_count": 100,
+   "content_sha256": "12dacf3ad1a8d19189f33b83cd15ed7f55a49064792270094129b3aba3242476",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00044.json.gz",
+   "previous_chunk": "books-c00043",
+   "next_chunk": "books-c00045"
+  },
+  {
+   "chunk_id": "books-c00045",
+   "first_book_id": "JAH-BOOK-004401",
+   "last_book_id": "JAH-BOOK-004500",
+   "book_count": 100,
+   "content_sha256": "12d1958d91cc66591d788055b39097baaff42f1995e068a5ffcfcb799a23dd14",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00045.json.gz",
+   "previous_chunk": "books-c00044",
+   "next_chunk": "books-c00046"
+  },
+  {
+   "chunk_id": "books-c00046",
+   "first_book_id": "JAH-BOOK-004501",
+   "last_book_id": "JAH-BOOK-004600",
+   "book_count": 100,
+   "content_sha256": "d1df65dcf2d86c444e3d618f2d8411bf7a654f5deac721d6a49840796b01808a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00046.json.gz",
+   "previous_chunk": "books-c00045",
+   "next_chunk": "books-c00047"
+  },
+  {
+   "chunk_id": "books-c00047",
+   "first_book_id": "JAH-BOOK-004601",
+   "last_book_id": "JAH-BOOK-004700",
+   "book_count": 100,
+   "content_sha256": "062f58f5191883a04e4564ff765806b7f6c9bf107383c0fe6a6e8b37285ef01b",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00047.json.gz",
+   "previous_chunk": "books-c00046",
+   "next_chunk": "books-c00048"
+  },
+  {
+   "chunk_id": "books-c00048",
+   "first_book_id": "JAH-BOOK-004701",
+   "last_book_id": "JAH-BOOK-004800",
+   "book_count": 100,
+   "content_sha256": "d6113bd96bd970fb57881c7bdc96265b98c047892db6c0c9dbdc96ba28f222b7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00048.json.gz",
+   "previous_chunk": "books-c00047",
+   "next_chunk": "books-c00049"
+  },
+  {
+   "chunk_id": "books-c00049",
+   "first_book_id": "JAH-BOOK-004801",
+   "last_book_id": "JAH-BOOK-004900",
+   "book_count": 100,
+   "content_sha256": "5c8633403e7bd94ca1156c8e9c26a64b0ed96b3d21cf2a081bf4a0b1785313e3",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00049.json.gz",
+   "previous_chunk": "books-c00048",
+   "next_chunk": "books-c00050"
+  },
+  {
+   "chunk_id": "books-c00050",
+   "first_book_id": "JAH-BOOK-004901",
+   "last_book_id": "JAH-BOOK-005000",
+   "book_count": 100,
+   "content_sha256": "27d3f95afd83db961f91f99357894de8bec3078e393a5c2b7983961abf258511",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00050.json.gz",
+   "previous_chunk": "books-c00049",
+   "next_chunk": "books-c00051"
+  },
+  {
+   "chunk_id": "books-c00051",
+   "first_book_id": "JAH-BOOK-005001",
+   "last_book_id": "JAH-BOOK-005100",
+   "book_count": 100,
+   "content_sha256": "baf23779f553cc89650b4c0c52ca935a1c5ae797a06b905346193d569ebf949a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00051.json.gz",
+   "previous_chunk": "books-c00050",
+   "next_chunk": "books-c00052"
+  },
+  {
+   "chunk_id": "books-c00052",
+   "first_book_id": "JAH-BOOK-005101",
+   "last_book_id": "JAH-BOOK-005200",
+   "book_count": 100,
+   "content_sha256": "fe7c4389195ede128452b421c624f1ec76910dd3fb723f5d32e355566d8093d9",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00052.json.gz",
+   "previous_chunk": "books-c00051",
+   "next_chunk": "books-c00053"
+  },
+  {
+   "chunk_id": "books-c00053",
+   "first_book_id": "JAH-BOOK-005201",
+   "last_book_id": "JAH-BOOK-005300",
+   "book_count": 100,
+   "content_sha256": "da2c1d45567ddc180086f69660284e445108d6b2bb59096a26e2269bbbb68f0d",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00053.json.gz",
+   "previous_chunk": "books-c00052",
+   "next_chunk": "books-c00054"
+  },
+  {
+   "chunk_id": "books-c00054",
+   "first_book_id": "JAH-BOOK-005301",
+   "last_book_id": "JAH-BOOK-005400",
+   "book_count": 100,
+   "content_sha256": "d9e17edc31a293f4163f4c8f46d22c5196751893064ee66edcd83ba58af57cfd",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00054.json.gz",
+   "previous_chunk": "books-c00053",
+   "next_chunk": "books-c00055"
+  },
+  {
+   "chunk_id": "books-c00055",
+   "first_book_id": "JAH-BOOK-005401",
+   "last_book_id": "JAH-BOOK-005500",
+   "book_count": 100,
+   "content_sha256": "96163913bb9cfcc842155c5e643d9b3c5c778e27c8ba092efa29f56f72c4eb58",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00055.json.gz",
+   "previous_chunk": "books-c00054",
+   "next_chunk": "books-c00056"
+  },
+  {
+   "chunk_id": "books-c00056",
+   "first_book_id": "JAH-BOOK-005501",
+   "last_book_id": "JAH-BOOK-005600",
+   "book_count": 100,
+   "content_sha256": "4ca229a104d22025e9cd3a6dab34a16e967b58bcd5ef6ca4677e39f3200570cd",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00056.json.gz",
+   "previous_chunk": "books-c00055",
+   "next_chunk": "books-c00057"
+  },
+  {
+   "chunk_id": "books-c00057",
+   "first_book_id": "JAH-BOOK-005601",
+   "last_book_id": "JAH-BOOK-005700",
+   "book_count": 100,
+   "content_sha256": "b6634a8eb5ee0b8dd8f42b39cc0291071c43d983923406678f960e6ffee511a7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00057.json.gz",
+   "previous_chunk": "books-c00056",
+   "next_chunk": "books-c00058"
+  },
+  {
+   "chunk_id": "books-c00058",
+   "first_book_id": "JAH-BOOK-005701",
+   "last_book_id": "JAH-BOOK-005800",
+   "book_count": 100,
+   "content_sha256": "88c892609c320b0aaf48c2941af2073da31e91ac4dffa79caee688dbc1699b3f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00058.json.gz",
+   "previous_chunk": "books-c00057",
+   "next_chunk": "books-c00059"
+  },
+  {
+   "chunk_id": "books-c00059",
+   "first_book_id": "JAH-BOOK-005801",
+   "last_book_id": "JAH-BOOK-005900",
+   "book_count": 100,
+   "content_sha256": "0c71e3c2c6b544bb216fa8e7225bacae32a04214900516789b630d28da773ba2",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00059.json.gz",
+   "previous_chunk": "books-c00058",
+   "next_chunk": "books-c00060"
+  },
+  {
+   "chunk_id": "books-c00060",
+   "first_book_id": "JAH-BOOK-005901",
+   "last_book_id": "JAH-BOOK-006000",
+   "book_count": 100,
+   "content_sha256": "e593ad0d79687b7f05d3c33a274f6c45dbcde52fb2e735d1d7965ab95495f4d2",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00060.json.gz",
+   "previous_chunk": "books-c00059",
+   "next_chunk": "books-c00061"
+  },
+  {
+   "chunk_id": "books-c00061",
+   "first_book_id": "JAH-BOOK-006001",
+   "last_book_id": "JAH-BOOK-006100",
+   "book_count": 100,
+   "content_sha256": "8b329b6446e758b7427d9d3a410bbb9bed92913c5bdcf03f9556919c0f753db7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00061.json.gz",
+   "previous_chunk": "books-c00060",
+   "next_chunk": "books-c00062"
+  },
+  {
+   "chunk_id": "books-c00062",
+   "first_book_id": "JAH-BOOK-006101",
+   "last_book_id": "JAH-BOOK-006200",
+   "book_count": 100,
+   "content_sha256": "a0708ad79beba1e77e0a0aed84769da747ea064b171736a37507d34c342d7fa1",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00062.json.gz",
+   "previous_chunk": "books-c00061",
+   "next_chunk": "books-c00063"
+  },
+  {
+   "chunk_id": "books-c00063",
+   "first_book_id": "JAH-BOOK-006201",
+   "last_book_id": "JAH-BOOK-006300",
+   "book_count": 100,
+   "content_sha256": "1f12ae5d399558507b40ae540f7f06f47f415af8ce8f11c49d50e0cf4c82992e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00063.json.gz",
+   "previous_chunk": "books-c00062",
+   "next_chunk": "books-c00064"
+  },
+  {
+   "chunk_id": "books-c00064",
+   "first_book_id": "JAH-BOOK-006301",
+   "last_book_id": "JAH-BOOK-006400",
+   "book_count": 100,
+   "content_sha256": "4a385c9756076bb74a9eff6e586641fcf59820d70e7197758a614d63f16f90ec",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00064.json.gz",
+   "previous_chunk": "books-c00063",
+   "next_chunk": "books-c00065"
+  },
+  {
+   "chunk_id": "books-c00065",
+   "first_book_id": "JAH-BOOK-006401",
+   "last_book_id": "JAH-BOOK-006500",
+   "book_count": 100,
+   "content_sha256": "918a2410111578f25dad047a94d39489dacfd088683834eb071409432a94b9df",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00065.json.gz",
+   "previous_chunk": "books-c00064",
+   "next_chunk": "books-c00066"
+  },
+  {
+   "chunk_id": "books-c00066",
+   "first_book_id": "JAH-BOOK-006501",
+   "last_book_id": "JAH-BOOK-006600",
+   "book_count": 100,
+   "content_sha256": "ebae0e2276ed2e96c89b07958c37f116c446decf4c47f5c1c8f66db139f1a188",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00066.json.gz",
+   "previous_chunk": "books-c00065",
+   "next_chunk": "books-c00067"
+  },
+  {
+   "chunk_id": "books-c00067",
+   "first_book_id": "JAH-BOOK-006601",
+   "last_book_id": "JAH-BOOK-006700",
+   "book_count": 100,
+   "content_sha256": "56fa2026f6db4a1091d93f3abb2ab4ae6da46de1063c551f3fe051b1fa8e253c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00067.json.gz",
+   "previous_chunk": "books-c00066",
+   "next_chunk": "books-c00068"
+  },
+  {
+   "chunk_id": "books-c00068",
+   "first_book_id": "JAH-BOOK-006701",
+   "last_book_id": "JAH-BOOK-006800",
+   "book_count": 100,
+   "content_sha256": "697af914a81ab72ebc3245e31a6859050c352ed7f2efcd2b08180618d8ad5477",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00068.json.gz",
+   "previous_chunk": "books-c00067",
+   "next_chunk": "books-c00069"
+  },
+  {
+   "chunk_id": "books-c00069",
+   "first_book_id": "JAH-BOOK-006801",
+   "last_book_id": "JAH-BOOK-006900",
+   "book_count": 100,
+   "content_sha256": "1ef103c801a128db39bfe1850bb9228044df249593aa3736948174e7490f9241",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00069.json.gz",
+   "previous_chunk": "books-c00068",
+   "next_chunk": "books-c00070"
+  },
+  {
+   "chunk_id": "books-c00070",
+   "first_book_id": "JAH-BOOK-006901",
+   "last_book_id": "JAH-BOOK-007000",
+   "book_count": 100,
+   "content_sha256": "c54c9629713ad21c92098209aa50239f686fa114e208be20f212d51233ea84a1",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00070.json.gz",
+   "previous_chunk": "books-c00069",
+   "next_chunk": "books-c00071"
+  },
+  {
+   "chunk_id": "books-c00071",
+   "first_book_id": "JAH-BOOK-007001",
+   "last_book_id": "JAH-BOOK-007100",
+   "book_count": 100,
+   "content_sha256": "d352f72a7e2f8df495e2500cfa2e296602dc8b98c5d6ad8539f502d202c6fdc7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00071.json.gz",
+   "previous_chunk": "books-c00070",
+   "next_chunk": "books-c00072"
+  },
+  {
+   "chunk_id": "books-c00072",
+   "first_book_id": "JAH-BOOK-007101",
+   "last_book_id": "JAH-BOOK-007200",
+   "book_count": 100,
+   "content_sha256": "6a9f4d16196f2f5435aed9d69db4d30672cf480bead5ab7368acdf55834446ab",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00072.json.gz",
+   "previous_chunk": "books-c00071",
+   "next_chunk": "books-c00073"
+  },
+  {
+   "chunk_id": "books-c00073",
+   "first_book_id": "JAH-BOOK-007201",
+   "last_book_id": "JAH-BOOK-007300",
+   "book_count": 100,
+   "content_sha256": "cc631a126339141d472d713efc8f4aad6bc5cd7a4910b4879546cad43de4df90",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00073.json.gz",
+   "previous_chunk": "books-c00072",
+   "next_chunk": "books-c00074"
+  },
+  {
+   "chunk_id": "books-c00074",
+   "first_book_id": "JAH-BOOK-007301",
+   "last_book_id": "JAH-BOOK-007400",
+   "book_count": 100,
+   "content_sha256": "d774f24e951830291bc8771b95fda37a289925b5616f9d2fd78d8ddf9c3762f4",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00074.json.gz",
+   "previous_chunk": "books-c00073",
+   "next_chunk": "books-c00075"
+  },
+  {
+   "chunk_id": "books-c00075",
+   "first_book_id": "JAH-BOOK-007401",
+   "last_book_id": "JAH-BOOK-007500",
+   "book_count": 100,
+   "content_sha256": "c51c68606cd83e89b7c643fea573ccf6965e371697c28b49bb71c67c9a5eea9c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00075.json.gz",
+   "previous_chunk": "books-c00074",
+   "next_chunk": "books-c00076"
+  },
+  {
+   "chunk_id": "books-c00076",
+   "first_book_id": "JAH-BOOK-007501",
+   "last_book_id": "JAH-BOOK-007600",
+   "book_count": 100,
+   "content_sha256": "abc8481e8a29b8f60e7112cc16880bf0981fb81a928c056f2daaec92237802a2",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00076.json.gz",
+   "previous_chunk": "books-c00075",
+   "next_chunk": "books-c00077"
+  },
+  {
+   "chunk_id": "books-c00077",
+   "first_book_id": "JAH-BOOK-007601",
+   "last_book_id": "JAH-BOOK-007700",
+   "book_count": 100,
+   "content_sha256": "6f0a072fcac4766e7f95d3861cdcd08c46e8c1798ee4b45bd9c5feba38e5e1d1",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00077.json.gz",
+   "previous_chunk": "books-c00076",
+   "next_chunk": "books-c00078"
+  },
+  {
+   "chunk_id": "books-c00078",
+   "first_book_id": "JAH-BOOK-007701",
+   "last_book_id": "JAH-BOOK-007800",
+   "book_count": 100,
+   "content_sha256": "5667f74c63a84a683ab96ef3a4e8a676e1ff069a89ba4f253342ce484dcf1cc0",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00078.json.gz",
+   "previous_chunk": "books-c00077",
+   "next_chunk": "books-c00079"
+  },
+  {
+   "chunk_id": "books-c00079",
+   "first_book_id": "JAH-BOOK-007801",
+   "last_book_id": "JAH-BOOK-007900",
+   "book_count": 100,
+   "content_sha256": "24f1b4aa22cb84691cbe9dfaa65483d67e5d9bb609db0702f40b98fd264af1d8",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00079.json.gz",
+   "previous_chunk": "books-c00078",
+   "next_chunk": "books-c00080"
+  },
+  {
+   "chunk_id": "books-c00080",
+   "first_book_id": "JAH-BOOK-007901",
+   "last_book_id": "JAH-BOOK-008000",
+   "book_count": 100,
+   "content_sha256": "1cb08be12382938182cb51bb16a648335e164c582c0d7b25004b2b7fb47fe639",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00080.json.gz",
+   "previous_chunk": "books-c00079",
+   "next_chunk": "books-c00081"
+  },
+  {
+   "chunk_id": "books-c00081",
+   "first_book_id": "JAH-BOOK-008001",
+   "last_book_id": "JAH-BOOK-008100",
+   "book_count": 100,
+   "content_sha256": "7901c21500c22583c66fe7a43e1d018091d9f02dab410cedf2144d83914391c8",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00081.json.gz",
+   "previous_chunk": "books-c00080",
+   "next_chunk": "books-c00082"
+  },
+  {
+   "chunk_id": "books-c00082",
+   "first_book_id": "JAH-BOOK-008101",
+   "last_book_id": "JAH-BOOK-008200",
+   "book_count": 100,
+   "content_sha256": "8cd081c11f174cec75b686957d3afaf221228a4cf76c141dd02a7f4a1072ef5c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00082.json.gz",
+   "previous_chunk": "books-c00081",
+   "next_chunk": "books-c00083"
+  },
+  {
+   "chunk_id": "books-c00083",
+   "first_book_id": "JAH-BOOK-008201",
+   "last_book_id": "JAH-BOOK-008300",
+   "book_count": 100,
+   "content_sha256": "cd705147dbc601545c5ed89d88dd20b194a1465f0723eaf2c9a3e2dd1fc688d3",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00083.json.gz",
+   "previous_chunk": "books-c00082",
+   "next_chunk": "books-c00084"
+  },
+  {
+   "chunk_id": "books-c00084",
+   "first_book_id": "JAH-BOOK-008301",
+   "last_book_id": "JAH-BOOK-008400",
+   "book_count": 100,
+   "content_sha256": "e76246ac33aa1965d74c6272f2c84e71a569a74b1b65eafb04ba9c612cfaf430",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00084.json.gz",
+   "previous_chunk": "books-c00083",
+   "next_chunk": "books-c00085"
+  },
+  {
+   "chunk_id": "books-c00085",
+   "first_book_id": "JAH-BOOK-008401",
+   "last_book_id": "JAH-BOOK-008500",
+   "book_count": 100,
+   "content_sha256": "4b000cdf8a292ae7dc4b1891c4cae55703c42efd099656a3a304bf514d65d63f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00085.json.gz",
+   "previous_chunk": "books-c00084",
+   "next_chunk": "books-c00086"
+  },
+  {
+   "chunk_id": "books-c00086",
+   "first_book_id": "JAH-BOOK-008501",
+   "last_book_id": "JAH-BOOK-008600",
+   "book_count": 100,
+   "content_sha256": "31e6dae7f99fb4775df4d1cc127c5f14c33204493858dacd50218336e49899bb",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00086.json.gz",
+   "previous_chunk": "books-c00085",
+   "next_chunk": "books-c00087"
+  },
+  {
+   "chunk_id": "books-c00087",
+   "first_book_id": "JAH-BOOK-008601",
+   "last_book_id": "JAH-BOOK-008700",
+   "book_count": 100,
+   "content_sha256": "37eea2df03701299799cbade3f62d39c0dc8dca783440d2e65b2236cc8d86781",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00087.json.gz",
+   "previous_chunk": "books-c00086",
+   "next_chunk": "books-c00088"
+  },
+  {
+   "chunk_id": "books-c00088",
+   "first_book_id": "JAH-BOOK-008701",
+   "last_book_id": "JAH-BOOK-008800",
+   "book_count": 100,
+   "content_sha256": "c91c8f176936ca40946d183906d785a96f83a4a22e5269d71ca5854f94f82c55",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00088.json.gz",
+   "previous_chunk": "books-c00087",
+   "next_chunk": "books-c00089"
+  },
+  {
+   "chunk_id": "books-c00089",
+   "first_book_id": "JAH-BOOK-008801",
+   "last_book_id": "JAH-BOOK-008900",
+   "book_count": 100,
+   "content_sha256": "8c17a234be4b2e9ddaf2aa776322b26708808c388b49b4f8714351802a796da6",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00089.json.gz",
+   "previous_chunk": "books-c00088",
+   "next_chunk": "books-c00090"
+  },
+  {
+   "chunk_id": "books-c00090",
+   "first_book_id": "JAH-BOOK-008901",
+   "last_book_id": "JAH-BOOK-009000",
+   "book_count": 100,
+   "content_sha256": "f5343a0c075f2e3a52c071f1d9b6686701c96df448496cdad9e77b00b55a8685",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00090.json.gz",
+   "previous_chunk": "books-c00089",
+   "next_chunk": "books-c00091"
+  },
+  {
+   "chunk_id": "books-c00091",
+   "first_book_id": "JAH-BOOK-009001",
+   "last_book_id": "JAH-BOOK-009100",
+   "book_count": 100,
+   "content_sha256": "7c63791ea370a9a7b088b653540546efabc3e82e75781474a890dd700b848e81",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00091.json.gz",
+   "previous_chunk": "books-c00090",
+   "next_chunk": "books-c00092"
+  },
+  {
+   "chunk_id": "books-c00092",
+   "first_book_id": "JAH-BOOK-009101",
+   "last_book_id": "JAH-BOOK-009200",
+   "book_count": 100,
+   "content_sha256": "17c0d2d449158a0fbd5a3f4f98fc9bf50a623209e5b1e1d64f6228dd09e998a7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00092.json.gz",
+   "previous_chunk": "books-c00091",
+   "next_chunk": "books-c00093"
+  },
+  {
+   "chunk_id": "books-c00093",
+   "first_book_id": "JAH-BOOK-009201",
+   "last_book_id": "JAH-BOOK-009300",
+   "book_count": 100,
+   "content_sha256": "c2df2000dba6b2e1274a306eb3352ab80184a765bfe4bd0d2850eda3c033b606",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00093.json.gz",
+   "previous_chunk": "books-c00092",
+   "next_chunk": "books-c00094"
+  },
+  {
+   "chunk_id": "books-c00094",
+   "first_book_id": "JAH-BOOK-009301",
+   "last_book_id": "JAH-BOOK-009400",
+   "book_count": 100,
+   "content_sha256": "525c78378b669743390deeef2986d75d9679ea1c2d4d0e8a741981041b88ae2a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00094.json.gz",
+   "previous_chunk": "books-c00093",
+   "next_chunk": "books-c00095"
+  },
+  {
+   "chunk_id": "books-c00095",
+   "first_book_id": "JAH-BOOK-009401",
+   "last_book_id": "JAH-BOOK-009500",
+   "book_count": 100,
+   "content_sha256": "9d208b06839aad27db36ecd80cb945d106c75fade0c1d71ce3aeb034d98562f5",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00095.json.gz",
+   "previous_chunk": "books-c00094",
+   "next_chunk": "books-c00096"
+  },
+  {
+   "chunk_id": "books-c00096",
+   "first_book_id": "JAH-BOOK-009501",
+   "last_book_id": "JAH-BOOK-009600",
+   "book_count": 100,
+   "content_sha256": "3196cf6cbf8b00dce5dafb57cd58c9670ccc78aa40e1c47b46e9bccec98b8ef5",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00096.json.gz",
+   "previous_chunk": "books-c00095",
+   "next_chunk": "books-c00097"
+  },
+  {
+   "chunk_id": "books-c00097",
+   "first_book_id": "JAH-BOOK-009601",
+   "last_book_id": "JAH-BOOK-009700",
+   "book_count": 100,
+   "content_sha256": "87a8d749c71126243bffd407cea74453bc86f043167e2191fed7de83a99d6c6d",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00097.json.gz",
+   "previous_chunk": "books-c00096",
+   "next_chunk": "books-c00098"
+  },
+  {
+   "chunk_id": "books-c00098",
+   "first_book_id": "JAH-BOOK-009701",
+   "last_book_id": "JAH-BOOK-009800",
+   "book_count": 100,
+   "content_sha256": "c7af3432f1e9bc6ccc6d7f6e19dd758419096d4195640b6f1adfdcd980674027",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00098.json.gz",
+   "previous_chunk": "books-c00097",
+   "next_chunk": "books-c00099"
+  },
+  {
+   "chunk_id": "books-c00099",
+   "first_book_id": "JAH-BOOK-009801",
+   "last_book_id": "JAH-BOOK-009900",
+   "book_count": 100,
+   "content_sha256": "7b148a18181d2afc79ba51a26722ddb137713a8cdab680f467d6d1bd52f0fd8c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00099.json.gz",
+   "previous_chunk": "books-c00098",
+   "next_chunk": "books-c00100"
+  },
+  {
+   "chunk_id": "books-c00100",
+   "first_book_id": "JAH-BOOK-009901",
+   "last_book_id": "JAH-BOOK-010000",
+   "book_count": 100,
+   "content_sha256": "1b2f98d11723bb2b45ea574e52418a1adc5f39d966a333111b990468c6219445",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00100.json.gz",
+   "previous_chunk": "books-c00099",
+   "next_chunk": "books-c00101"
+  },
+  {
+   "chunk_id": "books-c00101",
+   "first_book_id": "JAH-BOOK-010001",
+   "last_book_id": "JAH-BOOK-010100",
+   "book_count": 100,
+   "content_sha256": "d3b2e5d36db567757beed5597b3a0d2094b50fab203473c2c4737ab41ae4f8f3",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00101.json.gz",
+   "previous_chunk": "books-c00100",
+   "next_chunk": "books-c00102"
+  },
+  {
+   "chunk_id": "books-c00102",
+   "first_book_id": "JAH-BOOK-010101",
+   "last_book_id": "JAH-BOOK-010200",
+   "book_count": 100,
+   "content_sha256": "7f8cea6b75d94d0fe2d08c2dcb6a212444c5262836eeec28da9b8c3187ffe930",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00102.json.gz",
+   "previous_chunk": "books-c00101",
+   "next_chunk": "books-c00103"
+  },
+  {
+   "chunk_id": "books-c00103",
+   "first_book_id": "JAH-BOOK-010201",
+   "last_book_id": "JAH-BOOK-010300",
+   "book_count": 100,
+   "content_sha256": "aa9fccd3390394c34bb023d87a0c74610541a94c96454e43e2c8b3c9321d7df5",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00103.json.gz",
+   "previous_chunk": "books-c00102",
+   "next_chunk": "books-c00104"
+  },
+  {
+   "chunk_id": "books-c00104",
+   "first_book_id": "JAH-BOOK-010301",
+   "last_book_id": "JAH-BOOK-010400",
+   "book_count": 100,
+   "content_sha256": "74aa0f59486063e00fd572da0fbe68f4304e0e6852167c19270a1675fdf9097b",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00104.json.gz",
+   "previous_chunk": "books-c00103",
+   "next_chunk": "books-c00105"
+  },
+  {
+   "chunk_id": "books-c00105",
+   "first_book_id": "JAH-BOOK-010401",
+   "last_book_id": "JAH-BOOK-010500",
+   "book_count": 100,
+   "content_sha256": "f828217b225fa628c8f4b68df4a56ca5b967f70ffc8ba3c5b69abb3d7f31ccba",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00105.json.gz",
+   "previous_chunk": "books-c00104",
+   "next_chunk": "books-c00106"
+  },
+  {
+   "chunk_id": "books-c00106",
+   "first_book_id": "JAH-BOOK-010501",
+   "last_book_id": "JAH-BOOK-010600",
+   "book_count": 100,
+   "content_sha256": "6c790f9998182cd42dcc8cf1531d14767087fc71ffff60c95960ff831e5d57cc",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00106.json.gz",
+   "previous_chunk": "books-c00105",
+   "next_chunk": "books-c00107"
+  },
+  {
+   "chunk_id": "books-c00107",
+   "first_book_id": "JAH-BOOK-010601",
+   "last_book_id": "JAH-BOOK-010700",
+   "book_count": 100,
+   "content_sha256": "d78db0c0de1568567158d031ad959204d2ec14ef9803811325d5404d87b31cd8",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00107.json.gz",
+   "previous_chunk": "books-c00106",
+   "next_chunk": "books-c00108"
+  },
+  {
+   "chunk_id": "books-c00108",
+   "first_book_id": "JAH-BOOK-010701",
+   "last_book_id": "JAH-BOOK-010800",
+   "book_count": 100,
+   "content_sha256": "e328bcde78c35aad92ba38d5e3e4368c066980979de10518135bfd77122322d4",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00108.json.gz",
+   "previous_chunk": "books-c00107",
+   "next_chunk": "books-c00109"
+  },
+  {
+   "chunk_id": "books-c00109",
+   "first_book_id": "JAH-BOOK-010801",
+   "last_book_id": "JAH-BOOK-010900",
+   "book_count": 100,
+   "content_sha256": "8906e12dc246931cfd5e8d8521336d467cc2559fda85ae73ec40c19a17f2ca09",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00109.json.gz",
+   "previous_chunk": "books-c00108",
+   "next_chunk": "books-c00110"
+  },
+  {
+   "chunk_id": "books-c00110",
+   "first_book_id": "JAH-BOOK-010901",
+   "last_book_id": "JAH-BOOK-011000",
+   "book_count": 100,
+   "content_sha256": "b453c773de2bf980102dfe2e09e3b0850078d39801489b1673d477bd2e8219ca",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00110.json.gz",
+   "previous_chunk": "books-c00109",
+   "next_chunk": "books-c00111"
+  },
+  {
+   "chunk_id": "books-c00111",
+   "first_book_id": "JAH-BOOK-011001",
+   "last_book_id": "JAH-BOOK-011100",
+   "book_count": 100,
+   "content_sha256": "fb7e8c261f3cbf5270d0c13a892c8ca887c23ad1ce95c07e42aa04f5c7cbb7a4",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00111.json.gz",
+   "previous_chunk": "books-c00110",
+   "next_chunk": "books-c00112"
+  },
+  {
+   "chunk_id": "books-c00112",
+   "first_book_id": "JAH-BOOK-011101",
+   "last_book_id": "JAH-BOOK-011200",
+   "book_count": 100,
+   "content_sha256": "7817d4867a8aba84026c66a117a957168e035cc3d94312b09c7749776ad6ebc0",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00112.json.gz",
+   "previous_chunk": "books-c00111",
+   "next_chunk": "books-c00113"
+  },
+  {
+   "chunk_id": "books-c00113",
+   "first_book_id": "JAH-BOOK-011201",
+   "last_book_id": "JAH-BOOK-011300",
+   "book_count": 100,
+   "content_sha256": "c4de65aacb53dc298ed66b7898548e6f3db44436e5bed8f001ff7dc284e1f197",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00113.json.gz",
+   "previous_chunk": "books-c00112",
+   "next_chunk": "books-c00114"
+  },
+  {
+   "chunk_id": "books-c00114",
+   "first_book_id": "JAH-BOOK-011301",
+   "last_book_id": "JAH-BOOK-011400",
+   "book_count": 100,
+   "content_sha256": "1738339fd9d41d19e1323738611e5c9ac49c1cef7c3e182a59d389fdf8a2190b",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00114.json.gz",
+   "previous_chunk": "books-c00113",
+   "next_chunk": "books-c00115"
+  },
+  {
+   "chunk_id": "books-c00115",
+   "first_book_id": "JAH-BOOK-011401",
+   "last_book_id": "JAH-BOOK-011500",
+   "book_count": 100,
+   "content_sha256": "8b2a5680b901aea631319f90ad7caafea9974a83abd5be6e687a4be23f875244",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00115.json.gz",
+   "previous_chunk": "books-c00114",
+   "next_chunk": "books-c00116"
+  },
+  {
+   "chunk_id": "books-c00116",
+   "first_book_id": "JAH-BOOK-011501",
+   "last_book_id": "JAH-BOOK-011600",
+   "book_count": 100,
+   "content_sha256": "b33e74360487f8ba3afd4cbf68207a56bb2000099371537af72dd6e9980f4dd1",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00116.json.gz",
+   "previous_chunk": "books-c00115",
+   "next_chunk": "books-c00117"
+  },
+  {
+   "chunk_id": "books-c00117",
+   "first_book_id": "JAH-BOOK-011601",
+   "last_book_id": "JAH-BOOK-011700",
+   "book_count": 100,
+   "content_sha256": "38f2551622d33d2a006d1592ed15d0056add9b7eed578a849b705fdd68ff4585",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00117.json.gz",
+   "previous_chunk": "books-c00116",
+   "next_chunk": "books-c00118"
+  },
+  {
+   "chunk_id": "books-c00118",
+   "first_book_id": "JAH-BOOK-011701",
+   "last_book_id": "JAH-BOOK-011800",
+   "book_count": 100,
+   "content_sha256": "cccdd93ddefd2d95708b4306c6dabf74bd791c25b83496281a4e7e457502bc2b",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00118.json.gz",
+   "previous_chunk": "books-c00117",
+   "next_chunk": "books-c00119"
+  },
+  {
+   "chunk_id": "books-c00119",
+   "first_book_id": "JAH-BOOK-011801",
+   "last_book_id": "JAH-BOOK-011900",
+   "book_count": 100,
+   "content_sha256": "fbea0bc1879b8f9e67ebeb3b27f68821707bee24df6eef7c8cb929756a35ddb7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00119.json.gz",
+   "previous_chunk": "books-c00118",
+   "next_chunk": "books-c00120"
+  },
+  {
+   "chunk_id": "books-c00120",
+   "first_book_id": "JAH-BOOK-011901",
+   "last_book_id": "JAH-BOOK-012000",
+   "book_count": 100,
+   "content_sha256": "256850a348966eace77f6e3e85d07ce968e7233e06170840e9fb31ed8934d5f9",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00120.json.gz",
+   "previous_chunk": "books-c00119",
+   "next_chunk": "books-c00121"
+  },
+  {
+   "chunk_id": "books-c00121",
+   "first_book_id": "JAH-BOOK-012001",
+   "last_book_id": "JAH-BOOK-012100",
+   "book_count": 100,
+   "content_sha256": "d4a0f07edb0468b12a781fcca9b66aee91c668c2f02581ca46c381b571bc4e20",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00121.json.gz",
+   "previous_chunk": "books-c00120",
+   "next_chunk": "books-c00122"
+  },
+  {
+   "chunk_id": "books-c00122",
+   "first_book_id": "JAH-BOOK-012101",
+   "last_book_id": "JAH-BOOK-012200",
+   "book_count": 100,
+   "content_sha256": "92928f539cc7532252abe48f806dc3ba5469b96207ca64b29e873fbdcfca44c6",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00122.json.gz",
+   "previous_chunk": "books-c00121",
+   "next_chunk": "books-c00123"
+  },
+  {
+   "chunk_id": "books-c00123",
+   "first_book_id": "JAH-BOOK-012201",
+   "last_book_id": "JAH-BOOK-012300",
+   "book_count": 100,
+   "content_sha256": "e6244d68e183900e3d4e3cde3698f1d8a2599f16c33b15184152fbcfea175362",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00123.json.gz",
+   "previous_chunk": "books-c00122",
+   "next_chunk": "books-c00124"
+  },
+  {
+   "chunk_id": "books-c00124",
+   "first_book_id": "JAH-BOOK-012301",
+   "last_book_id": "JAH-BOOK-012400",
+   "book_count": 100,
+   "content_sha256": "649dac4a6924c24e8fce2ea3e058420e7e74becd3496be12b24617c83e27aebb",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00124.json.gz",
+   "previous_chunk": "books-c00123",
+   "next_chunk": "books-c00125"
+  },
+  {
+   "chunk_id": "books-c00125",
+   "first_book_id": "JAH-BOOK-012401",
+   "last_book_id": "JAH-BOOK-012500",
+   "book_count": 100,
+   "content_sha256": "1379045ed31e29527398e38f3e2843e2606cbc09313b0af9b66a80f0ca3ac6c1",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00125.json.gz",
+   "previous_chunk": "books-c00124",
+   "next_chunk": "books-c00126"
+  },
+  {
+   "chunk_id": "books-c00126",
+   "first_book_id": "JAH-BOOK-012501",
+   "last_book_id": "JAH-BOOK-012600",
+   "book_count": 100,
+   "content_sha256": "31b7b61bcc5c6d52468c6bf8aef3ccbefa4e466ef5c591e03324a449c3dfa667",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00126.json.gz",
+   "previous_chunk": "books-c00125",
+   "next_chunk": "books-c00127"
+  },
+  {
+   "chunk_id": "books-c00127",
+   "first_book_id": "JAH-BOOK-012601",
+   "last_book_id": "JAH-BOOK-012700",
+   "book_count": 100,
+   "content_sha256": "11dd4fed31ed8a3b28bfbf7371e587f8f9894e236ef8f91c590ca03b1d207ab3",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00127.json.gz",
+   "previous_chunk": "books-c00126",
+   "next_chunk": "books-c00128"
+  },
+  {
+   "chunk_id": "books-c00128",
+   "first_book_id": "JAH-BOOK-012701",
+   "last_book_id": "JAH-BOOK-012800",
+   "book_count": 100,
+   "content_sha256": "2d2b07c1dd889ff9984e60222729aa67a58b653f6a3dd097862636907112f004",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00128.json.gz",
+   "previous_chunk": "books-c00127",
+   "next_chunk": "books-c00129"
+  },
+  {
+   "chunk_id": "books-c00129",
+   "first_book_id": "JAH-BOOK-012801",
+   "last_book_id": "JAH-BOOK-012900",
+   "book_count": 100,
+   "content_sha256": "773b42c35940b7c09dfeb8f92d8e99e651217d50b8934f14b13b8652221a9846",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00129.json.gz",
+   "previous_chunk": "books-c00128",
+   "next_chunk": "books-c00130"
+  },
+  {
+   "chunk_id": "books-c00130",
+   "first_book_id": "JAH-BOOK-012901",
+   "last_book_id": "JAH-BOOK-013000",
+   "book_count": 100,
+   "content_sha256": "e7bcdc1ea22ccb8b874a70b8cbc95e4d1d97e83f76f73e01de6173907aecf235",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00130.json.gz",
+   "previous_chunk": "books-c00129",
+   "next_chunk": "books-c00131"
+  },
+  {
+   "chunk_id": "books-c00131",
+   "first_book_id": "JAH-BOOK-013001",
+   "last_book_id": "JAH-BOOK-013100",
+   "book_count": 100,
+   "content_sha256": "1743a7bb353670351d13320b312bdd52e025eb15db4b87b79a12874801029a6a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00131.json.gz",
+   "previous_chunk": "books-c00130",
+   "next_chunk": "books-c00132"
+  },
+  {
+   "chunk_id": "books-c00132",
+   "first_book_id": "JAH-BOOK-013101",
+   "last_book_id": "JAH-BOOK-013200",
+   "book_count": 100,
+   "content_sha256": "bb78222fe534ab1ca1eeff77a84af22544b2cc86de176c72de2980d985b8bc20",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00132.json.gz",
+   "previous_chunk": "books-c00131",
+   "next_chunk": "books-c00133"
+  },
+  {
+   "chunk_id": "books-c00133",
+   "first_book_id": "JAH-BOOK-013201",
+   "last_book_id": "JAH-BOOK-013300",
+   "book_count": 100,
+   "content_sha256": "cfb9fe11ff84dc2d95ccb07a608f9f0df99d82bac111b384d1282cccb35da71f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00133.json.gz",
+   "previous_chunk": "books-c00132",
+   "next_chunk": "books-c00134"
+  },
+  {
+   "chunk_id": "books-c00134",
+   "first_book_id": "JAH-BOOK-013301",
+   "last_book_id": "JAH-BOOK-013400",
+   "book_count": 100,
+   "content_sha256": "15711d74b66219d9cfc92597e881e8e8f53cacd0a10d923d37cb1174d00c5358",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00134.json.gz",
+   "previous_chunk": "books-c00133",
+   "next_chunk": "books-c00135"
+  },
+  {
+   "chunk_id": "books-c00135",
+   "first_book_id": "JAH-BOOK-013401",
+   "last_book_id": "JAH-BOOK-013500",
+   "book_count": 100,
+   "content_sha256": "1d0053939228d6394b679d9790f986d38dcc9ffda20f3ec5b24a114d51b4ba6a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00135.json.gz",
+   "previous_chunk": "books-c00134",
+   "next_chunk": "books-c00136"
+  },
+  {
+   "chunk_id": "books-c00136",
+   "first_book_id": "JAH-BOOK-013501",
+   "last_book_id": "JAH-BOOK-013600",
+   "book_count": 100,
+   "content_sha256": "bc3db9a427e04994a56c89130ec15c9cb9d224599a1598ff06da563e63078ce7",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00136.json.gz",
+   "previous_chunk": "books-c00135",
+   "next_chunk": "books-c00137"
+  },
+  {
+   "chunk_id": "books-c00137",
+   "first_book_id": "JAH-BOOK-013601",
+   "last_book_id": "JAH-BOOK-013700",
+   "book_count": 100,
+   "content_sha256": "7eee7e4902242e8d2db7b475d41dafa1068dac83b75f91ba5f19d4e78a3d242d",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00137.json.gz",
+   "previous_chunk": "books-c00136",
+   "next_chunk": "books-c00138"
+  },
+  {
+   "chunk_id": "books-c00138",
+   "first_book_id": "JAH-BOOK-013701",
+   "last_book_id": "JAH-BOOK-013800",
+   "book_count": 100,
+   "content_sha256": "1a8e5342ca3c320f6bd26b71a4247b83be411638f6aa6e0f2cf451b8fd14398e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00138.json.gz",
+   "previous_chunk": "books-c00137",
+   "next_chunk": "books-c00139"
+  },
+  {
+   "chunk_id": "books-c00139",
+   "first_book_id": "JAH-BOOK-013801",
+   "last_book_id": "JAH-BOOK-013900",
+   "book_count": 100,
+   "content_sha256": "8c877e030fcabe6dc9848469863b5b41bea0eebd043f03b6eb7225663dae5ee4",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00139.json.gz",
+   "previous_chunk": "books-c00138",
+   "next_chunk": "books-c00140"
+  },
+  {
+   "chunk_id": "books-c00140",
+   "first_book_id": "JAH-BOOK-013901",
+   "last_book_id": "JAH-BOOK-014000",
+   "book_count": 100,
+   "content_sha256": "faa3868524232f25ebbdb7e0bdd74055e0aa1ddc5af6af26d0a90f0b239e6c28",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00140.json.gz",
+   "previous_chunk": "books-c00139",
+   "next_chunk": "books-c00141"
+  },
+  {
+   "chunk_id": "books-c00141",
+   "first_book_id": "JAH-BOOK-014001",
+   "last_book_id": "JAH-BOOK-014100",
+   "book_count": 100,
+   "content_sha256": "3671e961b726fd2a9e398174fb5cdc9658d8395c52e13b987bfbb50fb6956a34",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00141.json.gz",
+   "previous_chunk": "books-c00140",
+   "next_chunk": "books-c00142"
+  },
+  {
+   "chunk_id": "books-c00142",
+   "first_book_id": "JAH-BOOK-014101",
+   "last_book_id": "JAH-BOOK-014200",
+   "book_count": 100,
+   "content_sha256": "34b7ec83493371fc1759b668f5e1c7f0ce3fb993a7eab98f095ab12e79610cea",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00142.json.gz",
+   "previous_chunk": "books-c00141",
+   "next_chunk": "books-c00143"
+  },
+  {
+   "chunk_id": "books-c00143",
+   "first_book_id": "JAH-BOOK-014201",
+   "last_book_id": "JAH-BOOK-014300",
+   "book_count": 100,
+   "content_sha256": "d5e709f53e18a1ce8d83cd5296d86073dee9c9c94f66d1b050b8e5aea6cd0a99",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00143.json.gz",
+   "previous_chunk": "books-c00142",
+   "next_chunk": "books-c00144"
+  },
+  {
+   "chunk_id": "books-c00144",
+   "first_book_id": "JAH-BOOK-014301",
+   "last_book_id": "JAH-BOOK-014400",
+   "book_count": 100,
+   "content_sha256": "e031dd662c1a981c683190beb2de3b25efb4e27b4ca066300b0e4eaf0fa2b00c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00144.json.gz",
+   "previous_chunk": "books-c00143",
+   "next_chunk": "books-c00145"
+  },
+  {
+   "chunk_id": "books-c00145",
+   "first_book_id": "JAH-BOOK-014401",
+   "last_book_id": "JAH-BOOK-014500",
+   "book_count": 100,
+   "content_sha256": "f4ce8e9da44c19271685f32b8e7a621029671cbb102fbf194ad71680482b8b11",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00145.json.gz",
+   "previous_chunk": "books-c00144",
+   "next_chunk": "books-c00146"
+  },
+  {
+   "chunk_id": "books-c00146",
+   "first_book_id": "JAH-BOOK-014501",
+   "last_book_id": "JAH-BOOK-014600",
+   "book_count": 100,
+   "content_sha256": "d11a0c1341af11da8d570be15c671d599c0dcb102bee3c9cc930bd1bb06c8e16",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00146.json.gz",
+   "previous_chunk": "books-c00145",
+   "next_chunk": "books-c00147"
+  },
+  {
+   "chunk_id": "books-c00147",
+   "first_book_id": "JAH-BOOK-014601",
+   "last_book_id": "JAH-BOOK-014700",
+   "book_count": 100,
+   "content_sha256": "91db9988e08946b31a1c13eafaf4d011b333530641fa45fc613d192ebb1c9033",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00147.json.gz",
+   "previous_chunk": "books-c00146",
+   "next_chunk": "books-c00148"
+  },
+  {
+   "chunk_id": "books-c00148",
+   "first_book_id": "JAH-BOOK-014701",
+   "last_book_id": "JAH-BOOK-014800",
+   "book_count": 100,
+   "content_sha256": "bd762647047a9a8c21c0b1f4dffb258fbbb756714803b6bb2845039b6600134a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00148.json.gz",
+   "previous_chunk": "books-c00147",
+   "next_chunk": "books-c00149"
+  },
+  {
+   "chunk_id": "books-c00149",
+   "first_book_id": "JAH-BOOK-014801",
+   "last_book_id": "JAH-BOOK-014900",
+   "book_count": 100,
+   "content_sha256": "22ecea55ceefe4fb7d627ebbea7a21d048332643926cef85e97f149f71e8abaf",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00149.json.gz",
+   "previous_chunk": "books-c00148",
+   "next_chunk": "books-c00150"
+  },
+  {
+   "chunk_id": "books-c00150",
+   "first_book_id": "JAH-BOOK-014901",
+   "last_book_id": "JAH-BOOK-015000",
+   "book_count": 100,
+   "content_sha256": "a4f0bbaa04da07bac5c2076ddf97828e87ab75e5579e597621e0b709a69e8a99",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00150.json.gz",
+   "previous_chunk": "books-c00149",
+   "next_chunk": "books-c00151"
+  },
+  {
+   "chunk_id": "books-c00151",
+   "first_book_id": "JAH-BOOK-015001",
+   "last_book_id": "JAH-BOOK-015100",
+   "book_count": 100,
+   "content_sha256": "833e1946c83ac8f08a46e5e0493e91e5befdb6257026aa5ddc2d01c82249ecfe",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00151.json.gz",
+   "previous_chunk": "books-c00150",
+   "next_chunk": "books-c00152"
+  },
+  {
+   "chunk_id": "books-c00152",
+   "first_book_id": "JAH-BOOK-015101",
+   "last_book_id": "JAH-BOOK-015200",
+   "book_count": 100,
+   "content_sha256": "369334bdc86d231add32ca07fb9ea98b356764e3aaa680fa270657f109381d3c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00152.json.gz",
+   "previous_chunk": "books-c00151",
+   "next_chunk": "books-c00153"
+  },
+  {
+   "chunk_id": "books-c00153",
+   "first_book_id": "JAH-BOOK-015201",
+   "last_book_id": "JAH-BOOK-015300",
+   "book_count": 100,
+   "content_sha256": "29484505e9987c7f8f4b846f91dd30eb625077d32d5c25bd8fa543f5ac68ee97",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00153.json.gz",
+   "previous_chunk": "books-c00152",
+   "next_chunk": "books-c00154"
+  },
+  {
+   "chunk_id": "books-c00154",
+   "first_book_id": "JAH-BOOK-015301",
+   "last_book_id": "JAH-BOOK-015400",
+   "book_count": 100,
+   "content_sha256": "ac70cb4346eb76c65a2242cdcc0cbbd57b89c12606107257300f92c4ededb261",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00154.json.gz",
+   "previous_chunk": "books-c00153",
+   "next_chunk": "books-c00155"
+  },
+  {
+   "chunk_id": "books-c00155",
+   "first_book_id": "JAH-BOOK-015401",
+   "last_book_id": "JAH-BOOK-015500",
+   "book_count": 100,
+   "content_sha256": "9ad45c331a2be30ed1a7c72a3a21bc06c340af27bbb8ff28d41201bd91d6dbe6",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00155.json.gz",
+   "previous_chunk": "books-c00154",
+   "next_chunk": "books-c00156"
+  },
+  {
+   "chunk_id": "books-c00156",
+   "first_book_id": "JAH-BOOK-015501",
+   "last_book_id": "JAH-BOOK-015600",
+   "book_count": 100,
+   "content_sha256": "85af964b1bc442d21d4e2ad1b7ff52a80526e776af1beb005124fed6998cbf6b",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00156.json.gz",
+   "previous_chunk": "books-c00155",
+   "next_chunk": "books-c00157"
+  },
+  {
+   "chunk_id": "books-c00157",
+   "first_book_id": "JAH-BOOK-015601",
+   "last_book_id": "JAH-BOOK-015700",
+   "book_count": 100,
+   "content_sha256": "1830004f6a60b9f45e08f6bf34d935f3609fe24db43a46d982242746663bceb6",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00157.json.gz",
+   "previous_chunk": "books-c00156",
+   "next_chunk": "books-c00158"
+  },
+  {
+   "chunk_id": "books-c00158",
+   "first_book_id": "JAH-BOOK-015701",
+   "last_book_id": "JAH-BOOK-015800",
+   "book_count": 100,
+   "content_sha256": "d811533a3fe1ca1aefc79869b012eef9f073f2d52bd5ced8134bd4408bd1899f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00158.json.gz",
+   "previous_chunk": "books-c00157",
+   "next_chunk": "books-c00159"
+  },
+  {
+   "chunk_id": "books-c00159",
+   "first_book_id": "JAH-BOOK-015801",
+   "last_book_id": "JAH-BOOK-015900",
+   "book_count": 100,
+   "content_sha256": "171f8081ccf53b9d5ba24812a375b8efcf10ceddec6a74fbf9c0bc71cb5d203e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00159.json.gz",
+   "previous_chunk": "books-c00158",
+   "next_chunk": "books-c00160"
+  },
+  {
+   "chunk_id": "books-c00160",
+   "first_book_id": "JAH-BOOK-015901",
+   "last_book_id": "JAH-BOOK-016000",
+   "book_count": 100,
+   "content_sha256": "fc85203f099c6939e1e7658ed91236f69c98e282407090716c05b59583160147",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00160.json.gz",
+   "previous_chunk": "books-c00159",
+   "next_chunk": "books-c00161"
+  },
+  {
+   "chunk_id": "books-c00161",
+   "first_book_id": "JAH-BOOK-016001",
+   "last_book_id": "JAH-BOOK-016100",
+   "book_count": 100,
+   "content_sha256": "ece78a1981a8ba52e44556102bf8890d7d27e6601d52ed2c308c101f0fb8933a",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00161.json.gz",
+   "previous_chunk": "books-c00160",
+   "next_chunk": "books-c00162"
+  },
+  {
+   "chunk_id": "books-c00162",
+   "first_book_id": "JAH-BOOK-016101",
+   "last_book_id": "JAH-BOOK-016200",
+   "book_count": 100,
+   "content_sha256": "6ec66ad563c21885d96deedb0555e867df3e23c0903b016541c1db2c910b36dc",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00162.json.gz",
+   "previous_chunk": "books-c00161",
+   "next_chunk": "books-c00163"
+  },
+  {
+   "chunk_id": "books-c00163",
+   "first_book_id": "JAH-BOOK-016201",
+   "last_book_id": "JAH-BOOK-016300",
+   "book_count": 100,
+   "content_sha256": "00421502e632ec769356442d6f2d86ec0e8eb81ac50af42c4d4f1af637908506",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00163.json.gz",
+   "previous_chunk": "books-c00162",
+   "next_chunk": "books-c00164"
+  },
+  {
+   "chunk_id": "books-c00164",
+   "first_book_id": "JAH-BOOK-016301",
+   "last_book_id": "JAH-BOOK-016400",
+   "book_count": 100,
+   "content_sha256": "969c000727cffcddb57a26624485a6e5eca6bdaa4964e40ed2c71a03df9acf02",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00164.json.gz",
+   "previous_chunk": "books-c00163",
+   "next_chunk": "books-c00165"
+  },
+  {
+   "chunk_id": "books-c00165",
+   "first_book_id": "JAH-BOOK-016401",
+   "last_book_id": "JAH-BOOK-016500",
+   "book_count": 100,
+   "content_sha256": "c3d223a4f51b1434d569dd0cde91c2b435ecc929e4b13ebcc353ff65e1d79406",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00165.json.gz",
+   "previous_chunk": "books-c00164",
+   "next_chunk": "books-c00166"
+  },
+  {
+   "chunk_id": "books-c00166",
+   "first_book_id": "JAH-BOOK-016501",
+   "last_book_id": "JAH-BOOK-016600",
+   "book_count": 100,
+   "content_sha256": "c4afbd5d1288c2f410e3295b3ebda966fac3c99bd6472e242adf0b5c4c333d37",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00166.json.gz",
+   "previous_chunk": "books-c00165",
+   "next_chunk": "books-c00167"
+  },
+  {
+   "chunk_id": "books-c00167",
+   "first_book_id": "JAH-BOOK-016601",
+   "last_book_id": "JAH-BOOK-016700",
+   "book_count": 100,
+   "content_sha256": "44c75a2c8501f0167b48fa1d6cf38a2bcf3003ff3fff1da9f1319b3ced498966",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00167.json.gz",
+   "previous_chunk": "books-c00166",
+   "next_chunk": "books-c00168"
+  },
+  {
+   "chunk_id": "books-c00168",
+   "first_book_id": "JAH-BOOK-016701",
+   "last_book_id": "JAH-BOOK-016800",
+   "book_count": 100,
+   "content_sha256": "c1e5545187a1f77f36c22eb10396c0a3673c44aa1315c7784866079944373ffc",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00168.json.gz",
+   "previous_chunk": "books-c00167",
+   "next_chunk": "books-c00169"
+  },
+  {
+   "chunk_id": "books-c00169",
+   "first_book_id": "JAH-BOOK-016801",
+   "last_book_id": "JAH-BOOK-016900",
+   "book_count": 100,
+   "content_sha256": "510863d0754ff0ab8b7a01f14862716d32eb02c48b0ea0eaec7ae1dd39ada890",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00169.json.gz",
+   "previous_chunk": "books-c00168",
+   "next_chunk": "books-c00170"
+  },
+  {
+   "chunk_id": "books-c00170",
+   "first_book_id": "JAH-BOOK-016901",
+   "last_book_id": "JAH-BOOK-017000",
+   "book_count": 100,
+   "content_sha256": "6eb0b7566903494591024ff532551e1a8517b1d173fcb4a17cc19d7cc841a2a6",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00170.json.gz",
+   "previous_chunk": "books-c00169",
+   "next_chunk": "books-c00171"
+  },
+  {
+   "chunk_id": "books-c00171",
+   "first_book_id": "JAH-BOOK-017001",
+   "last_book_id": "JAH-BOOK-017100",
+   "book_count": 100,
+   "content_sha256": "04764503c612ce61e69ff841b69af2cfd173b02cee06329035a8a7a63664b801",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00171.json.gz",
+   "previous_chunk": "books-c00170",
+   "next_chunk": "books-c00172"
+  },
+  {
+   "chunk_id": "books-c00172",
+   "first_book_id": "JAH-BOOK-017101",
+   "last_book_id": "JAH-BOOK-017200",
+   "book_count": 100,
+   "content_sha256": "082ea9b714edb16013374c285e5048734eef5fbbd3a6cbaa61f90fd664251711",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00172.json.gz",
+   "previous_chunk": "books-c00171",
+   "next_chunk": "books-c00173"
+  },
+  {
+   "chunk_id": "books-c00173",
+   "first_book_id": "JAH-BOOK-017201",
+   "last_book_id": "JAH-BOOK-017300",
+   "book_count": 100,
+   "content_sha256": "96db22ce7cf7ddf70963c61f563549a847c62e937c1ecea7606196ef37c59fbf",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00173.json.gz",
+   "previous_chunk": "books-c00172",
+   "next_chunk": "books-c00174"
+  },
+  {
+   "chunk_id": "books-c00174",
+   "first_book_id": "JAH-BOOK-017301",
+   "last_book_id": "JAH-BOOK-017400",
+   "book_count": 100,
+   "content_sha256": "00fb770ca98be907b11c7eb91d936c11ca3066848281f658b5149ec0625ec9bb",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00174.json.gz",
+   "previous_chunk": "books-c00173",
+   "next_chunk": "books-c00175"
+  },
+  {
+   "chunk_id": "books-c00175",
+   "first_book_id": "JAH-BOOK-017401",
+   "last_book_id": "JAH-BOOK-017500",
+   "book_count": 100,
+   "content_sha256": "37acc73fac1f492aca8e01c30e589ffa627ae9274fe15c7bbfacb4dd7d465f61",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00175.json.gz",
+   "previous_chunk": "books-c00174",
+   "next_chunk": "books-c00176"
+  },
+  {
+   "chunk_id": "books-c00176",
+   "first_book_id": "JAH-BOOK-017501",
+   "last_book_id": "JAH-BOOK-017600",
+   "book_count": 100,
+   "content_sha256": "114cf376f9155c86b213858085dbaf7a36e222574db2a6e803eef060346bd19f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00176.json.gz",
+   "previous_chunk": "books-c00175",
+   "next_chunk": "books-c00177"
+  },
+  {
+   "chunk_id": "books-c00177",
+   "first_book_id": "JAH-BOOK-017601",
+   "last_book_id": "JAH-BOOK-017700",
+   "book_count": 100,
+   "content_sha256": "d371269647e5fe39835c9df10131958e9b1adf41d92c157bc2f86baecbb60065",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00177.json.gz",
+   "previous_chunk": "books-c00176",
+   "next_chunk": "books-c00178"
+  },
+  {
+   "chunk_id": "books-c00178",
+   "first_book_id": "JAH-BOOK-017701",
+   "last_book_id": "JAH-BOOK-017800",
+   "book_count": 100,
+   "content_sha256": "9208f3d080fc6d63adb326100e510dc66a2a9d2181b6938deffb61a6c5320fbe",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00178.json.gz",
+   "previous_chunk": "books-c00177",
+   "next_chunk": "books-c00179"
+  },
+  {
+   "chunk_id": "books-c00179",
+   "first_book_id": "JAH-BOOK-017801",
+   "last_book_id": "JAH-BOOK-017900",
+   "book_count": 100,
+   "content_sha256": "b9041973e72a01481937f605507baaed5b3268b3e8c31915860f978f07fb8c0f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00179.json.gz",
+   "previous_chunk": "books-c00178",
+   "next_chunk": "books-c00180"
+  },
+  {
+   "chunk_id": "books-c00180",
+   "first_book_id": "JAH-BOOK-017901",
+   "last_book_id": "JAH-BOOK-018000",
+   "book_count": 100,
+   "content_sha256": "65ac6d0bdff13d6ac58ff1e9828c81b3cf155ff0016f3f9b270c39492ed709b8",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00180.json.gz",
+   "previous_chunk": "books-c00179",
+   "next_chunk": "books-c00181"
+  },
+  {
+   "chunk_id": "books-c00181",
+   "first_book_id": "JAH-BOOK-018001",
+   "last_book_id": "JAH-BOOK-018100",
+   "book_count": 100,
+   "content_sha256": "d9ab1850485d100d1d8eebb54ee9f91ef3766d9d9f92e06e3460dd5bae4a4d19",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00181.json.gz",
+   "previous_chunk": "books-c00180",
+   "next_chunk": "books-c00182"
+  },
+  {
+   "chunk_id": "books-c00182",
+   "first_book_id": "JAH-BOOK-018101",
+   "last_book_id": "JAH-BOOK-018200",
+   "book_count": 100,
+   "content_sha256": "1994518258d55b048ec23d16bd73a41093ecf7f5f56b2ee2654f847723cba32d",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00182.json.gz",
+   "previous_chunk": "books-c00181",
+   "next_chunk": "books-c00183"
+  },
+  {
+   "chunk_id": "books-c00183",
+   "first_book_id": "JAH-BOOK-018201",
+   "last_book_id": "JAH-BOOK-018300",
+   "book_count": 100,
+   "content_sha256": "968ad669ceb0a3fb27a987264486122107ad0dedc802cab23b5cb0853df2387d",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00183.json.gz",
+   "previous_chunk": "books-c00182",
+   "next_chunk": "books-c00184"
+  },
+  {
+   "chunk_id": "books-c00184",
+   "first_book_id": "JAH-BOOK-018301",
+   "last_book_id": "JAH-BOOK-018400",
+   "book_count": 100,
+   "content_sha256": "14d2cda707d66726aadd530d3cad62f0e96e5f0654ad30f2310d93427897d38f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00184.json.gz",
+   "previous_chunk": "books-c00183",
+   "next_chunk": "books-c00185"
+  },
+  {
+   "chunk_id": "books-c00185",
+   "first_book_id": "JAH-BOOK-018401",
+   "last_book_id": "JAH-BOOK-018500",
+   "book_count": 100,
+   "content_sha256": "bd643b0b8b461c5f081d045465cc7e2773c8232569f0b0c85cda18511f095267",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00185.json.gz",
+   "previous_chunk": "books-c00184",
+   "next_chunk": "books-c00186"
+  },
+  {
+   "chunk_id": "books-c00186",
+   "first_book_id": "JAH-BOOK-018501",
+   "last_book_id": "JAH-BOOK-018600",
+   "book_count": 100,
+   "content_sha256": "577df789c8c7dfd99a8b2bc1ceae71ab9359a97cc522817c25e375779b8e182c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00186.json.gz",
+   "previous_chunk": "books-c00185",
+   "next_chunk": "books-c00187"
+  },
+  {
+   "chunk_id": "books-c00187",
+   "first_book_id": "JAH-BOOK-018601",
+   "last_book_id": "JAH-BOOK-018700",
+   "book_count": 100,
+   "content_sha256": "10930c5ed722b75def3b200e8a03fad34a2fccd8bce4698df4623d353173599c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00187.json.gz",
+   "previous_chunk": "books-c00186",
+   "next_chunk": "books-c00188"
+  },
+  {
+   "chunk_id": "books-c00188",
+   "first_book_id": "JAH-BOOK-018701",
+   "last_book_id": "JAH-BOOK-018800",
+   "book_count": 100,
+   "content_sha256": "296b36d044dfe4faaecea5c6e5d5e91a6622a2bedde930a877d0fab71bbde0c2",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00188.json.gz",
+   "previous_chunk": "books-c00187",
+   "next_chunk": "books-c00189"
+  },
+  {
+   "chunk_id": "books-c00189",
+   "first_book_id": "JAH-BOOK-018801",
+   "last_book_id": "JAH-BOOK-018900",
+   "book_count": 100,
+   "content_sha256": "5cc5cb18eb001e399a347e9bc27314d9a53ab500b13d5b3fe3810fa1452cebc2",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00189.json.gz",
+   "previous_chunk": "books-c00188",
+   "next_chunk": "books-c00190"
+  },
+  {
+   "chunk_id": "books-c00190",
+   "first_book_id": "JAH-BOOK-018901",
+   "last_book_id": "JAH-BOOK-019000",
+   "book_count": 100,
+   "content_sha256": "0951b25247320f6a50615dd233d27fc862a669f3673a888e6308ff240e82fd2c",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00190.json.gz",
+   "previous_chunk": "books-c00189",
+   "next_chunk": "books-c00191"
+  },
+  {
+   "chunk_id": "books-c00191",
+   "first_book_id": "JAH-BOOK-019001",
+   "last_book_id": "JAH-BOOK-019100",
+   "book_count": 100,
+   "content_sha256": "2ff2e068c9cd6820bd9719a2d00e4bae0080326039d7e7f2eaf45acbbf50f912",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00191.json.gz",
+   "previous_chunk": "books-c00190",
+   "next_chunk": "books-c00192"
+  },
+  {
+   "chunk_id": "books-c00192",
+   "first_book_id": "JAH-BOOK-019101",
+   "last_book_id": "JAH-BOOK-019200",
+   "book_count": 100,
+   "content_sha256": "dd7a81fcbf5abdbedcc5d69fd0b28f6611659fbc3377120e7e5cce5391a43d6f",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00192.json.gz",
+   "previous_chunk": "books-c00191",
+   "next_chunk": "books-c00193"
+  },
+  {
+   "chunk_id": "books-c00193",
+   "first_book_id": "JAH-BOOK-019201",
+   "last_book_id": "JAH-BOOK-019300",
+   "book_count": 100,
+   "content_sha256": "2c102bf1dc1ce443f4fb233953d8d3c0439c3dee9d9b5deb6ac822022cd39cb0",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00193.json.gz",
+   "previous_chunk": "books-c00192",
+   "next_chunk": "books-c00194"
+  },
+  {
+   "chunk_id": "books-c00194",
+   "first_book_id": "JAH-BOOK-019301",
+   "last_book_id": "JAH-BOOK-019400",
+   "book_count": 100,
+   "content_sha256": "a535846540048beaf73d07eed16c1ae8b4feaa38341b8443d478acdf7bd89c29",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00194.json.gz",
+   "previous_chunk": "books-c00193",
+   "next_chunk": "books-c00195"
+  },
+  {
+   "chunk_id": "books-c00195",
+   "first_book_id": "JAH-BOOK-019401",
+   "last_book_id": "JAH-BOOK-019500",
+   "book_count": 100,
+   "content_sha256": "2c2d8642f79efb0d0424a6a0e3cead09c8b4035906d42dc7fc0578ab22b7d984",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00195.json.gz",
+   "previous_chunk": "books-c00194",
+   "next_chunk": "books-c00196"
+  },
+  {
+   "chunk_id": "books-c00196",
+   "first_book_id": "JAH-BOOK-019501",
+   "last_book_id": "JAH-BOOK-019600",
+   "book_count": 100,
+   "content_sha256": "ba24a2578677791c16afdba9c9f0716ffcfc07b981c69303f37ee7f0d69ba78b",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00196.json.gz",
+   "previous_chunk": "books-c00195",
+   "next_chunk": "books-c00197"
+  },
+  {
+   "chunk_id": "books-c00197",
+   "first_book_id": "JAH-BOOK-019601",
+   "last_book_id": "JAH-BOOK-019700",
+   "book_count": 100,
+   "content_sha256": "597adf8dcda80757188c81bf1a38aec727fe8e97aac5de764ff81d55a03ecb23",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00197.json.gz",
+   "previous_chunk": "books-c00196",
+   "next_chunk": "books-c00198"
+  },
+  {
+   "chunk_id": "books-c00198",
+   "first_book_id": "JAH-BOOK-019701",
+   "last_book_id": "JAH-BOOK-019800",
+   "book_count": 100,
+   "content_sha256": "9d32292c81fb211907de27ff90ff67350343d1f3943c864404567ced8a04add6",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00198.json.gz",
+   "previous_chunk": "books-c00197",
+   "next_chunk": "books-c00199"
+  },
+  {
+   "chunk_id": "books-c00199",
+   "first_book_id": "JAH-BOOK-019801",
+   "last_book_id": "JAH-BOOK-019900",
+   "book_count": 100,
+   "content_sha256": "6151f11583956346395e7e4970840cb85eb10d1b4fa3b527fa9d282454483276",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00199.json.gz",
+   "previous_chunk": "books-c00198",
+   "next_chunk": "books-c00200"
+  },
+  {
+   "chunk_id": "books-c00200",
+   "first_book_id": "JAH-BOOK-019901",
+   "last_book_id": "JAH-BOOK-020000",
+   "book_count": 100,
+   "content_sha256": "1bf84ffa210468818cf6b02ce97cbe31a14f9fd978d020fc19d43fbdae5a153b",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00200.json.gz",
+   "previous_chunk": "books-c00199",
+   "next_chunk": "books-c00201"
+  },
+  {
+   "chunk_id": "books-c00201",
+   "first_book_id": "JAH-BOOK-020001",
+   "last_book_id": "JAH-BOOK-020100",
+   "book_count": 100,
+   "content_sha256": "ced50d4549812f84e5d33c1a6ff33fa7ece5bea00cd2747d2d74dfec6567a27e",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00201.json.gz",
+   "previous_chunk": "books-c00200",
+   "next_chunk": "books-c00202"
+  },
+  {
+   "chunk_id": "books-c00202",
+   "first_book_id": "JAH-BOOK-020101",
+   "last_book_id": "JAH-BOOK-020200",
+   "book_count": 100,
+   "content_sha256": "5216fa7b9b130258bc2fa81bd21bb8667afdc4f1eb6d7920702e25f96445e894",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00202.json.gz",
+   "previous_chunk": "books-c00201",
+   "next_chunk": "books-c00203"
+  },
+  {
+   "chunk_id": "books-c00203",
+   "first_book_id": "JAH-BOOK-020201",
+   "last_book_id": "JAH-BOOK-020300",
+   "book_count": 100,
+   "content_sha256": "9383f0fec5d82b8e2050390379d71409351ee28f55e2129b04fbe4a526881657",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00203.json.gz",
+   "previous_chunk": "books-c00202",
+   "next_chunk": "books-c00204"
+  },
+  {
+   "chunk_id": "books-c00204",
+   "first_book_id": "JAH-BOOK-020301",
+   "last_book_id": "JAH-BOOK-020400",
+   "book_count": 100,
+   "content_sha256": "6977b5f2884cb2796714402dc3ab5321a10221e96897938c2d249b9b08ce0c59",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00204.json.gz",
+   "previous_chunk": "books-c00203",
+   "next_chunk": "books-c00205"
+  },
+  {
+   "chunk_id": "books-c00205",
+   "first_book_id": "JAH-BOOK-020401",
+   "last_book_id": "JAH-BOOK-020500",
+   "book_count": 100,
+   "content_sha256": "f5e30cc22176a808cbbad20a4d59aeec74709784668363f387e3b3b13258b7a9",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00205.json.gz",
+   "previous_chunk": "books-c00204",
+   "next_chunk": "books-c00206"
+  },
+  {
+   "chunk_id": "books-c00206",
+   "first_book_id": "JAH-BOOK-020501",
+   "last_book_id": "JAH-BOOK-020600",
+   "book_count": 100,
+   "content_sha256": "4f3cdaa27afdf808b41e1bd41ee55687a89fb037d1b418648720d4b22713abb8",
+   "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00206.json.gz",
+   "previous_chunk": "books-c00205",
+   "next_chunk": null
+  }
+ ]
+}

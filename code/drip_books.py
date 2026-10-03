@@ -1237,22 +1237,93 @@ def save_idx(entries):
         json.dump(entries, f, ensure_ascii=False, separators=(",", ":"))
 
 def write_api(total, words, per_genre, n_chunks, per_source=None):
+    # api.json is THE authoritative manifest for the Book Depository catalog.
+    # Every count on the homepage, every shelf, every genre total, and the
+    # sitemap derive from this file. Never hard-code counts elsewhere.
+    # genres: mutually exclusive — every book has exactly one genre, so
+    #   sum(genres.values()) == total_books.
+    # origins: mutually exclusive — every book carries exactly one origin slot
+    #   (the seven-source round-robin cycle: spec/wiki/leaks/patent/ai/mall/
+    #   original), so sum(origins.values()) == total_books. These are
+    #   CUMULATIVE catalog counts, not a per-run mix. "original" means a
+    #   standalone Signature-original book; the other six mean the book was
+    #   derived from (seeded by) that network record type and carries a
+    #   source-lineage link. They do NOT partition by subject matter.
     api = {
         "site": "The Signature Book Depository",
+        "site_id": "signature-books",
         "total_books": total,
         "total_words": words,
         "genres": per_genre,
+        "genre_counts_note": ("Mutually exclusive: every book has exactly one "
+                              "genre; the genre counts sum to total_books."),
         "origins": per_source or {},
+        "origin_counts_note": ("Mutually exclusive and cumulative: every book "
+                               "carries exactly one origin slot from the "
+                               "seven-source cycle (spec, wiki, leaks, patent, "
+                               "ai, mall, original); the origin counts sum to "
+                               "total_books. 'original' = standalone "
+                               "Signature-original book; the other six = the "
+                               "book was derived from that network record "
+                               "type and carries a source-lineage link."),
         "chunks": n_chunks,
         "chunk_size": CHUNK,
         "march_goal": 1000000,
         "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "index": "data/index/books.idx.json.gz",
+        "index_encoding": ("gzip archive (application/gzip), JSON array of "
+                           "compact index entries; decoded client-side with "
+                           "DecompressionStream. Field map: id,title=t,"
+                           "author=a,genre=g,words=w,desc=d,origin=o,"
+                           "chapter_titles=ch. Full records live in "
+                           "data/volumes/books-cNNNNN.json.gz (100/chunk)."),
+        "schema": "data/index/books-schema.json",
+        "manifest": "data/index/books-manifest.json",
         "note": ("All books are original generated works by/for the Signature system. "
                  "Derived books carry source-lineage links to the network record that seeded them."),
     }
     with open(os.path.join(IDX, "api.json"), "w") as f:
         json.dump(api, f, ensure_ascii=False, indent=1)
+    write_books_manifest(api)
+
+def write_books_manifest(api):
+    # books-manifest.json: the site-level manifest. Count fields are copied
+    # from api.json (the count authority) at build time so they cannot drift.
+    man = {
+        "site_id": "signature-books",
+        "site_name": "The Signature Book Depository",
+        "site_version": "1.0",
+        "network_site": "12 of 25",
+        "total_books": api["total_books"],
+        "total_words": api["total_words"],
+        "genre_counts": api["genres"],
+        "origin_counts": api["origins"],
+        "chunk_count": api["chunks"],
+        "chunk_size": api["chunk_size"],
+        "march_goal": api["march_goal"],
+        "book_schema_version": "JAH-BOOK-RECORD/1.0",
+        "schema": "data/index/books-schema.json",
+        "index": api["index"],
+        "chunk_manifest": "data/index/chunks-manifest.json",
+        "sitemap": "sitemap.xml",
+        "counts_authority": "data/index/api.json",
+        "record_status": ("PUBLISHED — the drip only writes finished books; "
+                          "records are immutable (never regenerated); "
+                          "state.json next_index never revisits an ID."),
+        "license": ("Original generated works by/for the Signature system, "
+                    "by Justin Addam Higgins. Free to read. Reuse rights per "
+                    "book record: read/copy/download permitted; modification "
+                    "and redistribution terms stated per record."),
+        "provenance_policy": ("Derived books name the network record that "
+                              "seeded them via source-lineage links. No "
+                              "real-world authors, no borrowed text, no "
+                              "trademarked characters, no fake ISBNs or "
+                              "publishers."),
+        "updated": api["updated"],
+        "canonical_url": "https://justinahiggins614-cmyk.github.io/signature-books/",
+    }
+    with open(os.path.join(IDX, "books-manifest.json"), "w") as f:
+        json.dump(man, f, ensure_ascii=False, indent=1)
 
 def write_sitemap(total):
     # Unified sitemap across all three wings (books + magazines + library).
@@ -1296,6 +1367,10 @@ def run(n):
     per_source = {}
     for e in entries:
         per_genre[e["g"]] = per_genre.get(e["g"], 0) + 1
+        # origins are cumulative: every book carries exactly one origin slot
+        # (the seven-source round-robin), so these counts partition the catalog
+        o = e.get("o", "original")
+        per_source[o] = per_source.get(o, 0) + 1
     total_words = sum(e["w"] for e in entries)
 
     buf = []          # pending records for current chunk
