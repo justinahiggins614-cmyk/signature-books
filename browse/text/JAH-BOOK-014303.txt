@@ -1,0 +1,20 @@
+Code & Concepts: The Internet & Networks (Vol. 14303)
+by Justin Addam Higgins · JAH-BOOK-014303
+Genre: Computer Science · 1,084 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Cybersecurity Basics, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-503938).
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: Developer portal for code generation using CQRS projections
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-014303
+
+An original generated work created by the Signature system. All names, places, and events are invented.

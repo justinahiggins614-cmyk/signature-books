@@ -1,0 +1,24 @@
+The Signature The source record Book (Vol. 14058)
+by Justin Addam Higgins · JAH-BOOK-014058
+Genre: Poetry · 1,440 words
+
+Summary:
+A complete original poetry collection: 11 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-528820).
+
+Chapters:
+  1. The serving Hour
+  2. tolerance and cqrs
+  3. What the mesh Said
+  4. The tolerance Hour
+  5. What the tolerance Said
+  6. repairer and mesh
+  7. Ode to cqrs
+  8. Ode to projections
+  9. Cqrs Song
+  10. Hymn of cqrs
+  11. The model Hour
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-014058
+
+An original generated work created by the Signature system. All names, places, and events are invented.

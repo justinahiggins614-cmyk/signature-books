@@ -1,0 +1,20 @@
+Algebra Foundations: A Signature Course (Vol. 14226)
+by Justin Addam Higgins · JAH-BOOK-014226
+Genre: Mathematics · 1,093 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Probability Basics, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US20070165204A1).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Process and apparatus for forming pattern
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-014226
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,19 @@
+The Electricity Basics Guide (Vol. 14245)
+by Justin Addam Higgins · JAH-BOOK-014245
+Genre: Physics · 939 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Light & Optics, Gravity & Orbits — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text.
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Light & Optics: Foundations
+  4. Light & Optics: Going Deeper
+  5. Gravity & Orbits: Foundations
+  6. Gravity & Orbits: Going Deeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-014245
+
+An original generated work created by the Signature system. All names, places, and events are invented.

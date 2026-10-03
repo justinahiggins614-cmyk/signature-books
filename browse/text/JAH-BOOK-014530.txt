@@ -1,0 +1,20 @@
+Measurement & Units: A Signature Course (Vol. 14530)
+by Justin Addam Higgins · JAH-BOOK-014530
+Genre: Mathematics · 1,076 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Probability Basics, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Dream Journaler (JAH-AI-DOM-106).
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Dream Journaler
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-014530
+
+An original generated work created by the Signature system. All names, places, and events are invented.
