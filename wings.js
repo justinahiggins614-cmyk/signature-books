@@ -1,7 +1,7 @@
 /* Shared catalog app for the Book Depository wings (Magazines, Library).
    Generic over WING config set by the host page. Parchment/gold look matching index.html. */
 "use strict";
-var WING = null; // set by host page before this script runs
+if (typeof WING === "undefined") { var WING = null; } // set by host page before this script runs
 function $(id){return document.getElementById(id)}
 function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
 function hashStr(s){var h=2166136261;for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=(h*16777619)>>>0}return h}
