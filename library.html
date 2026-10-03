@@ -6,6 +6,7 @@
 <title>Signature Library — The Signature Book Depository</title>
 <meta name="description" content="The Signature Library: microfilm archive reels, world atlases, manuscripts, reference volumes and special collections — everything a great library holds, in Signature versions. Marching to 1,000,000 artifacts. Free, no login.">
 <link rel="canonical" href="https://justinahiggins614-cmyk.github.io/signature-books/library.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"The Signature Book Depository","creator":{"@type":"Person","name":"Justin Addam Higgins"}}</script>
 <style>
 :root{--ink:#171208;--parch:#f3ead2;--parch2:#e9dcbc;--gold:#c9a227;--gold2:#e8c860;--ox:#6b2323;--line:#4a3a1e;--mut:#a89878;--card:#221a0e}
 *{box-sizing:border-box}
@@ -37,7 +38,7 @@ input[type=search]{min-width:min(420px,90vw)}
 button{cursor:pointer}
 .btn{background:linear-gradient(180deg,#3a2c12,#241a08);color:var(--gold2);border:1px solid var(--gold);border-radius:8px;padding:9px 14px;font-family:inherit;font-size:.95em}
 .btn.ghost{background:transparent}
-.az{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:8px}
+.az{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:8px;position:sticky;top:0;z-index:25;background:#171208;border-radius:8px;padding:8px 4px}
 .az button{background:transparent;border:1px solid var(--line);color:var(--mut);border-radius:6px;min-width:30px;padding:4px 6px;font-family:inherit}
 .az button.on{background:var(--ox);color:#fff;border-color:var(--gold)}
 #results{padding:18px 0 40px}
@@ -83,17 +84,23 @@ button{cursor:pointer}
 footer{border-top:3px double var(--line);padding:26px 14px 60px;color:var(--mut);font-size:.88em;text-align:center}
 .loading{text-align:center;padding:40px;color:var(--mut)}
 .count{text-align:center;color:var(--mut);font-size:.85em;margin-top:6px}
+.statsum{display:none}
+@media(max-width:767px){.statsum{display:block;cursor:pointer;color:var(--mut);font-size:.85em;text-align:center;padding:6px 0}.statdrop{border:1px solid var(--line);border-radius:10px;margin:12px 0;background:var(--card)}}
 </style>
 </head>
 <body>
+<nav aria-label="JAH Network Global Ecosystem" role="navigation">
 <div class="jahnet"><span class="jahnet-t">THE JAH NETWORK</span><a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">The Signature AI Phone Book</a><a href="https://justinahiggins614-cmyk.github.io/jah-calculator/">Calculator</a><a href="https://justinahiggins614-cmyk.github.io/jah-dictionary/">Dictionary</a><a href="https://justinahiggins614-cmyk.github.io/jah-wiki/">JAH Wiki</a><a href="https://justinahiggins614-cmyk.github.io/jah-n-wiki-leaks/">JAH-N Wiki</a><a href="https://justinahiggins614-cmyk.github.io/cyber-patent-catalog/">Patent Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-one-archive/specs.html">Spec Catalog</a><a href="https://justinahiggins614-cmyk.github.io/signature-llama/">Signature Llama</a><a href="https://justinahiggins614-cmyk.github.io/jah-computer-systems/">PC Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-cyber-mega-mall/">Cyber Mega-Mall</a><a href="https://justinahiggins614-cmyk.github.io/signature-university/">Signature University</a><a href="https://justinahiggins614-cmyk.github.io/signature-books/">Book Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-comics/">Comic Store</a><a href="https://justinahiggins614-cmyk.github.io/signature-newspapers/">Global Newspaper Archive</a><a href="https://justinahiggins614-cmyk.github.io/signature-3d-print/">3D Print Depository</a><a href="https://justinahiggins614-cmyk.github.io/signature-backend/">Mad Scientist Lab</a><a href="https://justinahiggins614-cmyk.github.io/signature-boundless-generators/">Boundless Generator Archive</a><a href="https://justinahiggins614-cmyk.github.io/signature-ai-mixlab/">AI Mix Lab</a><a href="https://justinahiggins614-cmyk.github.io/signature-ai-olypics/">AI Olypics</a><a href="https://justinahiggins614-cmyk.github.io/signature-chip-maker/">Chip Maker and Archive</a><a href="https://justinahiggins614-cmyk.github.io/signature-app-archive/">App Archive</a><a href="https://justinahiggins614-cmyk.github.io/signature-ai-robot-matcher/">AI Robot Matcher</a><a href="https://justinahiggins614-cmyk.github.io/signature-experiment-solver/">Experiment Solver</a><a href="https://justinahiggins614-cmyk.github.io/signature-ai-image-video-maker/">Signature AI Pixel</a><a href="https://justinahiggins614-cmyk.github.io/signature-ai-song-maker/">Signature Music Studio</a></div>
+</nav>
 <div class="wings"><a href="./">📚 Books</a><a href="magazines.html">📰 Magazines</a><a href="library.html" class="cur">🏛 Library</a></div>
 
 <div id="home">
 <header class="hero wrap">
 <h1>🏛 The Signature Library</h1>
 <div class="sub">Everything a great library holds, in Signature versions — microfilm archive reels, world atlases, manuscripts, reference volumes &amp; special collections.</div>
+<details class="statdrop" open><summary class="statsum">📊 Shelf counts — tap to hide</summary>
 <div class="stats" id="stats"></div>
+</details>
 <div class="march"><div class="bar"><div class="fill" id="marchfill"></div></div><small id="marchlbl"></small></div>
 </header>
 <div class="controls"><div class="wrap">
@@ -138,5 +145,6 @@ var WING={
 </script>
 <script src="wings.js"></script>
 <script>$("rdstop").onclick=rdStop;</script>
+<script>(function(){var d=document.querySelectorAll(".statdrop");if(!window.matchMedia||!window.matchMedia("(max-width:767px)").matches)return;for(var i=0;i<d.length;i++)d[i].removeAttribute("open")})();</script>
 </body>
 </html>
