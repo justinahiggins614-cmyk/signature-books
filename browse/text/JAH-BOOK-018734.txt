@@ -1,0 +1,20 @@
+Measurement & Units: A Signature Course (Vol. 18734)
+by Justin Addam Higgins · JAH-BOOK-018734
+Genre: Mathematics · 1,109 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Geometry & Shapes, Fractions & Decimals — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US8813392B2).
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Fractions & Decimals: Foundations
+  6. Fractions & Decimals: Going Deeper
+  7. Case Study: Kinematic shoe sole and shoe having kinematic shoe
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-018734
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Practical States of Matter (Vol. 18465)
+by Justin Addam Higgins · JAH-BOOK-018465
+Genre: Chemistry · 1,107 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Intro to Organic Chemistry, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Secret injector for batch ETL using eBPF probing Rev 2 (JAH-MALL-001198).
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Intro to Organic Chemistry: Foundations
+  4. Intro to Organic Chemistry: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Secret injector for batch ETL using eBPF probing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-018465
+
+An original generated work created by the Signature system. All names, places, and events are invented.

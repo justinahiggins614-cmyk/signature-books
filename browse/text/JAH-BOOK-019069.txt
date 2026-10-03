@@ -1,0 +1,20 @@
+The Living World: Genetics & DNA (Vol. 19069)
+by Justin Addam Higgins · JAH-BOOK-019069
+Genre: Biology · 1,016 words
+
+Summary:
+A complete Signature Biology textbook covering Genetics & DNA, Cells & Organelles, Microbes & Disease — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-528627.
+
+Chapters:
+  1. Genetics & DNA: Foundations
+  2. Genetics & DNA: Going Deeper
+  3. Cells & Organelles: Foundations
+  4. Cells & Organelles: Going Deeper
+  5. Microbes & Disease: Foundations
+  6. Microbes & Disease: Going Deeper
+  7. Case Study: PRODUCTLINE
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-019069
+
+An original generated work created by the Signature system. All names, places, and events are invented.

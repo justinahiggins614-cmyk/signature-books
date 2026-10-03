@@ -1,0 +1,20 @@
+Mastering Geometry & Shapes (Vol. 19340)
+by Justin Addam Higgins · JAH-BOOK-019340
+Genre: Mathematics · 1,161 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Number Theory, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product MFA challenger for capacity planning using learned indexing Rev 2 (JAH-MALL-000975).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: MFA challenger for capacity planning using learned indexing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-019340
+
+An original generated work created by the Signature system. All names, places, and events are invented.

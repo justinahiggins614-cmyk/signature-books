@@ -1,0 +1,20 @@
+The Gravity & Orbits Guide (Vol. 19345)
+by Justin Addam Higgins · JAH-BOOK-019345
+Genre: Physics · 1,049 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Motion & Speed, Light & Optics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US5871639A.
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Motion & Speed: Foundations
+  4. Motion & Speed: Going Deeper
+  5. Light & Optics: Foundations
+  6. Light & Optics: Going Deeper
+  7. Case Study: Impurity filtration system for drinking water and monitoring
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-019345
+
+An original generated work created by the Signature system. All names, places, and events are invented.
