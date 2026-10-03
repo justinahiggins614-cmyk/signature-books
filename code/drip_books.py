@@ -1293,7 +1293,7 @@ def write_books_manifest(api):
         "site_id": "signature-books",
         "site_name": "The Signature Book Depository",
         "site_version": "1.0",
-        "network_site": "12 of 25",
+        "network_site": "11 of 27",
         "total_books": api["total_books"],
         "total_words": api["total_words"],
         "genre_counts": api["genres"],
