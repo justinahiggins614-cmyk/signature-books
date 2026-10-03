@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- SITE TITLE PROVISIONAL — awaiting Manon's confirmation; safe to rename everywhere -->
 <title>The Signature Book Depository</title>
 <meta name="description" content="The Signature Book Depository: original Signature books — fiction, textbooks, children's, poetry, manuals — marching to 1,000,000 finished volumes. Free, no login.">
 <link rel="canonical" href="https://justinahiggins614-cmyk.github.io/signature-books/">
@@ -89,6 +88,12 @@ button{cursor:pointer}
 footer{border-top:3px double var(--line);padding:26px 14px 60px;color:var(--mut);font-size:.88em;text-align:center}
 footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif;font-size:.85em}
 .note-provisional{font-size:.8em;color:var(--mut);font-style:italic}
+.loadline{text-align:center;color:var(--mut);font-size:.85em;margin:4px 0 0}
+.spin{width:34px;height:34px;margin:0 auto 10px;border:3px solid var(--line);border-top-color:var(--gold);border-radius:50%;animation:spin .9s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.cardd{font-size:.76em;color:var(--mut);margin:6px 0;min-height:3.2em}
+.cardact{display:flex;gap:6px;margin-top:6px}
+.btn.mini{padding:6px 10px;font-size:.8em;min-height:36px}
 .statsum{display:none}
 @media(max-width:767px){.statsum{display:block;cursor:pointer;color:var(--mut);font-size:.85em;text-align:center;padding:6px 0}.statdrop{border:1px solid var(--line);border-radius:10px;margin:12px 0;background:var(--card)}}
 .loading{text-align:center;padding:40px;color:var(--mut)}
@@ -132,9 +137,10 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <div id="home">
 <header class="hero wrap">
 <h1>📚 The Signature Book Depository</h1>
-<div class="sub">Every book finished. Cover first, then the listing — fiction, textbooks, children's, poetry &amp; manuals.</div>
+<div class="sub">Every book finished — a complete draft from cover to last chapter, written by the Signature system (not a professionally edited print edition). Fiction, textbooks, children's, poetry &amp; manuals.</div>
 <details class="statdrop" open><summary class="statsum">📊 Shelf counts — tap to hide</summary>
-<div class="stats" id="stats"><div class="stat"><b>…</b><span>loading</span></div></div>
+<div class="stats" id="stats"><div class="stat"><b>…</b><span>finished books</span></div><div class="stat"><b>…</b><span>words of prose</span></div><div class="stat"><b>…</b><span>genres</span></div><div class="stat"><b>…</b><span>source streams</span></div></div>
+<p class="loadline" id="loadline">📚 Waking the shelves — counting books, words, genres and streams…</p>
 </details>
 <div class="march"><div class="bar"><div class="fill" id="marchfill"></div></div><small id="marchtxt">Marching to 1,000,000 books</small></div>
 </header>
@@ -168,7 +174,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <div class="az" id="az"></div>
 </div></div>
 
-<div class="wrap"><div id="results"><div class="loading">Loading the shelves…</div></div></div>
+<div class="wrap"><div id="results"><div class="loading"><div class="spin" aria-hidden="true"></div><b>Waking the shelves…</b><p>Fetching the shelf index — one small file, straight to your device. Most visits load in a second or two; if this lingers, check your connection and reload.</p></div></div></div>
 </div>
 
 <div id="bookview" class="wrap" style="display:none"></div>
@@ -178,7 +184,6 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <footer>
 <div class="wrap">
 <p><b style="color:var(--gold2)">The Signature Book Depository</b> — every volume an original generated work by/for the Signature system, by <b>Justin Addam Higgins</b>. No real-world authors, no borrowed text, no trademarked characters. Derived books name the network record that seeded them.</p>
-<p class="note-provisional">Site title provisional — Manon to confirm.</p>
 <nav aria-label="JAH Network footer">
 <div class="sites">THE JAH NETWORK ·
 <a href="https://justinahiggins614-cmyk.github.io/jah-ai-models/">Telephone Book</a> ·
@@ -285,9 +290,10 @@ function init(){
     var pct=Math.min(100,nb/1000000*100);
     $("marchfill").style.width=Math.max(pct,0.4)+"%";
     $("marchtxt").textContent=nb.toLocaleString()+" of 1,000,000 books ("+pct.toFixed(2)+"%)";
+    $("loadline").style.display="none";
     var gs=$("genre");Object.keys(api.genres||{}).sort().forEach(function(g){
       var o=document.createElement("option");o.value=g;o.textContent=g+" ("+(api.genres[g]).toLocaleString()+")";gs.appendChild(o)});
-  }).catch(function(){});
+  }).catch(function(){$("loadline").textContent="Could not reach the live counter — the shelves below still work. Reload to retry."});
   fetchJSONgz(IDX_URL).then(function(idx){IDX=idx;buildAZ();applyFilters()})
     .catch(function(e){$("results").innerHTML='<div class="loading">Could not load the catalog index. Check your connection and reload.</div>'});
   var q=$("q"),qT=null;
@@ -324,24 +330,63 @@ function applyFilters(){
 }
 function cardHTML(b){
   return '<div class="card" data-id="'+b.id+'"><div>'+coverSVG(b)+'</div><div class="meta"><div class="t">'+esc(b.t)+
-   '</div><div class="a">'+esc(b.a)+'</div><div class="g">'+esc(b.g)+'</div><div class="w">'+
-   b.w.toLocaleString()+' words · '+esc(b.id)+'</div></div></div>';
+   '</div><div class="a">'+esc(b.a)+'</div><div class="g">Type: '+esc(b.g)+'</div><div class="w">'+
+   b.w.toLocaleString()+' words · '+esc(b.id)+'</div>'+
+   '<p class="cardd">'+esc(String(b.d||"").slice(0,110))+'…</p>'+
+   '<div class="cardact"><button class="btn mini" data-act="read" data-id="'+b.id+'">📖 Read</button>'+
+   '<button class="btn mini ghost" data-act="get" data-id="'+b.id+'">⬇ Get</button>'+
+   '<button class="btn mini ghost" data-act="share" data-id="'+b.id+'">↗ Share</button></div>'+
+   "</div></div>";
 }
 function listHTML(b){
   return '<div class="listrow" data-id="'+b.id+'">'+coverSVG(b)+'<div><div class="t">'+esc(b.t)+
-   '</div><div class="a">'+esc(b.a)+' · '+b.w.toLocaleString()+' words</div><div class="g">'+esc(b.g)+" · "+esc(ORIGIN_LABEL[b.o]||b.o)+'</div><div class="a">'+esc(b.d.slice(0,140))+'…</div></div></div>';
+   '</div><div class="a">'+esc(b.a)+' · '+b.w.toLocaleString()+' words</div><div class="g">Type: '+esc(b.g)+" · "+esc(ORIGIN_LABEL[b.o]||b.o)+'</div><div class="a">'+esc(b.d.slice(0,140))+'…</div>'+
+   '<div class="cardact"><button class="btn mini" data-act="read" data-id="'+b.id+'">📖 Read</button>'+
+   '<button class="btn mini ghost" data-act="get" data-id="'+b.id+'">⬇ Get</button>'+
+   '<button class="btn mini ghost" data-act="share" data-id="'+b.id+'">↗ Share</button></div>'+
+   "</div></div>";
+}
+/* card action buttons: read / download .txt / share link — share URL opens the book view via ?book= */
+function bookURL(id){return "https://justinahiggins614-cmyk.github.io/signature-books/?book="+id}
+function cardAct(act,id,btn){
+  if(act==="read"){location.hash="#book="+id;return}
+  if(act==="share"){
+    var url=bookURL(id);
+    var done=function(ok){var old=btn.textContent;btn.textContent=ok?"✓ Link copied":"Copy failed";setTimeout(function(){btn.textContent=old},1800)};
+    if(navigator.share){navigator.share({title:id,url:url}).catch(function(){})}
+    else if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){done(true)},function(){done(false)})}
+    else{var ta=document.createElement("textarea");ta.value=url;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done(true)}catch(e){done(false)}ta.remove()}
+    return}
+  if(act==="get"){
+    var old=btn.textContent;btn.textContent="Getting…";btn.disabled=true;
+    fetchJSONgz(chunkPath(id)).then(function(recs){
+      var rec=null;for(var i=0;i<recs.length;i++)if(recs[i].id===id)rec=recs[i];
+      if(!rec)throw new Error("not in chunk");
+      download(id+".txt",bookText(rec),"text/plain");btn.textContent=old;btn.disabled=false;
+    }).catch(function(){btn.textContent="Get failed";setTimeout(function(){btn.textContent=old;btn.disabled=false},1800)});
+  }
 }
 function render(){
   var box=$("results");
+  if(!IDX.length){box.innerHTML='<div class="loading"><div class="spin" aria-hidden="true"></div><b>The shelf index is still loading…</b><p>One moment — search wakes up as soon as it arrives.</p></div>';return}
   if(!FILTERED.length){box.innerHTML='<div class="loading">No books match. Try another search.</div>';return}
   var slice=FILTERED.slice(0,SHOWN+PAGE);
   var html='<p style="color:var(--mut)">'+FILTERED.length.toLocaleString()+' books · showing '+slice.length+'</p>';
   if(VIEW==="grid"){html+='<div class="grid">'+slice.map(cardHTML).join("")+"</div>"}
   else{html+=slice.map(listHTML).join("")}
-  if(slice.length<FILTERED.length)html+='<button class="btn more" id="morebtn">Show more</button>';
+  if(slice.length<FILTERED.length)html+='<button class="btn more" id="morebtn">Show more</button><p class="loadline">Shelf '+slice.length.toLocaleString()+' of '+FILTERED.length.toLocaleString()+' shown — tap Show more for the next '+PAGE+'.</p>';
   box.innerHTML=html;
-  box.querySelectorAll("[data-id]").forEach(function(el){el.onclick=function(){location.hash="#book="+el.dataset.id}});
-  var mb=$("morebtn");if(mb)mb.onclick=function(){SHOWN+=PAGE;render();window.scrollTo(0,document.body.scrollHeight)};
+  box.querySelectorAll("[data-id]").forEach(function(el){
+    if(el.getAttribute("data-act"))return; /* action buttons are wired below */
+    el.onclick=function(e){if(e.target&&e.target.closest&&e.target.closest("button"))return;location.hash="#book="+el.dataset.id};
+  });
+  box.querySelectorAll("button[data-act]").forEach(function(btn){
+    btn.onclick=function(e){e.stopPropagation();cardAct(btn.getAttribute("data-act"),btn.getAttribute("data-id"),btn)};
+  });
+  var mb=$("morebtn");if(mb)mb.onclick=function(){
+    mb.disabled=true;mb.textContent="Loading more books…";
+    setTimeout(function(){SHOWN+=PAGE;render();window.scrollTo(0,document.body.scrollHeight)},60);
+  };
 }
 
 /* ============ BOOK FINDER (additive): deterministic keyword finder over the shelves' own index ============ */
@@ -446,7 +491,7 @@ function renderBook(rec){
    '<div class="bv-top"><div class="bv-cover">'+coverSVG({id:rec.id,t:rec.title,a:rec.author})+"</div>"+
    '<div class="bv-info"><h1>'+esc(rec.title)+"</h1>"+
    '<div class="byline">by '+esc(rec.author)+" · "+esc(rec.id)+"</div>"+
-   '<div class="chips"><span class="chip">'+esc(rec.genre)+'</span><span class="chip">'+rec.words.toLocaleString()+' words</span><span class="chip">'+rec.chapters.length+' chapters</span><span class="chip">'+esc(ORIGIN_LABEL[rec.origin]||rec.origin)+"</span></div>"+
+   '<div class="chips"><span class="chip">'+esc(rec.genre)+'</span><span class="chip">'+rec.words.toLocaleString()+' words</span><span class="chip">'+rec.chapters.length+' chapters</span><span class="chip">'+esc(ORIGIN_LABEL[rec.origin]||rec.origin)+'</span><span class="chip">Original generated work</span></div>'+
    '<div class="actions"><button class="btn" id="rdbtn">🔊 Read aloud</button>'+
    '<button class="btn ghost" id="rdrbtn">📖 Reader mode</button>'+
    '<button class="btn ghost" id="rdrminus" aria-label="Smaller reading text">A−</button>'+
@@ -455,7 +500,8 @@ function renderBook(rec){
    '<button class="btn ghost" id="dlbtn">⬇ Download .txt</button>'+
    '<button class="btn ghost" id="dljson">⬇ .json</button>'+
    '<button class="btn ghost" id="txtbtn">📄 Plain text</button>'+
-   '<button class="btn ghost" id="aibtn">💬 Ask about this book</button></div>'+
+   '<button class="btn ghost" id="aibtn">💬 Ask about this book</button>'+
+   '<button class="btn ghost" id="sharebtn">↗ Share</button></div>'+
    '<div class="desc">'+esc(rec.desc)+"</div>"+
    (lin?'<div class="lineage" id="source-lineage"><h3>⛓ Source lineage</h3>'+lin+
      '<div style="margin-top:6px"><small style="color:#9aa4b2">Stable anchor: <a href="#book='+rec.id+'#source-lineage">#source-lineage</a> — the originating sites can link back here.</small></div></div>':"")+
@@ -478,6 +524,7 @@ function renderBook(rec){
   $("aibtn").onclick=function(){var p=$("aipanel");p.style.display=p.style.display==="none"?"block":"none";if(p.style.display==="block"){$("aiq").focus();
     if(typeof JAHtalk!=="undefined"&&!$("aians").dataset.greeted){$("aians").dataset.greeted="1";
       $("aians").innerHTML="<p class='ainone'>"+esc(JAHtalk.greet(bookAIProfile(rec)))+"</p>"}}};
+  $("sharebtn").onclick=function(){cardAct("share",rec.id,$("sharebtn"))};
   $("aiask").onclick=function(){bookAsk(rec)};
   $("aiq").addEventListener("keydown",function(e){if(e.key==="Enter")bookAsk(rec)});
   rdrApply();
