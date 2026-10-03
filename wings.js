@@ -113,8 +113,8 @@ function applyFilters(){
 }
 function cardHTML(e){
   var cov=coverSVG(WING.coverKind(e), e.id, WING.cardTitle(e), WING.cardSub(e), e.id);
-  if(VIEW==="grid")return '<div class="card" data-id="'+e.id+'">'+cov+'<div class="meta"><div class="t">'+esc(WING.cardTitle(e))+'</div><div class="a">'+esc(WING.cardSub(e))+'</div><div class="g">'+esc(e.id)+'</div></div></div>';
-  return '<div class="listrow" data-id="'+e.id+'">'+cov+'<div><div class="t">'+esc(WING.cardTitle(e))+'</div><div class="a">'+esc(WING.cardSub(e))+'</div><div class="g">'+esc(e.id)+'</div></div></div>';
+  if(VIEW==="grid")return '<div class="card" data-id="'+e.id+'">'+cov+'<div class="meta"><div class="t">'+esc(WING.cardTitle(e))+'</div><div class="a">'+esc(WING.cardSub(e))+'</div><div class="g">'+esc(e.id)+'</div><div style="margin-top:4px"><span class="stbadge">SIGNATURE ORIGINAL</span></div></div></div>';
+  return '<div class="listrow" data-id="'+e.id+'">'+cov+'<div><div class="t">'+esc(WING.cardTitle(e))+'</div><div class="a">'+esc(WING.cardSub(e))+'</div><div class="g">'+esc(e.id)+'</div><div style="margin-top:3px"><span class="stbadge">SIGNATURE ORIGINAL</span></div></div></div>';
 }
 function render(){
   var box=$("results");
@@ -145,6 +145,46 @@ function openRecord(id){
 }
 
 /* ---------------- record view + per-record AI ---------------- */
+/* JAH NETWORK 10-FIX: record panel + provenance + AI identity card (additive) */
+function wingSeedBase(id){return /^JAH-LIB-/.test(id)?20261003:/^JAH-MAG-/.test(id)?20261002:20261001}
+function wingProvHTML(rec){
+  var n=numOf(rec.id);
+  return '<div class="prov">Provenance: made by the '+esc(WING.pageTitle.split(" — ")[0])+' generator · deterministic record seed '+wingSeedBase(rec.id)+'+'+n+' · record date not recorded per record (deterministic — the same seed regenerates the same record)</div>';
+}
+function wingPanelHTML(rec){
+  return '<div class="recpanel" role="group" aria-label="Record actions"><span class="rpid">'+esc(rec.id)+'</span><span class="rpver">v1.0</span>'+
+  '<button data-rp="open">OPEN</button><button data-rp="src">SOURCE</button><button data-rp="share">SHARE</button>'+
+  '<button data-rp="copy">COPY</button><button data-rp="dl">DOWNLOAD</button><button data-rp="read">READ ALOUD</button></div>';
+}
+function wingWirePanel(rec){
+  var panel=document.querySelector("#recview .recpanel");if(!panel)return;
+  var n=Math.ceil(numOf(rec.id)/WING.chunkSize);
+  var chunk=WING.chunkDir+"/"+WING.chunkPrefix+String(n).padStart(5,"0")+".json.gz";
+  var deep=location.href.split("#")[0]+WING.pageFile+"?"+WING.deepParam+"="+rec.id;
+  panel.querySelectorAll("button").forEach(function(b){
+    var a=b.getAttribute("data-rp");
+    b.onclick=function(){
+      if(a==="open"){location.hash="#"+WING.deepParam+"="+rec.id;}
+      else if(a==="src"){if(!panel.querySelector(".srcnote")){var sn=document.createElement("span");sn.className="srcnote";sn.style.color="var(--mut)";sn.textContent="Source: "+WING.pageTitle+" catalog · "+chunk;panel.appendChild(sn);}}
+      else if(a==="share"){copyText(deep,"sharebtn");}
+      else if(a==="copy"){$("copybtn").click();}
+      else if(a==="dl"){$("dljson").click();}
+      else if(a==="read"){$("rdbtn").click();}
+    };
+  });
+}
+function wingAIProfile(){
+  return {name:WING.unitSing.charAt(0).toUpperCase()+WING.unitSing.slice(1)+" Assistant",
+    description:"A helper AI that answers questions from this "+WING.unitSing+"’s own text. It quotes the record, explains it in plain words, and says plainly when something is not covered.",
+    abilities:["quote and explain passages from this "+WING.unitSing,"summarize its contents","tell you its title, kind and length"],
+    domain:"books",kind:"helper"};
+}
+function wingAICardHTML(){
+  var p=wingAIProfile(),duties=p.abilities.map(function(x){return esc(x)}).join("; ");
+  return '<div class="jaicard"><b>🤖 AI IDENTITY</b><br><b>Name:</b> '+esc(p.name)+' — '+esc(p.description)+
+   '<br><b>Duties:</b> '+duties+
+   '<br><b>Engine:</b> Signature Llama (live where available) with the built-in JAHtalk on-device fallback — it always answers.</div>';
+}
 function renderRecord(rec){
   var secs=WING.sections(rec);
   var secHTML=secs.map(function(s){
@@ -156,6 +196,8 @@ function renderRecord(rec){
    '<div class="bv-top"><div class="bv-cover">'+coverSVG(WING.coverKind(rec),rec.id,WING.recTitle(rec),WING.byline(rec),rec.id)+"</div>"+
    '<div class="bv-info"><h1>'+esc(WING.recTitle(rec))+"</h1>"+
    '<div class="byline">'+esc(WING.byline(rec))+" · "+esc(rec.id)+"</div>"+
+   '<div style="margin:6px 0"><span class="stbadge">SIGNATURE ORIGINAL</span></div>'+
+   wingPanelHTML(rec)+wingProvHTML(rec)+
    '<div class="chips">'+WING.chips(rec).map(function(c){return '<span class="chip">'+esc(c)+"</span>"}).join("")+"</div>"+
    '<div class="actions"><button class="btn" id="rdbtn">🔊 Read aloud</button>'+
    '<button class="btn ghost" id="copybtn">⧉ Copy text</button>'+
@@ -165,6 +207,7 @@ function renderRecord(rec){
    '<div class="desc">'+esc(WING.desc(rec))+"</div>"+
    '<div class="honest">✦ '+esc(rec.note||"An original generated work created by the Signature system.")+"</div>"+
    '<div class="aipanel" id="aipanel" style="display:none"><h3>💬 Ask about this '+esc(WING.unitSing)+'</h3>'+
+   wingAICardHTML()+
    '<p class="aimeta">Grounded in this '+esc(WING.unitSing)+'’s own text — it quotes and explains, and says plainly when something isn’t covered.</p>'+
    '<div class="airow"><input type="text" id="aiq" placeholder="Ask a question…" aria-label="Ask about this '+esc(WING.unitSing)+'"><button class="btn" id="aiask">Ask</button></div>'+
    '<div class="aians" id="aians"></div></div>'+
@@ -176,6 +219,7 @@ function renderRecord(rec){
   $("aibtn").onclick=function(){var p=$("aipanel");p.style.display=p.style.display==="none"?"block":"none";if(p.style.display==="block")$("aiq").focus()};
   $("aiask").onclick=function(){askAI(rec)};
   $("aiq").addEventListener("keydown",function(e){if(e.key==="Enter")askAI(rec)});
+  wingWirePanel(rec);
 }
 var AI_STOP={a:1,an:1,the:1,and:1,or:1,but:1,if:1,then:1,of:1,to:1,in:1,on:1,for:1,with:1,by:1,from:1,at:1,as:1,is:1,are:1,was:1,were:1,be:1,been:1,it:1,its:1,this:1,that:1,these:1,those:1,what:1,when:1,where:1,which:1,who:1,whom:1,how:1,why:1,does:1,do:1,did:1,can:1,could:1,would:1,should:1,will:1,about:1,into:1,over:1,under:1,again:1,there:1,their:1,them:1,they:1,you:1,your:1,tell:1,me:1,please:1,does:1};
 function aiKeywords(q){

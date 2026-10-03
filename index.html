@@ -126,6 +126,18 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
  .card .t{font-size:.88em}
 }
 @media(max-width:340px){.grid{grid-template-columns:1fr}}
+/* JAH NETWORK 10-FIX CONSISTENCY PASS (additive — no restyle of existing components) */
+.jnkicker{display:inline-block;font-size:.72em;letter-spacing:.28em;color:var(--gold);border:1px solid var(--gold);border-radius:20px;padding:5px 16px;margin:0 0 10px;font-weight:700}
+.stbadge{display:inline-block;background:#274b1e;color:#c8f0b8;font-size:.68em;font-weight:800;letter-spacing:.1em;border-radius:6px;padding:3px 9px;text-transform:uppercase;white-space:nowrap;vertical-align:middle}
+.recpanel{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:#171107;font-size:.8em;font-family:Georgia,'Times New Roman',serif}
+.recpanel .rpid{font-family:monospace;color:var(--gold2)}
+.recpanel .rpver{color:var(--mut)}
+.recpanel button{background:#241c0e;border:1px solid var(--line);color:var(--parch);border-radius:7px;padding:5px 11px;font-size:.82em;cursor:pointer;font-weight:700;letter-spacing:.04em;font-family:inherit}
+.recpanel button:hover{border-color:var(--gold);color:var(--gold2)}
+.prov{font-size:.78em;color:var(--mut);margin:8px 0}
+.jaicard{border:1px solid #6b5a2e;border-radius:10px;padding:10px 14px;margin:12px 0;font-size:.88em;background:#1a1408}
+.jaicard b{color:var(--gold2)}
+.ownerlab{font-size:.7em;font-weight:800;letter-spacing:.06em;color:var(--gold2);margin-left:8px;white-space:nowrap}
 </style>
 </head>
 <body>
@@ -136,6 +148,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 
 <div id="home">
 <header class="hero wrap">
+<div class="jnkicker">SITE 12 OF 25 · THE JAH NETWORK</div>
 <h1>📚 The Signature Book Depository</h1>
 <div class="sub">Every book finished — a complete draft from cover to last chapter, written by the Signature system (not a professionally edited print edition). Fiction, textbooks, children's, poetry &amp; manuals.</div>
 <details class="statdrop" open><summary class="statsum">📊 Shelf counts — tap to hide</summary>
@@ -331,7 +344,7 @@ function applyFilters(){
 function cardHTML(b){
   return '<div class="card" data-id="'+b.id+'"><div>'+coverSVG(b)+'</div><div class="meta"><div class="t">'+esc(b.t)+
    '</div><div class="a">'+esc(b.a)+'</div><div class="g">Type: '+esc(b.g)+'</div><div class="w">'+
-   b.w.toLocaleString()+' words · '+esc(b.id)+'</div>'+
+   b.w.toLocaleString()+' words · '+esc(b.id)+'</div><div style="margin:4px 0"><span class="stbadge">SIGNATURE ORIGINAL</span></div>'+
    '<p class="cardd">'+esc(String(b.d||"").slice(0,110))+'…</p>'+
    '<div class="cardact"><button class="btn mini" data-act="read" data-id="'+b.id+'">📖 Read</button>'+
    '<button class="btn mini ghost" data-act="get" data-id="'+b.id+'">⬇ Get</button>'+
@@ -340,7 +353,7 @@ function cardHTML(b){
 }
 function listHTML(b){
   return '<div class="listrow" data-id="'+b.id+'">'+coverSVG(b)+'<div><div class="t">'+esc(b.t)+
-   '</div><div class="a">'+esc(b.a)+' · '+b.w.toLocaleString()+' words</div><div class="g">Type: '+esc(b.g)+" · "+esc(ORIGIN_LABEL[b.o]||b.o)+'</div><div class="a">'+esc(b.d.slice(0,140))+'…</div>'+
+   '</div><div class="a">'+esc(b.a)+' · '+b.w.toLocaleString()+' words</div><div class="g">Type: '+esc(b.g)+" · "+esc(ORIGIN_LABEL[b.o]||b.o)+'</div><div style="margin:3px 0"><span class="stbadge">SIGNATURE ORIGINAL</span></div><div class="a">'+esc(b.d.slice(0,140))+'…</div>'+
    '<div class="cardact"><button class="btn mini" data-act="read" data-id="'+b.id+'">📖 Read</button>'+
    '<button class="btn mini ghost" data-act="get" data-id="'+b.id+'">⬇ Get</button>'+
    '<button class="btn mini ghost" data-act="share" data-id="'+b.id+'">↗ Share</button></div>'+
@@ -481,7 +494,9 @@ function bookText(rec){
 function renderBook(rec){
   var poem=rec.gkey==="poetry";
   var lin=(rec.sources||[]).map(function(s){
-    return '<div>🔗 <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.label)+"</a>"+
+    var own=s.kind==="patent"?'<span class="ownerlab">PUBLIC RECORD · source: cyber-patent-catalog</span>'
+      :s.kind==="spec"?'<span class="ownerlab">DRAFT SPECIFICATION · by Justin Addam Higgins</span>':"";
+    return '<div>🔗 <a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.label)+"</a>"+own+
      (s.title?'<br><small style="color:#9aa4b2">“'+esc(s.title)+'”</small>':"")+"</div>"}).join("");
   var chs=rec.chapters.map(function(c){
     var body=esc(c.b).replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>");
@@ -491,6 +506,8 @@ function renderBook(rec){
    '<div class="bv-top"><div class="bv-cover">'+coverSVG({id:rec.id,t:rec.title,a:rec.author})+"</div>"+
    '<div class="bv-info"><h1>'+esc(rec.title)+"</h1>"+
    '<div class="byline">by '+esc(rec.author)+" · "+esc(rec.id)+"</div>"+
+   '<div style="margin:6px 0"><span class="stbadge">SIGNATURE ORIGINAL</span></div>'+
+   recPanelHTMLBook(rec)+provHTMLBook(rec)+
    '<div class="chips"><span class="chip">'+esc(rec.genre)+'</span><span class="chip">'+rec.words.toLocaleString()+' words</span><span class="chip">'+rec.chapters.length+' chapters</span><span class="chip">'+esc(ORIGIN_LABEL[rec.origin]||rec.origin)+'</span><span class="chip">Original generated work</span></div>'+
    '<div class="actions"><button class="btn" id="rdbtn">🔊 Read aloud</button>'+
    '<button class="btn ghost" id="rdrbtn">📖 Reader mode</button>'+
@@ -507,6 +524,7 @@ function renderBook(rec){
      '<div style="margin-top:6px"><small style="color:#9aa4b2">Stable anchor: <a href="#book='+rec.id+'#source-lineage">#source-lineage</a> — the originating sites can link back here.</small></div></div>':"")+
    '<div class="honest">✦ '+esc(rec.note)+"</div>"+
    '<div class="aipanel" id="aipanel" style="display:none"><h3>💬 Ask about this book</h3>'+
+   aiCardHTML(bookAIProfile(rec))+
    '<p class="aimeta">Answered from this book’s own text — it quotes and explains, and says plainly when something isn’t covered.</p>'+
    '<div class="airow"><input type="text" id="aiq" placeholder="Ask a question about this book…" aria-label="Ask about this book"><button class="btn" id="aiask">Ask</button></div>'+
    '<div class="aians" id="aians"></div></div>'+
@@ -527,7 +545,38 @@ function renderBook(rec){
   $("sharebtn").onclick=function(){cardAct("share",rec.id,$("sharebtn"))};
   $("aiask").onclick=function(){bookAsk(rec)};
   $("aiq").addEventListener("keydown",function(e){if(e.key==="Enter")bookAsk(rec)});
+  wireRecPanelBook(rec);
   rdrApply();
+}
+/* ===== JAH NETWORK 10-FIX: record panel + provenance + AI identity card (additive) ===== */
+function bookSeedNo(rec){return parseInt(String(rec.id).slice(-6),10)||0}
+function provHTMLBook(rec){
+  return '<div class="prov">Provenance: made by the Book Depository book generator (code/drip_books.py) · deterministic record seed 20261001+'+bookSeedNo(rec)+' · origin: '+esc(ORIGIN_LABEL[rec.origin]||rec.origin)+' · record date not recorded per record (deterministic — the same seed regenerates the same book)</div>';
+}
+function recPanelHTMLBook(rec){
+  return '<div class="recpanel" role="group" aria-label="Record actions"><span class="rpid">'+esc(rec.id)+'</span><span class="rpver">v1.0</span>'+
+  '<button data-rp="open">OPEN</button><button data-rp="src">SOURCE</button><button data-rp="share">SHARE</button>'+
+  '<button data-rp="copy">COPY</button><button data-rp="dl">DOWNLOAD</button><button data-rp="read">READ ALOUD</button></div>';
+}
+function wireRecPanelBook(rec){
+  var panel=document.querySelector(".bookview .recpanel");if(!panel)return;
+  panel.querySelectorAll("button").forEach(function(b){
+    var a=b.getAttribute("data-rp");
+    b.onclick=function(){
+      if(a==="open"){location.hash="#book="+rec.id;route();}
+      else if(a==="src"){if(!panel.querySelector(".srcnote")){var n=document.createElement("span");n.className="srcnote";n.style.color="var(--mut)";n.textContent="Source: Book Depository catalog · "+chunkPath(rec.id)+" · "+(ORIGIN_LABEL[rec.origin]||rec.origin);panel.appendChild(n);}}
+      else if(a==="share"){$("sharebtn").click();}
+      else if(a==="copy"){$("copybtn").click();}
+      else if(a==="dl"){$("dljson").click();}
+      else if(a==="read"){$("rdbtn").click();}
+    };
+  });
+}
+function aiCardHTML(prof){
+  var duties=(prof.abilities||[]).map(function(x){return esc(x)}).join("; ");
+  return '<div class="jaicard"><b>🤖 AI IDENTITY</b><br><b>Name:</b> '+esc(prof.name||"AI assistant")+' — '+esc(prof.description||"")+
+   (duties?'<br><b>Duties:</b> '+duties:"")+
+   '<br><b>Engine:</b> Signature Llama (live where available) with the built-in JAHtalk on-device fallback — it always answers.</div>';
 }
 /* per-book Ask AI: deterministic, grounded in the book's own chapters.
    Never invents book content — quotes + explains, or says it's not covered.
