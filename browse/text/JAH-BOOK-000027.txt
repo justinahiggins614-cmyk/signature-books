@@ -1,0 +1,20 @@
+Code & Concepts: How Computers Think
+by Justin Addam Higgins · JAH-BOOK-000027
+Genre: Computer Science · 1,073 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, The Internet & Networks, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product 弱酸性陽イオン交換樹脂の貫流容量を増加させる方法 (JAH-MALL-006498).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: 
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000027
+
+An original generated work created by the Signature system. All names, places, and events are invented.

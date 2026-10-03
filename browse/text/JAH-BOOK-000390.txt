@@ -1,0 +1,20 @@
+The Fractions & Decimals Handbook
+by Justin Addam Higgins · JAH-BOOK-000390
+Genre: Mathematics · 1,132 words
+
+Summary:
+A complete Signature Mathematics textbook covering Fractions & Decimals, Probability Basics, Geometry & Shapes — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Project Planner (JAH-AI-DOM-142).
+
+Chapters:
+  1. Fractions & Decimals: Foundations
+  2. Fractions & Decimals: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Geometry & Shapes: Foundations
+  6. Geometry & Shapes: Going Deeper
+  7. Case Study: Project Planner
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000390
+
+An original generated work created by the Signature system. All names, places, and events are invented.

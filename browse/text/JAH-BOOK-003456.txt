@@ -1,0 +1,20 @@
+Practical Reactions & Equations (Vol. 3456)
+by Justin Addam Higgins · JAH-BOOK-003456
+Genre: Chemistry · 1,044 words
+
+Summary:
+A complete Signature Chemistry textbook covering Reactions & Equations, Intro to Organic Chemistry, Acids & Bases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Debate Partner (JAH-AI-DOM-035).
+
+Chapters:
+  1. Reactions & Equations: Foundations
+  2. Reactions & Equations: Going Deeper
+  3. Intro to Organic Chemistry: Foundations
+  4. Intro to Organic Chemistry: Going Deeper
+  5. Acids & Bases: Foundations
+  6. Acids & Bases: Going Deeper
+  7. Case Study: Debate Partner
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-003456
+
+An original generated work created by the Signature system. All names, places, and events are invented.

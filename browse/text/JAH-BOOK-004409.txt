@@ -1,0 +1,20 @@
+The Algorithms & Flowcharts Primer (Vol. 4409)
+by Justin Addam Higgins · JAH-BOOK-004409
+Genre: Computer Science · 1,046 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, The Internet & Networks, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product KDR siRNA and application thereof (JAH-MALL-001843).
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: KDR siRNA and application thereof
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-004409
+
+An original generated work created by the Signature system. All names, places, and events are invented.

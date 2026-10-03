@@ -1,0 +1,20 @@
+Geometry & Shapes: A Signature Course (Vol. 10933)
+by Justin Addam Higgins · JAH-BOOK-010933
+Genre: Mathematics · 1,081 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Probability Basics, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Integrate ∫(−7x^2 − x + 9) dx (JAH-MALL-007248).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Integrate dx
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010933
+
+An original generated work created by the Signature system. All names, places, and events are invented.

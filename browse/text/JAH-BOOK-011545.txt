@@ -1,0 +1,20 @@
+Gravity & Orbits in Action (Vol. 11545)
+by Justin Addam Higgins · JAH-BOOK-011545
+Genre: Physics · 1,003 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Heat & Temperature, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (KR20200013256A).
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Organic light-emitting devices
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-011545
+
+An original generated work created by the Signature system. All names, places, and events are invented.

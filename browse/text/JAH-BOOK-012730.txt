@@ -1,0 +1,20 @@
+The Number Theory Handbook (Vol. 12730)
+by Justin Addam Higgins · JAH-BOOK-012730
+Genre: Mathematics · 1,053 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Probability Basics, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent RO132076B1.
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Process for preparing semi-synthesis penicillins
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012730
+
+An original generated work created by the Signature system. All names, places, and events are invented.

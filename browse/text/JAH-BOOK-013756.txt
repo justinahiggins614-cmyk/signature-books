@@ -1,0 +1,27 @@
+Poems of console-chip and builder
+by Justin Addam Higgins · JAH-BOOK-013756
+Genre: Poetry · 1,839 words
+
+Summary:
+A complete original poetry collection: 14 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-512205.
+
+Chapters:
+  1. The hybrid-workflow apps
+  2. Ode to console-chip
+  3. Ode to builder
+  4. engine and apps
+  5. What the builder Said
+  6. Small Book of animations
+  7. Small Book of apps
+  8. Elegy for builder
+  9. Ode to apps
+  10. Hymn of hybrid-workflow
+  11. Field Notes on builder
+  12. Small Book of mobile
+  13. The engine Hour
+  14. The mobile Hour
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-013756
+
+An original generated work created by the Signature system. All names, places, and events are invented.

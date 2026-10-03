@@ -1,0 +1,20 @@
+Cells & Organelles: A Signature Course (Vol. 1464)
+by Justin Addam Higgins · JAH-BOOK-001464
+Genre: Biology · 1,019 words
+
+Summary:
+A complete Signature Biology textbook covering Cells & Organelles, Evolution & Natural Selection, Microbes & Disease — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-385705.
+
+Chapters:
+  1. Cells & Organelles: Foundations
+  2. Cells & Organelles: Going Deeper
+  3. Evolution & Natural Selection: Foundations
+  4. Evolution & Natural Selection: Going Deeper
+  5. Microbes & Disease: Foundations
+  6. Microbes & Disease: Going Deeper
+  7. Case Study: Signature Scripts hub for churn prediction using leaky
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001464
+
+An original generated work created by the Signature system. All names, places, and events are invented.

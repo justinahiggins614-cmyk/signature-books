@@ -1,0 +1,20 @@
+The World of Chemical Bonds (Vol. 12456)
+by Justin Addam Higgins · JAH-BOOK-012456
+Genre: Chemistry · 1,092 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, The Periodic Table, Intro to Organic Chemistry — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B5053.
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. The Periodic Table: Foundations
+  4. The Periodic Table: Going Deeper
+  5. Intro to Organic Chemistry: Foundations
+  6. Intro to Organic Chemistry: Going Deeper
+  7. Case Study: Foo Fighters WWII Field Guide Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012456
+
+An original generated work created by the Signature system. All names, places, and events are invented.

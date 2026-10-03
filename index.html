@@ -105,6 +105,22 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 .wingnav{background:#0e0a05;border-bottom:1px solid var(--line);text-align:center;padding:8px;font-family:Arial,Helvetica,sans-serif;font-size:.85em}
 .wingnav a{margin:0 12px;text-decoration:none;color:var(--mut)}
 .wingnav a.cur{color:var(--gold2);font-weight:700}
+/* reader mode (FIX-4): dedicated reading layout — adjustable size, 1.7 line height, ~70-char measure */
+.reader-on .bv-top{display:none}
+.reader-on .chapters{max-width:42em;margin:0 auto;padding:0 8px}
+.reader-on .ch p{line-height:1.7;margin:.9em 0}
+.reader-on .ch h3{margin-top:1.6em}
+.reader-on .chapters h2{text-align:center}
+/* FIX-6: mobile single-to-double column cards, generous tap targets */
+@media(max-width:520px){
+ .grid{grid-template-columns:repeat(2,1fr);gap:10px}
+ .btn{min-height:44px}
+ .az button{min-height:44px;min-width:36px}
+ input[type=search]{font-size:16px}
+ .card .meta{padding:7px 8px 9px}
+ .card .t{font-size:.88em}
+}
+@media(max-width:340px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -183,7 +199,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <a href="https://justinahiggins614-cmyk.github.io/signature-backend/">Backend</a> ·
 <a href="https://justinahiggins614-cmyk.github.io/signature-boundless-generators/">Generator Archive</a></div>
 </nav>
-<p>Free forever. No login. Machine-readable: <a href="data/index/api.json">api.json</a> · <a href="data/index/books.idx.json.gz">book index</a></p>
+<p>Free forever. No login. Machine-readable: <a href="data/index/api.json">api.json</a> · <a href="data/index/books-catalog.json">catalog feed</a> · <a href="data/index/books.idx.json.gz">book index</a> · <a href="browse/">static browse</a></p>
 </div>
 </footer>
 <script src="js/jah-talk-fallback.js"></script>
@@ -258,6 +274,7 @@ function coverSVG(b){
 /* ============ loading & stats ============ */
 var ORIGIN_LABEL={original:"Signature original",spec:"From spec",wiki:"From JAH Wiki",leaks:"From dossier",patent:"From patent",ai:"From AI",mall:"From mall"};
 function init(){
+  rdrInit();
   fetch(API_URL).then(function(r){return r.json()}).then(function(api){
     var nb=api.total_books||0, nw=api.total_words||0;
     $("stats").innerHTML=
@@ -273,7 +290,9 @@ function init(){
   }).catch(function(){});
   fetchJSONgz(IDX_URL).then(function(idx){IDX=idx;buildAZ();applyFilters()})
     .catch(function(e){$("results").innerHTML='<div class="loading">Could not load the catalog index. Check your connection and reload.</div>'});
-  var q=$("q");q.addEventListener("input",function(){applyFilters()});
+  var q=$("q"),qT=null;
+  /* FIX-5: debounced instant search — no keystroke lag on mobile */
+  q.addEventListener("input",function(){if(qT)clearTimeout(qT);qT=setTimeout(applyFilters,150)});
   ["genre","origin","sort"].forEach(function(id){$(id).addEventListener("change",applyFilters)});
   $("vgrid").onclick=function(){VIEW="grid";render()};$("vlist").onclick=function(){VIEW="list";render()};
   window.addEventListener("hashchange",route);
@@ -296,7 +315,7 @@ function applyFilters(){
     if(g&&b.g!==g)return false;
     if(o&&b.o!==o)return false;
     if(az){var k=titleKey(b.t).charAt(0).toUpperCase();if(az==="#"){if(!/[0-9]/.test(k))return false}else if(k!==az)return false}
-    if(q){var hay=(b.t+" "+b.d+" "+b.id+" "+b.g).toLowerCase();if(hay.indexOf(q)<0)return false}
+    if(q){var hay=(b.t+" "+b.d+" "+b.id+" "+b.g+" "+b.a).toLowerCase();if(hay.indexOf(q)<0)return false}
     return true});
   if(s==="title")FILTERED.sort(function(a,b){return titleKey(a.t).localeCompare(titleKey(b.t))});
   else if(s==="long")FILTERED.sort(function(a,b){return b.w-a.w});
@@ -334,7 +353,7 @@ Finder.ask=function(){
   var box=$("fresults"),kws=Finder.keywords($("fq").value);
   if(!kws.length){box.innerHTML='<p class="dim" style="margin-top:8px">Describe what you want — a topic, a genre, a mood — and I will match the shelves&apos; own records.</p>';return}
   if(!IDX.length){box.innerHTML='<p class="dim" style="margin-top:8px">The shelf index is still loading — one moment.</p>';return}
-  var scored=IDX.map(function(b){var hay=(b.t+" "+b.d+" "+b.id+" "+b.g).toLowerCase(),sc=0;kws.forEach(function(k){if(hay.indexOf(k)>=0)sc++});return{b:b,sc:sc}}).filter(function(x){return x.sc>0});
+  var scored=IDX.map(function(b){var hay=(b.t+" "+b.d+" "+b.id+" "+b.g+" "+b.a).toLowerCase(),sc=0;kws.forEach(function(k){if(hay.indexOf(k)>=0)sc++});return{b:b,sc:sc}}).filter(function(x){return x.sc>0});
   scored.sort(function(a,b2){return b2.sc-a.sc});
   var top=scored.slice(0,5);
   if(!top.length){box.innerHTML='<p class="dim" style="margin-top:8px"><b>Nothing matched.</b> Try fewer, simpler words.</p>';return}
@@ -353,16 +372,48 @@ document.addEventListener("DOMContentLoaded",function(){
 });
 /* ============ book detail ============ */
 var CUR=null, CURTEXT="";
+/* reader mode (FIX-4): dedicated reading layout — adjustable font size, 1.7
+   line height, ~70-char measure. Preference persists across visits. */
+var RDR={on:false,fs:18};
+function rdrInit(){try{var s=JSON.parse(localStorage.getItem("jahb_rdr")||"null");if(s&&typeof s==="object"){RDR.on=!!s.on;RDR.fs=Math.min(26,Math.max(13,s.fs||18))}}catch(e){}}
+function rdrApply(){
+  var bv=$("bookview");if(!bv)return;
+  bv.className=RDR.on?"wrap reader-on":"wrap";
+  var ch=bv.querySelector(".chapters");if(ch)ch.style.fontSize=RDR.on?RDR.fs+"px":"";
+  var b=$("rdrbtn");if(b)b.textContent=RDR.on?"\uD83D\uDCD5 Exit reader":"\uD83D\uDCD6 Reader mode";
+  try{localStorage.setItem("jahb_rdr",JSON.stringify(RDR))}catch(e2){}
+}
 /* per-book head (meta/canonical) for crawlers & sharing — additive, no visual change */
 var _bhome=null;
 function bHome(){if(!_bhome){var md=document.querySelector('meta[name="description"]'),cl=document.querySelector('link[rel="canonical"]');_bhome={d:md?md.getAttribute("content"):"",c:cl?cl.getAttribute("href"):"https://justinahiggins614-cmyk.github.io/signature-books/"}}return _bhome}
 function setBookHead(rec){var h=bHome();var md=document.querySelector('meta[name="description"]');var cl=document.querySelector('link[rel="canonical"]');if(rec){if(md)md.setAttribute("content",String(rec.desc||"").slice(0,300));if(cl)cl.setAttribute("href","https://justinahiggins614-cmyk.github.io/signature-books/?book="+rec.id)}else{if(md)md.setAttribute("content",h.d);if(cl)cl.setAttribute("href",h.c)}}
+/* per-book Book JSON-LD for AI crawlers & search engines — additive, no visual change.
+   Never invents a license: no license field. */
+function bookSchema(rec){
+  if(!rec)return null;
+  return {"@context":"https://schema.org","@type":"Book",
+    "name":rec.title,
+    "author":{"@type":"Person","name":rec.author||"Justin Addam Higgins"},
+    "identifier":rec.id,
+    "genre":rec.genre,
+    "inLanguage":"en",
+    "publisher":{"@type":"Organization","name":"The Signature Book Depository"},
+    "url":"https://justinahiggins614-cmyk.github.io/signature-books/?book="+rec.id,
+    "description":String(rec.desc||"").slice(0,300),
+    "numberOfPages":rec.chapters?rec.chapters.length:0};
+}
+function setBookSchema(rec){
+  var old=document.getElementById("bookschema");if(old)old.parentNode.removeChild(old);
+  if(!rec)return;
+  var s=document.createElement("script");s.type="application/ld+json";s.id="bookschema";
+  s.textContent=JSON.stringify(bookSchema(rec));document.head.appendChild(s);
+}
 function route(){
   var m=/^#book=(JAH-BOOK-\d{6})/.exec(location.hash||"");
   if(!m){var qb=null;try{qb=new URLSearchParams(location.search).get("book")}catch(e){}
     if(qb&&/^JAH-BOOK-\d{6}$/.test(qb)){try{history.replaceState(null,"","./")}catch(e2){}location.hash="#book="+qb;return;}}
   else openBook(m[0].slice(6));
-  rdStop();$("bookview").style.display="none";$("home").style.display="block";document.title="The Signature Book Depository";setBookHead(null);
+  rdStop();$("bookview").style.display="none";$("home").style.display="block";document.title="The Signature Book Depository";setBookHead(null);setBookSchema(null);
 }
 function findIdx(id){for(var i=0;i<IDX.length;i++)if(IDX[i].id===id)return IDX[i];return null}
 function openBook(id){
@@ -373,7 +424,7 @@ function openBook(id){
     var rec=null;for(var i=0;i<recs.length;i++)if(recs[i].id===id)rec=recs[i];
     if(!rec)throw new Error("not in chunk");
     CUR=rec;CURTEXT=bookText(rec);renderBook(rec);
-    document.title=rec.title+" — The Signature Book Depository";setBookHead(rec);
+    document.title=rec.title+" — The Signature Book Depository";setBookHead(rec);setBookSchema(rec);
     if(location.hash.indexOf("source-lineage")>0){var el=$("source-lineage");if(el)el.scrollIntoView()}
   }).catch(function(){bv.innerHTML='<div class="loading">Could not open '+esc(id)+'. <a href="#">Back to shelves</a></div>'});
 }
@@ -397,9 +448,13 @@ function renderBook(rec){
    '<div class="byline">by '+esc(rec.author)+" · "+esc(rec.id)+"</div>"+
    '<div class="chips"><span class="chip">'+esc(rec.genre)+'</span><span class="chip">'+rec.words.toLocaleString()+' words</span><span class="chip">'+rec.chapters.length+' chapters</span><span class="chip">'+esc(ORIGIN_LABEL[rec.origin]||rec.origin)+"</span></div>"+
    '<div class="actions"><button class="btn" id="rdbtn">🔊 Read aloud</button>'+
+   '<button class="btn ghost" id="rdrbtn">📖 Reader mode</button>'+
+   '<button class="btn ghost" id="rdrminus" aria-label="Smaller reading text">A−</button>'+
+   '<button class="btn ghost" id="rdrplus" aria-label="Larger reading text">A+</button>'+
    '<button class="btn ghost" id="copybtn">⧉ Copy text</button>'+
    '<button class="btn ghost" id="dlbtn">⬇ Download .txt</button>'+
    '<button class="btn ghost" id="dljson">⬇ .json</button>'+
+   '<button class="btn ghost" id="txtbtn">📄 Plain text</button>'+
    '<button class="btn ghost" id="aibtn">💬 Ask about this book</button></div>'+
    '<div class="desc">'+esc(rec.desc)+"</div>"+
    (lin?'<div class="lineage" id="source-lineage"><h3>⛓ Source lineage</h3>'+lin+
@@ -413,6 +468,10 @@ function renderBook(rec){
    '<div class="chapters"><h2>Full text</h2>'+chs+"</div>"+
    '<p><a href="#">← Back to the shelves</a></p></div>';
   $("rdbtn").onclick=function(){rdSpeak(CURTEXT)};
+  $("rdrbtn").onclick=function(){RDR.on=!RDR.on;rdrApply()};
+  $("rdrminus").onclick=function(){RDR.fs=Math.max(13,RDR.fs-1);RDR.on=true;rdrApply()};
+  $("rdrplus").onclick=function(){RDR.fs=Math.min(26,RDR.fs+1);RDR.on=true;rdrApply()};
+  $("txtbtn").onclick=function(){location.href="browse/text/"+CUR.id+".txt"};
   $("copybtn").onclick=function(){copyText(CURTEXT,"copybtn")};
   $("dlbtn").onclick=function(){download(rec.id+".txt",CURTEXT,"text/plain")};
   $("dljson").onclick=function(){download(rec.id+".json",JSON.stringify(rec,null,1),"application/json")};
@@ -421,6 +480,7 @@ function renderBook(rec){
       $("aians").innerHTML="<p class='ainone'>"+esc(JAHtalk.greet(bookAIProfile(rec)))+"</p>"}}};
   $("aiask").onclick=function(){bookAsk(rec)};
   $("aiq").addEventListener("keydown",function(e){if(e.key==="Enter")bookAsk(rec)});
+  rdrApply();
 }
 /* per-book Ask AI: deterministic, grounded in the book's own chapters.
    Never invents book content — quotes + explains, or says it's not covered.

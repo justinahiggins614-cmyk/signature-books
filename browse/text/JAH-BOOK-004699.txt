@@ -1,0 +1,20 @@
+The Data Structures Primer (Vol. 4699)
+by Justin Addam Higgins · JAH-BOOK-004699
+Genre: Computer Science · 1,051 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, Databases, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-397957).
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Biotech system-Weather console hybrid for clinical triage using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-004699
+
+An original generated work created by the Signature system. All names, places, and events are invented.

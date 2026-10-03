@@ -1,0 +1,20 @@
+Intro to Calculus: A Signature Course (Vol. 9439)
+by Justin Addam Higgins · JAH-BOOK-009439
+Genre: Mathematics · 1,100 words
+
+Summary:
+A complete Signature Mathematics textbook covering Intro to Calculus, Geometry & Shapes, Ratios & Proportions — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B26910.
+
+Chapters:
+  1. Intro to Calculus: Foundations
+  2. Intro to Calculus: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Ratios & Proportions: Foundations
+  6. Ratios & Proportions: Going Deeper
+  7. Case Study: Beast of vaudan Mechanism Study Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-009439
+
+An original generated work created by the Signature system. All names, places, and events are invented.

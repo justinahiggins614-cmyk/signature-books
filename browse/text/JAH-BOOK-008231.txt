@@ -1,0 +1,20 @@
+Measurement & Units Step by Step (Vol. 8231)
+by Justin Addam Higgins · JAH-BOOK-008231
+Genre: Mathematics · 1,134 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Intro to Calculus, Ratios & Proportions — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Website builder system for dead reckoning using micro-bump arrays (JAH-MALL-002869).
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Ratios & Proportions: Foundations
+  6. Ratios & Proportions: Going Deeper
+  7. Case Study: Website builder system for dead reckoning using micro-bump
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008231
+
+An original generated work created by the Signature system. All names, places, and events are invented.

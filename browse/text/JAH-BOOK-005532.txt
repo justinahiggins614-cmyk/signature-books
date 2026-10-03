@@ -1,0 +1,20 @@
+Geometry & Shapes: A Signature Course (Vol. 5532)
+by Justin Addam Higgins · JAH-BOOK-005532
+Genre: Mathematics · 1,079 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Measurement & Units, Ratios & Proportions — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-414191).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Measurement & Units: Foundations
+  4. Measurement & Units: Going Deeper
+  5. Ratios & Proportions: Foundations
+  6. Ratios & Proportions: Going Deeper
+  7. Case Study: Cybersecurity tools suite for predictive maintenance using homomorphic
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-005532
+
+An original generated work created by the Signature system. All names, places, and events are invented.

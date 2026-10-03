@@ -1,0 +1,20 @@
+Cybersecurity Basics: A Signature Course (Vol. 1571)
+by Justin Addam Higgins · JAH-BOOK-001571
+Genre: Computer Science · 998 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, Data Structures, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B15340.
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Tabby's Star KIC Witness Archive Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001571
+
+An original generated work created by the Signature system. All names, places, and events are invented.

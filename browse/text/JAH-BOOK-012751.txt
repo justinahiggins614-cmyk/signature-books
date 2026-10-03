@@ -1,0 +1,20 @@
+Electricity Basics: A Signature Course (Vol. 12751)
+by Justin Addam Higgins · JAH-BOOK-012751
+Genre: Physics · 986 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Energy & Work, Motion & Speed — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent JPH03211565A.
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Motion & Speed: Foundations
+  6. Motion & Speed: Going Deeper
+  7. Case Study: Liquid developer for electrostatic photography
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012751
+
+An original generated work created by the Signature system. All names, places, and events are invented.

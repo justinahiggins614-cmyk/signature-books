@@ -1,0 +1,20 @@
+The Measurement & Units Handbook (Vol. 4029)
+by Justin Addam Higgins · JAH-BOOK-004029
+Genre: Mathematics · 1,092 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Algebra Foundations, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent AU4462279A.
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Algebra Foundations: Foundations
+  4. Algebra Foundations: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: Cementation of metal
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-004029
+
+An original generated work created by the Signature system. All names, places, and events are invented.

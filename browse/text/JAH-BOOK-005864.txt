@@ -1,0 +1,20 @@
+The Periodic Table: A Signature Course (Vol. 5864)
+by Justin Addam Higgins · JAH-BOOK-005864
+Genre: Chemistry · 1,053 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Atoms & Elements, Solutions & Mixtures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Flashcard Maker (JAH-AI-DOM-091).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Atoms & Elements: Foundations
+  4. Atoms & Elements: Going Deeper
+  5. Solutions & Mixtures: Foundations
+  6. Solutions & Mixtures: Going Deeper
+  7. Case Study: Flashcard Maker
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-005864
+
+An original generated work created by the Signature system. All names, places, and events are invented.

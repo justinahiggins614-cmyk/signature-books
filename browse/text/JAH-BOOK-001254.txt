@@ -1,0 +1,20 @@
+Mastering Ratios & Proportions
+by Justin Addam Higgins · JAH-BOOK-001254
+Genre: Mathematics · 1,073 words
+
+Summary:
+A complete Signature Mathematics textbook covering Ratios & Proportions, Geometry & Shapes, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-358667.
+
+Chapters:
+  1. Ratios & Proportions: Foundations
+  2. Ratios & Proportions: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Future legal lab for fraud detection using CQRS
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001254
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Practical Intro to Organic Chemistry (Vol. 7666)
+by Justin Addam Higgins · JAH-BOOK-007666
+Genre: Chemistry · 1,080 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, Solutions & Mixtures, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-510635.
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: HVAC relay board for long-range telemetry using graphite
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007666
+
+An original generated work created by the Signature system. All names, places, and events are invented.

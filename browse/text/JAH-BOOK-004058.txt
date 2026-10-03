@@ -1,0 +1,20 @@
+The World of States of Matter (Vol. 4058)
+by Justin Addam Higgins · JAH-BOOK-004058
+Genre: Chemistry · 1,048 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Solutions & Mixtures, Reactions & Equations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Escape Room Designer (JAH-AI-DOM-185).
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Reactions & Equations: Foundations
+  6. Reactions & Equations: Going Deeper
+  7. Case Study: Escape Room Designer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-004058
+
+An original generated work created by the Signature system. All names, places, and events are invented.

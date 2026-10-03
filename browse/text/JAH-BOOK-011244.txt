@@ -1,0 +1,20 @@
+The Waves & Sound Guide (Vol. 11244)
+by Justin Addam Higgins · JAH-BOOK-011244
+Genre: Physics · 1,039 words
+
+Summary:
+A complete Signature Physics textbook covering Waves & Sound, Energy & Work, Light & Optics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-498164).
+
+Chapters:
+  1. Waves & Sound: Foundations
+  2. Waves & Sound: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Light & Optics: Foundations
+  6. Light & Optics: Going Deeper
+  7. Case Study: Nasa hardware engine for surge suppression using hydraulic
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-011244
+
+An original generated work created by the Signature system. All names, places, and events are invented.

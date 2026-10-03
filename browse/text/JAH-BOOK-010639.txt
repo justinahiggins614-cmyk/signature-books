@@ -1,0 +1,20 @@
+The Geometry & Shapes Handbook (Vol. 10639)
+by Justin Addam Higgins · JAH-BOOK-010639
+Genre: Mathematics · 1,082 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Measurement & Units, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Bait with corn germ (JAH-MALL-006960).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Measurement & Units: Foundations
+  4. Measurement & Units: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Bait with corn germ
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010639
+
+An original generated work created by the Signature system. All names, places, and events are invented.

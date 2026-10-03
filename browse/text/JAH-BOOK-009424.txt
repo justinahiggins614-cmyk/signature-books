@@ -1,0 +1,20 @@
+Signature Probability Basics (Vol. 9424)
+by Justin Addam Higgins · JAH-BOOK-009424
+Genre: Mathematics · 1,082 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Number Theory, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-474960).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Error mitigation layer for speech transcription using RDMA
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-009424
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,25 @@
+Song Of The Model Mountain
+by Justin Addam Higgins · JAH-BOOK-005158
+Genre: Fantasy · 2,582 words
+
+Summary:
+A gripping tale of discovery: Belthon Zefell and Anor Zetal race toward the Sunken Court, where the tokenizer harvest will decide everything. A finished Signature novel: 11 chapters, full text, ready to read aloud. Inspired by Based on mall product Tokenizer for model serving using WebAssembly sandboxing Rev 2 (JAH-MALL-000415).
+
+Chapters:
+  1. The Oath
+  2. Into the Wild
+  3. The Old Road
+  4. Shadows Gather
+  5. The Price
+  6. The Turning
+  7. The Last Stand
+  8. The Crown
+  9. Ashes
+  10. The Road Home
+  11. Epilogue: Song
+  12. Source Note
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-005158
+
+An original generated work created by the Signature system. All names, places, and events are invented.

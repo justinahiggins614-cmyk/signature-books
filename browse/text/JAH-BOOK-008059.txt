@@ -1,0 +1,27 @@
+Stream and Other Poems
+by Justin Addam Higgins · JAH-BOOK-008059
+Genre: Poetry · 1,899 words
+
+Summary:
+A complete original poetry collection: 14 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-480685).
+
+Chapters:
+  1. Field Notes on data
+  2. Field Notes on edition
+  3. What the stream Said
+  4. Small Book of stream
+  5. deduplication and rdma
+  6. Elegy for transfers
+  7. hash and deduplication
+  8. Field Notes on edition (7)
+  9. The hash Hour
+  10. The data hash
+  11. Small Book of rdma
+  12. data and transfers
+  13. Rdma Song
+  14. The deduplication rdma
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008059
+
+An original generated work created by the Signature system. All names, places, and events are invented.

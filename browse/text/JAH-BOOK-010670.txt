@@ -1,0 +1,20 @@
+Ecology & Ecosystems: A Signature Course (Vol. 10670)
+by Justin Addam Higgins · JAH-BOOK-010670
+Genre: Biology · 1,011 words
+
+Summary:
+A complete Signature Biology textbook covering Ecology & Ecosystems, Genetics & DNA, Plants & Photosynthesis — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-483365).
+
+Chapters:
+  1. Ecology & Ecosystems: Foundations
+  2. Ecology & Ecosystems: Going Deeper
+  3. Genetics & DNA: Foundations
+  4. Genetics & DNA: Going Deeper
+  5. Plants & Photosynthesis: Foundations
+  6. Plants & Photosynthesis: Going Deeper
+  7. Case Study: Threshold tuner for malware classification using attention-gated memory
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010670
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Signature Intro to Calculus (Vol. 13927)
+by Justin Addam Higgins · JAH-BOOK-013927
+Genre: Mathematics · 1,125 words
+
+Summary:
+A complete Signature Mathematics textbook covering Intro to Calculus, Probability Basics, Fractions & Decimals — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent JPH1080306A.
+
+Chapters:
+  1. Intro to Calculus: Foundations
+  2. Intro to Calculus: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Fractions & Decimals: Foundations
+  6. Fractions & Decimals: Going Deeper
+  7. Case Study: Shoe slip preventer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-013927
+
+An original generated work created by the Signature system. All names, places, and events are invented.

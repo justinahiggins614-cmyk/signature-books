@@ -1,0 +1,20 @@
+The How Computers Think Primer (Vol. 7703)
+by Justin Addam Higgins · JAH-BOOK-007703
+Genre: Computer Science · 1,055 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, AI & Machine Learning Intro, Algorithms & Flowcharts — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B7254.
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. Algorithms & Flowcharts: Foundations
+  6. Algorithms & Flowcharts: Going Deeper
+  7. Case Study: Yggdrasil World Tree Containment Protocols Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007703
+
+An original generated work created by the Signature system. All names, places, and events are invented.

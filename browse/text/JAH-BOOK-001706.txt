@@ -1,0 +1,20 @@
+Programming Basics: A Signature Course (Vol. 1706)
+by Justin Addam Higgins · JAH-BOOK-001706
+Genre: Computer Science · 1,026 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, How Computers Think, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Band Name Maker (JAH-AI-DOM-159).
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Band Name Maker
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001706
+
+An original generated work created by the Signature system. All names, places, and events are invented.

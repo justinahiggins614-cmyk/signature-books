@@ -1,0 +1,20 @@
+Heat & Temperature in Action (Vol. 10947)
+by Justin Addam Higgins · JAH-BOOK-010947
+Genre: Physics · 1,112 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Gravity & Orbits, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Image reading system, image reading device, and image processing device (JAH-MALL-006237).
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Image reading system image reading device and image
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010947
+
+An original generated work created by the Signature system. All names, places, and events are invented.

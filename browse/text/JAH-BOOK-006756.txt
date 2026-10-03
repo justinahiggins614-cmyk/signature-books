@@ -1,0 +1,20 @@
+Chemical Bonds: A Signature Course (Vol. 6756)
+by Justin Addam Higgins · JAH-BOOK-006756
+Genre: Chemistry · 1,059 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, Atoms & Elements, Intro to Organic Chemistry — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-439819.
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. Atoms & Elements: Foundations
+  4. Atoms & Elements: Going Deeper
+  5. Intro to Organic Chemistry: Foundations
+  6. Intro to Organic Chemistry: Going Deeper
+  7. Case Study: Future transportation suite for edge inference using underfill
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-006756
+
+An original generated work created by the Signature system. All names, places, and events are invented.

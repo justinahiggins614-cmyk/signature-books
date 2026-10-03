@@ -1,0 +1,20 @@
+How Computers Think for Builders
+by Justin Addam Higgins · JAH-BOOK-000139
+Genre: Computer Science · 1,145 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Cybersecurity Basics, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Adhesive sheet and liquid crystal display device (JAH-MALL-006340).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Adhesive sheet and liquid crystal display device
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000139
+
+An original generated work created by the Signature system. All names, places, and events are invented.

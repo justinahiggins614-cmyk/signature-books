@@ -1,0 +1,20 @@
+The Measurement & Units Handbook (Vol. 7631)
+by Justin Addam Higgins · JAH-BOOK-007631
+Genre: Mathematics · 1,050 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Geometry & Shapes, Ratios & Proportions — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-442173.
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Ratios & Proportions: Foundations
+  6. Ratios & Proportions: Going Deeper
+  7. Case Study: Genome assembler for model serving using event sourcing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007631
+
+An original generated work created by the Signature system. All names, places, and events are invented.

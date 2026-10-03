@@ -1,0 +1,20 @@
+The Periodic Table Explained (Vol. 1643)
+by Justin Addam Higgins · JAH-BOOK-001643
+Genre: Chemistry · 1,030 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Acids & Bases, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Interview Coach (JAH-AI-DOM-020).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Interview Coach
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001643
+
+An original generated work created by the Signature system. All names, places, and events are invented.

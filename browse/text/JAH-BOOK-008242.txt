@@ -1,0 +1,20 @@
+The Electricity Basics Guide (Vol. 8242)
+by Justin Addam Higgins · JAH-BOOK-008242
+Genre: Physics · 1,025 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Heat & Temperature, Light & Optics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B25974.
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Light & Optics: Foundations
+  6. Light & Optics: Going Deeper
+  7. Case Study: Yggdrasil World Tree Containment Protocols Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008242
+
+An original generated work created by the Signature system. All names, places, and events are invented.

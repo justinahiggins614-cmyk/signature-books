@@ -1,0 +1,26 @@
+Collected The source record Verses (Vol. 2550)
+by Justin Addam Higgins · JAH-BOOK-002550
+Genre: Poetry · 1,536 words
+
+Summary:
+A complete original poetry collection: 13 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-431749).
+
+Chapters:
+  1. Elegy for signature
+  2. Elegy for low-latency
+  3. scheduler and event
+  4. Small Book of inference
+  5. Field Notes on inference
+  6. Field Notes on inference (6)
+  7. What the signature Said
+  8. The inference Hour
+  9. The petal inference
+  10. Hymn of event
+  11. Small Book of inference (2)
+  12. Elegy for scheduler
+  13. Hymn of scheduler
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-002550
+
+An original generated work created by the Signature system. All names, places, and events are invented.

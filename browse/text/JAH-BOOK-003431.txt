@@ -1,0 +1,20 @@
+Geometry & Shapes: A Signature Course (Vol. 3431)
+by Justin Addam Higgins · JAH-BOOK-003431
+Genre: Mathematics · 1,049 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Number Theory, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-410862.
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Container runtime for demand prediction using event sourcing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-003431
+
+An original generated work created by the Signature system. All names, places, and events are invented.

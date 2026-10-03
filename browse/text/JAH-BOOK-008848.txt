@@ -1,0 +1,19 @@
+The Electricity Basics Guide (Vol. 8848)
+by Justin Addam Higgins · JAH-BOOK-008848
+Genre: Physics · 958 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Heat & Temperature, Forces & Newton's Laws — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text.
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Forces & Newton's Laws: Foundations
+  6. Forces & Newton's Laws: Going Deeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008848
+
+An original generated work created by the Signature system. All names, places, and events are invented.

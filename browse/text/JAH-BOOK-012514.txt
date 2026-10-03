@@ -1,0 +1,20 @@
+Data Structures for Builders (Vol. 12514)
+by Justin Addam Higgins · JAH-BOOK-012514
+Genre: Computer Science · 1,041 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, Programming Basics, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI History Guide (JAH-AI-DOM-033).
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: History Guide
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012514
+
+An original generated work created by the Signature system. All names, places, and events are invented.

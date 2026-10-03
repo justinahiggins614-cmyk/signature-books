@@ -1,0 +1,24 @@
+Geocoder and Other Poems
+by Justin Addam Higgins · JAH-BOOK-004153
+Genre: Poetry · 1,359 words
+
+Summary:
+A complete original poetry collection: 11 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-440686).
+
+Chapters:
+  1. What the quantiles Said
+  2. The geocoder inference
+  3. geocoder and quantiles
+  4. What the geocoder Said
+  5. The inference low-latency
+  6. Field Notes on inference
+  7. Quantiles Song
+  8. The silver Hour
+  9. Field Notes on constellation
+  10. Field Notes on constellation (3)
+  11. night and t-digest
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-004153
+
+An original generated work created by the Signature system. All names, places, and events are invented.

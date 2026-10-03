@@ -1,0 +1,20 @@
+The Electricity Basics Guide (Vol. 583)
+by Justin Addam Higgins · JAH-BOOK-000583
+Genre: Physics · 997 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Energy & Work, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-390210).
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Portable logistics for ultrasonic ranging using capacitive sensing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000583
+
+An original generated work created by the Signature system. All names, places, and events are invented.

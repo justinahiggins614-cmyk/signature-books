@@ -1,0 +1,20 @@
+Understanding Gravity & Orbits (Vol. 8252)
+by Justin Addam Higgins · JAH-BOOK-008252
+Genre: Physics · 1,090 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Heat & Temperature, Electricity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Audit suite for intrusion detection using attention-gated memory — Audit engine Vector Series V7 (JAH-MALL-003973).
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Electricity Basics: Foundations
+  6. Electricity Basics: Going Deeper
+  7. Case Study: Audit suite for intrusion detection using attention-gated memory
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008252
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Signature Probability Basics (Vol. 7923)
+by Justin Addam Higgins · JAH-BOOK-007923
+Genre: Mathematics · 1,133 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Ratios & Proportions, Geometry & Shapes — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Statistics hub for depth mapping using roller bearings (JAH-MALL-002832).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Geometry & Shapes: Foundations
+  6. Geometry & Shapes: Going Deeper
+  7. Case Study: Statistics hub for depth mapping using roller bearings
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007923
+
+An original generated work created by the Signature system. All names, places, and events are invented.

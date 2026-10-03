@@ -1,0 +1,20 @@
+Energy & Work in Action (Vol. 3147)
+by Justin Addam Higgins · JAH-BOOK-003147
+Genre: Physics · 1,058 words
+
+Summary:
+A complete Signature Physics textbook covering Energy & Work, Heat & Temperature, Motion & Speed — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent CN108047073B.
+
+Chapters:
+  1. Energy & Work: Foundations
+  2. Energy & Work: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Motion & Speed: Foundations
+  6. Motion & Speed: Going Deeper
+  7. Case Study: Production process for producing o-aminobenzoic acid by one-pot
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-003147
+
+An original generated work created by the Signature system. All names, places, and events are invented.

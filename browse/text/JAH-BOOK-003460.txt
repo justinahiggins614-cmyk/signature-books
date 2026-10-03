@@ -1,0 +1,20 @@
+The World of Acids & Bases (Vol. 3460)
+by Justin Addam Higgins · JAH-BOOK-003460
+Genre: Chemistry · 1,060 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, Solutions & Mixtures, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (KR101845940B1).
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Method of Manufacturing of Tteokbokki Using Functional Broth
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-003460
+
+An original generated work created by the Signature system. All names, places, and events are invented.

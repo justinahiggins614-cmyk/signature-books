@@ -1,0 +1,20 @@
+The Living World: Ecology & Ecosystems (Vol. 7078)
+by Justin Addam Higgins · JAH-BOOK-007078
+Genre: Biology · 983 words
+
+Summary:
+A complete Signature Biology textbook covering Ecology & Ecosystems, Classification of Life, Evolution & Natural Selection — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-501240.
+
+Chapters:
+  1. Ecology & Ecosystems: Foundations
+  2. Ecology & Ecosystems: Going Deeper
+  3. Classification of Life: Foundations
+  4. Classification of Life: Going Deeper
+  5. Evolution & Natural Selection: Foundations
+  6. Evolution & Natural Selection: Going Deeper
+  7. Case Study: Weather module-Biomarker ranker hybrid for clinical triage using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007078
+
+An original generated work created by the Signature system. All names, places, and events are invented.

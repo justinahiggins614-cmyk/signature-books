@@ -1,0 +1,20 @@
+The Living World: Evolution & Natural Selection (Vol. 1241)
+by Justin Addam Higgins · JAH-BOOK-001241
+Genre: Biology · 1,017 words
+
+Summary:
+A complete Signature Biology textbook covering Evolution & Natural Selection, Plants & Photosynthesis, Cells & Organelles — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-169720).
+
+Chapters:
+  1. Evolution & Natural Selection: Foundations
+  2. Evolution & Natural Selection: Going Deeper
+  3. Plants & Photosynthesis: Foundations
+  4. Plants & Photosynthesis: Going Deeper
+  5. Cells & Organelles: Foundations
+  6. Cells & Organelles: Going Deeper
+  7. Case Study: REVISION
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001241
+
+An original generated work created by the Signature system. All names, places, and events are invented.

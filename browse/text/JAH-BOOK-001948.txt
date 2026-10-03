@@ -1,0 +1,27 @@
+Poems of design and module
+by Justin Addam Higgins · JAH-BOOK-001948
+Genre: Poetry · 1,681 words
+
+Summary:
+A complete original poetry collection: 14 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-379710).
+
+Chapters:
+  1. Elegy for road
+  2. The lidar Hour
+  3. Hymn of flex-rigid
+  4. The design game
+  5. The module lidar
+  6. Field Notes on module
+  7. The lidar Hour (7)
+  8. Road Song
+  9. Pcbs Song
+  10. Elegy for road (5)
+  11. flex-rigid and game
+  12. Ode to game
+  13. Ode to flex-rigid
+  14. The pcbs Hour
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001948
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Acids & Bases: A Signature Course (Vol. 8560)
+by Justin Addam Higgins · JAH-BOOK-008560
+Genre: Chemistry · 1,134 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, Chemical Bonds, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product TLS terminator for stream processing using event sourcing Rev 2 (JAH-MALL-000973).
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. Chemical Bonds: Foundations
+  4. Chemical Bonds: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: TLS terminator for stream processing using event sourcing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008560
+
+An original generated work created by the Signature system. All names, places, and events are invented.

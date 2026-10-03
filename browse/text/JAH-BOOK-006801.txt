@@ -1,0 +1,20 @@
+Programming Basics: A Signature Course (Vol. 6801)
+by Justin Addam Higgins · JAH-BOOK-006801
+Genre: Computer Science · 1,048 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, Cybersecurity Basics, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent JP4025506B2.
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Whole body thermotherapy device and whole body thermotherapy
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-006801
+
+An original generated work created by the Signature system. All names, places, and events are invented.

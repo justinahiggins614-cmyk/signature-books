@@ -1,0 +1,20 @@
+Genetics & DNA: A Signature Course (Vol. 10382)
+by Justin Addam Higgins · JAH-BOOK-010382
+Genre: Biology · 1,036 words
+
+Summary:
+A complete Signature Biology textbook covering Genetics & DNA, Classification of Life, Plants & Photosynthesis — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-506418.
+
+Chapters:
+  1. Genetics & DNA: Foundations
+  2. Genetics & DNA: Going Deeper
+  3. Classification of Life: Foundations
+  4. Classification of Life: Going Deeper
+  5. Plants & Photosynthesis: Foundations
+  6. Plants & Photosynthesis: Going Deeper
+  7. Case Study: Air quality node for beamforming using eutectic die
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010382
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+States of Matter Explained (Vol. 5868)
+by Justin Addam Higgins · JAH-BOOK-005868
+Genre: Chemistry · 1,067 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Solutions & Mixtures, Acids & Bases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-494455).
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Acids & Bases: Foundations
+  6. Acids & Bases: Going Deeper
+  7. Case Study: Event replayer for speech transcription using LSM-tree compaction
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-005868
+
+An original generated work created by the Signature system. All names, places, and events are invented.

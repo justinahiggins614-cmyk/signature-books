@@ -1,0 +1,20 @@
+The Heat & Temperature Guide (Vol. 1567)
+by Justin Addam Higgins · JAH-BOOK-001567
+Genre: Physics · 1,054 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Forces & Newton's Laws, Motion & Speed — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product load balancer (JAH-MALL-002439).
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Forces & Newton's Laws: Foundations
+  4. Forces & Newton's Laws: Going Deeper
+  5. Motion & Speed: Foundations
+  6. Motion & Speed: Going Deeper
+  7. Case Study: load balancer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001567
+
+An original generated work created by the Signature system. All names, places, and events are invented.

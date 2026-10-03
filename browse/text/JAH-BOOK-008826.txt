@@ -1,0 +1,20 @@
+The Ratios & Proportions Handbook (Vol. 8826)
+by Justin Addam Higgins · JAH-BOOK-008826
+Genre: Mathematics · 1,125 words
+
+Summary:
+A complete Signature Mathematics textbook covering Ratios & Proportions, Intro to Calculus, Probability Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Route planner for predictive maintenance using Raft consensus (Deterministic Edition) (JAH-MALL-005022).
+
+Chapters:
+  1. Ratios & Proportions: Foundations
+  2. Ratios & Proportions: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Probability Basics: Foundations
+  6. Probability Basics: Going Deeper
+  7. Case Study: Route planner for predictive maintenance using Raft consensus
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008826
+
+An original generated work created by the Signature system. All names, places, and events are invented.

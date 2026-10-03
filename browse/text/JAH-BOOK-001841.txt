@@ -1,0 +1,19 @@
+Data Structures for Builders (Vol. 1841)
+by Justin Addam Higgins · JAH-BOOK-001841
+Genre: Computer Science · 890 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, Cybersecurity Basics, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text.
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001841
+
+An original generated work created by the Signature system. All names, places, and events are invented.

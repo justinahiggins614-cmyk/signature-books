@@ -1,0 +1,20 @@
+The World of States of Matter (Vol. 13964)
+by Justin Addam Higgins · JAH-BOOK-013964
+Genre: Chemistry · 1,129 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Solutions & Mixtures, Reactions & Equations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Architecture suite for EMI shielding using roller bearings (JAH-MALL-003473).
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Reactions & Equations: Foundations
+  6. Reactions & Equations: Going Deeper
+  7. Case Study: Architecture suite for EMI shielding using roller bearings
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-013964
+
+An original generated work created by the Signature system. All names, places, and events are invented.

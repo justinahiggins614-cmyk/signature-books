@@ -1,0 +1,20 @@
+Number Theory: A Signature Course (Vol. 6425)
+by Justin Addam Higgins · JAH-BOOK-006425
+Genre: Mathematics · 1,101 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Intro to Calculus, Geometry & Shapes — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Area of a triangle, base 11, height 10 (JAH-MALL-007249).
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Geometry & Shapes: Foundations
+  6. Geometry & Shapes: Going Deeper
+  7. Case Study: Area of triangle base height
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-006425
+
+An original generated work created by the Signature system. All names, places, and events are invented.

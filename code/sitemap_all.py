@@ -11,6 +11,15 @@ import gzip, json, math, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://justinahiggins614-cmyk.github.io/signature-books/"
 
+GENRES = ["Science Fiction", "Fantasy", "Mystery", "Romance", "Horror",
+          "Mathematics", "Physics", "Chemistry", "Biology", "History",
+          "Computer Science", "Children's", "Poetry", "Technical Manual",
+          "Philosophy", "Business"]
+
+
+def _gslug(g):
+    return g.lower().replace(" ", "-").replace("'", "")
+
 def _book_total():
     p = os.path.join(ROOT, "data", "state.json")
     if os.path.exists(p):
@@ -41,9 +50,13 @@ def write_sitemap():
         lines.append(f"<url><loc>{BASE}magazines.html?mag=JAH-MAG-{i:06d}</loc></url>")
     for i in range(1, libs + 1):
         lines.append(f"<url><loc>{BASE}library.html?lib=JAH-LIB-{i:06d}</loc></url>")
-    # static crawlable browse pages
+    # static crawlable browse pages (sub-indexes: shards + genre hubs)
     lines.append(f"<url><loc>{BASE}browse/</loc></url>")
     lines.append(f"<url><loc>{BASE}browse/genres.html</loc></url>")
+    for g in GENRES:
+        lines.append(f"<url><loc>{BASE}browse/genre-{_gslug(g)}.html</loc></url>")
+    # standardized machine-readable catalog feed
+    lines.append(f"<url><loc>{BASE}data/index/books-catalog.json</loc></url>")
     for s in range(1, math.ceil(books / 1000) + 1):
         lines.append(f"<url><loc>{BASE}browse/books-{s:03d}.html</loc></url>")
     if mags:

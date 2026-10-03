@@ -1,0 +1,20 @@
+Signature Intro to Calculus (Vol. 5829)
+by Justin Addam Higgins · JAH-BOOK-005829
+Genre: Mathematics · 1,100 words
+
+Summary:
+A complete Signature Mathematics textbook covering Intro to Calculus, Geometry & Shapes, Probability Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Morse Code Trainer (JAH-AI-DOM-093).
+
+Chapters:
+  1. Intro to Calculus: Foundations
+  2. Intro to Calculus: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Probability Basics: Foundations
+  6. Probability Basics: Going Deeper
+  7. Case Study: Morse Code Trainer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-005829
+
+An original generated work created by the Signature system. All names, places, and events are invented.

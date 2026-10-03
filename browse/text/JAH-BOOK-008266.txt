@@ -1,0 +1,20 @@
+Practical Chemical Bonds (Vol. 8266)
+by Justin Addam Higgins · JAH-BOOK-008266
+Genre: Chemistry · 1,118 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, Solutions & Mixtures, Intro to Organic Chemistry — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Pellet extruder for long-range telemetry using galvanized finishes (JAH-MALL-001527).
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Intro to Organic Chemistry: Foundations
+  6. Intro to Organic Chemistry: Going Deeper
+  7. Case Study: Pellet extruder for long-range telemetry using galvanized finishes
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008266
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Understanding Light & Optics (Vol. 7941)
+by Justin Addam Higgins · JAH-BOOK-007941
+Genre: Physics · 1,021 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Gravity & Orbits, Electricity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B1497.
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Electricity Basics: Foundations
+  6. Electricity Basics: Going Deeper
+  7. Case Study: Baba Yaga Containment Protocols
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007941
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,19 @@
+Cybersecurity Basics for Builders (Vol. 12803)
+by Justin Addam Higgins · JAH-BOOK-012803
+Genre: Computer Science · 922 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, Data Structures, Algorithms & Flowcharts — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text.
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Algorithms & Flowcharts: Foundations
+  6. Algorithms & Flowcharts: Going Deeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012803
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Practical Chemical Bonds (Vol. 12464)
+by Justin Addam Higgins · JAH-BOOK-012464
+Genre: Chemistry · 1,029 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, The Periodic Table, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent KR950001834B1.
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. The Periodic Table: Foundations
+  4. The Periodic Table: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Memory device storing coded acoustic data
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012464
+
+An original generated work created by the Signature system. All names, places, and events are invented.

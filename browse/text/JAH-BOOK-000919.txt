@@ -1,0 +1,20 @@
+Waves & Sound in Action (Vol. 919)
+by Justin Addam Higgins · JAH-BOOK-000919
+Genre: Physics · 1,083 words
+
+Summary:
+A complete Signature Physics textbook covering Waves & Sound, Heat & Temperature, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JP2009216484A).
+
+Chapters:
+  1. Waves & Sound: Foundations
+  2. Waves & Sound: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Positioning method program and positioning device
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000919
+
+An original generated work created by the Signature system. All names, places, and events are invented.

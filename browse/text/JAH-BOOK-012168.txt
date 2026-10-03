@@ -1,0 +1,20 @@
+Practical Reactions & Equations (Vol. 12168)
+by Justin Addam Higgins · JAH-BOOK-012168
+Genre: Chemistry · 1,064 words
+
+Summary:
+A complete Signature Chemistry textbook covering Reactions & Equations, Atoms & Elements, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-483461).
+
+Chapters:
+  1. Reactions & Equations: Foundations
+  2. Reactions & Equations: Going Deeper
+  3. Atoms & Elements: Foundations
+  4. Atoms & Elements: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Quantum kernel estimator for model serving using hyperloglog
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012168
+
+An original generated work created by the Signature system. All names, places, and events are invented.

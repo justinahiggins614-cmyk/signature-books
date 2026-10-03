@@ -1,0 +1,20 @@
+Programming Basics for Builders (Vol. 12801)
+by Justin Addam Higgins · JAH-BOOK-012801
+Genre: Computer Science · 969 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, Data Structures, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Meditation Guide (JAH-AI-DOM-080).
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Meditation Guide
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012801
+
+An original generated work created by the Signature system. All names, places, and events are invented.

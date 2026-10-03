@@ -1,0 +1,20 @@
+The Living World: Genetics & DNA (Vol. 10081)
+by Justin Addam Higgins · JAH-BOOK-010081
+Genre: Biology · 996 words
+
+Summary:
+A complete Signature Biology textbook covering Genetics & DNA, Human Body Systems, Microbes & Disease — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-517892.
+
+Chapters:
+  1. Genetics & DNA: Foundations
+  2. Genetics & DNA: Going Deeper
+  3. Human Body Systems: Foundations
+  4. Human Body Systems: Going Deeper
+  5. Microbes & Disease: Foundations
+  6. Microbes & Disease: Going Deeper
+  7. Case Study: Trans-pan-all genome console for long-range telemetry using guard-ring
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010081
+
+An original generated work created by the Signature system. All names, places, and events are invented.

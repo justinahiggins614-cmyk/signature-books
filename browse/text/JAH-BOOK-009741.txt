@@ -1,0 +1,20 @@
+The Motion & Speed Guide (Vol. 9741)
+by Justin Addam Higgins · JAH-BOOK-009741
+Genre: Physics · 1,040 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Heat & Temperature, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US7630402B2.
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Media access layer processors for network communications
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-009741
+
+An original generated work created by the Signature system. All names, places, and events are invented.

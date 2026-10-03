@@ -1,0 +1,20 @@
+Understanding Motion & Speed (Vol. 855)
+by Justin Addam Higgins · JAH-BOOK-000855
+Genre: Physics · 1,047 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Heat & Temperature, Forces & Newton's Laws — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-427475.
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Forces & Newton's Laws: Foundations
+  6. Forces & Newton's Laws: Going Deeper
+  7. Case Study: Math proof solver system for risk scoring using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000855
+
+An original generated work created by the Signature system. All names, places, and events are invented.

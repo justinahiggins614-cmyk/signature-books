@@ -1,0 +1,20 @@
+Code & Concepts: The Internet & Networks (Vol. 10702)
+by Justin Addam Higgins · JAH-BOOK-010702
+Genre: Computer Science · 1,122 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Databases, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Geocoder for churn prediction using bloom filter cascades — Address normalizer Pulse Line V12 (JAH-MALL-004212).
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: Geocoder for churn prediction using bloom filter cascades
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010702
+
+An original generated work created by the Signature system. All names, places, and events are invented.

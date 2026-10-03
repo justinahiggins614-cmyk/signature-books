@@ -1,0 +1,20 @@
+The Probability Basics Handbook (Vol. 10030)
+by Justin Addam Higgins · JAH-BOOK-010030
+Genre: Mathematics · 1,116 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Measurement & Units, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product display device (JAH-MALL-006578).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Measurement & Units: Foundations
+  4. Measurement & Units: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: display device
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010030
+
+An original generated work created by the Signature system. All names, places, and events are invented.

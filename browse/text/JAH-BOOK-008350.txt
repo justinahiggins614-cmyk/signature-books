@@ -1,0 +1,27 @@
+The Signature The source record Book (Vol. 8350)
+by Justin Addam Higgins · JAH-BOOK-008350
+Genre: Poetry · 1,787 words
+
+Summary:
+A complete original poetry collection: 14 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on mall product Config drift detector for log analysis using LSM-tree compaction (JAH-MALL-000288).
+
+Chapters:
+  1. The petal compaction
+  2. Ode to compaction
+  3. The lsm-tree config
+  4. Root Song
+  5. Hymn of config
+  6. Config Song
+  7. Small Book of lsm-tree
+  8. Elegy for compaction
+  9. Hymn of drift
+  10. lsm-tree and analysis
+  11. Small Book of compaction
+  12. Hymn of root
+  13. What the detector Said
+  14. Hymn of compaction
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008350
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Practical Intro to Organic Chemistry (Vol. 6760)
+by Justin Addam Higgins · JAH-BOOK-006760
+Genre: Chemistry · 1,075 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, Chemical Bonds, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Bread Baker (JAH-AI-DOM-219).
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. Chemical Bonds: Foundations
+  4. Chemical Bonds: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Bread Baker
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-006760
+
+An original generated work created by the Signature system. All names, places, and events are invented.

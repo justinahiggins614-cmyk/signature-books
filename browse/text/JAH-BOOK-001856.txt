@@ -1,0 +1,20 @@
+Algorithms & Flowcharts: A Signature Course (Vol. 1856)
+by Justin Addam Higgins · JAH-BOOK-001856
+Genre: Computer Science · 1,060 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Cybersecurity Basics, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-387311.
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Biology module-Event replayer hybrid for video analysis using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001856
+
+An original generated work created by the Signature system. All names, places, and events are invented.

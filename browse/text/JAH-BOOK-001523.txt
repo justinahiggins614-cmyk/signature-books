@@ -1,0 +1,20 @@
+The Periodic Table Explained (Vol. 1523)
+by Justin Addam Higgins · JAH-BOOK-001523
+Genre: Chemistry · 1,094 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Intro to Organic Chemistry, Acids & Bases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US5198735A.
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Intro to Organic Chemistry: Foundations
+  4. Intro to Organic Chemistry: Going Deeper
+  5. Acids & Bases: Foundations
+  6. Acids & Bases: Going Deeper
+  7. Case Study: Method for eliminating position tracking errors in the
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001523
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Algebra Foundations Handbook (Vol. 12433)
+by Justin Addam Higgins · JAH-BOOK-012433
+Genre: Mathematics · 1,119 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Number Theory, Fractions & Decimals — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-488943.
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Fractions & Decimals: Foundations
+  6. Fractions & Decimals: Going Deeper
+  7. Case Study: Signature Music console for query optimization using bit-sliced
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012433
+
+An original generated work created by the Signature system. All names, places, and events are invented.

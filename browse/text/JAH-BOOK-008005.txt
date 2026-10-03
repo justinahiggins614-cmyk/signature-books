@@ -1,0 +1,20 @@
+Code & Concepts: Cybersecurity Basics (Vol. 8005)
+by Justin Addam Higgins · JAH-BOOK-008005
+Genre: Computer Science · 1,069 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, How Computers Think, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent DE10257980B4.
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Power supply management in paper processing machines
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-008005
+
+An original generated work created by the Signature system. All names, places, and events are invented.

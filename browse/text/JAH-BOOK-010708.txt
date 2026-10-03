@@ -1,0 +1,20 @@
+Programming Basics for Builders (Vol. 10708)
+by Justin Addam Higgins · JAH-BOOK-010708
+Genre: Computer Science · 1,019 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, Data Structures, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Debate Partner (JAH-AI-DOM-035).
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Debate Partner
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-010708
+
+An original generated work created by the Signature system. All names, places, and events are invented.

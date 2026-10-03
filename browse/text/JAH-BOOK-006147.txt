@@ -1,0 +1,20 @@
+Understanding Waves & Sound (Vol. 6147)
+by Justin Addam Higgins · JAH-BOOK-006147
+Genre: Physics · 1,050 words
+
+Summary:
+A complete Signature Physics textbook covering Waves & Sound, Motion & Speed, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-448980.
+
+Chapters:
+  1. Waves & Sound: Foundations
+  2. Waves & Sound: Going Deeper
+  3. Motion & Speed: Foundations
+  4. Motion & Speed: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Meta-learning scheduler for testing using leaky bucket pacing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-006147
+
+An original generated work created by the Signature system. All names, places, and events are invented.

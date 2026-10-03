@@ -1269,6 +1269,17 @@ def write_robots():
         f.write("User-agent: *\nAllow: /\n"
                 "Sitemap: https://justinahiggins614-cmyk.github.io/signature-books/sitemap.xml\n")
 
+def write_browse():
+    # Static crawlable browse pages (shards + genre hubs) + incremental
+    # plaintext summary fallbacks. Idempotent — safe to run every drip.
+    from build_browse import main as _bb
+    _bb()
+
+def write_feed():
+    # Standardized machine-readable catalog feed.
+    from build_feed import build_feed as _bf
+    _bf()
+
 def run(n):
     os.makedirs(VOL, exist_ok=True)
     os.makedirs(IDX, exist_ok=True)
@@ -1336,6 +1347,8 @@ def run(n):
     save_idx(entries)
     write_api(end - 1, total_words, per_genre, n_chunks, per_source)
     write_sitemap(end - 1)
+    write_browse()
+    write_feed()
     write_robots()
     st["next_index"] = end
     save_state(st)

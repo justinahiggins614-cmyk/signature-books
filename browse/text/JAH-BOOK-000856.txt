@@ -1,0 +1,20 @@
+Practical Solutions & Mixtures (Vol. 856)
+by Justin Addam Higgins · JAH-BOOK-000856
+Genre: Chemistry · 1,102 words
+
+Summary:
+A complete Signature Chemistry textbook covering Solutions & Mixtures, Intro to Organic Chemistry, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-424543).
+
+Chapters:
+  1. Solutions & Mixtures: Foundations
+  2. Solutions & Mixtures: Going Deeper
+  3. Intro to Organic Chemistry: Foundations
+  4. Intro to Organic Chemistry: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Ink mixer for ultrasonic ranging using multi-threshold cells
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000856
+
+An original generated work created by the Signature system. All names, places, and events are invented.

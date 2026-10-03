@@ -1,0 +1,20 @@
+Understanding Waves & Sound (Vol. 999)
+by Justin Addam Higgins · JAH-BOOK-000999
+Genre: Physics · 1,047 words
+
+Summary:
+A complete Signature Physics textbook covering Waves & Sound, Heat & Temperature, Motion & Speed — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Email Writer (JAH-AI-DOM-099).
+
+Chapters:
+  1. Waves & Sound: Foundations
+  2. Waves & Sound: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Motion & Speed: Foundations
+  6. Motion & Speed: Going Deeper
+  7. Case Study: Email Writer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000999
+
+An original generated work created by the Signature system. All names, places, and events are invented.

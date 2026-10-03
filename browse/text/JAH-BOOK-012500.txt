@@ -1,0 +1,20 @@
+How Computers Think: A Signature Course (Vol. 12500)
+by Justin Addam Higgins · JAH-BOOK-012500
+Genre: Computer Science · 1,109 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, AI & Machine Learning Intro, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Speed Reader (JAH-AI-DOM-096).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: Speed Reader
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012500
+
+An original generated work created by the Signature system. All names, places, and events are invented.

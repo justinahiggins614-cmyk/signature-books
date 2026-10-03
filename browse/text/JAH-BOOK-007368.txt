@@ -1,0 +1,20 @@
+Practical Atoms & Elements (Vol. 7368)
+by Justin Addam Higgins · JAH-BOOK-007368
+Genre: Chemistry · 1,031 words
+
+Summary:
+A complete Signature Chemistry textbook covering Atoms & Elements, Reactions & Equations, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent JP2001202831A.
+
+Chapters:
+  1. Atoms & Elements: Foundations
+  2. Atoms & Elements: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Anisotropic conductive film
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007368
+
+An original generated work created by the Signature system. All names, places, and events are invented.

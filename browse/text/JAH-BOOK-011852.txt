@@ -1,0 +1,20 @@
+Light & Optics: A Signature Course (Vol. 11852)
+by Justin Addam Higgins · JAH-BOOK-011852
+Genre: Physics · 1,025 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Waves & Sound, Electricity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-549260.
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Waves & Sound: Foundations
+  4. Waves & Sound: Going Deeper
+  5. Electricity Basics: Foundations
+  6. Electricity Basics: Going Deeper
+  7. Case Study: Business compliance array for log analysis using eBPF
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-011852
+
+An original generated work created by the Signature system. All names, places, and events are invented.

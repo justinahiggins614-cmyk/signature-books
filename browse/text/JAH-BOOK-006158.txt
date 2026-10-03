@@ -1,0 +1,20 @@
+The World of Intro to Organic Chemistry (Vol. 6158)
+by Justin Addam Higgins · JAH-BOOK-006158
+Genre: Chemistry · 1,050 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, States of Matter, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Family Meeting Guide (JAH-AI-DOM-126).
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. States of Matter: Foundations
+  4. States of Matter: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Family Meeting Guide
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-006158
+
+An original generated work created by the Signature system. All names, places, and events are invented.

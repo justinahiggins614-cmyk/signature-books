@@ -1,0 +1,20 @@
+Practical Acids & Bases (Vol. 6759)
+by Justin Addam Higgins · JAH-BOOK-006759
+Genre: Chemistry · 1,152 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, Atoms & Elements, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent DE2820709A1.
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. Atoms & Elements: Foundations
+  4. Atoms & Elements: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Regulating pH in low ion concn potentiometric measuring
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-006759
+
+An original generated work created by the Signature system. All names, places, and events are invented.

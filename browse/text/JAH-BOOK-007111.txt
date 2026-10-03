@@ -1,0 +1,20 @@
+Code & Concepts: Cybersecurity Basics (Vol. 7111)
+by Justin Addam Higgins · JAH-BOOK-007111
+Genre: Computer Science · 1,132 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, The Internet & Networks, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Mono-disc rotatory medication reminder (JAH-MALL-006884).
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Mono-disc rotatory medication reminder
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-007111
+
+An original generated work created by the Signature system. All names, places, and events are invented.

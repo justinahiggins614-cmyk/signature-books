@@ -1,0 +1,20 @@
+The Algebra Foundations Handbook (Vol. 5535)
+by Justin Addam Higgins · JAH-BOOK-005535
+Genre: Mathematics · 1,109 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Probability Basics, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Language Tutor (JAH-AI-DOM-032).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Language Tutor
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-005535
+
+An original generated work created by the Signature system. All names, places, and events are invented.

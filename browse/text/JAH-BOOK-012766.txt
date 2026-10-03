@@ -1,0 +1,20 @@
+Atoms & Elements: A Signature Course (Vol. 12766)
+by Justin Addam Higgins · JAH-BOOK-012766
+Genre: Chemistry · 1,040 words
+
+Summary:
+A complete Signature Chemistry textbook covering Atoms & Elements, Solutions & Mixtures, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Airport Navigator (JAH-AI-DOM-205).
+
+Chapters:
+  1. Atoms & Elements: Foundations
+  2. Atoms & Elements: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Airport Navigator
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-012766
+
+An original generated work created by the Signature system. All names, places, and events are invented.

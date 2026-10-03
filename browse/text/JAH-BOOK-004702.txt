@@ -1,0 +1,20 @@
+Code & Concepts: AI & Machine Learning Intro (Vol. 4702)
+by Justin Addam Higgins · JAH-BOOK-004702
+Genre: Computer Science · 1,027 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, Databases, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Startup Namer (JAH-AI-DOM-146).
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Startup Namer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-004702
+
+An original generated work created by the Signature system. All names, places, and events are invented.

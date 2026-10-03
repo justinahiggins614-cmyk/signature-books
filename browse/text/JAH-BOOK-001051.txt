@@ -1,0 +1,20 @@
+Cybersecurity Basics: A Signature Course (Vol. 1051)
+by Justin Addam Higgins · JAH-BOOK-001051
+Genre: Computer Science · 1,060 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, AI & Machine Learning Intro, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-391705.
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Ecology system for noise cancellation using powder coating
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-001051
+
+An original generated work created by the Signature system. All names, places, and events are invented.

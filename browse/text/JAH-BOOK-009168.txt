@@ -1,0 +1,20 @@
+The World of The Periodic Table (Vol. 9168)
+by Justin Addam Higgins · JAH-BOOK-009168
+Genre: Chemistry · 1,085 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Acids & Bases, Solutions & Mixtures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Logo Brief Writer (JAH-AI-DOM-147).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. Solutions & Mixtures: Foundations
+  6. Solutions & Mixtures: Going Deeper
+  7. Case Study: Logo Brief Writer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-009168
+
+An original generated work created by the Signature system. All names, places, and events are invented.

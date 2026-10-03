@@ -1,0 +1,20 @@
+Programming Basics: A Signature Course (Vol. 11611)
+by Justin Addam Higgins · JAH-BOOK-011611
+Genre: Computer Science · 1,010 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, Databases, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Language Tutor (JAH-AI-DOM-032).
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: Language Tutor
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-011611
+
+An original generated work created by the Signature system. All names, places, and events are invented.

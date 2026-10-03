@@ -1,0 +1,20 @@
+Mastering Number Theory (Vol. 13338)
+by Justin Addam Higgins · JAH-BOOK-013338
+Genre: Mathematics · 1,081 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Ratios & Proportions, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B29099.
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: The Sphinx's Riddle Evidence File Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-013338
+
+An original generated work created by the Signature system. All names, places, and events are invented.
