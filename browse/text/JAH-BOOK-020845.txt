@@ -1,0 +1,20 @@
+Understanding Heat & Temperature (Vol. 20845)
+by Justin Addam Higgins · JAH-BOOK-020845
+Genre: Physics · 1,065 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Electricity Basics, Gravity & Orbits — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve x^2 + 5x − 36 = 0 (JAH-MALL-007737).
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Electricity Basics: Foundations
+  4. Electricity Basics: Going Deeper
+  5. Gravity & Orbits: Foundations
+  6. Gravity & Orbits: Going Deeper
+  7. Case Study: Solve
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020845
+
+An original generated work created by the Signature system. All names, places, and events are invented.

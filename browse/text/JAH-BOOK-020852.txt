@@ -1,0 +1,20 @@
+Light & Optics in Action (Vol. 20852)
+by Justin Addam Higgins · JAH-BOOK-020852
+Genre: Physics · 1,090 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Forces & Newton's Laws, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve x^2 + 15x + 56 = 0 (JAH-MALL-007959).
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Forces & Newton's Laws: Foundations
+  4. Forces & Newton's Laws: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Solve
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020852
+
+An original generated work created by the Signature system. All names, places, and events are invented.

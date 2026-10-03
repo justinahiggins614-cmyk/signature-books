@@ -1,0 +1,20 @@
+Mastering Fractions & Decimals (Vol. 21435)
+by Justin Addam Higgins · JAH-BOOK-021435
+Genre: Mathematics · 1,101 words
+
+Summary:
+A complete Signature Mathematics textbook covering Fractions & Decimals, Probability Basics, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-575928.
+
+Chapters:
+  1. Fractions & Decimals: Foundations
+  2. Fractions & Decimals: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: Holographic media console for outdoor weathering using laser
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-021435
+
+An original generated work created by the Signature system. All names, places, and events are invented.

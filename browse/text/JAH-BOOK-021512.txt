@@ -1,0 +1,20 @@
+Algorithms & Flowcharts for Builders (Vol. 21512)
+by Justin Addam Higgins · JAH-BOOK-021512
+Genre: Computer Science · 1,020 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, How Computers Think, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-551883.
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: PRODUCTLINE
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-021512
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Number Theory Step by Step (Vol. 21431)
+by Justin Addam Higgins · JAH-BOOK-021431
+Genre: Mathematics · 1,105 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Ratios & Proportions, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent NZ245733A.
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Optical fibre cable restoration kit
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-021431
+
+An original generated work created by the Signature system. All names, places, and events are invented.

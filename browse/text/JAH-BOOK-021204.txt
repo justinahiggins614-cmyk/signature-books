@@ -1,0 +1,20 @@
+Data Structures for Builders (Vol. 21204)
+by Justin Addam Higgins · JAH-BOOK-021204
+Genre: Computer Science · 1,057 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, AI & Machine Learning Intro, Algorithms & Flowcharts — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-630617.
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. Algorithms & Flowcharts: Foundations
+  6. Algorithms & Flowcharts: Going Deeper
+  7. Case Study: Comics system for ultrasonic ranging using dynamic voltage
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-021204
+
+An original generated work created by the Signature system. All names, places, and events are invented.

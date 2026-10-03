@@ -1,0 +1,20 @@
+Code & Concepts: Cybersecurity Basics (Vol. 20908)
+by Justin Addam Higgins · JAH-BOOK-020908
+Genre: Computer Science · 1,086 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, Programming Basics, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Area of a circle, radius 7 (JAH-MALL-007447).
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Area of circle radius
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020908
+
+An original generated work created by the Signature system. All names, places, and events are invented.
