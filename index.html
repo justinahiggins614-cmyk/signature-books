@@ -150,6 +150,27 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 .jaicard{border:1px solid #6b5a2e;border-radius:10px;padding:10px 14px;margin:12px 0;font-size:.88em;background:#1a1408}
 .jaicard b{color:var(--gold2)}
 .ownerlab{font-size:.7em;font-weight:800;letter-spacing:.06em;color:var(--gold2);margin-left:8px;white-space:nowrap}
+/* FIRST-TIME USER GUIDE — spotlight tour + guide panel (additive; theme untouched) */
+#jahtour{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:200;max-width:min(580px,94vw);background:#1a1408;border:2px solid var(--gold);border-radius:14px;padding:14px 18px;box-shadow:0 12px 44px rgba(0,0,0,.65);display:none}
+#jahtour.show{display:block}
+#jahtour .tk{font-size:.72em;letter-spacing:.22em;color:var(--gold);font-weight:700}
+#jahtour h3{margin:.3em 0;color:var(--gold2);font-size:1.08em}
+#jahtour .tw{font-size:.9em;margin:.25em 0}
+#jahtour .tw b{color:var(--gold2)}
+#jahtour .trow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+#jahtour .btn{min-height:44px}
+#jahtour .tdots{display:flex;gap:6px;margin:10px 0 0;align-items:center}
+#jahtour .tdots i{width:8px;height:8px;border-radius:50%;background:#4a3a1e}
+#jahtour .tdots i.on{background:var(--gold)}
+#jahtour .tnum{font-size:.78em;color:var(--mut);margin-left:auto}
+.jahtour-ring{outline:3px solid var(--gold)!important;outline-offset:3px;border-radius:8px}
+#guidepanel{position:fixed;left:0;right:0;bottom:0;z-index:200;max-height:72vh;overflow:auto;background:#14100a;border-top:2px solid var(--gold);padding:6px 0 26px;display:none}
+#guidepanel.show{display:block}
+#guidepanel h2{color:var(--gold2);font-size:1.3em}
+#guidepanel h3{color:var(--gold2);font-size:1em;margin:1.1em 0 .3em}
+#guidepanel p,#guidepanel li{font-size:.93em}
+#guidepanel .btn{min-height:44px}
+#guidepanel .gclose{position:sticky;top:0;float:right;margin:8px}
 </style>
 <style>html[data-theme="dark"]{filter:invert(1) hue-rotate(180deg)}html[data-theme="dark"] img,html[data-theme="dark"] video,html[data-theme="dark"] canvas,html[data-theme="dark"] svg{filter:invert(1) hue-rotate(180deg)}#jahThemeBtn{position:fixed;right:12px;bottom:12px;z-index:2147483647;width:42px;height:42px;border-radius:50%;border:1px solid rgba(128,128,128,.45);background:rgba(24,24,24,.6);color:#fff;font-size:19px;line-height:1;cursor:pointer;opacity:.55;padding:0}#jahThemeBtn:hover,#jahThemeBtn:focus{opacity:1;outline:none}</style>
 </head>
@@ -165,7 +186,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <h1>📚 The Signature Book Depository</h1>
 <div class="sub">Every book finished — a complete draft from cover to last chapter, written by the Signature system (not a professionally edited print edition). Fiction, textbooks, children's, poetry &amp; manuals.</div>
 <details class="statdrop" open><summary class="statsum">📊 Shelf counts — tap to hide</summary>
-<div class="stats" id="stats"><div class="stat"><b>loading…</b><span>finished books</span></div><div class="stat"><b>loading…</b><span>words of prose</span></div><div class="stat"><b>loading…</b><span>genres</span></div><div class="stat"><b>loading…</b><span>source streams</span></div></div>
+<div class="stats" id="stats"><div class="stat"><b data-stamp="books">23,900</b><span>finished books</span></div><div class="stat"><b data-stamp="words">33.8M</b><span>words of prose</span></div><div class="stat"><b data-stamp="genres">16</b><span>genres</span></div><div class="stat"><b data-stamp="origins">7</b><span>source streams</span></div></div>
 <p class="loadline" id="loadline">📚 Waking the shelves — counting books, words, genres and streams…</p>
 </details>
 <div class="march"><div class="bar"><div class="fill" id="marchfill"></div></div><small id="marchtxt">Marching to 1,000,000 books</small></div>
@@ -177,7 +198,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <select id="genre" aria-label="Genre filter"><option value="">All genres</option></select>
 <select id="origin" aria-label="Source filter"><option value="">All sources</option><option value="original">Signature originals</option><option value="spec">From specs</option><option value="wiki">From JAH Wiki</option><option value="leaks">From JAH-N dossiers</option><option value="patent">From patents</option><option value="ai">From AIs</option><option value="mall">From mall products</option></select>
 <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="title">Title A–Z</option><option value="long">Longest first</option></select>
-<div class="viewtoggle"><button class="btn ghost" id="vgrid" aria-label="Cover grid view">🖼 Covers</button><button class="btn ghost" id="vlist" aria-label="List view">☰ List</button></div>
+<div class="viewtoggle"><button class="btn ghost" id="vgrid" aria-label="Cover grid view">🖼 Covers</button><button class="btn ghost" id="vlist" aria-label="List view">☰ List</button><button class="btn ghost" id="randombtn" aria-label="Open a random book">🎲 Random</button><button class="btn ghost" id="guidebtn" aria-label="How to use this site">? Guide</button></div>
 </div>
 <style>
 /* BOOK FINDER — additive, does not restyle existing components */
@@ -200,12 +221,58 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <div class="az" id="az"></div>
 </div></div>
 
-<div class="wrap"><div id="results"><div class="loading"><div class="spin" aria-hidden="true"></div><b>Waking the shelves…</b><p>Fetching the shelf index — one small file, straight to your device. Most visits load in a second or two; if this lingers, check your connection and reload.</p></div></div></div>
+<div class="wrap"><div id="results"><div class="loading"><div class="spin" aria-hidden="true"></div><b>Waking the shelves…</b><p>Fetching the shelf index — one small file, straight to your device. Most visits load in a second or two; if this lingers, check your connection and reload.</p><p class="loadline" id="loadprog"></p></div></div></div>
 </div>
 
 <div id="bookview" class="wrap" style="display:none"></div>
 
 <div id="rdbar"><span>🔊 <span class="prog" id="rdprog">Reading…</span></span><button class="btn" id="rdstop">⏹ Stop</button></div>
+
+<!-- FIRST-TIME USER GUIDE: spotlight tour card + permanent guide panel -->
+<div id="jahtour" role="dialog" aria-label="Site tour" aria-hidden="true">
+<div class="tk">📚 FIRST-TIME GUIDE</div>
+<h3 id="jtTitle"></h3>
+<p class="tw" id="jtWhat"></p>
+<p class="tw" id="jtDoes"></p>
+<p class="tw" id="jtHow"></p>
+<div class="trow">
+<button class="btn" id="jtStart">▶ Start the tour</button>
+<button class="btn ghost" id="jtBack">← Back</button>
+<button class="btn ghost" id="jtNext">Next →</button>
+<button class="btn ghost" id="jtSkip">Skip</button>
+</div>
+<div class="tdots" id="jtDots"></div>
+</div>
+<div id="guidepanel" role="dialog" aria-label="How to use this site">
+<div class="wrap">
+<button class="btn ghost gclose" id="gclose">✕ Close</button>
+<h2>📚 How to use The Signature Book Depository</h2>
+<p>Every book on these shelves is a finished, original Signature work — free, no login. Here is everything this site can do, in plain words.</p>
+<h3>🔎 Search</h3>
+<p>Type in the search box to match <b>titles</b>, <b>descriptions</b>, and <b>book IDs</b>. Typing a full ID like <b>JAH-BOOK-000123</b> jumps that exact book to the top.</p>
+<h3>🎛 Filters</h3>
+<p><b>Genre</b> narrows to one shelf section (Science Fiction, Poetry, …). <b>Source</b> narrows by what seeded the book — Signature originals, or derived from a spec, wiki article, dossier, patent, AI, or mall product. <b>Sort</b> orders by newest, title A–Z, or longest first. The <b>A–Z</b> letter row filters by the first letter of the title.</p>
+<h3>🖼 Covers / ☰ List</h3>
+<p>Switch between the cover grid and a compact list. Same books, different view.</p>
+<h3>🎲 Random</h3>
+<p>Opens one random book from the current filter — a surprise pick, always a real book on the shelf.</p>
+<h3>🔎 Book Finder</h3>
+<p>Describe what you want in plain words ("a spooky mystery for kids") and the Finder matches the shelves' own catalog records. It never invents books.</p>
+<h3>📖 Opening a book</h3>
+<p>Tap any cover (or the <b>📖 Read</b> button) to open the full record: cover, title, byline, genre/word/chapter chips, the description, <b>⛓ Source lineage</b> (which network record seeded it, if any), and the full text.</p>
+<h3>📑 Chapters</h3>
+<p>The <b>Contents</b> list at the top of the full text jumps straight to any chapter. If you leave and come back to the same book on this device, it offers to <b>resume where you left off</b>.</p>
+<h3>🔊 Read aloud</h3>
+<p><b>🔊 Read aloud</b> reads the whole book with the floating bar at the bottom; <b>⏹ Stop</b> ends it. <b>📖 Reader mode</b> gives a calm reading layout; <b>A− / A+</b> resize the reading text.</p>
+<h3>⧉ Copy · ⬇ Download · ↗ Share</h3>
+<p><b>⧉ Copy text</b> copies the full book text. <b>⬇ Download .txt</b> and <b>⬇ .json</b> save the book as files. <b>📄 Plain text</b> opens a plain-text page. <b>↗ Share</b> copies a link to the book, and <b>⧉ Cite</b> copies a citation. Every book also has a stable link like <b>?book=JAH-BOOK-000123</b> that survives refresh and sharing.</p>
+<h3>💬 Ask about this book</h3>
+<p>The per-book <b>Ask AI</b> answers from the book's own text — it quotes and explains, and says plainly when something isn't covered.</p>
+<h3>⚠ Report problem</h3>
+<p>Copies a pre-filled problem report for the book (wrong title, missing content, broken link…) — paste it wherever you report issues.</p>
+<p style="color:var(--mut);font-size:.85em">This guide is always here — tap <b>? Guide</b> in the top bar any time.</p>
+</div>
+</div>
 
 <footer>
 <div class="wrap">
@@ -258,7 +325,33 @@ function chunkPath(id){var n=chunkNo(id);return "data/volumes/books-c"+String(n)
 function gunzip(buf){return new Response(buf).arrayBuffer().then(function(ab){
   if(typeof DecompressionStream==="undefined")throw new Error("no gzip support");
   return new Response(new Blob([ab]).stream().pipeThrough(new DecompressionStream("gzip"))).text()})}
-function fetchJSONgz(url){return fetch(url).then(function(r){if(!r.ok)throw new Error("fetch "+r.status);return r.arrayBuffer()}).then(gunzip).then(JSON.parse)}
+function fetchJSONgz(url,onProgress,timeoutMs){return fetchGZbuf(url,onProgress,timeoutMs).then(function(x){return gunzip(x)}).then(JSON.parse)}
+/* fetch with a hard timeout + byte progress (drives "loaded X of Y" states).
+   onProgress(loadedBytes,totalBytes) is optional; totalBytes may be 0. */
+function fetchGZbuf(url,onProgress,timeoutMs){
+  var ctrl=null,timer=null;
+  try{if(typeof AbortController!=="undefined"){ctrl=new AbortController();
+    timer=setTimeout(function(){try{ctrl.abort()}catch(e){}},timeoutMs||30000)}}catch(e){}
+  var p=fetch(url,ctrl?{signal:ctrl.signal}:{}).then(function(r){
+    if(!r.ok)throw new Error("fetch "+r.status);
+    if(onProgress&&r.body&&typeof r.body.getReader==="function"){
+      var total=parseInt(r.headers.get("Content-Length")||"0",10)||0;
+      var reader=r.body.getReader(),chunks=[],loaded=0;
+      return new Promise(function(res,rej){
+        (function pump(){reader.read().then(function(x){
+          if(x.done){var n=0;chunks.forEach(function(c){n+=c.byteLength});
+            var buf=new Uint8Array(n),off=0;
+            chunks.forEach(function(c){buf.set(new Uint8Array(c),off);off+=c.byteLength});
+            res(buf.buffer);return}
+          chunks.push(x.value);loaded+=x.value.byteLength;onProgress(loaded,total);pump();
+        },rej)})();
+      });
+    }
+    return r.arrayBuffer();
+  });
+  function done(){if(timer)clearTimeout(timer)}
+  return p.then(function(ab){done();return ab},function(e){done();throw e});
+}
 
 /* ============ deterministic cover art ============ */
 var PALS=[
@@ -339,9 +432,36 @@ function citeText(rec){
     "https://justinahiggins614-cmyk.github.io/signature-books/?book="+rec.id+
     "\nOrigin: "+(ORIGIN_LABEL[rec.origin]||rec.origin);
 }
+/* ============ shelf-index loading: timeout + byte progress + retry ============ */
+function fmtMB(b){return (b/1048576).toFixed(1)+" MB"}
+function idxProgress(loaded,total){
+  var el=$("loadprog");if(!el)return;
+  el.textContent=total>0
+    ?"📥 Shelf index: "+fmtMB(loaded)+" of ~"+fmtMB(total)+" loaded ("+Math.round(loaded/total*100)+"%)…"
+    :"📥 Shelf index: "+fmtMB(loaded)+" loaded…";
+}
+function idxLoadingHTML(){
+  return '<div class="loading"><div class="spin" aria-hidden="true"></div><b>Waking the shelves…</b>'+
+   '<p>Fetching the shelf index — one small file, straight to your device. Most visits load in a second or two; if this lingers, check your connection and reload.</p>'+
+   '<p class="loadline" id="loadprog"></p></div>';
+}
+function loadIndex(){
+  var box=$("results");
+  if(box)box.innerHTML=idxLoadingHTML();
+  fetchJSONgz(IDX_URL,idxProgress,30000).then(function(idx){IDX=idx;buildAZ();applyFilters()})
+    .catch(idxFail);
+}
+function idxFail(e){
+  var slow=e&&e.name==="AbortError";
+  var msg=slow?"The shelf index took too long to arrive (30-second timeout)."
+              :"Could not load the shelf index.";
+  $("results").innerHTML='<div class="loading"><b>📚 The shelves didn\'t wake up.</b><p>'+msg+
+   ' Check your connection, then try again — nothing is lost.</p>'+
+   '<button class="btn" id="idxretry">↻ Retry loading the shelves</button></div>';
+  var rb=$("idxretry");if(rb)rb.onclick=function(){loadIndex()};
+}
 function init(){
-  rdrInit();
-  fetch(API_URL).then(function(r){return r.json()}).then(function(api){
+  rdrInit();  fetch(API_URL).then(function(r){return r.json()}).then(function(api){
     var nb=api.total_books||0, nw=api.total_words||0;
     $("stats").innerHTML=
      '<div class="stat"><b>'+nb.toLocaleString()+"</b><span>finished books</span></div>"+
@@ -360,10 +480,9 @@ function init(){
     var gs=$("genre");Object.keys(api.genres||{}).sort().forEach(function(g){
       var o=document.createElement("option");o.value=g;o.textContent=g+" ("+(api.genres[g]).toLocaleString()+")";gs.appendChild(o)});
   }).catch(function(){$("loadline").textContent="Could not reach the live counter — the shelves below still work. Reload to retry."});
-  fetchJSONgz(IDX_URL).then(function(idx){IDX=idx;buildAZ();applyFilters()})
-    .catch(function(e){$("results").innerHTML='<div class="loading">Could not load the catalog index. Check your connection and reload.</div>'});
-  var q=$("q"),qT=null;
+  loadIndex();
   /* FIX-5: debounced instant search — no keystroke lag on mobile */
+  var q=$("q"),qT=null;
   q.addEventListener("input",function(){if(qT)clearTimeout(qT);qT=setTimeout(applyFilters,150)});
   /* per-book reading position saver (throttled; device-local only) */
   var posT=null;
@@ -371,8 +490,21 @@ function init(){
     try{if(typeof CUR!=="undefined"&&CUR&&$("bookview").style.display!=="none")savePos(CUR.id)}catch(e){}},1500)},{passive:true});
   ["genre","origin","sort"].forEach(function(id){$(id).addEventListener("change",applyFilters)});
   $("vgrid").onclick=function(){VIEW="grid";render()};$("vlist").onclick=function(){VIEW="list";render()};
+  $("randombtn").onclick=function(){
+    var pool=FILTERED.length?FILTERED:IDX;
+    if(!pool.length)return;
+    var pick=pool[Math.floor(Math.random()*pool.length)];
+    location.hash="#book="+pick.id;
+  };
+  $("guidebtn").onclick=function(){Guide.toggle()};
+  $("jtStart").onclick=function(){Tour.start()};
+  $("jtBack").onclick=function(){Tour.back()};
+  $("jtNext").onclick=function(){Tour.next()};
+  $("jtSkip").onclick=function(){Tour.skip()};
+  $("gclose").onclick=function(){Guide.close()};
   window.addEventListener("hashchange",route);
   route();
+  Tour.maybeInvite();
 }
 function buildAZ(){
   var box=$("az");box.innerHTML="";
@@ -744,6 +876,110 @@ function download(name,text,mime){
   a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000);
 }
 
+/* ============ FIRST-TIME USER GUIDE: spotlight tour + guide panel ============
+   localStorage key: jah-tour-seen-books. Non-modal, never blocks content. */
+var Tour={i:0,
+ key:"jah-tour-seen-books",
+ steps:[
+  {t:"Welcome to the Book Depository",
+   what:"<b>WHAT:</b> a 1-minute tour of these shelves.",
+   does:"<b>WHAT IT DOES:</b> walks you through search, filters, views, and opening a book — then gets out of the way forever.",
+   how:"<b>HOW:</b> tap <b>Start the tour</b>, or <b>Skip</b> any time. → / ← keys move, Esc ends it.",
+   target:null},
+  {t:"🔎 Search the shelves",
+   what:"<b>WHAT:</b> the search box at the top of the page.",
+   does:"<b>WHAT IT DOES:</b> matches book <b>titles</b>, <b>descriptions</b>, and <b>book IDs</b>. Typing a full ID like JAH-BOOK-000123 jumps that exact book to the top.",
+   how:"<b>HOW:</b> just type — the shelves narrow as you type.",
+   target:"#q"},
+  {t:"🎛 Filters",
+   what:"<b>WHAT:</b> the genre, source, and sort menus plus the A–Z letter row.",
+   does:"<b>WHAT IT DOES:</b> <b>Genre</b> picks one shelf section; <b>Source</b> picks what seeded the book (Signature originals, or derived from a spec, wiki article, dossier, patent, AI, or mall product); <b>Sort</b> orders newest / A–Z / longest; letters filter by title's first letter.",
+   how:"<b>HOW:</b> pick from the menus, tap a letter — tap ★ for all.",
+   target:"#genre"},
+  {t:"🖼 Covers / ☰ List",
+   what:"<b>WHAT:</b> the view buttons.",
+   does:"<b>WHAT IT DOES:</b> switches the same books between the cover grid and a compact list.",
+   how:"<b>HOW:</b> tap <b>🖼 Covers</b> or <b>☰ List</b>.",
+   target:".viewtoggle"},
+  {t:"🎲 Random",
+   what:"<b>WHAT:</b> the Random button.",
+   does:"<b>WHAT IT DOES:</b> opens one surprise book from your current filter — always a real book on the shelf.",
+   how:"<b>HOW:</b> tap <b>🎲 Random</b>.",
+   target:"#randombtn"},
+  {t:"🔎 Book Finder",
+   what:"<b>WHAT:</b> the Book Finder box below the controls.",
+   does:"<b>WHAT IT DOES:</b> you describe what you want in plain words (“a spooky mystery for kids”) and it matches the shelves' own catalog records. It never invents books.",
+   how:"<b>HOW:</b> type a description, tap <b>Find</b>.",
+   target:"#finder"},
+  {t:"📖 Opening a book",
+   what:"<b>WHAT:</b> any cover on the shelf.",
+   does:"<b>WHAT IT DOES:</b> opens the full record — cover, title, byline, chips, description, <b>⛓ Source lineage</b>, and the complete text. Every book also has a stable link like <b>?book=JAH-BOOK-000123</b> that survives refresh and sharing.",
+   how:"<b>HOW:</b> tap a cover, or its <b>📖 Read</b> button.",
+   target:"#results"},
+  {t:"📑 Chapters · 🔊 Read aloud · ⧉ Copy",
+   what:"<b>WHAT:</b> inside an open book.",
+   does:"<b>WHAT IT DOES:</b> the <b>Contents</b> list jumps to any chapter (and offers to resume where you left off); <b>🔊 Read aloud</b> reads the book with a floating bar; <b>📖 Reader mode</b> + <b>A−/A+</b> tune the reading layout; <b>⧉ Copy</b>, <b>⬇ .txt / .json</b>, <b>📄 Plain text</b>, <b>↗ Share</b> and <b>⧉ Cite</b> take the book with you.",
+   how:"<b>HOW:</b> open any book and the buttons are all above the description.",
+   target:"#results"},
+  {t:"? Guide — always here",
+   what:"<b>WHAT:</b> the <b>? Guide</b> button in the top bar.",
+   does:"<b>WHAT IT DOES:</b> opens this whole guide as a panel any time you need it — every feature in plain words.",
+   how:"<b>HOW:</b> tap <b>? Guide</b>. That's the tour — happy reading! 📚",
+   target:"#guidebtn"}
+ ],
+ isSeen:function(){try{return localStorage.getItem(this.key)==="1"}catch(e){return true}},
+ markSeen:function(){try{localStorage.setItem(this.key,"1")}catch(e){}},
+ clearRing:function(){var r=document.querySelectorAll(".jahtour-ring");for(var i=0;i<r.length;i++)r[i].classList.remove("jahtour-ring")},
+ ring:function(sel){
+   this.clearRing();if(!sel)return;
+   try{var el=document.querySelector(sel);if(!el)return;
+     if(el.scrollIntoView)el.scrollIntoView({block:"center",behavior:"smooth"});
+     el.classList.add("jahtour-ring")}catch(e){}
+ },
+ show:function(i){
+   this.i=Math.max(0,Math.min(i,this.steps.length-1));
+   var s=this.steps[this.i],card=$("jahtour");
+   $("jtTitle").textContent=s.t;
+   $("jtWhat").innerHTML=s.what;$("jtDoes").innerHTML=s.does;$("jtHow").innerHTML=s.how;
+   this.ring(s.target);
+   var dots=$("jtDots");dots.innerHTML="";
+   for(var d=0;d<this.steps.length;d++){var dot=document.createElement("i");if(d===this.i)dot.className="on";dots.appendChild(dot)}
+   var num=document.createElement("span");num.className="tnum";num.textContent=(this.i+1)+" of "+this.steps.length;dots.appendChild(num);
+   $("jtStart").style.display=this.i===0?"":"none";
+   $("jtBack").style.display=this.i===0?"none":"";
+   $("jtNext").textContent=this.i===this.steps.length-1?"✓ Done":"Next →";
+   card.classList.add("show");card.setAttribute("aria-hidden","false");
+ },
+ hide:function(){this.clearRing();var c=$("jahtour");if(c){c.classList.remove("show");c.setAttribute("aria-hidden","true")}},
+ start:function(){this.show(1)},
+ next:function(){if(this.i>=this.steps.length-1){this.done()}else this.show(this.i+1)},
+ back:function(){this.show(this.i-1)},
+ skip:function(){this.markSeen();this.hide()},
+ done:function(){this.markSeen();this.hide()},
+ maybeInvite:function(){
+   if(this.isSeen())return;
+   var deep=false;
+   try{
+     deep=/(^#book=|[?&]book=)/.test(location.hash||"")||!!new URLSearchParams(location.search).get("book");
+   }catch(e){}
+   if(deep){this.markSeen();return}
+   this.show(0);
+ }
+};
+var Guide={
+ open:function(){var p=$("guidepanel");if(p){p.classList.add("show");var c=$("gclose");if(c)c.focus()}},
+ close:function(){var p=$("guidepanel");if(p)p.classList.remove("show")},
+ toggle:function(){var p=$("guidepanel");if(p&&p.classList.contains("show"))this.close();else this.open()}
+};
+document.addEventListener("keydown",function(e){
+  var tc=$("jahtour"),tourOn=tc&&tc.classList.contains("show");
+  var gp=$("guidepanel"),guideOn=gp&&gp.classList.contains("show");
+  if(e.key==="Escape"){if(tourOn){Tour.skip()}else if(guideOn){Guide.close()}return}
+  if(!tourOn)return;
+  if(e.key==="ArrowRight"){e.preventDefault();Tour.next()}
+  else if(e.key==="ArrowLeft"){e.preventDefault();Tour.back()}
+});
+
 /* ============ read aloud: tiered TTS (proven pattern: ResponsiveVoice en-US
    female first, then two Google TTS failover hosts; per-chunk retry with
    fail-fast tier rotation; direct audio-element playback — Google TTS
@@ -754,8 +990,12 @@ var RD_TIERS=[
  function(t){return "https://translate.google.com/translate_tts?ie=UTF-8&q="+encodeURIComponent(t)+"&tl=en&client=tw-ob"},
  function(t){return "https://translate.googleapis.com/translate_tts?ie=UTF-8&q="+encodeURIComponent(t)+"&tl=en&client=tw-ob"}];
 function rdChunks(t,maxChunks){t=String(t).replace(/\s+/g," ").trim();var out=[],cur="";
-  t.split(/(?<=[.!?])\s+/).forEach(function(s){if((cur+" "+s).length>170){if(cur)out.push(cur);cur=s}else cur=(cur?cur+" ":"")+s});
-  if(cur)out.push(cur);return out.slice(0,maxChunks||400)}
+  /* hard-split any overlong run at word gaps (a single giant sentence must
+     not become one giant TTS request) */
+  function pushCur(){if(cur){while(cur.length>170){var cut=cur.lastIndexOf(" ",168);if(cut<40)cut=168;
+    out.push(cur.slice(0,cut));cur=cur.slice(cut).replace(/^\s+/,"")}out.push(cur);cur=""}}
+  t.split(/(?<=[.!?])\s+/).forEach(function(s){if((cur+" "+s).length>170){pushCur();cur=s}else cur=(cur?cur+" ":"")+s});
+  pushCur();return out.slice(0,maxChunks||400)}
 function rdStop(){RD.stopped=true;RD.playing=false;RD.queue=[];if(RD.timer){clearTimeout(RD.timer);RD.timer=null}
   if(RD.audio){try{RD.audio.pause()}catch(e){}RD.audio=null}
   var b=$("rdbtn");if(b)b.textContent="🔊 Read aloud";$("rdbar").classList.remove("show")}

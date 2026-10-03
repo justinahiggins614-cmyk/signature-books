@@ -67,6 +67,28 @@ function coverSVG(kind, seedStr, line1, line2, line3){
 }
 
 /* ---------------- catalog home ---------------- */
+/* wing index loading: 30s timeout + retry (never a dead end) */
+function loadWingIndex(){
+  var box=$("results");
+  if(box)box.innerHTML='<div class="loading"><b>Waking the '+esc(WING.unitPlural)+'…</b><p>Fetching the index — one small file, straight to your device. Most visits load in a second or two.</p></div>';
+  var ctrl=null,timer=null;
+  try{if(typeof AbortController!=="undefined"){ctrl=new AbortController();
+    timer=setTimeout(function(){try{ctrl.abort()}catch(e){}},30000)}}catch(e){}
+  function done(){if(timer)clearTimeout(timer)}
+  fetch(WING.idxUrl,ctrl?{signal:ctrl.signal}:{}).then(function(r){
+    if(!r.ok)throw new Error("fetch "+r.status);return r.arrayBuffer()}).then(gunzip).then(function(ab){
+    return JSON.parse(new TextDecoder().decode(ab))}).then(function(idx){
+    done();IDX=idx;buildFilters();buildAZ();route();
+  }).catch(function(e){
+    done();
+    var slow=e&&e.name==="AbortError";
+    $("results").innerHTML='<div class="loading"><b>The '+esc(WING.unitPlural)+' didn\'t wake up.</b><p>'+
+      (slow?"The index took too long to arrive (30-second timeout).":"Could not load the catalog index.")+
+      ' Check your connection, then try again — nothing is lost.</p>'+
+      '<button class="btn" id="wingretry">↻ Retry loading</button></div>';
+    var rb=$("wingretry");if(rb)rb.onclick=function(){loadWingIndex()};
+  });
+}
 function init(){
   fetch(WING.apiUrl).then(function(r){return r.json()}).then(function(api){
     var st=$("stats"); if(!st)return;
@@ -77,14 +99,15 @@ function init(){
     $("marchfill").style.width=pct+"%";
     $("marchlbl").textContent=Number(api[WING.apiTotal]).toLocaleString()+" of 1,000,000 "+WING.unitPlural+" ("+pct.toFixed(2)+"%)";
   }).catch(function(){});
-  Finder.setup();fetchJSONgz(WING.idxUrl).then(function(idx){IDX=idx;buildFilters();buildAZ();route();})
-    .catch(function(){$("results").innerHTML='<div class="loading">Could not load the catalog index. Check your connection and reload.</div>'});
+  Finder.setup();loadWingIndex();
   var q=$("q"); if(q)q.addEventListener("input",function(){applyFilters()});
   var fs=$("fcat"); if(fs)fs.addEventListener("change",applyFilters);
   var so=$("sort"); if(so)so.addEventListener("change",applyFilters);
   if($("vgrid"))$("vgrid").onclick=function(){VIEW="grid";render()};
   if($("vlist"))$("vlist").onclick=function(){VIEW="list";render()};
+  var gb=$("guidebtn"); if(gb)gb.onclick=function(){WingGuide.toggle()};
   window.addEventListener("hashchange",route);
+  WingTour.maybeInvite();
 }
 function buildFilters(){
   var fs=$("fcat"); if(!fs||!WING.filterKey)return;
@@ -367,4 +390,123 @@ Finder.ask=function(){
     el.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" ")location.hash="#"+WING.deepParam+"="+el.getAttribute("data-id")});
   });
 };
+/* ============ FIRST-TIME USER GUIDE (wings): spotlight tour + guide panel ============
+   Same pattern as the books home. Non-modal, never blocks content.
+   localStorage key: jah-tour-seen-<page>. */
+var WingTour={i:0,
+ key:function(){return "jah-tour-seen-"+WING.pageFile.replace(".html","")},
+ steps:function(){var u=WING.unitSing,up=WING.unitPlural,idEx=WING.idRe.replace("\\d{6}","000123").replace("\\\\","\\");
+  return [
+  {t:"Welcome to "+WING.pageTitle.split(" — ")[0],
+   what:"<b>WHAT:</b> a 1-minute tour of this wing.",
+   does:"<b>WHAT IT DOES:</b> walks you through search, filters, views, and opening a "+u+" — then gets out of the way forever.",
+   how:"<b>HOW:</b> tap <b>Start the tour</b>, or <b>Skip</b> any time. → / ← keys move, Esc ends it.",
+   target:null},
+  {t:"🔎 Search the "+up,
+   what:"<b>WHAT:</b> the search box at the top.",
+   does:"<b>WHAT IT DOES:</b> matches titles, subjects, and record IDs. A full ID like <b>"+idEx+"</b> jumps that exact record to the top.",
+   how:"<b>HOW:</b> just type — the shelf narrows as you type.",
+   target:"#q"},
+  {t:"🎛 Filter & sort",
+   what:"<b>WHAT:</b> the subject menu, sort menu, and A–Z letter row.",
+   does:"<b>WHAT IT DOES:</b> narrows to one subject, orders newest / A–Z / longest, and filters by the title's first letter.",
+   how:"<b>HOW:</b> pick from the menus, tap a letter — tap # for all.",
+   target:"#fcat"},
+  {t:"▦ / ☰ Views",
+   what:"<b>WHAT:</b> the view buttons.",
+   does:"<b>WHAT IT DOES:</b> switches the same "+up+" between covers and a compact list.",
+   how:"<b>HOW:</b> tap <b>▦</b> or <b>☰</b>.",
+   target:".viewtoggle"},
+  {t:"📖 Opening a "+u,
+   what:"<b>WHAT:</b> any cover on the shelf.",
+   does:"<b>WHAT IT DOES:</b> opens the full record — cover, title, chips, description, "+WING.itemWordPlural+" sections, and the complete text. Every "+u+" has a stable link like <b>"+WING.pageFile+"?"+WING.deepParam+"="+idEx+"</b> that survives refresh and sharing.",
+   how:"<b>HOW:</b> tap a cover.",
+   target:"#results"},
+  {t:"🔊 Read aloud · ⧉ Copy · ⬇ Download",
+   what:"<b>WHAT:</b> inside an open "+u+".",
+   does:"<b>WHAT IT DOES:</b> <b>🔊 Read aloud</b> reads it with a floating bar; <b>⧉ Copy</b> copies the text; <b>⬇ Download</b> saves .txt/.json; <b>↗ Share</b> copies the link.",
+   how:"<b>HOW:</b> open any "+u+" — the buttons sit above the description.",
+   target:"#results"},
+  {t:"? Guide — always here",
+   what:"<b>WHAT:</b> the <b>? Guide</b> button in the top bar.",
+   does:"<b>WHAT IT DOES:</b> opens this whole guide as a panel any time — every feature in plain words.",
+   how:"<b>HOW:</b> tap <b>? Guide</b>. That's the tour — happy reading! 📚",
+   target:"#guidebtn"}];},
+ isSeen:function(){try{return localStorage.getItem(this.key())==="1"}catch(e){return true}},
+ markSeen:function(){try{localStorage.setItem(this.key(),"1")}catch(e){}},
+ el:function(){var c=$("wingtour");if(c)return c;
+   c=document.createElement("div");c.id="wingtour";c.setAttribute("role","dialog");
+   c.setAttribute("aria-label","Site tour");c.setAttribute("aria-hidden","true");
+   c.innerHTML='<div class="tk">📚 FIRST-TIME GUIDE</div><h3 id="wtTitle"></h3>'+
+    '<p class="tw" id="wtWhat"></p><p class="tw" id="wtDoes"></p><p class="tw" id="wtHow"></p>'+
+    '<div class="trow"><button class="btn" id="wtStart">▶ Start the tour</button>'+
+    '<button class="btn ghost" id="wtBack">← Back</button>'+
+    '<button class="btn ghost" id="wtNext">Next →</button>'+
+    '<button class="btn ghost" id="wtSkip">Skip</button></div><div class="tdots" id="wtDots"></div>';
+   document.body.appendChild(c);
+   $("wtStart").onclick=function(){WingTour.start()};$("wtBack").onclick=function(){WingTour.back()};
+   $("wtNext").onclick=function(){WingTour.next()};$("wtSkip").onclick=function(){WingTour.skip()};
+   return c},
+ clearRing:function(){var r=document.querySelectorAll(".jahtour-ring");for(var i=0;i<r.length;i++)r[i].classList.remove("jahtour-ring")},
+ ring:function(sel){this.clearRing();if(!sel)return;
+   try{var el=document.querySelector(sel);if(!el)return;
+     if(el.scrollIntoView)el.scrollIntoView({block:"center",behavior:"smooth"});
+     el.classList.add("jahtour-ring")}catch(e){}},
+ show:function(i){var steps=this.steps();
+   this.i=Math.max(0,Math.min(i,steps.length-1));
+   var s=steps[this.i],card=this.el();
+   $("wtTitle").textContent=s.t;
+   $("wtWhat").innerHTML=s.what;$("wtDoes").innerHTML=s.does;$("wtHow").innerHTML=s.how;
+   this.ring(s.target);
+   var dots=$("wtDots");dots.innerHTML="";
+   for(var d=0;d<steps.length;d++){var dot=document.createElement("i");if(d===this.i)dot.className="on";dots.appendChild(dot)}
+   var num=document.createElement("span");num.className="tnum";num.textContent=(this.i+1)+" of "+steps.length;dots.appendChild(num);
+   $("wtStart").style.display=this.i===0?"":"none";
+   $("wtBack").style.display=this.i===0?"none":"";
+   $("wtNext").textContent=this.i===steps.length-1?"✓ Done":"Next →";
+   card.classList.add("show");card.setAttribute("aria-hidden","false")},
+ hide:function(){this.clearRing();var c=$("wingtour");if(c){c.classList.remove("show");c.setAttribute("aria-hidden","true")}},
+ start:function(){this.show(1)},
+ next:function(){var n=this.steps().length;if(this.i>=n-1){this.done()}else this.show(this.i+1)},
+ back:function(){this.show(this.i-1)},
+ skip:function(){this.markSeen();this.hide()},
+ done:function(){this.markSeen();this.hide()},
+ maybeInvite:function(){
+   if(this.isSeen())return;
+   var deep=false;
+   try{var qp=new URLSearchParams(location.search).get(WING.deepParam);
+     deep=!!qp||new RegExp("[#&]"+WING.deepParam+"=").test(location.hash||"")}catch(e){}
+   if(deep){this.markSeen();return}
+   this.show(0)}
+};
+var WingGuide={
+ panel:function(){var p=$("wingguide");if(p)return p;
+   var idEx=WING.idRe.replace("\\d{6}","000123").replace("\\\\","\\");
+   p=document.createElement("div");p.id="wingguide";p.setAttribute("role","dialog");
+   p.setAttribute("aria-label","How to use this wing");
+   p.innerHTML='<div class="wrap"><button class="btn ghost gclose" id="wgclose">✕ Close</button>'+
+    '<h2>📚 How to use '+esc(WING.pageTitle.split(" — ")[0])+'</h2>'+
+    '<p>Every '+esc(WING.unitSing)+' here is a finished, original Signature work — free, no login. Everything this wing can do, in plain words.</p>'+
+    '<h3>🔎 Search</h3><p>Type in the search box to match <b>titles</b>, <b>subjects</b>, and <b>record IDs</b>. A full ID like <b>'+esc(idEx)+'</b> jumps that exact record to the top.</p>'+
+    '<h3>🎛 Filter &amp; sort</h3><p>The <b>subject</b> menu narrows to one section; <b>sort</b> orders newest / A–Z / longest; the <b>A–Z</b> row filters by the title\'s first letter.</p>'+
+    '<h3>▦ / ☰ Views</h3><p>Switch the same '+esc(WING.unitPlural)+' between covers and a compact list.</p>'+
+    '<h3>📖 Opening a '+esc(WING.unitSing)+'</h3><p>Tap any cover to open the full record: cover, title, chips, description, '+esc(WING.itemWordPlural)+' sections, full text. Stable link like <b>'+esc(WING.pageFile)+'?'+esc(WING.deepParam)+'='+esc(idEx)+'</b> survives refresh and sharing.</p>'+
+    '<h3>🔊 Read aloud · ⧉ Copy · ⬇ Download</h3><p><b>🔊 Read aloud</b> reads with a floating bar (<b>⏹ Stop</b> ends it). <b>⧉ Copy</b> copies the text; <b>⬇ Download</b> saves .txt/.json; <b>↗ Share</b> copies the link.</p>'+
+    '<h3>💬 Ask about this '+esc(WING.unitSing)+'</h3><p>The per-record <b>Ask AI</b> answers from the record\'s own text — it quotes and explains, and says plainly when something isn\'t covered.</p>'+
+    '<p style="color:var(--mut);font-size:.85em">This guide is always here — tap <b>? Guide</b> in the top bar any time.</p></div>';
+   document.body.appendChild(p);
+   $("wgclose").onclick=function(){WingGuide.close()};
+   return p},
+ open:function(){this.panel().classList.add("show");var c=$("wgclose");if(c)c.focus()},
+ close:function(){var p=$("wingguide");if(p)p.classList.remove("show")},
+ toggle:function(){var p=$("wingguide");if(p&&p.classList.contains("show"))this.close();else this.open()}
+};
+document.addEventListener("keydown",function(e){
+  var t=$("wingtour"),tourOn=t&&t.classList.contains("show");
+  var g=$("wingguide"),guideOn=g&&g.classList.contains("show");
+  if(e.key==="Escape"){if(tourOn){WingTour.skip()}else if(guideOn){WingGuide.close()}return}
+  if(!tourOn)return;
+  if(e.key==="ArrowRight"){e.preventDefault();WingTour.next()}
+  else if(e.key==="ArrowLeft"){e.preventDefault();WingTour.back()}
+});
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();

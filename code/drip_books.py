@@ -1427,6 +1427,16 @@ def run(n):
     write_robots()
     st["next_index"] = end
     save_state(st)
+    # universal loading pattern: re-stamp last-known counts into the raw HTML
+    # chips so they never boot as bare "loading..." (JS overwrites live)
+    try:
+        import importlib.util as _ilu
+        _sp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stamp_counts.py")
+        _spec = _ilu.spec_from_file_location("stamp_counts", _sp)
+        _mod = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_mod)
+        _mod.main()
+    except Exception as e:
+        print("stamp_counts skipped:", e)
     print(f"done: books {start}..{end-1} ({new_recs} new), total {end-1}, "
           f"words {total_words}, chunks {n_chunks}")
     print("source mix this run:", per_source)
