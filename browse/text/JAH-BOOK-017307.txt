@@ -1,0 +1,20 @@
+The Internet & Networks: A Signature Course (Vol. 17307)
+by Justin Addam Higgins · JAH-BOOK-017307
+Genre: Computer Science · 1,115 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Programming Basics, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B41490.
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: The Montauk Project Comparative Cases Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017307
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Energy & Work Guide (Vol. 17854)
+by Justin Addam Higgins · JAH-BOOK-017854
+Genre: Physics · 1,042 words
+
+Summary:
+A complete Signature Physics textbook covering Energy & Work, Motion & Speed, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US20050157000A1.
+
+Chapters:
+  1. Energy & Work: Foundations
+  2. Energy & Work: Going Deeper
+  3. Motion & Speed: Foundations
+  4. Motion & Speed: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Inkjet printer cradle with end data and power
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017854
+
+An original generated work created by the Signature system. All names, places, and events are invented.

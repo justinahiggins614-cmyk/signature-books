@@ -1,0 +1,20 @@
+Ecology & Ecosystems: A Signature Course (Vol. 17581)
+by Justin Addam Higgins · JAH-BOOK-017581
+Genre: Biology · 1,023 words
+
+Summary:
+A complete Signature Biology textbook covering Ecology & Ecosystems, Plants & Photosynthesis, Classification of Life — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US6816900B1.
+
+Chapters:
+  1. Ecology & Ecosystems: Foundations
+  2. Ecology & Ecosystems: Going Deeper
+  3. Plants & Photosynthesis: Foundations
+  4. Plants & Photosynthesis: Going Deeper
+  5. Classification of Life: Foundations
+  6. Classification of Life: Going Deeper
+  7. Case Study: Updating trusted root certificates on client computer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017581
+
+An original generated work created by the Signature system. All names, places, and events are invented.

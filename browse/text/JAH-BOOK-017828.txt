@@ -1,0 +1,20 @@
+Algebra Foundations: A Signature Course (Vol. 17828)
+by Justin Addam Higgins · JAH-BOOK-017828
+Genre: Mathematics · 1,094 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Measurement & Units, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product UNIVAC I (JAH-MALL-007187).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Measurement & Units: Foundations
+  4. Measurement & Units: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: UNIVAC
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017828
+
+An original generated work created by the Signature system. All names, places, and events are invented.

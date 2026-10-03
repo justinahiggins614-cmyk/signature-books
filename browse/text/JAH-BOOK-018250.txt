@@ -1,0 +1,26 @@
+Poems of types and intrusion
+by Justin Addam Higgins · JAH-BOOK-018250
+Genre: Poetry · 1,586 words
+
+Summary:
+A complete original poetry collection: 13 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-532391.
+
+Chapters:
+  1. portable and cqrs
+  2. Elegy for constellation
+  3. Hymn of intrusion
+  4. Cqrs Song
+  5. Ode to intrusion
+  6. Elegy for intrusion
+  7. The constellation Hour
+  8. Field Notes on intrusion
+  9. portable and detection
+  10. constellation and portable
+  11. Small Book of constellation
+  12. Hymn of night
+  13. The intrusion Hour
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-018250
+
+An original generated work created by the Signature system. All names, places, and events are invented.

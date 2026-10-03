@@ -1,0 +1,20 @@
+Algorithms & Flowcharts for Builders (Vol. 17609)
+by Justin Addam Higgins · JAH-BOOK-017609
+Genre: Computer Science · 1,005 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Data Structures, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent RU2263080C2.
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: Method for biochemical treatment of sewage waters
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017609
+
+An original generated work created by the Signature system. All names, places, and events are invented.

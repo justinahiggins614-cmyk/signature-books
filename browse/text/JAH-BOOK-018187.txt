@@ -1,0 +1,20 @@
+Primary Sources & Evidence: A Signature Course (Vol. 18187)
+by Justin Addam Higgins · JAH-BOOK-018187
+Genre: History · 1,032 words
+
+Summary:
+A complete Signature History textbook covering Primary Sources & Evidence, The Age of Exploration, The Middle Ages — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-576857.
+
+Chapters:
+  1. Primary Sources & Evidence: Foundations
+  2. Primary Sources & Evidence: Going Deeper
+  3. The Age of Exploration: Foundations
+  4. The Age of Exploration: Going Deeper
+  5. The Middle Ages: Foundations
+  6. The Middle Ages: Going Deeper
+  7. Case Study: Mapping tools module for code generation using contrastive
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-018187
+
+An original generated work created by the Signature system. All names, places, and events are invented.

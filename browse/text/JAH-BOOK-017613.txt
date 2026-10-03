@@ -1,0 +1,20 @@
+The Algorithms & Flowcharts Primer (Vol. 17613)
+by Justin Addam Higgins · JAH-BOOK-017613
+Genre: Computer Science · 1,050 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Databases, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-602597.
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Signature Water systems lab for churn prediction using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017613
+
+An original generated work created by the Signature system. All names, places, and events are invented.

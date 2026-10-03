@@ -1,0 +1,20 @@
+States of Matter Explained (Vol. 17863)
+by Justin Addam Higgins · JAH-BOOK-017863
+Genre: Chemistry · 1,075 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Acids & Bases, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Deterministic Engine (JAH-MALL-000250).
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Deterministic Engine
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017863
+
+An original generated work created by the Signature system. All names, places, and events are invented.
