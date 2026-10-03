@@ -1,23 +1,23 @@
 {
  "site": "The Signature Book Depository — Magazines",
- "total_issues": 6000,
- "total_words": 4253980,
+ "total_issues": 6500,
+ "total_words": 4609336,
  "magazines": {
-  "The Signature Science Review": 600,
-  "Signature Tech Monthly": 600,
-  "The Signature Arts Journal": 600,
-  "The Signature Historical Record": 600,
-  "The Inventor's Signature": 600,
-  "The Signature Naturalist": 600,
-  "The Signature Cosmos": 600,
-  "Signature Mathematics Quarterly": 600,
-  "The Signature Thinker": 600,
-  "Little Signatures": 600
+  "The Signature Science Review": 650,
+  "Signature Tech Monthly": 650,
+  "The Signature Arts Journal": 650,
+  "The Signature Historical Record": 650,
+  "The Inventor's Signature": 650,
+  "The Signature Naturalist": 650,
+  "The Signature Cosmos": 650,
+  "Signature Mathematics Quarterly": 650,
+  "The Signature Thinker": 650,
+  "Little Signatures": 650
  },
- "chunks": 60,
+ "chunks": 65,
  "chunk_size": 100,
  "march_goal": 1000000,
- "updated": "2026-10-03T12:23:34.866982+00:00",
+ "updated": "2026-10-03T14:23:40.869856+00:00",
  "index": "data/magazines/index/mags.idx.json.gz",
  "note": "All magazine issues are original generated works by/for the Signature system."
 }
