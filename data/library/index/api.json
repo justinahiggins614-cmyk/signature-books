@@ -1,18 +1,18 @@
 {
  "site": "The Signature Book Depository — Library",
- "total_artifacts": 3800,
- "total_words": 1552189,
+ "total_artifacts": 4100,
+ "total_words": 1674931,
  "kinds": {
-  "Microfilm": 760,
-  "Atlas": 760,
-  "Manuscript": 760,
-  "Reference": 760,
-  "Special Collection": 760
+  "Microfilm": 820,
+  "Atlas": 820,
+  "Manuscript": 820,
+  "Reference": 820,
+  "Special Collection": 820
  },
- "chunks": 38,
+ "chunks": 41,
  "chunk_size": 100,
  "march_goal": 1000000,
- "updated": "2026-10-03T14:23:29.716729+00:00",
+ "updated": "2026-10-03T16:23:50.265346+00:00",
  "index": "data/library/index/libs.idx.json.gz",
  "note": "All library artifacts are original generated works by/for the Signature system."
 }
