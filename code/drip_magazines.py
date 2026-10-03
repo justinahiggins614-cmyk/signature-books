@@ -406,11 +406,11 @@ def run(n):
     n_chunks = (end - 2) // CHUNK + 1 if end > 1 else 0
     save_idx(entries)
     write_api(end - 1, total_words, per_mag, n_chunks)
+    st["next_index"] = end
+    save_state(st)
     import importlib.util as _ilu
     _spec = _ilu.spec_from_file_location("sitemap_all", os.path.join(HERE, "sitemap_all.py"))
     _mod = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_mod); _mod.write_sitemap()
-    st["next_index"] = end
-    save_state(st)
     print(f"done: issues {start}..{end-1} ({new_recs} new), total {end-1}, words {total_words}, chunks {n_chunks}")
 
 def main():
