@@ -1,0 +1,20 @@
+Data Structures: A Signature Course (Vol. 22397)
+by Justin Addam Higgins · JAH-BOOK-022397
+Genre: Computer Science · 1,058 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, AI & Machine Learning Intro, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent DE102010004029A1.
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Method for producing particle-based element
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022397
+
+An original generated work created by the Signature system. All names, places, and events are invented.

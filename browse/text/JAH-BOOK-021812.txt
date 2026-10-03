@@ -1,0 +1,19 @@
+Databases: A Signature Course (Vol. 21812)
+by Justin Addam Higgins · JAH-BOOK-021812
+Genre: Computer Science · 916 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, Programming Basics, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text.
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-021812
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Data Structures Primer (Vol. 22413)
+by Justin Addam Higgins · JAH-BOOK-022413
+Genre: Computer Science · 1,102 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, The Internet & Networks, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Risk array for warehouse orchestration using learned indexing (Deterministic Edition) (JAH-MALL-003802).
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Risk array for warehouse orchestration using learned indexing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022413
+
+An original generated work created by the Signature system. All names, places, and events are invented.

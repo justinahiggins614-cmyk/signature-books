@@ -1,0 +1,20 @@
+The World of Reactions & Equations (Vol. 21768)
+by Justin Addam Higgins · JAH-BOOK-021768
+Genre: Chemistry · 1,053 words
+
+Summary:
+A complete Signature Chemistry textbook covering Reactions & Equations, Acids & Bases, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Party Planner (JAH-AI-DOM-048).
+
+Chapters:
+  1. Reactions & Equations: Foundations
+  2. Reactions & Equations: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Party Planner
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-021768
+
+An original generated work created by the Signature system. All names, places, and events are invented.

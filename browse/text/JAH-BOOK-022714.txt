@@ -1,0 +1,20 @@
+The How Computers Think Primer (Vol. 22714)
+by Justin Addam Higgins · JAH-BOOK-022714
+Genre: Computer Science · 1,072 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Programming Basics, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Preparation Of Pulse Protein Products ("YP870") (JAH-MALL-006844).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: Preparation Of Pulse Protein Products YP
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022714
+
+An original generated work created by the Signature system. All names, places, and events are invented.

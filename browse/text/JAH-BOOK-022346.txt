@@ -1,0 +1,20 @@
+The Motion & Speed Guide (Vol. 22346)
+by Justin Addam Higgins · JAH-BOOK-022346
+Genre: Physics · 1,024 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Electricity Basics, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-575288).
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Electricity Basics: Foundations
+  4. Electricity Basics: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Games engine for intrusion detection using Merkle-chained logging
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022346
+
+An original generated work created by the Signature system. All names, places, and events are invented.

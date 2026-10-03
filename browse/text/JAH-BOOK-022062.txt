@@ -1,0 +1,20 @@
+States of Matter: A Signature Course (Vol. 22062)
+by Justin Addam Higgins · JAH-BOOK-022062
+Genre: Chemistry · 1,049 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Acids & Bases, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Bait Picker (JAH-AI-DOM-199).
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Bait Picker
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022062
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Signature Probability Basics (Vol. 22037)
+by Justin Addam Higgins · JAH-BOOK-022037
+Genre: Mathematics · 1,051 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Intro to Calculus, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-054097.
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: VARIANT
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022037
+
+An original generated work created by the Signature system. All names, places, and events are invented.

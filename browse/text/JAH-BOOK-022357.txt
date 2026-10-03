@@ -1,0 +1,20 @@
+Practical Acids & Bases (Vol. 22357)
+by Justin Addam Higgins · JAH-BOOK-022357
+Genre: Chemistry · 1,117 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, Reactions & Equations, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product gradient descent (JAH-MALL-002409).
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: gradient descent
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022357
+
+An original generated work created by the Signature system. All names, places, and events are invented.

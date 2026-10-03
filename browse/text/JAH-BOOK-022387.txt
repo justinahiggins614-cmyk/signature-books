@@ -1,0 +1,20 @@
+Windows on The Age of Exploration (Vol. 22387)
+by Justin Addam Higgins · JAH-BOOK-022387
+Genre: History · 943 words
+
+Summary:
+A complete Signature History textbook covering The Age of Exploration, Revolutions & Independence, The Modern World — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-589330.
+
+Chapters:
+  1. The Age of Exploration: Foundations
+  2. The Age of Exploration: Going Deeper
+  3. Revolutions & Independence: Foundations
+  4. Revolutions & Independence: Going Deeper
+  5. The Modern World: Foundations
+  6. The Modern World: Going Deeper
+  7. Case Study: Construction systems array for LiDAR scanning using phase-change
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022387
+
+An original generated work created by the Signature system. All names, places, and events are invented.
