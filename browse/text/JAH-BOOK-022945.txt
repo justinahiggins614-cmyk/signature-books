@@ -1,0 +1,20 @@
+Gravity & Orbits in Action (Vol. 22945)
+by Justin Addam Higgins · JAH-BOOK-022945
+Genre: Physics · 1,095 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Motion & Speed, Light & Optics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Intrusion prevention engine for stream processing using token bucket shaping (Deterministic Edition) (JAH-MALL-004706).
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Motion & Speed: Foundations
+  4. Motion & Speed: Going Deeper
+  5. Light & Optics: Foundations
+  6. Light & Optics: Going Deeper
+  7. Case Study: Intrusion prevention engine for stream processing using token
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022945
+
+An original generated work created by the Signature system. All names, places, and events are invented.

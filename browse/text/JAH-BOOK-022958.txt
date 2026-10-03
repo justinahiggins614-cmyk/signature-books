@@ -1,0 +1,20 @@
+Practical Chemical Bonds (Vol. 22958)
+by Justin Addam Higgins · JAH-BOOK-022958
+Genre: Chemistry · 1,001 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, The Periodic Table, Acids & Bases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Riddle Maker (JAH-AI-DOM-168).
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. The Periodic Table: Foundations
+  4. The Periodic Table: Going Deeper
+  5. Acids & Bases: Foundations
+  6. Acids & Bases: Going Deeper
+  7. Case Study: Riddle Maker
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022958
+
+An original generated work created by the Signature system. All names, places, and events are invented.

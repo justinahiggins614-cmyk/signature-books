@@ -1,0 +1,20 @@
+Number Theory Step by Step (Vol. 22935)
+by Justin Addam Higgins · JAH-BOOK-022935
+Genre: Mathematics · 1,085 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Probability Basics, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B33711.
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Greek Fire Cultural Impact Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022935
+
+An original generated work created by the Signature system. All names, places, and events are invented.

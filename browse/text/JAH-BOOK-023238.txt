@@ -1,0 +1,20 @@
+Probability Basics Step by Step (Vol. 23238)
+by Justin Addam Higgins · JAH-BOOK-023238
+Genre: Mathematics · 1,089 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Geometry & Shapes, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Chef (JAH-AI-DOM-005).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: Chef
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-023238
+
+An original generated work created by the Signature system. All names, places, and events are invented.

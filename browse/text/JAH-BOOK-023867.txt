@@ -1,0 +1,20 @@
+Practical The Periodic Table (Vol. 23867)
+by Justin Addam Higgins · JAH-BOOK-023867
+Genre: Chemistry · 1,108 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Reactions & Equations, Intro to Organic Chemistry — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US8013125B2.
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. Intro to Organic Chemistry: Foundations
+  6. Intro to Organic Chemistry: Going Deeper
+  7. Case Study: Metalloproteinase and metalloproteinase binding proteins
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-023867
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Intro to Calculus Step by Step (Vol. 23540)
+by Justin Addam Higgins · JAH-BOOK-023540
+Genre: Mathematics · 1,097 words
+
+Summary:
+A complete Signature Mathematics textbook covering Intro to Calculus, Number Theory, Geometry & Shapes — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Physics lab for fail-safe shutdown using chain drives (JAH-MALL-003131).
+
+Chapters:
+  1. Intro to Calculus: Foundations
+  2. Intro to Calculus: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Geometry & Shapes: Foundations
+  6. Geometry & Shapes: Going Deeper
+  7. Case Study: Physics lab for fail-safe shutdown using chain drives
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-023540
+
+An original generated work created by the Signature system. All names, places, and events are invented.

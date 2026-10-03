@@ -1,0 +1,20 @@
+Signature Number Theory (Vol. 23531)
+by Justin Addam Higgins · JAH-BOOK-023531
+Genre: Mathematics · 1,096 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Ratios & Proportions, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US4207155A.
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Diluents for ultraviolet coating compositions
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-023531
+
+An original generated work created by the Signature system. All names, places, and events are invented.

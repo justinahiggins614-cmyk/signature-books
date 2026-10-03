@@ -1,0 +1,20 @@
+The How Computers Think Primer (Vol. 23006)
+by Justin Addam Higgins · JAH-BOOK-023006
+Genre: Computer Science · 1,051 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Cybersecurity Basics, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent JPH05253489A.
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Oxidation catalyst consisting of electric conductive polymer and
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-023006
+
+An original generated work created by the Signature system. All names, places, and events are invented.

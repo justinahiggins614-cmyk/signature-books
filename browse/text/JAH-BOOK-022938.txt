@@ -1,0 +1,20 @@
+Geometry & Shapes Step by Step (Vol. 22938)
+by Justin Addam Higgins · JAH-BOOK-022938
+Genre: Mathematics · 1,143 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Number Theory, Fractions & Decimals — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product model parallel (JAH-MALL-002453).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Fractions & Decimals: Foundations
+  6. Fractions & Decimals: Going Deeper
+  7. Case Study: model parallel
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-022938
+
+An original generated work created by the Signature system. All names, places, and events are invented.
