@@ -1,0 +1,20 @@
+Code & Concepts: Cybersecurity Basics (Vol. 24207)
+by Justin Addam Higgins · JAH-BOOK-024207
+Genre: Computer Science · 1,004 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, Data Structures, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-627716.
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Distribution module-Worldbuilding lab hybrid for fail-safe shutdown using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-024207
+
+An original generated work created by the Signature system. All names, places, and events are invented.

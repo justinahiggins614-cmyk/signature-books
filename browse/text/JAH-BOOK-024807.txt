@@ -1,0 +1,20 @@
+Data Structures for Builders (Vol. 24807)
+by Justin Addam Higgins · JAH-BOOK-024807
+Genre: Computer Science · 1,064 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, Programming Basics, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Ecosystems engine for dead reckoning using micro-bump arrays Max (JAH-MALL-000353).
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Ecosystems engine for dead reckoning using micro-bump arrays
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-024807
+
+An original generated work created by the Signature system. All names, places, and events are invented.

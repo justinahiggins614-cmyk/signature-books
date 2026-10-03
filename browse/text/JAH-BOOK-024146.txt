@@ -1,0 +1,20 @@
+The Light & Optics Guide (Vol. 24146)
+by Justin Addam Higgins · JAH-BOOK-024146
+Genre: Physics · 1,077 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Energy & Work, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B26263.
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Parallel Universes Evidence File Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-024146
+
+An original generated work created by the Signature system. All names, places, and events are invented.

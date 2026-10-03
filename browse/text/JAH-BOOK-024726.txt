@@ -1,0 +1,20 @@
+Mastering Number Theory (Vol. 24726)
+by Justin Addam Higgins · JAH-BOOK-024726
+Genre: Mathematics · 1,078 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Intro to Calculus, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JPS62164645A).
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Production of carboxylic acid
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-024726
+
+An original generated work created by the Signature system. All names, places, and events are invented.

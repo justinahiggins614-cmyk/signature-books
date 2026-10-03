@@ -1,0 +1,20 @@
+The Intro to Calculus Handbook (Vol. 24735)
+by Justin Addam Higgins · JAH-BOOK-024735
+Genre: Mathematics · 1,044 words
+
+Summary:
+A complete Signature Mathematics textbook covering Intro to Calculus, Measurement & Units, Ratios & Proportions — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent WO2011122967A1.
+
+Chapters:
+  1. Intro to Calculus: Foundations
+  2. Intro to Calculus: Going Deeper
+  3. Measurement & Units: Foundations
+  4. Measurement & Units: Going Deeper
+  5. Ratios & Proportions: Foundations
+  6. Ratios & Proportions: Going Deeper
+  7. Case Study: Production of unitised high density compositions
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-024735
+
+An original generated work created by the Signature system. All names, places, and events are invented.

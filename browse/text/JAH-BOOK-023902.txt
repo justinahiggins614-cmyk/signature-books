@@ -1,0 +1,20 @@
+Data Structures: A Signature Course (Vol. 23902)
+by Justin Addam Higgins · JAH-BOOK-023902
+Genre: Computer Science · 1,032 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, Algorithms & Flowcharts, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent DE69909762T2.
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. Algorithms & Flowcharts: Foundations
+  4. Algorithms & Flowcharts: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: METHOD FOR DEACIDIFYING PRINTED CELLULOSE CONTAINING MATERIAL
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-023902
+
+An original generated work created by the Signature system. All names, places, and events are invented.
