@@ -1,0 +1,24 @@
+The Signature The source record Book (Vol. 17060)
+by Justin Addam Higgins · JAH-BOOK-017060
+Genre: Poetry · 1,228 words
+
+Summary:
+A complete original poetry collection: 11 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-604700.
+
+Chapters:
+  1. Hymn of sandbox
+  2. merkle-chained and hybrid
+  3. Ode to merkle-chained
+  4. Ode to sandbox
+  5. Field Notes on contract
+  6. contract and speech
+  7. The sandbox Hour
+  8. Field Notes on transcription
+  9. Small Book of speech
+  10. Hymn of array-smart
+  11. Elegy for transcription
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017060
+
+An original generated work created by the Signature system. All names, places, and events are invented.

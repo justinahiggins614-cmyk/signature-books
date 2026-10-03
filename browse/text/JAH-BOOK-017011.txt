@@ -1,0 +1,20 @@
+The Internet & Networks: A Signature Course (Vol. 17011)
+by Justin Addam Higgins · JAH-BOOK-017011
+Genre: Computer Science · 1,067 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Algorithms & Flowcharts, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-534269.
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Algorithms & Flowcharts: Foundations
+  4. Algorithms & Flowcharts: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Signature Carbonator for optical tracking using adaptive clock
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017011
+
+An original generated work created by the Signature system. All names, places, and events are invented.

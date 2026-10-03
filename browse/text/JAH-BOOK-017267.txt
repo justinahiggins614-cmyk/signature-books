@@ -1,0 +1,20 @@
+Intro to Organic Chemistry Explained (Vol. 17267)
+by Justin Addam Higgins · JAH-BOOK-017267
+Genre: Chemistry · 1,098 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, Reactions & Equations, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Science Lab Assistant (JAH-AI-DOM-013).
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Science Lab Assistant
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-017267
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,25 @@
+The Model Signal Protocol
+by Justin Addam Higgins · JAH-BOOK-016526
+Genre: Science Fiction · 2,483 words
+
+Summary:
+A gripping tale of courage: Delthon Vemar and Torston Fenren race toward the Long Dark, where the governance model beacon will decide everything. A finished Signature novel: 11 chapters, full text, ready to read aloud. Inspired by Based on mall product Governance hub for model serving using gossip protocols (Hybrid Edition) (JAH-MALL-004686).
+
+Chapters:
+  1. Launch Window
+  2. The Long Dark
+  3. Signal Lost
+  4. New Ceres
+  5. The Core
+  6. Rogue Vector
+  7. Event Horizon
+  8. The Choice
+  9. Burn
+  10. Home Signal
+  11. Epilogue: Static
+  12. Source Note
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-016526
+
+An original generated work created by the Signature system. All names, places, and events are invented.

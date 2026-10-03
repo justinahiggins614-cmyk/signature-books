@@ -1,0 +1,20 @@
+Geometry & Shapes Step by Step (Vol. 16327)
+by Justin Addam Higgins · JAH-BOOK-016327
+Genre: Mathematics · 1,097 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Probability Basics, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B14855.
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: The Voynich Manuscript Scientific Analysis Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-016327
+
+An original generated work created by the Signature system. All names, places, and events are invented.

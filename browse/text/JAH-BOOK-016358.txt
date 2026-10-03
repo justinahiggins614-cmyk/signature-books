@@ -1,0 +1,20 @@
+Acids & Bases Explained (Vol. 16358)
+by Justin Addam Higgins · JAH-BOOK-016358
+Genre: Chemistry · 1,090 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, Chemical Bonds, Reactions & Equations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Portable medicine-Programmer track lab-File system journal hybrid hybrid-Seasonality decomposer hybrid for feature engineering using hyperloglog sketching (JAH-MALL-003543).
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. Chemical Bonds: Foundations
+  4. Chemical Bonds: Going Deeper
+  5. Reactions & Equations: Foundations
+  6. Reactions & Equations: Going Deeper
+  7. Case Study: Portable medicine-Programmer track lab-File system journal hybrid hybrid-Seasonality
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-016358
+
+An original generated work created by the Signature system. All names, places, and events are invented.

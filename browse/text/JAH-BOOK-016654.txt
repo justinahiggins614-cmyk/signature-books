@@ -1,0 +1,20 @@
+Electricity Basics: A Signature Course (Vol. 16654)
+by Justin Addam Higgins · JAH-BOOK-016654
+Genre: Physics · 1,038 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Light & Optics, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-546915.
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Light & Optics: Foundations
+  4. Light & Optics: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Gateway aggregator-Policies toolkit hybrid-Animal genome coded system-Conversion tools
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-016654
+
+An original generated work created by the Signature system. All names, places, and events are invented.
