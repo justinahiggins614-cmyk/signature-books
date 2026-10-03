@@ -1,0 +1,20 @@
+How Computers Think for Builders (Vol. 20298)
+by Justin Addam Higgins · JAH-BOOK-020298
+Genre: Computer Science · 1,006 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Programming Basics, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Mix Tip Giver (JAH-AI-DOM-177).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Mix Tip Giver
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020298
+
+An original generated work created by the Signature system. All names, places, and events are invented.

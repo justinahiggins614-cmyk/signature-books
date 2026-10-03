@@ -1,0 +1,20 @@
+Mastering Fractions & Decimals (Vol. 19927)
+by Justin Addam Higgins · JAH-BOOK-019927
+Genre: Mathematics · 1,095 words
+
+Summary:
+A complete Signature Mathematics textbook covering Fractions & Decimals, Measurement & Units, Geometry & Shapes — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Math Tutor (JAH-AI-DOM-012).
+
+Chapters:
+  1. Fractions & Decimals: Foundations
+  2. Fractions & Decimals: Going Deeper
+  3. Measurement & Units: Foundations
+  4. Measurement & Units: Going Deeper
+  5. Geometry & Shapes: Foundations
+  6. Geometry & Shapes: Going Deeper
+  7. Case Study: Math Tutor
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-019927
+
+An original generated work created by the Signature system. All names, places, and events are invented.

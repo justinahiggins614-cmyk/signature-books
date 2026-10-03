@@ -1,0 +1,19 @@
+The Heat & Temperature Guide (Vol. 20244)
+by Justin Addam Higgins · JAH-BOOK-020244
+Genre: Physics · 924 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Energy & Work, Gravity & Orbits — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text.
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Gravity & Orbits: Foundations
+  6. Gravity & Orbits: Going Deeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020244
+
+An original generated work created by the Signature system. All names, places, and events are invented.

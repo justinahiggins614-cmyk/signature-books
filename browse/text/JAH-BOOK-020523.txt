@@ -1,0 +1,20 @@
+Algebra Foundations: A Signature Course (Vol. 20523)
+by Justin Addam Higgins · JAH-BOOK-020523
+Genre: Mathematics · 1,156 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Intro to Calculus, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Transit lab for waterproof operation using body biasing Rev 2 (JAH-MALL-003059).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Transit lab for waterproof operation using body biasing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020523
+
+An original generated work created by the Signature system. All names, places, and events are invented.

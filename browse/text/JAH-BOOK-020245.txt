@@ -1,0 +1,20 @@
+Understanding Waves & Sound (Vol. 20245)
+by Justin Addam Higgins · JAH-BOOK-020245
+Genre: Physics · 1,011 words
+
+Summary:
+A complete Signature Physics textbook covering Waves & Sound, Gravity & Orbits, Light & Optics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-163364.
+
+Chapters:
+  1. Waves & Sound: Foundations
+  2. Waves & Sound: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Light & Optics: Foundations
+  6. Light & Optics: Going Deeper
+  7. Case Study: VARIANT
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020245
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Acids & Bases: A Signature Course (Vol. 20565)
+by Justin Addam Higgins · JAH-BOOK-020565
+Genre: Chemistry · 1,125 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, Solutions & Mixtures, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product 3-D Secure handler for code generation using RDMA transfers (JAH-MALL-001134).
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Secure handler for code generation using RDMA transfers
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020565
+
+An original generated work created by the Signature system. All names, places, and events are invented.

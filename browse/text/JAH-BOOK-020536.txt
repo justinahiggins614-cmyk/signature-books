@@ -1,0 +1,20 @@
+Signature Intro to Calculus (Vol. 20536)
+by Justin Addam Higgins · JAH-BOOK-020536
+Genre: Mathematics · 1,134 words
+
+Summary:
+A complete Signature Mathematics textbook covering Intro to Calculus, Algebra Foundations, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Neighbor Note Writer (JAH-AI-DOM-127).
+
+Chapters:
+  1. Intro to Calculus: Foundations
+  2. Intro to Calculus: Going Deeper
+  3. Algebra Foundations: Foundations
+  4. Algebra Foundations: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: Neighbor Note Writer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020536
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Fractions & Decimals Step by Step (Vol. 20234)
+by Justin Addam Higgins · JAH-BOOK-020234
+Genre: Mathematics · 1,105 words
+
+Summary:
+A complete Signature Mathematics textbook covering Fractions & Decimals, Intro to Calculus, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US20260125766A1.
+
+Chapters:
+  1. Fractions & Decimals: Foundations
+  2. Fractions & Decimals: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Methods and compositions for identifying structural variants
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-020234
+
+An original generated work created by the Signature system. All names, places, and events are invented.
