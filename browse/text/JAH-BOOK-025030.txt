@@ -1,0 +1,20 @@
+Signature Algebra Foundations (Vol. 25030)
+by Justin Addam Higgins · JAH-BOOK-025030
+Genre: Mathematics · 1,119 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Ratios & Proportions, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Cheese Pairer (JAH-AI-DOM-228).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Cheese Pairer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025030
+
+An original generated work created by the Signature system. All names, places, and events are invented.

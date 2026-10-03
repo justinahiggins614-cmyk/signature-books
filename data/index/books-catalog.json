@@ -1,90 +1,90 @@
 {
  "site": "The Signature Book Depository",
- "generated": "2026-10-03T21:41:48.449196+00:00",
- "total_books": 25000,
- "total_words": 35328653,
+ "generated": "2026-10-03T23:41:45.215516+00:00",
+ "total_books": 26100,
+ "total_words": 36804441,
  "chunk_size": 100,
  "index": "https://justinahiggins614-cmyk.github.io/signature-books/data/index/books.idx.json.gz",
  "book_url_pattern": "https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-######",
  "genres": [
   {
    "name": "Biology",
-   "count": 1162,
+   "count": 1218,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-biology.html"
   },
   {
    "name": "Business",
-   "count": 747,
+   "count": 783,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-business.html"
   },
   {
    "name": "Chemistry",
-   "count": 1162,
+   "count": 1218,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-chemistry.html"
   },
   {
    "name": "Children's",
-   "count": 2490,
+   "count": 2610,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-childrens.html"
   },
   {
    "name": "Computer Science",
-   "count": 1494,
+   "count": 1566,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-computer-science.html"
   },
   {
    "name": "Fantasy",
-   "count": 2520,
+   "count": 2610,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-fantasy.html"
   },
   {
    "name": "History",
-   "count": 1162,
+   "count": 1218,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-history.html"
   },
   {
    "name": "Horror",
-   "count": 1494,
+   "count": 1566,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-horror.html"
   },
   {
    "name": "Mathematics",
-   "count": 1494,
+   "count": 1566,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-mathematics.html"
   },
   {
    "name": "Mystery",
-   "count": 2184,
+   "count": 2262,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-mystery.html"
   },
   {
    "name": "Philosophy",
-   "count": 1079,
+   "count": 1131,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-philosophy.html"
   },
   {
    "name": "Physics",
-   "count": 1162,
+   "count": 1218,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-physics.html"
   },
   {
    "name": "Poetry",
-   "count": 1660,
+   "count": 1740,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-poetry.html"
   },
   {
    "name": "Romance",
-   "count": 1508,
+   "count": 1566,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-romance.html"
   },
   {
    "name": "Science Fiction",
-   "count": 2520,
+   "count": 2610,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-science-fiction.html"
   },
   {
    "name": "Technical Manual",
-   "count": 1162,
+   "count": 1218,
    "page": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genre-technical-manual.html"
   }
  ],
@@ -113,7 +113,9 @@
   "https://justinahiggins614-cmyk.github.io/signature-books/browse/books-022.html",
   "https://justinahiggins614-cmyk.github.io/signature-books/browse/books-023.html",
   "https://justinahiggins614-cmyk.github.io/signature-books/browse/books-024.html",
-  "https://justinahiggins614-cmyk.github.io/signature-books/browse/books-025.html"
+  "https://justinahiggins614-cmyk.github.io/signature-books/browse/books-025.html",
+  "https://justinahiggins614-cmyk.github.io/signature-books/browse/books-026.html",
+  "https://justinahiggins614-cmyk.github.io/signature-books/browse/books-027.html"
  ],
  "genre_index": "https://justinahiggins614-cmyk.github.io/signature-books/browse/genres.html",
  "volumes": [
@@ -1616,6 +1618,72 @@
    "last": "JAH-BOOK-025000",
    "records": 100,
    "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00250.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025001",
+   "last": "JAH-BOOK-025100",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00251.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025101",
+   "last": "JAH-BOOK-025200",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00252.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025201",
+   "last": "JAH-BOOK-025300",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00253.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025301",
+   "last": "JAH-BOOK-025400",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00254.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025401",
+   "last": "JAH-BOOK-025500",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00255.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025501",
+   "last": "JAH-BOOK-025600",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00256.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025601",
+   "last": "JAH-BOOK-025700",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00257.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025701",
+   "last": "JAH-BOOK-025800",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00258.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025801",
+   "last": "JAH-BOOK-025900",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00259.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-025901",
+   "last": "JAH-BOOK-026000",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00260.json.gz"
+  },
+  {
+   "first": "JAH-BOOK-026001",
+   "last": "JAH-BOOK-026100",
+   "records": 100,
+   "url": "https://justinahiggins614-cmyk.github.io/signature-books/data/volumes/books-c00261.json.gz"
   }
  ],
  "note": "All books are original generated works by/for the Signature system, by Justin Addam Higgins. Derived books carry source-lineage links to the network record that seeded them."

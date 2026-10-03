@@ -1,0 +1,20 @@
+Motion & Speed: A Signature Course (Vol. 25653)
+by Justin Addam Higgins · JAH-BOOK-025653
+Genre: Physics · 1,048 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Waves & Sound, Gravity & Orbits — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Tea Steeper (JAH-AI-DOM-224).
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Waves & Sound: Foundations
+  4. Waves & Sound: Going Deeper
+  5. Gravity & Orbits: Foundations
+  6. Gravity & Orbits: Going Deeper
+  7. Case Study: Tea Steeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025653
+
+An original generated work created by the Signature system. All names, places, and events are invented.

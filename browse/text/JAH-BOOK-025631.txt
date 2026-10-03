@@ -1,0 +1,20 @@
+Probability Basics: A Signature Course (Vol. 25631)
+by Justin Addam Higgins · JAH-BOOK-025631
+Genre: Mathematics · 1,115 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Intro to Calculus, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent CN111239597A.
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Method for representing electric life of alternating current
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025631
+
+An original generated work created by the Signature system. All names, places, and events are invented.

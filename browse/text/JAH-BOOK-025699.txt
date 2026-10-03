@@ -1,0 +1,20 @@
+Databases for Builders (Vol. 25699)
+by Justin Addam Higgins · JAH-BOOK-025699
+Genre: Computer Science · 1,055 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, The Internet & Networks, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-695515).
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: Future legal array-Flaky-test detector hybrid for clinical triage
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025699
+
+An original generated work created by the Signature system. All names, places, and events are invented.

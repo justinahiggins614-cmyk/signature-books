@@ -1,0 +1,20 @@
+Mastering Probability Basics (Vol. 25332)
+by Justin Addam Higgins · JAH-BOOK-025332
+Genre: Mathematics · 1,128 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Geometry & Shapes, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product MFA challenger for user segmentation using Merkle-chained logging — Consent r... (JAH-MALL-001883).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: MFA challenger for user segmentation using Merkle-chained logging
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025332
+
+An original generated work created by the Signature system. All names, places, and events are invented.

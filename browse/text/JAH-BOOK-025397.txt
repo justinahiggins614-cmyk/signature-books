@@ -1,0 +1,20 @@
+Databases: A Signature Course (Vol. 25397)
+by Justin Addam Higgins · JAH-BOOK-025397
+Genre: Computer Science · 1,017 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, The Internet & Networks, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-616200.
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: Video games hub-Cushioning insert hybrid for content moderation
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025397
+
+An original generated work created by the Signature system. All names, places, and events are invented.

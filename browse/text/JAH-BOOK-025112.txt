@@ -1,0 +1,20 @@
+AI & Machine Learning Intro for Builders (Vol. 25112)
+by Justin Addam Higgins · JAH-BOOK-025112
+Genre: Computer Science · 1,059 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, Data Structures, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B15768.
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Excalibur Incident Reports Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025112
+
+An original generated work created by the Signature system. All names, places, and events are invented.

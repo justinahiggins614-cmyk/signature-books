@@ -1,0 +1,22 @@
+The Testing Reactor Protocol
+by Justin Addam Higgins · JAH-BOOK-025521
+Genre: Science Fiction · 1,780 words
+
+Summary:
+When the media android calls out, Fenren Misoul must return to Cryo Harbor and face the silent machines. A finished Signature novel: 8 chapters, full text, ready to read aloud. Inspired by Based on mall product 3d media hub for A/B testing using WebAssembly sandboxing (JAH-MALL-001493).
+
+Chapters:
+  1. Launch Window
+  2. The Long Dark
+  3. Signal Lost
+  4. New Ceres
+  5. The Core
+  6. Rogue Vector
+  7. Event Horizon
+  8. The Choice
+  9. Source Note
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025521
+
+An original generated work created by the Signature system. All names, places, and events are invented.

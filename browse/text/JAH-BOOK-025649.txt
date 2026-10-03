@@ -1,0 +1,20 @@
+The Gravity & Orbits Guide (Vol. 25649)
+by Justin Addam Higgins · JAH-BOOK-025649
+Genre: Physics · 1,057 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Forces & Newton's Laws, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-691725.
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Forces & Newton's Laws: Foundations
+  4. Forces & Newton's Laws: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Cap tightener for frequency hopping using dynamic voltage
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025649
+
+An original generated work created by the Signature system. All names, places, and events are invented.

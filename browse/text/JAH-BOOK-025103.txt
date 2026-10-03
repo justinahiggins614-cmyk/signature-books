@@ -1,0 +1,20 @@
+The Programming Basics Primer (Vol. 25103)
+by Justin Addam Higgins · JAH-BOOK-025103
+Genre: Computer Science · 1,059 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, How Computers Think, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-625763.
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Signature Code file module for indoor positioning using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025103
+
+An original generated work created by the Signature system. All names, places, and events are invented.

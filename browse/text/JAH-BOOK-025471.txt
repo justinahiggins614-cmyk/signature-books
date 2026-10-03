@@ -1,0 +1,22 @@
+The Air Quality Monitor (SG-926) Owner's Manual
+by Justin Addam Higgins · JAH-BOOK-025471
+Genre: Technical Manual · 605 words
+
+Summary:
+The complete owner's manual for the Signature Air Quality Monitor (SG-926): safety, setup, daily use, care, troubleshooting, and full specifications. A finished, practical technical document.
+
+Chapters:
+  1. Safety First
+  2. What Is in the Box
+  3. Setup in Six Steps
+  4. Everyday Operation
+  5. Care & Cleaning
+  6. Troubleshooting
+  7. Specifications
+  8. Warranty & Support
+  9. Companion Record
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-025471
+
+An original generated work created by the Signature system. All names, places, and events are invented.
