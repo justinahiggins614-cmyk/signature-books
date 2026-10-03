@@ -1,0 +1,20 @@
+States of Matter Explained (Vol. 15467)
+by Justin Addam Higgins · JAH-BOOK-015467
+Genre: Chemistry · 1,026 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Chemical Bonds, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US20160337729A1.
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Chemical Bonds: Foundations
+  4. Chemical Bonds: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Adaptive Compensation Control Method and Module and Optical
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015467
+
+An original generated work created by the Signature system. All names, places, and events are invented.

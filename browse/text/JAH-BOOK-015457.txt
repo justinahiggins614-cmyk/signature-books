@@ -1,0 +1,20 @@
+Practical The Periodic Table (Vol. 15457)
+by Justin Addam Higgins · JAH-BOOK-015457
+Genre: Chemistry · 1,084 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Solutions & Mixtures, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-526974.
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Solutions & Mixtures: Foundations
+  4. Solutions & Mixtures: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Portable business tools for risk scoring using CQRS
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015457
+
+An original generated work created by the Signature system. All names, places, and events are invented.

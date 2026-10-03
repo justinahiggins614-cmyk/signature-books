@@ -1,0 +1,20 @@
+Algorithms & Flowcharts: A Signature Course (Vol. 15209)
+by Justin Addam Higgins · JAH-BOOK-015209
+Genre: Computer Science · 1,103 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Cybersecurity Basics, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Farmers Market Guide (JAH-AI-DOM-211).
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: Farmers Market Guide
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015209
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Data Structures for Builders (Vol. 16108)
+by Justin Addam Higgins · JAH-BOOK-016108
+Genre: Computer Science · 1,022 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, Algorithms & Flowcharts, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-596349.
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. Algorithms & Flowcharts: Foundations
+  4. Algorithms & Flowcharts: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Slip-last boot for outdoor weathering using redistribution layers
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-016108
+
+An original generated work created by the Signature system. All names, places, and events are invented.

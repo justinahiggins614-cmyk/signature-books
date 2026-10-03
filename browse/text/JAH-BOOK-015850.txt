@@ -1,0 +1,23 @@
+Query and Other Poems
+by Justin Addam Higgins · JAH-BOOK-015850
+Genre: Poetry · 1,337 words
+
+Summary:
+A complete original poetry collection: 10 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-495424).
+
+Chapters:
+  1. Ode to hyperloglog
+  2. Field Notes on moderation
+  3. crawl and moderation
+  4. Field Notes on sketching
+  5. Crawl Song
+  6. Hymn of parser
+  7. Content Song
+  8. Field Notes on crawl
+  9. content and query
+  10. Elegy for crawl
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015850
+
+An original generated work created by the Signature system. All names, places, and events are invented.

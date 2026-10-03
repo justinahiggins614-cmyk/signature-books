@@ -1,0 +1,20 @@
+The Periodic Table: A Signature Course (Vol. 15763)
+by Justin Addam Higgins · JAH-BOOK-015763
+Genre: Chemistry · 1,135 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Intro to Organic Chemistry, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Governance toolkit-Ai models suite hybrid-Algebra calculators lab hybrid for feature engineering using zero-knowledge proofs (JAH-MALL-002583).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Intro to Organic Chemistry: Foundations
+  4. Intro to Organic Chemistry: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Governance toolkit-Ai models suite hybrid-Algebra calculators lab hybrid
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015763
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Cybersecurity Basics Primer (Vol. 15812)
+by Justin Addam Higgins · JAH-BOOK-015812
+Genre: Computer Science · 1,041 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, Data Structures, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve 5^x = 25 (JAH-MALL-007532).
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Solve
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015812
+
+An original generated work created by the Signature system. All names, places, and events are invented.

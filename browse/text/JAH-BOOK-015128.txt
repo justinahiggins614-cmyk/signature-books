@@ -1,0 +1,20 @@
+Ratios & Proportions Step by Step (Vol. 15128)
+by Justin Addam Higgins · JAH-BOOK-015128
+Genre: Mathematics · 1,146 words
+
+Summary:
+A complete Signature Mathematics textbook covering Ratios & Proportions, Fractions & Decimals, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-597971.
+
+Chapters:
+  1. Ratios & Proportions: Foundations
+  2. Ratios & Proportions: Going Deeper
+  3. Fractions & Decimals: Foundations
+  4. Fractions & Decimals: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Slicing blade for overload protection using deep trench
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015128
+
+An original generated work created by the Signature system. All names, places, and events are invented.

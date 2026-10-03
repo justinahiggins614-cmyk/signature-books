@@ -1,0 +1,20 @@
+AI & Machine Learning Intro for Builders (Vol. 15201)
+by Justin Addam Higgins · JAH-BOOK-015201
+Genre: Computer Science · 1,068 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, How Computers Think, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US3993503A.
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Secondary battery or cell with composite electrode
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015201
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,25 @@
+Portable and Other Poems (Vol. 15255)
+by Justin Addam Higgins · JAH-BOOK-015255
+Genre: Poetry · 1,378 words
+
+Summary:
+A complete original poetry collection: 12 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-594500).
+
+Chapters:
+  1. lsm-tree and tools
+  2. Ode to portable
+  3. Tools Song
+  4. Small Book of edition
+  5. hybrid and compaction
+  6. Small Book of content
+  7. The lsm-tree Hour
+  8. The moderation Hour
+  9. The lsm-tree compaction
+  10. Ode to portable (7)
+  11. Hymn of portable
+  12. What the content Said
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015255
+
+An original generated work created by the Signature system. All names, places, and events are invented.

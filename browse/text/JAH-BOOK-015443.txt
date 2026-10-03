@@ -1,0 +1,20 @@
+Heat & Temperature in Action (Vol. 15443)
+by Justin Addam Higgins · JAH-BOOK-015443
+Genre: Physics · 986 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Electricity Basics, Gravity & Orbits — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-380337.
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Electricity Basics: Foundations
+  4. Electricity Basics: Going Deeper
+  5. Gravity & Orbits: Foundations
+  6. Gravity & Orbits: Going Deeper
+  7. Case Study: PRODUCTLINE
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015443
+
+An original generated work created by the Signature system. All names, places, and events are invented.

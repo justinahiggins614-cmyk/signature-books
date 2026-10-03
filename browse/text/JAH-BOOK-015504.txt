@@ -1,0 +1,20 @@
+Code & Concepts: The Internet & Networks (Vol. 15504)
+by Justin Addam Higgins · JAH-BOOK-015504
+Genre: Computer Science · 1,140 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, How Computers Think, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Benzimidazole, diese Verbindungen enthaltende Arzneimittel und Verfahren zu &hellip; (JAH-MALL-006045).
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Benzimidazole diese Verbindungen enthaltende Arzneimittel und Verfahren zu
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015504
+
+An original generated work created by the Signature system. All names, places, and events are invented.

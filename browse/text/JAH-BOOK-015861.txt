@@ -1,0 +1,27 @@
+Poems of detector and malware
+by Justin Addam Higgins · JAH-BOOK-015861
+Genre: Poetry · 1,919 words
+
+Summary:
+A complete original poetry collection: 14 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on mall product Changepoint detector for malware classification using count-min sketching (JAH-MALL-003701).
+
+Chapters:
+  1. count-min and classification
+  2. Elegy for detector
+  3. Count-min Song
+  4. Field Notes on changepoint
+  5. Hymn of classification
+  6. Light Song
+  7. The changepoint Hour
+  8. What the changepoint Said
+  9. The malware Hour
+  10. What the morning Said
+  11. Detector Song
+  12. The classification Hour
+  13. Hymn of count-min
+  14. The count-min morning
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015861
+
+An original generated work created by the Signature system. All names, places, and events are invented.

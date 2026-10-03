@@ -1,0 +1,27 @@
+The Signature The source record Book (Vol. 15556)
+by Justin Addam Higgins · JAH-BOOK-015556
+Genre: Poetry · 1,664 words
+
+Summary:
+A complete original poetry collection: 14 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-534855).
+
+Chapters:
+  1. Field Notes on wireless
+  2. Charging Song
+  3. The keystone heat-pipe
+  4. The wireless heat-pipe
+  5. Field Notes on hybrid
+  6. Ode to wireless
+  7. The charging Hour
+  8. What the heat-pipe Said
+  9. corrector-settlement and wireless
+  10. Ode to heat-pipe
+  11. Corrector-settlement Song
+  12. Elegy for batcher-fuzzing
+  13. Small Book of hybrid
+  14. Elegy for batcher-fuzzing (9)
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-015556
+
+An original generated work created by the Signature system. All names, places, and events are invented.
