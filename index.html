@@ -554,7 +554,7 @@ function provHTMLBook(rec){
   return '<div class="prov">Provenance: made by the Book Depository book generator (code/drip_books.py) · deterministic record seed 20261001+'+bookSeedNo(rec)+' · origin: '+esc(ORIGIN_LABEL[rec.origin]||rec.origin)+' · record date not recorded per record (deterministic — the same seed regenerates the same book)</div>';
 }
 function recPanelHTMLBook(rec){
-  return '<div class="recpanel" role="group" aria-label="Record actions"><span class="rpid">'+esc(rec.id)+'</span><span class="rpver">v1.0</span>'+
+  return '<div class="recpanel" role="group" aria-label="Record actions"><span class="rpid">ID: '+esc(rec.id)+'</span><span class="rpver">VERSION v1.0</span>'+
   '<button data-rp="open">OPEN</button><button data-rp="src">SOURCE</button><button data-rp="share">SHARE</button>'+
   '<button data-rp="copy">COPY</button><button data-rp="dl">DOWNLOAD</button><button data-rp="read">READ ALOUD</button></div>';
 }

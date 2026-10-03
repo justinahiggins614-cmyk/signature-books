@@ -152,7 +152,7 @@ function wingProvHTML(rec){
   return '<div class="prov">Provenance: made by the '+esc(WING.pageTitle.split(" — ")[0])+' generator · deterministic record seed '+wingSeedBase(rec.id)+'+'+n+' · record date not recorded per record (deterministic — the same seed regenerates the same record)</div>';
 }
 function wingPanelHTML(rec){
-  return '<div class="recpanel" role="group" aria-label="Record actions"><span class="rpid">'+esc(rec.id)+'</span><span class="rpver">v1.0</span>'+
+  return '<div class="recpanel" role="group" aria-label="Record actions"><span class="rpid">ID: '+esc(rec.id)+'</span><span class="rpver">VERSION v1.0</span>'+
   '<button data-rp="open">OPEN</button><button data-rp="src">SOURCE</button><button data-rp="share">SHARE</button>'+
   '<button data-rp="copy">COPY</button><button data-rp="dl">DOWNLOAD</button><button data-rp="read">READ ALOUD</button></div>';
 }
