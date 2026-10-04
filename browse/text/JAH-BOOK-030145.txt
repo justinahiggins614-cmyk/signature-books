@@ -1,0 +1,20 @@
+The Gravity & Orbits Guide (Vol. 30145)
+by Justin Addam Higgins · JAH-BOOK-030145
+Genre: Physics · 1,034 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Electricity Basics, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B051429.
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Electricity Basics: Foundations
+  4. Electricity Basics: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Force Fields Mechanism Study Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-030145
+
+An original generated work created by the Signature system. All names, places, and events are invented.

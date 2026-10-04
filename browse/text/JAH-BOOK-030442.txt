@@ -1,0 +1,20 @@
+Understanding Heat & Temperature (Vol. 30442)
+by Justin Addam Higgins · JAH-BOOK-030442
+Genre: Physics · 1,082 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Light & Optics, Gravity & Orbits — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Retort sterilizer-Dough mixer hybrid for outdoor weathering using multi-threshold cells (JAH-MALL-003219).
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Light & Optics: Foundations
+  4. Light & Optics: Going Deeper
+  5. Gravity & Orbits: Foundations
+  6. Gravity & Orbits: Going Deeper
+  7. Case Study: Retort sterilizer-Dough mixer hybrid for outdoor weathering using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-030442
+
+An original generated work created by the Signature system. All names, places, and events are invented.

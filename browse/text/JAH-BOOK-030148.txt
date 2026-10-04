@@ -1,0 +1,20 @@
+The Light & Optics Guide (Vol. 30148)
+by Justin Addam Higgins · JAH-BOOK-030148
+Genre: Physics · 1,034 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Gravity & Orbits, Electricity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product ablation study (JAH-MALL-002317).
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Electricity Basics: Foundations
+  6. Electricity Basics: Going Deeper
+  7. Case Study: ablation study
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-030148
+
+An original generated work created by the Signature system. All names, places, and events are invented.

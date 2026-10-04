@@ -1,0 +1,20 @@
+The Living World: Ecology & Ecosystems (Vol. 30472)
+by Justin Addam Higgins · JAH-BOOK-030472
+Genre: Biology · 1,039 words
+
+Summary:
+A complete Signature Biology textbook covering Ecology & Ecosystems, Classification of Life, Plants & Photosynthesis — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-677562.
+
+Chapters:
+  1. Ecology & Ecosystems: Foundations
+  2. Ecology & Ecosystems: Going Deeper
+  3. Classification of Life: Foundations
+  4. Classification of Life: Going Deeper
+  5. Plants & Photosynthesis: Foundations
+  6. Plants & Photosynthesis: Going Deeper
+  7. Case Study: Causal inference engine for code generation using reservoir
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-030472
+
+An original generated work created by the Signature system. All names, places, and events are invented.

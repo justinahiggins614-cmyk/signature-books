@@ -1,0 +1,20 @@
+Fractions & Decimals: A Signature Course (Vol. 30437)
+by Justin Addam Higgins · JAH-BOOK-030437
+Genre: Mathematics · 1,124 words
+
+Summary:
+A complete Signature Mathematics textbook covering Fractions & Decimals, Number Theory, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-701055.
+
+Chapters:
+  1. Fractions & Decimals: Foundations
+  2. Fractions & Decimals: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Bridge systems engine for short-circuit protection using stacked-die
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-030437
+
+An original generated work created by the Signature system. All names, places, and events are invented.
