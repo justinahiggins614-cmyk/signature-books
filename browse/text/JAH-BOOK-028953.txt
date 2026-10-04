@@ -1,0 +1,20 @@
+Forces & Newton's Laws in Action (Vol. 28953)
+by Justin Addam Higgins · JAH-BOOK-028953
+Genre: Physics · 1,011 words
+
+Summary:
+A complete Signature Physics textbook covering Forces & Newton's Laws, Energy & Work, Gravity & Orbits — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-142648.
+
+Chapters:
+  1. Forces & Newton's Laws: Foundations
+  2. Forces & Newton's Laws: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Gravity & Orbits: Foundations
+  6. Gravity & Orbits: Going Deeper
+  7. Case Study: VARIANT
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-028953
+
+An original generated work created by the Signature system. All names, places, and events are invented.

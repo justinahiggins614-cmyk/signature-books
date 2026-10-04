@@ -1,0 +1,20 @@
+The World of Chemical Bonds (Vol. 28366)
+by Justin Addam Higgins · JAH-BOOK-028366
+Genre: Chemistry · 1,078 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, Reactions & Equations, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JP2021169298A).
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Control surface actuator assemblies aircraft hydraulic systems including
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-028366
+
+An original generated work created by the Signature system. All names, places, and events are invented.

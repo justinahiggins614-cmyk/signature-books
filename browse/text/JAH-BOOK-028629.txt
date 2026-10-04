@@ -1,0 +1,20 @@
+Mastering Probability Basics (Vol. 28629)
+by Justin Addam Higgins · JAH-BOOK-028629
+Genre: Mathematics · 1,139 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Algebra Foundations, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Frameworks lab-Face depth camera hybrid for personalized recommendation using token bucket shaping (JAH-MALL-002882).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Algebra Foundations: Foundations
+  4. Algebra Foundations: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Frameworks lab-Face depth camera hybrid for personalized recommendation
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-028629
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Light & Optics in Action (Vol. 28643)
+by Justin Addam Higgins · JAH-BOOK-028643
+Genre: Physics · 1,101 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Heat & Temperature, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Hardware engine for sensor fusion using phase-change materials (JAH-MALL-004644).
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Hardware engine for sensor fusion using phase-change materials
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-028643
+
+An original generated work created by the Signature system. All names, places, and events are invented.

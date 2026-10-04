@@ -1,0 +1,20 @@
+AI & Machine Learning Intro: A Signature Course (Vol. 28698)
+by Justin Addam Higgins · JAH-BOOK-028698
+Genre: Computer Science · 1,086 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, Cybersecurity Basics, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Allowance Planner (JAH-AI-DOM-124).
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Allowance Planner
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-028698
+
+An original generated work created by the Signature system. All names, places, and events are invented.
