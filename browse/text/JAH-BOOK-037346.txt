@@ -1,0 +1,20 @@
+Energy & Work: A Signature Course (Vol. 37346)
+by Justin Addam Higgins · JAH-BOOK-037346
+Genre: Physics · 1,037 words
+
+Summary:
+A complete Signature Physics textbook covering Energy & Work, Heat & Temperature, Motion & Speed — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-731786.
+
+Chapters:
+  1. Energy & Work: Foundations
+  2. Energy & Work: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Motion & Speed: Foundations
+  6. Motion & Speed: Going Deeper
+  7. Case Study: Assembly matcher for data deduplication using RDMA transfers
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037346
+
+An original generated work created by the Signature system. All names, places, and events are invented.

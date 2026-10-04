@@ -1,0 +1,20 @@
+The Living World: Ecology & Ecosystems (Vol. 37374)
+by Justin Addam Higgins · JAH-BOOK-037374
+Genre: Biology · 1,040 words
+
+Summary:
+A complete Signature Biology textbook covering Ecology & Ecosystems, Genetics & DNA, Microbes & Disease — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-746691.
+
+Chapters:
+  1. Ecology & Ecosystems: Foundations
+  2. Ecology & Ecosystems: Going Deeper
+  3. Genetics & DNA: Foundations
+  4. Genetics & DNA: Going Deeper
+  5. Microbes & Disease: Foundations
+  6. Microbes & Disease: Going Deeper
+  7. Case Study: Graphic design lab for impedance matching using piezoelectric
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037374
+
+An original generated work created by the Signature system. All names, places, and events are invented.

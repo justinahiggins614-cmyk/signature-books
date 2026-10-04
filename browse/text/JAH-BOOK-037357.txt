@@ -1,0 +1,20 @@
+Reactions & Equations Explained (Vol. 37357)
+by Justin Addam Higgins · JAH-BOOK-037357
+Genre: Chemistry · 1,100 words
+
+Summary:
+A complete Signature Chemistry textbook covering Reactions & Equations, Atoms & Elements, Solutions & Mixtures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Fuzzy Sage (JAH-AI-SIG-007).
+
+Chapters:
+  1. Reactions & Equations: Foundations
+  2. Reactions & Equations: Going Deeper
+  3. Atoms & Elements: Foundations
+  4. Atoms & Elements: Going Deeper
+  5. Solutions & Mixtures: Foundations
+  6. Solutions & Mixtures: Going Deeper
+  7. Case Study: Fuzzy Sage
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037357
+
+An original generated work created by the Signature system. All names, places, and events are invented.

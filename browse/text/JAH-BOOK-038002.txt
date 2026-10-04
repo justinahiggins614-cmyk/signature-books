@@ -1,0 +1,20 @@
+How Computers Think for Builders (Vol. 38002)
+by Justin Addam Higgins · JAH-BOOK-038002
+Genre: Computer Science · 1,087 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Programming Basics, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Evaluate tan(210°) (JAH-MALL-007487).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Evaluate tan
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-038002
+
+An original generated work created by the Signature system. All names, places, and events are invented.

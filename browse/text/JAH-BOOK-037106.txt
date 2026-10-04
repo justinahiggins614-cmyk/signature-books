@@ -1,0 +1,20 @@
+Code & Concepts: AI & Machine Learning Intro (Vol. 37106)
+by Justin Addam Higgins · JAH-BOOK-037106
+Genre: Computer Science · 1,144 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, Algorithms & Flowcharts, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Backlight diffuser for noise cancellation using piezoelectric drivers (JAH-MALL-000280).
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. Algorithms & Flowcharts: Foundations
+  4. Algorithms & Flowcharts: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Backlight diffuser for noise cancellation using piezoelectric drivers
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037106
+
+An original generated work created by the Signature system. All names, places, and events are invented.

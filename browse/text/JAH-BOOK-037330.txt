@@ -1,0 +1,20 @@
+Signature Algebra Foundations (Vol. 37330)
+by Justin Addam Higgins · JAH-BOOK-037330
+Genre: Mathematics · 1,104 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Measurement & Units, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Future utility array for query optimization using bit-sliced indexing (Hybrid... (JAH-MALL-000432).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Measurement & Units: Foundations
+  4. Measurement & Units: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Future utility array for query optimization using bit-sliced
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037330
+
+An original generated work created by the Signature system. All names, places, and events are invented.

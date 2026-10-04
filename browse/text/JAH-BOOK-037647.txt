@@ -1,0 +1,20 @@
+Heat & Temperature: A Signature Course (Vol. 37647)
+by Justin Addam Higgins · JAH-BOOK-037647
+Genre: Physics · 1,036 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Light & Optics, Forces & Newton's Laws — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-084770.
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Light & Optics: Foundations
+  4. Light & Optics: Going Deeper
+  5. Forces & Newton's Laws: Foundations
+  6. Forces & Newton's Laws: Going Deeper
+  7. Case Study: PRODUCTLINE
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037647
+
+An original generated work created by the Signature system. All names, places, and events are invented.

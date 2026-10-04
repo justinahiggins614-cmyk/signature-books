@@ -1,0 +1,20 @@
+Code & Concepts: AI & Machine Learning Intro (Vol. 37412)
+by Justin Addam Higgins · JAH-BOOK-037412
+Genre: Computer Science · 1,082 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, Programming Basics, Algorithms & Flowcharts — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US12015238B2.
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. Algorithms & Flowcharts: Foundations
+  6. Algorithms & Flowcharts: Going Deeper
+  7. Case Study: Injection-locked laser system
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037412
+
+An original generated work created by the Signature system. All names, places, and events are invented.
