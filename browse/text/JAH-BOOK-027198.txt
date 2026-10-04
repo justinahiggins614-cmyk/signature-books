@@ -1,0 +1,20 @@
+The Internet & Networks: A Signature Course (Vol. 27198)
+by Justin Addam Higgins · JAH-BOOK-027198
+Genre: Computer Science · 1,046 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Cybersecurity Basics, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B32581.
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: The Invisible Man Witness Archive Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027198
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Signature Algebra Foundations (Vol. 26235)
+by Justin Addam Higgins · JAH-BOOK-026235
+Genre: Mathematics · 1,113 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Fractions & Decimals, Geometry & Shapes — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Integrate ∫(4x^2 − 2x + 5) dx (JAH-MALL-007494).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Fractions & Decimals: Foundations
+  4. Fractions & Decimals: Going Deeper
+  5. Geometry & Shapes: Foundations
+  6. Geometry & Shapes: Going Deeper
+  7. Case Study: Integrate dx
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-026235
+
+An original generated work created by the Signature system. All names, places, and events are invented.

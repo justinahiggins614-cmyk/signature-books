@@ -1,0 +1,20 @@
+Algorithms & Flowcharts: A Signature Course (Vol. 26906)
+by Justin Addam Higgins · JAH-BOOK-026906
+Genre: Computer Science · 1,091 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Programming Basics, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Freelance Rate Setter (JAH-AI-DOM-139).
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: Freelance Rate Setter
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-026906
+
+An original generated work created by the Signature system. All names, places, and events are invented.

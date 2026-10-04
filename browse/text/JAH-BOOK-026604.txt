@@ -1,0 +1,20 @@
+The AI & Machine Learning Intro Primer (Vol. 26604)
+by Justin Addam Higgins · JAH-BOOK-026604
+Genre: Computer Science · 1,069 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, Algorithms & Flowcharts, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent NZ569274A.
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. Algorithms & Flowcharts: Foundations
+  4. Algorithms & Flowcharts: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Heat resistant coating
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-026604
+
+An original generated work created by the Signature system. All names, places, and events are invented.

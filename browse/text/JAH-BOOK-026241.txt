@@ -1,0 +1,20 @@
+Understanding Heat & Temperature (Vol. 26241)
+by Justin Addam Higgins · JAH-BOOK-026241
+Genre: Physics · 1,033 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Energy & Work, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Gardener (JAH-AI-DOM-016).
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Gardener
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-026241
+
+An original generated work created by the Signature system. All names, places, and events are invented.
