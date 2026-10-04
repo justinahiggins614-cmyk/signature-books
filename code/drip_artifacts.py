@@ -365,11 +365,21 @@ def run(n):
     n_chunks = (end - 2) // CHUNK + 1 if end > 1 else 0
     save_idx(entries)
     write_api(end - 1, total_words, per_kind, n_chunks)
+    st["next_index"] = end
+    save_state(st)
     import importlib.util as _ilu
     _spec = _ilu.spec_from_file_location("sitemap_all", os.path.join(HERE, "sitemap_all.py"))
     _mod = _ilu.module_from_spec(_spec); _spec.loader.exec_module(_mod); _mod.write_sitemap()
-    st["next_index"] = end
-    save_state(st)
+    # count stamps + A-Z archive indexes: run AFTER the new index/state flushes
+    try:
+        _sp = os.path.join(HERE, "stamp_counts.py")
+        _s2 = _ilu.spec_from_file_location("stamp_counts", _sp)
+        _m2 = _ilu.module_from_spec(_s2); _s2.loader.exec_module(_m2); _m2.main()
+        _bp = os.path.join(HERE, "build_archive_index.py")
+        _b = _ilu.spec_from_file_location("build_archive_index", _bp)
+        _m3 = _ilu.module_from_spec(_b); _b.loader.exec_module(_m3); _m3.build()
+    except Exception as e:
+        print("post-drip stamp/archive skipped:", e)
     print(f"done: artifacts {start}..{end-1} ({new_recs} new), total {end-1}, words {total_words}, chunks {n_chunks}")
 
 def main():

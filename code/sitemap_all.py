@@ -43,7 +43,8 @@ def write_sitemap():
              '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
              f"<url><loc>{BASE}</loc></url>",
              f"<url><loc>{BASE}magazines.html</loc></url>",
-             f"<url><loc>{BASE}library.html</loc></url>"]
+             f"<url><loc>{BASE}library.html</loc></url>",
+             f"<url><loc>{BASE}archive.html</loc></url>"]
     for i in range(1, books + 1):
         lines.append(f"<url><loc>{BASE}?book=JAH-BOOK-{i:06d}</loc></url>")
     for i in range(1, mags + 1):

@@ -1437,6 +1437,15 @@ def run(n):
         _mod.main()
     except Exception as e:
         print("stamp_counts skipped:", e)
+    # A-Z archive: rebuild per-wing lazy indexes from the fresh idx (after flush)
+    try:
+        import importlib.util as _ilu2
+        _bp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_archive_index.py")
+        _bspec = _ilu2.spec_from_file_location("build_archive_index", _bp)
+        _bmod = _ilu2.module_from_spec(_bspec); _bspec.loader.exec_module(_bmod)
+        _bmod.build()
+    except Exception as e:
+        print("build_archive_index skipped:", e)
     print(f"done: books {start}..{end-1} ({new_recs} new), total {end-1}, "
           f"words {total_words}, chunks {n_chunks}")
     print("source mix this run:", per_source)
