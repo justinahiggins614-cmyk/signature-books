@@ -1,3 +1,31 @@
+/* ==== JAH global read-aloud controller (one per page): no stacked voices, no orphan audio ==== */
+(function(){
+if(window.__JAHREAD)return;
+var R={audios:[],lastTap:0,lastLabel:""};
+R.stopAll=function(){
+ try{if(window.speechSynthesis)window.speechSynthesis.cancel();}catch(e){}
+ try{if(window.responsiveVoice&&window.responsiveVoice.cancel)window.responsiveVoice.cancel();}catch(e){}
+ var i,a;
+ for(i=0;i<R.audios.length;i++){a=R.audios[i];try{a.pause();}catch(e){}try{a.removeAttribute("src");}catch(e){}try{a.load();}catch(e){}}
+ R.audios.length=0;
+ var els=document.querySelectorAll("audio");
+ for(i=0;i<els.length;i++){try{els[i].pause();}catch(e){}}
+};
+R.reg=function(a){if(a&&R.audios.indexOf(a)<0)R.audios.push(a);return a;};
+R.playGuard=function(label){
+ var now=Date.now();
+ if(now-R.lastTap<450&&label===R.lastLabel){R.lastTap=0;R.lastLabel="";R.stopAll();return false;}
+ R.lastTap=now;R.lastLabel=String(label||"");
+ R.stopAll();return true;
+};
+try{
+ var NativeAudio=window.Audio;
+ window.Audio=function(src){var a=src===undefined?new NativeAudio():new NativeAudio(src);R.reg(a);return a;};
+ window.Audio.prototype=NativeAudio.prototype;
+}catch(e){}
+window.__JAHREAD=R;
+})();
+
 /* Shared catalog app for the Book Depository wings (Magazines, Library).
    Generic over WING config set by the host page. Parchment/gold look matching index.html. */
 "use strict";
@@ -312,7 +340,7 @@ var RD_TIERS=[
 function rdChunks(t,maxChunks){t=String(t).replace(/\s+/g," ").trim();var out=[],cur="";
   t.split(/(?<=[.!?])\s+/).forEach(function(s){if((cur+" "+s).length>170){if(cur)out.push(cur);cur=s}else cur=(cur?cur+" ":"")+s});
   if(cur)out.push(cur);return out.slice(0,maxChunks||400)}
-function rdStop(){RD.stopped=true;RD.playing=false;RD.queue=[];if(RD.timer){clearTimeout(RD.timer);RD.timer=null}
+function rdStop(){try{if(window.__JAHREAD)window.__JAHREAD.stopAll();}catch(e){}RD.stopped=true;RD.playing=false;RD.queue=[];if(RD.timer){clearTimeout(RD.timer);RD.timer=null}
   if(RD.audio){try{RD.audio.pause()}catch(e){}RD.audio=null}
   var b=$("rdbtn");if(b)b.textContent="🔊 Read aloud";var rb=$("rdbar");if(rb)rb.classList.remove("show")}
 function rdPlayTier(chunk,tier,done){
@@ -338,7 +366,7 @@ function rdNext(){
     });
   })();
 }
-function rdSpeak(text){
+function rdSpeak(text){if(window.__JAHREAD&&!window.__JAHREAD.playGuard("rdSpeak"))return;
   if(RD.playing&&!RD.stopped){rdStop();return}
   rdStop();RD.queue=rdChunks(text,400);RD.total=RD.queue.length;
   if(!RD.queue.length)return;RD.stopped=false;
