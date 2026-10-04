@@ -1,0 +1,20 @@
+The Light & Optics Guide (Vol. 32545)
+by Justin Addam Higgins · JAH-BOOK-032545
+Genre: Physics · 1,019 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Motion & Speed, Electricity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-740879).
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Motion & Speed: Foundations
+  4. Motion & Speed: Going Deeper
+  5. Electricity Basics: Foundations
+  6. Electricity Basics: Going Deeper
+  7. Case Study: Writing toolkit-Water shutoff valve hybrid for natural conversation
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-032545
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Modern World: People and Events (Vol. 32587)
+by Justin Addam Higgins · JAH-BOOK-032587
+Genre: History · 997 words
+
+Summary:
+A complete Signature History textbook covering The Modern World, Ancient Civilizations, The Age of Exploration — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-706349).
+
+Chapters:
+  1. The Modern World: Foundations
+  2. The Modern World: Going Deeper
+  3. Ancient Civilizations: Foundations
+  4. Ancient Civilizations: Going Deeper
+  5. The Age of Exploration: Foundations
+  6. The Age of Exploration: Going Deeper
+  7. Case Study: Pattern decoder console-Worldbuilding array hybrid for price optimization
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-032587
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,26 @@
+Poems of mobile and apps
+by Justin Addam Higgins · JAH-BOOK-032061
+Genre: Poetry · 1,522 words
+
+Summary:
+A complete original poetry collection: 13 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-757222.
+
+Chapters:
+  1. What the transfers Said
+  2. The low-latency rdma
+  3. apps and mobile
+  4. Elegy for rdma
+  5. portable and rdma
+  6. Field Notes on low-latency
+  7. Elegy for rdma (4)
+  8. Hymn of inference
+  9. The cloud mobile
+  10. Low-latency Song
+  11. Ode to transfers
+  12. What the inference Said
+  13. Hymn of inference (9)
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-032061
+
+An original generated work created by the Signature system. All names, places, and events are invented.

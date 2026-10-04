@@ -1,0 +1,20 @@
+Acids & Bases: A Signature Course (Vol. 32566)
+by Justin Addam Higgins · JAH-BOOK-032566
+Genre: Chemistry · 1,081 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, States of Matter, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-617497).
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. States of Matter: Foundations
+  4. States of Matter: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: JAH-SPEC-
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-032566
+
+An original generated work created by the Signature system. All names, places, and events are invented.

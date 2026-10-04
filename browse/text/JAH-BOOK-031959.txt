@@ -1,0 +1,20 @@
+Practical Intro to Organic Chemistry (Vol. 31959)
+by Justin Addam Higgins · JAH-BOOK-031959
+Genre: Chemistry · 1,034 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, Acids & Bases, The Periodic Table — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US5726178A.
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. The Periodic Table: Foundations
+  6. The Periodic Table: Going Deeper
+  7. Case Study: Alkyl derivatives of trazodone with CNS activity
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-031959
+
+An original generated work created by the Signature system. All names, places, and events are invented.

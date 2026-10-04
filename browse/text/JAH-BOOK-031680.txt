@@ -1,0 +1,20 @@
+The Living World: Microbes & Disease (Vol. 31680)
+by Justin Addam Higgins · JAH-BOOK-031680
+Genre: Biology · 1,019 words
+
+Summary:
+A complete Signature Biology textbook covering Microbes & Disease, Evolution & Natural Selection, Human Body Systems — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Probabilistic Mind (JAH-AI-SIG-002).
+
+Chapters:
+  1. Microbes & Disease: Foundations
+  2. Microbes & Disease: Going Deeper
+  3. Evolution & Natural Selection: Foundations
+  4. Evolution & Natural Selection: Going Deeper
+  5. Human Body Systems: Foundations
+  6. Human Body Systems: Going Deeper
+  7. Case Study: Probabilistic Mind
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-031680
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+How Computers Think for Builders (Vol. 32610)
+by Justin Addam Higgins · JAH-BOOK-032610
+Genre: Computer Science · 1,028 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, The Internet & Networks, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent CA1337199C.
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Five-membered ring systems with bonded azacyclic ring substituents
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-032610
+
+An original generated work created by the Signature system. All names, places, and events are invented.

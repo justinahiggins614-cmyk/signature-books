@@ -1,0 +1,20 @@
+Light & Optics in Action (Vol. 32548)
+by Justin Addam Higgins · JAH-BOOK-032548
+Genre: Physics · 1,123 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Energy & Work, Motion & Speed — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Signature Birchhelm Pilot (JAH-AI-SL-146).
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Motion & Speed: Foundations
+  6. Motion & Speed: Going Deeper
+  7. Case Study: Signature Birchhelm Pilot
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-032548
+
+An original generated work created by the Signature system. All names, places, and events are invented.
