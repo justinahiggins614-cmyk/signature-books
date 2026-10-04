@@ -58,6 +58,19 @@ button{cursor:pointer}
 .listrow{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px;margin-bottom:8px;cursor:pointer}
 .listrow svg{width:64px;height:96px;flex:0 0 auto;border-radius:4px}
 .listrow .t{font-weight:700}
+/* BEST OF THE BEST — Manon's 2026-10-04 archive pattern: the AI's top pick pinned above the A–Z list */
+.bestofbest{border:2px solid var(--gold);border-radius:12px;background:linear-gradient(180deg,#2c2314,#171208);padding:20px;margin:18px 0}
+.bestofbest h2{margin:0 0 4px;color:var(--gold2);letter-spacing:.04em}
+.bestofbest .whybest{background:rgba(201,162,39,.1);border-left:3px solid var(--gold);padding:10px 14px;border-radius:0 8px 8px 0;margin:10px 0;font-size:.92em}
+.bestofbest .beststats{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.bestofbest .beststat{background:#0e0a05;border:1px solid var(--line);border-radius:8px;padding:6px 12px;font-size:.82em}
+.bestofbest .beststat b{color:var(--gold2)}
+.bestofbest .toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.bestofbest .cov{display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start;margin:12px 0}
+.bestflow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin:12px 0;justify-content:center;font-size:.8em;font-family:Arial,sans-serif}
+.bestflow .bnode{background:#0e0a05;border:1px solid var(--gold);border-radius:8px;padding:8px 12px;text-align:center;max-width:150px}
+.bestflow .bnode b{display:block;color:var(--gold2);margin-bottom:2px}
+.bestflow .barrow{color:var(--gold);font-size:18px;font-weight:700}
 .listrow .a{font-size:.82em;color:var(--mut)}
 .listrow .g{font-size:.78em;color:var(--gold2)}
 .more{display:block;margin:18px auto}
@@ -341,6 +354,54 @@ document.getElementById("jah-askai-q").addEventListener("keydown",function(e){if
 </div>
 
 
+<section class="bestofbest wrap" aria-labelledby="besth" style="max-width:1180px">
+<h2 id="besth">★ Best of the Best</h2>
+<p style="margin:4px 0;font-size:.9em;color:var(--mut);font-style:italic">The AI's top pick from this depository — the single book that best shows what a Signature book is. Popped open for you.</p>
+<details open>
+<summary style="cursor:pointer;font-size:1.1em"><b>Echoes Of The Nebula</b> <span style="font-size:.8em;color:var(--gold2)">JAH-BOOK-000001 · Science Fiction · book #1</span></summary>
+<div style="padding-top:8px">
+<p class="whybest"><b>Why this is the best:</b> the first finished book ever published in this depository — the genesis novel. A complete Signature book: 2,168 words, 11 chapters, full text, its own deterministic cover, read-aloud, and lineage back to the spec that inspired it. This is the standard every book here is held to.</p>
+<div class="bestflow" aria-hidden="true"><div class="bnode"><b>A spec</b>JAH-SPEC-022648 — the seed</div><div class="barrow">→</div><div class="bnode"><b>A novel</b>11 chapters, full text</div><div class="barrow">→</div><div class="bnode"><b>A cover</b>deterministic art</div><div class="barrow">→</div><div class="bnode"><b>Yours</b>read · listen · download</div></div>
+<p><b>What it does:</b> a sweeping tale of courage — Halhal Corwick and Owick Rogwen journey toward the Kepler Belt, where the variant beacon will decide everything. A finished Signature novel: 11 chapters, full text, ready to read aloud.</p>
+<p><b>Implications:</b> every one of the <b>36,000</b> finished books in this depository is built the same way — derived from a network record, written in full, never a stub. Books are never regenerated; each is permanent.</p>
+<div class="beststats"><span class="beststat"><b>36,000</b> finished books</span><span class="beststat">Book <b>#1</b> — the genesis novel</span><span class="beststat"><b>2,168</b> words · <b>11</b> chapters</span><span class="beststat">Full text: <b>included</b></span></div>
+<div class="toolbar">
+<button class="btn" id="best-speak" type="button">🔊 Read aloud</button>
+<button class="btn" id="best-copy" type="button">⧉ Copy</button>
+<button class="btn" id="best-dl" type="button">⤓ Download</button>
+<a class="btn" href="./?book=JAH-BOOK-000001">Open the full book →</a>
+</div>
+<p style="font-size:.85em;color:var(--mut);margin-top:10px">The full book page carries the complete text, its cover, read-aloud, copy/download, and Q&amp;A.</p>
+</div>
+</details>
+</section>
+<script>
+(function(){
+"use strict";
+var plain="Best of the Best — Echoes Of The Nebula, JAH-BOOK-000001. The first finished book ever published in this depository. A sweeping tale of courage: Halhal Corwick and Owick Rogwen journey toward the Kepler Belt, where the variant beacon will decide everything. A finished Signature novel: 11 chapters, 2,168 words, full text. Inspired by JAH-SPEC-022648.";
+var dl="THE SIGNATURE BOOK DEPOSITORY — BEST OF THE BEST\nEchoes Of The Nebula — JAH-BOOK-000001 (book 1 of 36,000)\nScience Fiction — 2,168 words — 11 chapters — by Justin Addam Higgins\n\nWHY THIS IS THE BEST\nThe first finished book ever published in this depository — the genesis novel. A complete Signature book: full text, deterministic cover, read-aloud, lineage to JAH-SPEC-022648.\n\nWHAT IT DOES\nA sweeping tale of courage: Halhal Corwick and Owick Rogwen journey toward the Kepler Belt, where the variant beacon will decide everything.\n\nIMPLICATIONS\nAll 36,000 finished books are built the same way — derived from a network record, written in full, never stubs, never regenerated.\n\nFull book: https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000001";
+function copyText(t,btn){function done(ok){var o=btn.textContent;btn.textContent=ok?"Copied ✓":"Copy failed";setTimeout(function(){btn.textContent=o;},1500);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){done(true);},function(){done(false);});}else{var ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done(true);}catch(e){done(false);}document.body.removeChild(ta);}}
+function download(name,text){try{var url=URL.createObjectURL(new Blob([text],{type:"text/plain"}));var a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){document.body.removeChild(a);try{URL.revokeObjectURL(url);}catch(e){}},800);}catch(e){}}
+var speakTimer=null;
+function speakStop(){try{if(window.speechSynthesis)window.speechSynthesis.cancel();}catch(e){}if(speakTimer){clearTimeout(speakTimer);speakTimer=null;}}
+var speakBtn=document.getElementById("best-speak");
+speakBtn.onclick=function(){
+  speakStop();
+  try{
+    if(!("speechSynthesis" in window)){speakBtn.textContent="No voice on this device";setTimeout(function(){speakBtn.textContent="🔊 Read aloud";},1800);return;}
+    if(window.speechSynthesis.speaking){speakBtn.textContent="🔊 Read aloud";return;}
+    var u=new SpeechSynthesisUtterance(plain);
+    speakBtn.textContent="⏹ Stop";
+    u.onend=function(){speakBtn.textContent="🔊 Read aloud";};
+    u.onerror=function(){speakBtn.textContent="🔊 Read aloud";};
+    window.speechSynthesis.speak(u);
+    speakTimer=setTimeout(function(){speakBtn.textContent="🔊 Read aloud";},30000);
+  }catch(e){speakBtn.textContent="🔊 Read aloud";}
+};
+document.getElementById("best-copy").onclick=function(){copyText(dl,this);};
+document.getElementById("best-dl").onclick=function(){download("JAH-BOOK-000001-best.txt",dl);};
+})();
+</script>
 <div class="wrap" id="jah-askai-scope"><div id="results" aria-live="polite"></div></div>
 
 <p class="honest wrap" style="margin-bottom:40px">Every record here is an original generated work by/for the Signature system &mdash; no real-world authors, no borrowed text, no trademarked characters. Derived records name the network record that seeded them. Full texts load only when you open a record; the archive itself stays light on any phone.</p>
