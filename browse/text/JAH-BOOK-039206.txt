@@ -1,0 +1,20 @@
+Databases for Builders (Vol. 39206)
+by Justin Addam Higgins · JAH-BOOK-039206
+Genre: Computer Science · 1,093 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, Programming Basics, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Cysteamine permanent wave composition and method (JAH-MALL-006953).
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Cysteamine permanent wave composition and method
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-039206
+
+An original generated work created by the Signature system. All names, places, and events are invented.

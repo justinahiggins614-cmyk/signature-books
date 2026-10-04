@@ -1,0 +1,20 @@
+The How Computers Think Primer (Vol. 39199)
+by Justin Addam Higgins · JAH-BOOK-039199
+Genre: Computer Science · 1,134 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Algorithms & Flowcharts, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Apps system for image understanding using sharded counters Rev 2 (JAH-MALL-003075).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Algorithms & Flowcharts: Foundations
+  4. Algorithms & Flowcharts: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Apps system for image understanding using sharded counters
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-039199
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Probability Basics Step by Step (Vol. 38840)
+by Justin Addam Higgins · JAH-BOOK-038840
+Genre: Mathematics · 1,119 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Intro to Calculus, Geometry & Shapes — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US5042894A.
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Geometry & Shapes: Foundations
+  6. Geometry & Shapes: Going Deeper
+  7. Case Study: Fiber optic lighting system
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-038840
+
+An original generated work created by the Signature system. All names, places, and events are invented.

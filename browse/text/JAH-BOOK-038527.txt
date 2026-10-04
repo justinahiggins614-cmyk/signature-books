@@ -1,0 +1,20 @@
+Mastering Measurement & Units (Vol. 38527)
+by Justin Addam Higgins · JAH-BOOK-038527
+Genre: Mathematics · 1,115 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Ratios & Proportions, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve x^2 = 4 (JAH-MALL-008460).
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: Solve
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-038527
+
+An original generated work created by the Signature system. All names, places, and events are invented.

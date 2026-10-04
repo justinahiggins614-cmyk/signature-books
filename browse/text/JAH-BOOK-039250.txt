@@ -1,0 +1,27 @@
+Signature and Other Poems (Vol. 39250)
+by Justin Addam Higgins · JAH-BOOK-039250
+Genre: Poetry · 1,843 words
+
+Summary:
+A complete original poetry collection: 14 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-797103.
+
+Chapters:
+  1. Tools Song
+  2. Ode to anomaly
+  3. signature and webassembly
+  4. Elegy for detection
+  5. What the optimization Said
+  6. Anomaly Song
+  7. The real-time Hour
+  8. Elegy for console
+  9. Field Notes on console
+  10. Field Notes on anomaly
+  11. Webassembly Song
+  12. Console Song
+  13. The anomaly signature
+  14. What the webassembly Said
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-039250
+
+An original generated work created by the Signature system. All names, places, and events are invented.

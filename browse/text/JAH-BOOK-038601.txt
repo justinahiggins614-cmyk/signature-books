@@ -1,0 +1,20 @@
+The Cybersecurity Basics Primer (Vol. 38601)
+by Justin Addam Higgins · JAH-BOOK-038601
+Genre: Computer Science · 1,050 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, Algorithms & Flowcharts, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B34580.
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. Algorithms & Flowcharts: Foundations
+  4. Algorithms & Flowcharts: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: The Kraken Containment Protocols Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-038601
+
+An original generated work created by the Signature system. All names, places, and events are invented.

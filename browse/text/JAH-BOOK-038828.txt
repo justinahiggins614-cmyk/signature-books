@@ -1,0 +1,20 @@
+Mastering Probability Basics (Vol. 38828)
+by Justin Addam Higgins · JAH-BOOK-038828
+Genre: Mathematics · 1,133 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Geometry & Shapes, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Planet orbit harvesting lab for rapid charging using cast housings Rev 2 (JAH-MALL-002736).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Planet orbit harvesting lab for rapid charging using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-038828
+
+An original generated work created by the Signature system. All names, places, and events are invented.

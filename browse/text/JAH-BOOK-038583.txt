@@ -1,0 +1,20 @@
+The Modern World: A Signature Course (Vol. 38583)
+by Justin Addam Higgins · JAH-BOOK-038583
+Genre: History · 1,027 words
+
+Summary:
+A complete Signature History textbook covering The Modern World, Ancient Civilizations, Revolutions & Independence — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Cloud services module for query optimization using sharded counters (Deterministic Edition) (JAH-MALL-003807).
+
+Chapters:
+  1. The Modern World: Foundations
+  2. The Modern World: Going Deeper
+  3. Ancient Civilizations: Foundations
+  4. Ancient Civilizations: Going Deeper
+  5. Revolutions & Independence: Foundations
+  6. Revolutions & Independence: Going Deeper
+  7. Case Study: Cloud services module for query optimization using sharded
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-038583
+
+An original generated work created by the Signature system. All names, places, and events are invented.
