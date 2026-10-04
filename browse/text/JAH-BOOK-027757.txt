@@ -1,0 +1,20 @@
+Intro to Organic Chemistry: A Signature Course (Vol. 27757)
+by Justin Addam Higgins · JAH-BOOK-027757
+Genre: Chemistry · 1,052 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, Acids & Bases, Solutions & Mixtures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-643824).
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. Solutions & Mixtures: Foundations
+  6. Solutions & Mixtures: Going Deeper
+  7. Case Study: Multi-cloud broker for autonomous decision making using bloom
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027757
+
+An original generated work created by the Signature system. All names, places, and events are invented.

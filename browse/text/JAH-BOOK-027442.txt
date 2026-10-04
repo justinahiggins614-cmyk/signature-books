@@ -1,0 +1,20 @@
+Motion & Speed: A Signature Course (Vol. 27442)
+by Justin Addam Higgins · JAH-BOOK-027442
+Genre: Physics · 1,024 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Gravity & Orbits, Light & Optics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JPH03236118A).
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Light & Optics: Foundations
+  6. Light & Optics: Going Deeper
+  7. Case Study: Manufacture of superconducting billet
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027442
+
+An original generated work created by the Signature system. All names, places, and events are invented.

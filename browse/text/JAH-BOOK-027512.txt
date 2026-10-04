@@ -1,0 +1,20 @@
+Programming Basics: A Signature Course (Vol. 27512)
+by Justin Addam Higgins · JAH-BOOK-027512
+Genre: Computer Science · 1,015 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, Databases, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-706062).
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Optional system upgrade toolkit-Biotech console hybrid for stream
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027512
+
+An original generated work created by the Signature system. All names, places, and events are invented.

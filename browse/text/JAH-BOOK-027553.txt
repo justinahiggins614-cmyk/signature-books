@@ -1,0 +1,26 @@
+Poems of low-latency and inference
+by Justin Addam Higgins · JAH-BOOK-027553
+Genre: Poetry · 1,655 words
+
+Summary:
+A complete original poetry collection: 13 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-691547.
+
+Chapters:
+  1. The count-min accounting
+  2. Hymn of sketching
+  3. low-latency and sketching
+  4. The sketching count-min
+  5. The morning light
+  6. Field Notes on gold
+  7. Ode to accounting
+  8. Hymn of gold
+  9. Field Notes on morning
+  10. Ode to morning
+  11. Hymn of count-min
+  12. What the accounting Said
+  13. Low-latency Song
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027553
+
+An original generated work created by the Signature system. All names, places, and events are invented.

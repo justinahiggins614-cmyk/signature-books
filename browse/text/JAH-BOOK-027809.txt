@@ -1,0 +1,20 @@
+Code & Concepts: Algorithms & Flowcharts (Vol. 27809)
+by Justin Addam Higgins · JAH-BOOK-027809
+Genre: Computer Science · 1,028 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Data Structures, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Parenting Helper (JAH-AI-DOM-118).
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Parenting Helper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027809
+
+An original generated work created by the Signature system. All names, places, and events are invented.

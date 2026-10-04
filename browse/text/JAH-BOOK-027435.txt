@@ -1,0 +1,20 @@
+Ratios & Proportions: A Signature Course (Vol. 27435)
+by Justin Addam Higgins · JAH-BOOK-027435
+Genre: Mathematics · 1,118 words
+
+Summary:
+A complete Signature Mathematics textbook covering Ratios & Proportions, Intro to Calculus, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-703827).
+
+Chapters:
+  1. Ratios & Proportions: Foundations
+  2. Ratios & Proportions: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Streaming media toolkit for voice capture using hardened
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027435
+
+An original generated work created by the Signature system. All names, places, and events are invented.

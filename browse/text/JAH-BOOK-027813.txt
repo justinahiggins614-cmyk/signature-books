@@ -1,0 +1,20 @@
+The Internet & Networks: A Signature Course (Vol. 27813)
+by Justin Addam Higgins · JAH-BOOK-027813
+Genre: Computer Science · 1,081 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Databases, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (AU3908685A).
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Catalytic cracking process using large crystal zsm-
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027813
+
+An original generated work created by the Signature system. All names, places, and events are invented.

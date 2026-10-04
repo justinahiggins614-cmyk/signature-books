@@ -1,0 +1,20 @@
+Signature Geometry & Shapes (Vol. 27434)
+by Justin Addam Higgins · JAH-BOOK-027434
+Genre: Mathematics · 1,067 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Probability Basics, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-639345.
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Utilities system for user segmentation using bloom filter
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-027434
+
+An original generated work created by the Signature system. All names, places, and events are invented.
