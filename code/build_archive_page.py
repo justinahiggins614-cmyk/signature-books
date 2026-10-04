@@ -36,7 +36,12 @@ def main():
     # --- lift the theme + shared chrome from index.html ---
     theme_script = '<script>try{if(localStorage.getItem("jah-theme")==="dark"){document.documentElement.dataset.theme="dark"}}catch(e){}</script>'
     styles = re.findall(r"<style>.*?</style>", src, flags=re.S)
-    jahnet = re.search(r"<nav aria-label=\"JAH Network Global Ecosystem\".*?</nav>", src, flags=re.S).group(0)
+    # The JAH NETWORK nav block lives at the BOTTOM of index.html (below all
+    # content, directly above the footer, one instance per page). Lift the bare
+    # .jahnet div wherever it sits and re-wrap it for the archive page.
+    jahnet_inner = re.search(r'<div class="jahnet">.*?</div>', src, flags=re.S).group(0)
+    jahnet = ('<nav aria-label="JAH Network Global Ecosystem" role="navigation">\n'
+              + jahnet_inner + '\n</nav>')
     footer = re.search(r"<footer>.*?</footer>", src, flags=re.S).group(0)
 
     books = _api("data/index/api.json", "total_books")
@@ -306,7 +311,9 @@ else loadWing("books");
             '\n<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"The Full Archive A-Z","url":"' + BASE + 'archive.html","isPartOf":{"@type":"WebSite","name":"The Signature Book Depository","url":"' + BASE + '"},"creator":{"@type":"Person","name":"Justin Addam Higgins"}}</script>' +
             "\n" + styles[0] + "\n" + styles[1] + "\n" + extra_css + "\n</head>\n<body>\n")
 
-    page = head + jahnet + "\n" + body + "\n" + footer + "\n" + js + "\n</body>\n</html>\n"
+    # JAH NETWORK nav sits at the BOTTOM: below all content, directly above the
+    # footer, one instance per page (Manon's standing order).
+    page = head + body + "\n" + jahnet + "\n" + footer + "\n" + js + "\n</body>\n</html>\n"
     with open(os.path.join(ROOT, "archive.html"), "w", encoding="utf-8") as f:
         f.write(page)
     print("archive.html written: books=%d mags=%d libs=%d" % (books, mags, libs))
