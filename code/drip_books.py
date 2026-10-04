@@ -1446,6 +1446,18 @@ def run(n):
         _bmod.build()
     except Exception as e:
         print("build_archive_index skipped:", e)
+    # Cover-art gate: every genre must have its AI-painted cover file, so
+    # every new book automatically gets cover art (fails loud, never silent).
+    try:
+        import importlib.util as _ilu3
+        _cp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ensure_covers.py")
+        _cspec = _ilu3.spec_from_file_location("ensure_covers", _cp)
+        _cmod = _ilu3.module_from_spec(_cspec); _cspec.loader.exec_module(_cmod)
+        _cmod.main()
+    except SystemExit:
+        raise
+    except Exception as e:
+        print("ensure_covers skipped:", e)
     print(f"done: books {start}..{end-1} ({new_recs} new), total {end-1}, "
           f"words {total_words}, chunks {n_chunks}")
     print("source mix this run:", per_source)

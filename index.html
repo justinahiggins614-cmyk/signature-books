@@ -171,6 +171,19 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 #guidepanel p,#guidepanel li{font-size:.93em}
 #guidepanel .btn{min-height:44px}
 #guidepanel .gclose{position:sticky;top:0;float:right;margin:8px}
+/* ---- painted book covers: AI genre art + real bookstore typography ---- */
+.pcover{position:relative;width:100%;aspect-ratio:2/3;border-radius:6px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.55);background:#141414;container-type:inline-size}
+.pcover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.pcover .scrim{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.60) 0%,rgba(0,0,0,0) 32%,rgba(0,0,0,0) 56%,rgba(0,0,0,.68) 100%)}
+.pc-top{position:absolute;top:4.5%;left:0;right:0;text-align:center}
+.pc-top span{font-family:Arial,Helvetica,sans-serif;font-weight:600;font-size:3.4cqi;letter-spacing:.45em;text-indent:.45em;color:#ffe9b0;opacity:.95}
+.pc-titles{position:absolute;top:11.5%;left:0;right:0;padding:0 7%;text-align:center}
+.bct{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:7.4cqi;line-height:1.18;color:#fff;text-shadow:0 .4cqi 1.4cqi rgba(0,0,0,.88);margin:.5cqi 0}
+.pc-gsub{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:3.1cqi;letter-spacing:.32em;text-indent:.32em;color:#ffe9b0;text-shadow:0 .3cqi 1cqi rgba(0,0,0,.9);margin-top:1.6cqi;opacity:.95}
+.pc-author{position:absolute;bottom:9.5%;left:0;right:0;text-align:center;font-family:Georgia,serif;font-style:italic;font-size:4.8cqi;color:#f7efdc;text-shadow:0 .4cqi 1.2cqi rgba(0,0,0,.9);padding:0 8%}
+.pc-foot{position:absolute;bottom:3.2%;left:0;right:0;display:flex;justify-content:space-between;padding:0 5.5%;font-family:Arial,Helvetica,sans-serif;font-weight:600;font-size:2.9cqi;letter-spacing:.16em;color:#ffd97a;opacity:.92}
+.bv-cover .pcover{max-width:340px;margin:0 auto}
+.listrow .pcover{width:64px;flex:0 0 auto;box-shadow:0 4px 14px rgba(0,0,0,.5)}
 </style>
 <style>html[data-theme="dark"]{filter:invert(1) hue-rotate(180deg)}html[data-theme="dark"] img,html[data-theme="dark"] video,html[data-theme="dark"] canvas,html[data-theme="dark"] svg{filter:invert(1) hue-rotate(180deg)}#jahThemeBtn{position:fixed;right:12px;bottom:12px;z-index:2147483647;width:42px;height:42px;border-radius:50%;border:1px solid rgba(128,128,128,.45);background:rgba(24,24,24,.6);color:#fff;font-size:19px;line-height:1;cursor:pointer;opacity:.55;padding:0}#jahThemeBtn:hover,#jahThemeBtn:focus{opacity:1;outline:none}</style>
 </head>
@@ -362,7 +375,8 @@ function fetchGZbuf(url,onProgress,timeoutMs){
   return p.then(function(ab){done();return ab},function(e){done();throw e});
 }
 
-/* ============ deterministic cover art ============ */
+/* ============ painted cover art (AI genre art + real typography) ============ */
+/* (styles live in the <style> block above; renderer + fallback below) */
 var PALS=[
  {bg:["#1a2f3a","#0d1b22"],acc:"#e8b64c",ink:"#f5edd8"},
  {bg:["#3a1a2e","#1c0d16"],acc:"#e86a4c",ink:"#f7e8d8"},
@@ -395,6 +409,29 @@ function motifSVG(m,h,pal,W,H){
 function wrapTitle(t){var words=String(t).split(/\s+/),lines=[],cur="";
   words.forEach(function(w){if((cur+" "+w).trim().length>16){if(cur)lines.push(cur);cur=w}else cur=(cur+" "+w).trim()});
   if(cur)lines.push(cur);return lines.slice(0,5)}
+/* Painted covers: genre base art + real per-book typography (bookstore style).
+   Deterministic per book. coverSVG (below) is kept as the offline fallback. */
+var GKEY_BY_GENRE={"Science Fiction":"sf","Fantasy":"fantasy","Mystery":"mystery","Romance":"romance","Horror":"horror","Mathematics":"math","Physics":"physics","Chemistry":"chemistry","Biology":"biology","History":"history","Computer Science":"cs","Children's":"children","Poetry":"poetry","Technical Manual":"manual","Philosophy":"philosophy","Business":"business"};
+var COVERROWS={};
+function gkeyOf(b){return GKEY_BY_GENRE[b.g]||"sf"}
+function coverFallback(id){
+  var row=COVERROWS[id];if(!row)return;
+  var el=document.getElementById(id);if(el)el.innerHTML=coverSVG(row);
+}
+function coverArt(b){
+  var gk=gkeyOf(b),id="bkcv"+hashStr(String(b.id||"x"));
+  COVERROWS[id]={id:b.id,t:b.t,a:b.a};
+  var lines=wrapTitle(b.t||""),t="";
+  lines.forEach(function(ln){t+='<div class="bct">'+esc(ln)+"</div>"});
+  return '<div class="pcover" id="'+id+'">'+
+   '<img src="assets/covers/cover-'+gk+'.jpg" alt="Painted cover art for '+esc(b.t||"")+'" loading="lazy" onerror="coverFallback(\''+id+'\')">'+
+   '<div class="scrim"></div>'+
+   '<div class="pc-top"><span>SIGNATURE</span></div>'+
+   '<div class="pc-titles">'+t+'<div class="pc-gsub">'+esc(String(b.g||"").toUpperCase())+'</div></div>'+
+   '<div class="pc-author">'+esc(b.a||"")+'</div>'+
+   '<div class="pc-foot"><span>'+esc(b.id||"")+'</span><span>ORIGINAL</span></div>'+
+   "</div>";
+}
 function coverSVG(b){
   var h=hashStr(b.id), pal=PALS[h%PALS.length], W=400,H=600;
   var motifs=["sun","mountains","waves","stars","circles","rays","dots","arch"];
@@ -544,7 +581,7 @@ function applyFilters(){
   SHOWN=0;render();
 }
 function cardHTML(b){
-  return '<div class="card" data-id="'+b.id+'"><div>'+coverSVG(b)+'</div><div class="meta"><div class="t">'+esc(b.t)+
+  return '<div class="card" data-id="'+b.id+'"><div>'+coverArt(b)+'</div><div class="meta"><div class="t">'+esc(b.t)+
    '</div><div class="a">'+esc(b.a)+'</div><div class="g">Type: '+esc(b.g)+'</div><div class="w">'+
    b.w.toLocaleString()+' words · '+esc(b.id)+'</div><div style="margin:4px 0">'+modeBadge(b)+'</div>'+
    '<p class="cardd">'+esc(String(b.d||"").slice(0,110))+'…</p>'+
@@ -554,7 +591,7 @@ function cardHTML(b){
    "</div></div>";
 }
 function listHTML(b){
-  return '<div class="listrow" data-id="'+b.id+'">'+coverSVG(b)+'<div><div class="t">'+esc(b.t)+
+  return '<div class="listrow" data-id="'+b.id+'">'+coverArt(b)+'<div><div class="t">'+esc(b.t)+
    '</div><div class="a">'+esc(b.a)+' · '+b.w.toLocaleString()+' words</div><div class="g">Type: '+esc(b.g)+" · "+esc(ORIGIN_LABEL[b.o]||b.o)+'</div><div style="margin:3px 0">'+modeBadge(b)+'</div><div class="a">'+esc(b.d.slice(0,140))+'…</div>'+
    '<div class="cardact"><button class="btn mini" data-act="read" data-id="'+b.id+'">📖 Read</button>'+
    '<button class="btn mini ghost" data-act="get" data-id="'+b.id+'">⬇ Get</button>'+
@@ -718,7 +755,7 @@ function renderBook(rec){
     rec.chapters.map(function(c,i){return '<li><a href="#ch'+(i+1)+'">'+esc(c.t)+"</a></li>"}).join("")+"</ol></div>";
   $("bookview").innerHTML=
    '<div class="bookview"><p><a href="#">← Back to the shelves</a></p>'+
-   '<div class="bv-top"><div class="bv-cover">'+coverSVG({id:rec.id,t:rec.title,a:rec.author})+"</div>"+
+   '<div class="bv-top"><div class="bv-cover">'+coverArt({id:rec.id,t:rec.title,a:rec.author,g:rec.genre})+"</div>"+
    '<div class="bv-info"><h1>'+esc(rec.title)+"</h1>"+
    '<div class="byline">by '+esc(rec.author)+" · "+esc(rec.id)+"</div>"+
    '<div style="margin:6px 0">'+modeBadge(rec)+'</div>'+
