@@ -1,0 +1,20 @@
+Practical The Periodic Table (Vol. 31358)
+by Justin Addam Higgins · JAH-BOOK-031358
+Genre: Chemistry · 1,046 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Acids & Bases, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Airport Navigator (JAH-AI-DOM-205).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Acids & Bases: Foundations
+  4. Acids & Bases: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Airport Navigator
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-031358
+
+An original generated work created by the Signature system. All names, places, and events are invented.

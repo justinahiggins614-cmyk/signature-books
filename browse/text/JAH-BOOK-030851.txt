@@ -1,0 +1,23 @@
+10 Small Poems (Vol. 30851)
+by Justin Addam Higgins · JAH-BOOK-030851
+Genre: Poetry · 1,118 words
+
+Summary:
+A complete original poetry collection: 10 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-719722).
+
+Chapters:
+  1. What the optimization Said
+  2. edition and deterministic
+  3. Deterministic Song
+  4. What the deterministic Said
+  5. Hymn of edition
+  6. The deterministic Hour
+  7. Ode to networking
+  8. The extensions Hour
+  9. networking and kernel-bypass
+  10. What the edition Said
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-030851
+
+An original generated work created by the Signature system. All names, places, and events are invented.

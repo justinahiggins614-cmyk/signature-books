@@ -1,0 +1,20 @@
+The Motion & Speed Guide (Vol. 31347)
+by Justin Addam Higgins · JAH-BOOK-031347
+Genre: Physics · 1,036 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Forces & Newton's Laws, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-674215.
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Forces & Newton's Laws: Foundations
+  4. Forces & Newton's Laws: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Certificate manager for predictive maintenance using sparse expert
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-031347
+
+An original generated work created by the Signature system. All names, places, and events are invented.

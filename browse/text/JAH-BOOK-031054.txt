@@ -1,0 +1,20 @@
+The Waves & Sound Guide (Vol. 31054)
+by Justin Addam Higgins · JAH-BOOK-031054
+Genre: Physics · 1,025 words
+
+Summary:
+A complete Signature Physics textbook covering Waves & Sound, Electricity Basics, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (CN105615780B).
+
+Chapters:
+  1. Waves & Sound: Foundations
+  2. Waves & Sound: Going Deeper
+  3. Electricity Basics: Foundations
+  4. Electricity Basics: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Multifunctional high building cleaning device
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-031054
+
+An original generated work created by the Signature system. All names, places, and events are invented.

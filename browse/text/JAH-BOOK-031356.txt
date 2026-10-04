@@ -1,0 +1,20 @@
+The World of Chemical Bonds (Vol. 31356)
+by Justin Addam Higgins · JAH-BOOK-031356
+Genre: Chemistry · 1,054 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, The Periodic Table, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B6969.
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. The Periodic Table: Foundations
+  4. The Periodic Table: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Dyson Spheres Research Frontier Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-031356
+
+An original generated work created by the Signature system. All names, places, and events are invented.

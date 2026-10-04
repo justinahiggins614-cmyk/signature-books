@@ -1,0 +1,20 @@
+Code & Concepts: Databases (Vol. 30501)
+by Justin Addam Higgins · JAH-BOOK-030501
+Genre: Computer Science · 1,065 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, How Computers Think, Algorithms & Flowcharts — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-725291).
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. Algorithms & Flowcharts: Foundations
+  6. Algorithms & Flowcharts: Going Deeper
+  7. Case Study: Educational tools suite for batch ETL using leaky
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-030501
+
+An original generated work created by the Signature system. All names, places, and events are invented.
