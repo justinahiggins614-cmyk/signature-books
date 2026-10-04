@@ -1,0 +1,20 @@
+Code & Concepts: How Computers Think (Vol. 36210)
+by Justin Addam Higgins · JAH-BOOK-036210
+Genre: Computer Science · 1,143 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Cybersecurity Basics, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve the system: 6x + 3y = -21; 4x + 3y = -17 (JAH-MALL-008356).
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Solve the system
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-036210
+
+An original generated work created by the Signature system. All names, places, and events are invented.

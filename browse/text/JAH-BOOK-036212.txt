@@ -1,0 +1,20 @@
+Programming Basics for Builders (Vol. 36212)
+by Justin Addam Higgins · JAH-BOOK-036212
+Genre: Computer Science · 1,057 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, AI & Machine Learning Intro, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-801758.
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: Portable regulatory for model serving using attention-gated memory
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-036212
+
+An original generated work created by the Signature system. All names, places, and events are invented.

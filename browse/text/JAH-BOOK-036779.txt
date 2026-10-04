@@ -1,0 +1,20 @@
+Microbes & Disease Uncovered (Vol. 36779)
+by Justin Addam Higgins · JAH-BOOK-036779
+Genre: Biology · 1,058 words
+
+Summary:
+A complete Signature Biology textbook covering Microbes & Disease, Evolution & Natural Selection, Classification of Life — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-791718.
+
+Chapters:
+  1. Microbes & Disease: Foundations
+  2. Microbes & Disease: Going Deeper
+  3. Evolution & Natural Selection: Foundations
+  4. Evolution & Natural Selection: Going Deeper
+  5. Classification of Life: Foundations
+  6. Classification of Life: Going Deeper
+  7. Case Study: Specifications hub for testing using differential privacy noise
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-036779
+
+An original generated work created by the Signature system. All names, places, and events are invented.

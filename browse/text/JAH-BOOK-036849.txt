@@ -1,0 +1,26 @@
+The Signature The source record Book (Vol. 36849)
+by Justin Addam Higgins · JAH-BOOK-036849
+Genre: Poetry · 1,533 words
+
+Summary:
+A complete original poetry collection: 13 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-765412.
+
+Chapters:
+  1. Elegy for segmentation
+  2. Probing Song
+  3. Field Notes on probing
+  4. Hymn of portable
+  5. What the deterministic Said
+  6. probing and deterministic
+  7. User Song
+  8. Elegy for networking
+  9. Small Book of deterministic
+  10. networking and portable
+  11. Field Notes on ebpf
+  12. Small Book of ebpf
+  13. Hymn of user
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-036849
+
+An original generated work created by the Signature system. All names, places, and events are invented.

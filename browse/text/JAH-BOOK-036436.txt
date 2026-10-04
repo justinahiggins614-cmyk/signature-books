@@ -1,0 +1,20 @@
+The Geometry & Shapes Handbook (Vol. 36436)
+by Justin Addam Higgins · JAH-BOOK-036436
+Genre: Mathematics · 1,100 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Algebra Foundations, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-736407.
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Algebra Foundations: Foundations
+  4. Algebra Foundations: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Academic subjects array for query optimization using Raft
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-036436
+
+An original generated work created by the Signature system. All names, places, and events are invented.

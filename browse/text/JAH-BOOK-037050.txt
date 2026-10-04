@@ -1,0 +1,20 @@
+Understanding Electricity Basics (Vol. 37050)
+by Justin Addam Higgins · JAH-BOOK-037050
+Genre: Physics · 1,053 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Waves & Sound, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Statistics hub for surge suppression using graphite thermal pads Rev 2 (JAH-MALL-002684).
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Waves & Sound: Foundations
+  4. Waves & Sound: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Statistics hub for surge suppression using graphite thermal
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-037050
+
+An original generated work created by the Signature system. All names, places, and events are invented.

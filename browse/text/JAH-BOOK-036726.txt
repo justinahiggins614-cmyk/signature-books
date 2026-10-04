@@ -1,0 +1,20 @@
+Geometry & Shapes: A Signature Course (Vol. 36726)
+by Justin Addam Higgins · JAH-BOOK-036726
+Genre: Mathematics · 1,076 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Intro to Calculus, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent JP2013250548A.
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Processing device processing method program and processing system
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-036726
+
+An original generated work created by the Signature system. All names, places, and events are invented.
