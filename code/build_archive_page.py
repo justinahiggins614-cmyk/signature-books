@@ -56,7 +56,7 @@ def main():
 <div class="wingnav"><a href="./">Books</a><a href="magazines.html">Magazines</a><a href="library.html">Library</a><a href="archive.html" class="cur">A-Z Archive</a></div>
 
 <header class="hero wrap">
-<div class="jnkicker">SITE 11 OF 27 &middot; THE JAH NETWORK</div>
+<div class="jnkicker">SITE 11 OF 31 &middot; THE JAH NETWORK</div>
 <h1>The Full Archive</h1>
 <div class="sub">Every book, every magazine issue, every library artifact &mdash; the complete catalog from A to Z. Tap a letter, tap a record, start reading.</div>
 <details class="statdrop" open><summary class="statsum">Shelf counts &mdash; tap to hide</summary>
