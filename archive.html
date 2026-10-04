@@ -145,27 +145,18 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 .jaicard{border:1px solid #6b5a2e;border-radius:10px;padding:10px 14px;margin:12px 0;font-size:.88em;background:#1a1408}
 .jaicard b{color:var(--gold2)}
 .ownerlab{font-size:.7em;font-weight:800;letter-spacing:.06em;color:var(--gold2);margin-left:8px;white-space:nowrap}
-/* FIRST-TIME USER GUIDE — spotlight tour + guide panel (additive; theme untouched) */
-#jahtour{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:200;max-width:min(580px,94vw);background:#1a1408;border:2px solid var(--gold);border-radius:14px;padding:14px 18px;box-shadow:0 12px 44px rgba(0,0,0,.65);display:none}
-#jahtour.show{display:block}
-#jahtour .tk{font-size:.72em;letter-spacing:.22em;color:var(--gold);font-weight:700}
-#jahtour h3{margin:.3em 0;color:var(--gold2);font-size:1.08em}
-#jahtour .tw{font-size:.9em;margin:.25em 0}
-#jahtour .tw b{color:var(--gold2)}
-#jahtour .trow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-#jahtour .btn{min-height:44px}
-#jahtour .tdots{display:flex;gap:6px;margin:10px 0 0;align-items:center}
-#jahtour .tdots i{width:8px;height:8px;border-radius:50%;background:#4a3a1e}
-#jahtour .tdots i.on{background:var(--gold)}
-#jahtour .tnum{font-size:.78em;color:var(--mut);margin-left:auto}
-.jahtour-ring{outline:3px solid var(--gold)!important;outline-offset:3px;border-radius:8px}
-#guidepanel{position:fixed;left:0;right:0;bottom:0;z-index:200;max-height:72vh;overflow:auto;background:#14100a;border-top:2px solid var(--gold);padding:6px 0 26px;display:none}
-#guidepanel.show{display:block}
-#guidepanel h2{color:var(--gold2);font-size:1.3em}
-#guidepanel h3{color:var(--gold2);font-size:1em;margin:1.1em 0 .3em}
-#guidepanel p,#guidepanel li{font-size:.93em}
-#guidepanel .btn{min-height:44px}
-#guidepanel .gclose{position:sticky;top:0;float:right;margin:8px}
+/* FIRST-TIME USER GUIDE (2026-10-04 standard): centered welcome overlay.
+   No auto-scroll, no spotlight, no scrollIntoView — page stays put. Theme untouched. */
+#jahwelcome{position:fixed;inset:0;z-index:500;background:rgba(10,7,2,.78);display:none;align-items:center;justify-content:center;padding:16px}
+#jahwelcome.show{display:flex}
+#jahwelcome .wcard{max-width:min(480px,94vw);max-height:88vh;overflow:auto;background:#1a1408;border:2px solid var(--gold);border-radius:14px;padding:20px 20px 18px;box-shadow:0 12px 44px rgba(0,0,0,.65);color:var(--parch)}
+#jahwelcome .wk{font-size:.72em;letter-spacing:.22em;color:var(--gold);font-weight:700}
+#jahwelcome h3{margin:.3em 0;color:var(--gold2);font-size:1.15em}
+#jahwelcome ol{margin:.4em 0 .2em;padding-left:22px;font-size:.95em}
+#jahwelcome li{margin:9px 0}
+#jahwelcome li b{color:var(--gold2)}
+#jahwelcome .wok{display:block;width:100%;min-height:52px;font-size:1.05em;font-weight:700;background:#2a2110;color:var(--gold2);border:2px solid var(--gold);border-radius:10px;cursor:pointer;touch-action:manipulation;margin-top:14px}
+#jahwelcome .wok:hover{background:#3a2d15}
 </style>
 <style>html[data-theme="dark"]{filter:invert(1) hue-rotate(180deg)}html[data-theme="dark"] img,html[data-theme="dark"] video,html[data-theme="dark"] canvas,html[data-theme="dark"] svg{filter:invert(1) hue-rotate(180deg)}#jahThemeBtn{position:fixed;right:12px;bottom:12px;z-index:2147483647;width:42px;height:42px;border-radius:50%;border:1px solid rgba(128,128,128,.45);background:rgba(24,24,24,.6);color:#fff;font-size:19px;line-height:1;cursor:pointer;opacity:.55;padding:0}#jahThemeBtn:hover,#jahThemeBtn:focus{opacity:1;outline:none}</style>
 <style>
@@ -213,6 +204,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 <button class="btn" data-wing="books">Books</button>
 <button class="btn ghost" data-wing="mags">Magazines</button>
 <button class="btn ghost" data-wing="libs">Library Artifacts</button>
+<button class="btn ghost" id="guidebtn" aria-label="How to use this site">? Guide</button>
 </div>
 </div>
 <div class="az" id="az" aria-label="Jump to a letter"></div>
@@ -324,6 +316,35 @@ $("q").addEventListener("input",function(){var v=this.value;clearTimeout(qt);
   qt=setTimeout(function(){v=v.trim();if(!v){if(CACHE[WING])renderAz(CACHE[WING]);return}doSearch(v)},250)});
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){loadWing("books")});
 else loadWing("books");
+</script>
+<!-- FIRST-TIME USER GUIDE: centered welcome overlay (2026-10-04 standard) -->
+<div id="jahwelcome" role="dialog" aria-modal="true" aria-label="Welcome to the Full Archive">
+<div class="wcard">
+<div class="wk">📚 FIRST-TIME GUIDE</div>
+<h3>Welcome to the Full Archive</h3>
+<p style="font-size:.95em;margin:.3em 0">Every book, every magazine issue, every library artifact — the complete catalog from A to Z. Here's how to use it:</p>
+<ol>
+<li><b>Pick a wing.</b> Books, Magazines, or Library Artifacts — the buttons switch the whole archive.</li>
+<li><b>Tap a letter</b> in the A–Z row to jump to records whose title starts with it.</li>
+<li><b>Search</b> the box to match titles across the whole archive; a letter's list loads only when you open it, so phones stay fast.</li>
+<li><b>Tap any record</b> to open the full text on its home page — books open with ?book=, issues with ?mag=, artifacts with ?lib=.</li>
+</ol>
+<button class="wok" id="jahwOk">GOT IT — SHOW ME THE ARCHIVE</button>
+</div>
+</div>
+<script>
+(function(){
+"use strict";
+var KEY="jah-tour-seen-books-archive",w=document.getElementById("jahwelcome");
+function open(){w.classList.add("show");try{document.getElementById("jahwOk").focus()}catch(e){}}
+function close(){w.classList.remove("show");try{localStorage.setItem(KEY,"1")}catch(e){}}
+document.getElementById("jahwOk").onclick=close;
+w.onclick=function(e){if(e.target===w)close()};
+document.getElementById("guidebtn").onclick=open;
+document.addEventListener("keydown",function(e){if(e.key==="Escape")close()});
+var seen=true;try{seen=!!localStorage.getItem(KEY)}catch(e){}
+if(!seen)setTimeout(function(){try{if(!localStorage.getItem(KEY))open()}catch(e){}},1200);
+})();
 </script>
 </body>
 </html>

@@ -105,9 +105,9 @@ function init(){
   var so=$("sort"); if(so)so.addEventListener("change",applyFilters);
   if($("vgrid"))$("vgrid").onclick=function(){VIEW="grid";render()};
   if($("vlist"))$("vlist").onclick=function(){VIEW="list";render()};
-  var gb=$("guidebtn"); if(gb)gb.onclick=function(){WingGuide.toggle()};
+  var gb=$("guidebtn"); if(gb)gb.onclick=function(){WingWelcome.open()};
   window.addEventListener("hashchange",route);
-  WingTour.maybeInvite();
+  WingWelcome.maybeShow();
 }
 function buildFilters(){
   var fs=$("fcat"); if(!fs||!WING.filterKey)return;
@@ -390,94 +390,43 @@ Finder.ask=function(){
     el.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" ")location.hash="#"+WING.deepParam+"="+el.getAttribute("data-id")});
   });
 };
-/* ============ FIRST-TIME USER GUIDE (wings): spotlight tour + guide panel ============
-   Same pattern as the books home. Non-modal, never blocks content.
-   localStorage key: jah-tour-seen-<page>. */
-var WingTour={i:0,
+/* ============ FIRST-TIME USER GUIDE (wings, 2026-10-04 standard): centered
+   welcome overlay. No auto-scroll, no spotlight ring, no scrollIntoView — the page
+   stays put; the overlay does the teaching. One OK button ends it; ? Guide
+   re-opens it anytime. localStorage key: jah-tour-seen-<page>. */
+var WingWelcome={
  key:function(){return "jah-tour-seen-"+WING.pageFile.replace(".html","")},
- steps:function(){var u=WING.unitSing,up=WING.unitPlural,idEx=WING.idRe.replace("\\d{6}","000123").replace("\\\\","\\");
-  return [
-  {t:"Welcome to "+WING.pageTitle.split(" — ")[0],
-   what:"<b>WHAT:</b> a 1-minute tour of this wing.",
-   does:"<b>WHAT IT DOES:</b> walks you through search, filters, views, and opening a "+u+" — then gets out of the way forever.",
-   how:"<b>HOW:</b> tap <b>Start the tour</b>, or <b>Skip</b> any time. → / ← keys move, Esc ends it.",
-   target:null},
-  {t:"🔎 Search the "+up,
-   what:"<b>WHAT:</b> the search box at the top.",
-   does:"<b>WHAT IT DOES:</b> matches titles, subjects, and record IDs. A full ID like <b>"+idEx+"</b> jumps that exact record to the top.",
-   how:"<b>HOW:</b> just type — the shelf narrows as you type.",
-   target:"#q"},
-  {t:"🎛 Filter & sort",
-   what:"<b>WHAT:</b> the subject menu, sort menu, and A–Z letter row.",
-   does:"<b>WHAT IT DOES:</b> narrows to one subject, orders newest / A–Z / longest, and filters by the title's first letter.",
-   how:"<b>HOW:</b> pick from the menus, tap a letter — tap # for all.",
-   target:"#fcat"},
-  {t:"▦ / ☰ Views",
-   what:"<b>WHAT:</b> the view buttons.",
-   does:"<b>WHAT IT DOES:</b> switches the same "+up+" between covers and a compact list.",
-   how:"<b>HOW:</b> tap <b>▦</b> or <b>☰</b>.",
-   target:".viewtoggle"},
-  {t:"📖 Opening a "+u,
-   what:"<b>WHAT:</b> any cover on the shelf.",
-   does:"<b>WHAT IT DOES:</b> opens the full record — cover, title, chips, description, "+WING.itemWordPlural+" sections, and the complete text. Every "+u+" has a stable link like <b>"+WING.pageFile+"?"+WING.deepParam+"="+idEx+"</b> that survives refresh and sharing.",
-   how:"<b>HOW:</b> tap a cover.",
-   target:"#results"},
-  {t:"🔊 Read aloud · ⧉ Copy · ⬇ Download",
-   what:"<b>WHAT:</b> inside an open "+u+".",
-   does:"<b>WHAT IT DOES:</b> <b>🔊 Read aloud</b> reads it with a floating bar; <b>⧉ Copy</b> copies the text; <b>⬇ Download</b> saves .txt/.json; <b>↗ Share</b> copies the link.",
-   how:"<b>HOW:</b> open any "+u+" — the buttons sit above the description.",
-   target:"#results"},
-  {t:"? Guide — always here",
-   what:"<b>WHAT:</b> the <b>? Guide</b> button in the top bar.",
-   does:"<b>WHAT IT DOES:</b> opens this whole guide as a panel any time — every feature in plain words.",
-   how:"<b>HOW:</b> tap <b>? Guide</b>. That's the tour — happy reading! 📚",
-   target:"#guidebtn"}];},
- isSeen:function(){try{return localStorage.getItem(this.key())==="1"}catch(e){return true}},
- markSeen:function(){try{localStorage.setItem(this.key(),"1")}catch(e){}},
- el:function(){var c=$("wingtour");if(c)return c;
-   c=document.createElement("div");c.id="wingtour";c.setAttribute("role","dialog");
-   c.setAttribute("aria-label","Site tour");c.setAttribute("aria-hidden","true");
-   c.innerHTML='<div class="tk">📚 FIRST-TIME GUIDE</div><h3 id="wtTitle"></h3>'+
-    '<p class="tw" id="wtWhat"></p><p class="tw" id="wtDoes"></p><p class="tw" id="wtHow"></p>'+
-    '<div class="trow"><button class="btn" id="wtStart">▶ Start the tour</button>'+
-    '<button class="btn ghost" id="wtBack">← Back</button>'+
-    '<button class="btn ghost" id="wtNext">Next →</button>'+
-    '<button class="btn ghost" id="wtSkip">Skip</button></div><div class="tdots" id="wtDots"></div>';
-   document.body.appendChild(c);
-   $("wtStart").onclick=function(){WingTour.start()};$("wtBack").onclick=function(){WingTour.back()};
-   $("wtNext").onclick=function(){WingTour.next()};$("wtSkip").onclick=function(){WingTour.skip()};
-   return c},
- clearRing:function(){var r=document.querySelectorAll(".jahtour-ring");for(var i=0;i<r.length;i++)r[i].classList.remove("jahtour-ring")},
- ring:function(sel){this.clearRing();if(!sel)return;
-   try{var el=document.querySelector(sel);if(!el)return;
-     if(el.scrollIntoView)el.scrollIntoView({block:"center",behavior:"smooth"});
-     el.classList.add("jahtour-ring")}catch(e){}},
- show:function(i){var steps=this.steps();
-   this.i=Math.max(0,Math.min(i,steps.length-1));
-   var s=steps[this.i],card=this.el();
-   $("wtTitle").textContent=s.t;
-   $("wtWhat").innerHTML=s.what;$("wtDoes").innerHTML=s.does;$("wtHow").innerHTML=s.how;
-   this.ring(s.target);
-   var dots=$("wtDots");dots.innerHTML="";
-   for(var d=0;d<steps.length;d++){var dot=document.createElement("i");if(d===this.i)dot.className="on";dots.appendChild(dot)}
-   var num=document.createElement("span");num.className="tnum";num.textContent=(this.i+1)+" of "+steps.length;dots.appendChild(num);
-   $("wtStart").style.display=this.i===0?"":"none";
-   $("wtBack").style.display=this.i===0?"none":"";
-   $("wtNext").textContent=this.i===steps.length-1?"✓ Done":"Next →";
-   card.classList.add("show");card.setAttribute("aria-hidden","false")},
- hide:function(){this.clearRing();var c=$("wingtour");if(c){c.classList.remove("show");c.setAttribute("aria-hidden","true")}},
- start:function(){this.show(1)},
- next:function(){var n=this.steps().length;if(this.i>=n-1){this.done()}else this.show(this.i+1)},
- back:function(){this.show(this.i-1)},
- skip:function(){this.markSeen();this.hide()},
- done:function(){this.markSeen();this.hide()},
- maybeInvite:function(){
-   if(this.isSeen())return;
+ el:function(){var w=$("jahwelcome");if(w)return w;
+   var u=WING.unitSing,up=WING.unitPlural,idEx=WING.idRe.replace("\\d{6}","000123").replace("\\\\","\\");
+   var wing=WING.pageTitle.split(" \u2014 ")[0];
+   w=document.createElement("div");w.id="jahwelcome";w.setAttribute("role","dialog");
+   w.setAttribute("aria-modal","true");w.setAttribute("aria-label","Welcome to "+wing);
+   w.innerHTML='<div class="wcard"><div class="wk">\uD83D\uDCDA FIRST-TIME GUIDE</div>'+
+    '<h3>Welcome to '+esc(wing)+'</h3>'+
+    '<p style="font-size:.95em;margin:.3em 0">Every '+esc(u)+' here is a finished, original Signature work \u2014 free, no login. Here is how to use it:</p>'+
+    '<ol>'+
+    '<li><b>Search.</b> Type in the search box \u2014 it matches titles, subjects, and record IDs. A full ID like '+esc(idEx)+' jumps that exact record to the top.</li>'+
+    '<li><b>Filter &amp; sort.</b> The subject menu, sort menu, and A\u2013Z letter row narrow the shelf; the view buttons switch covers and list views.</li>'+
+    '<li><b>Tap any cover</b> to open the full '+esc(u)+' \u2014 description, sections, complete text. A stable link like '+esc(WING.pageFile)+'?'+esc(WING.deepParam)+'='+esc(idEx)+' survives refresh and sharing.</li>'+
+    '<li><b>Read, listen, take it with you.</b> Read aloud with the floating bar; Copy; downloads; Share; Ask AI answers from the record\u2019s own text.</li>'+
+    '</ol>'+
+    '<button class="wok" id="jahwOk">GOT IT \u2014 SHOW ME THE SHELF</button>'+
+    '<button class="wfull" id="jahwFull">Full guide \u2192</button></div>';
+   document.body.appendChild(w);
+   $("jahwOk").onclick=function(){WingWelcome.close()};
+   w.onclick=function(e){if(e.target===w)WingWelcome.close()};
+   $("jahwFull").onclick=function(){WingWelcome.close();WingGuide.open()};
+   return w},
+ open:function(){var w=this.el();w.classList.add("show");var b=$("jahwOk");if(b)b.focus()},
+ close:function(){var w=$("jahwelcome");if(w)w.classList.remove("show");try{localStorage.setItem(this.key(),"1")}catch(e){}},
+ maybeShow:function(){
+   var seen=true;try{seen=!!localStorage.getItem(this.key())}catch(e){}
+   if(seen)return;
    var deep=false;
    try{var qp=new URLSearchParams(location.search).get(WING.deepParam);
      deep=!!qp||new RegExp("[#&]"+WING.deepParam+"=").test(location.hash||"")}catch(e){}
-   if(deep){this.markSeen();return}
-   this.show(0)}
+   if(deep){try{localStorage.setItem(this.key(),"1")}catch(e){}return}
+   var self=this;setTimeout(function(){try{if(!localStorage.getItem(self.key()))self.open()}catch(e){}},1200)}
 };
 var WingGuide={
  panel:function(){var p=$("wingguide");if(p)return p;
@@ -502,11 +451,9 @@ var WingGuide={
  toggle:function(){var p=$("wingguide");if(p&&p.classList.contains("show"))this.close();else this.open()}
 };
 document.addEventListener("keydown",function(e){
-  var t=$("wingtour"),tourOn=t&&t.classList.contains("show");
-  var g=$("wingguide"),guideOn=g&&g.classList.contains("show");
-  if(e.key==="Escape"){if(tourOn){WingTour.skip()}else if(guideOn){WingGuide.close()}return}
-  if(!tourOn)return;
-  if(e.key==="ArrowRight"){e.preventDefault();WingTour.next()}
-  else if(e.key==="ArrowLeft"){e.preventDefault();WingTour.back()}
+  if(e.key!=="Escape")return;
+  var w=$("jahwelcome");
+  if(w&&w.classList.contains("show")){WingWelcome.close();return}
+  WingGuide.close();
 });
 if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();

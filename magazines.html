@@ -97,21 +97,20 @@ footer{border-top:3px double var(--line);padding:26px 14px 60px;color:var(--mut)
 .prov{font-size:.78em;color:var(--mut);margin:8px 0}
 .jaicard{border:1px solid #6b5a2e;border-radius:10px;padding:10px 14px;margin:12px 0;font-size:.88em;background:#1a1408}
 .jaicard b{color:var(--gold2)}
-/* FIRST-TIME USER GUIDE — spotlight tour + guide panel (additive; theme untouched) */
-#wingtour{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:200;max-width:min(580px,94vw);background:#1a1408;border:2px solid var(--gold);border-radius:14px;padding:14px 18px;box-shadow:0 12px 44px rgba(0,0,0,.65);display:none}
-#wingtour.show{display:block}
-#wingtour .tk{font-size:.72em;letter-spacing:.22em;color:var(--gold);font-weight:700}
-#wingtour h3{margin:.3em 0;color:var(--gold2);font-size:1.08em}
-#wingtour .tw{font-size:.9em;margin:.25em 0}
-#wingtour .tw b{color:var(--gold2)}
-#wingtour .trow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-#wingtour .btn{min-height:44px}
-#wingtour .tdots{display:flex;gap:6px;margin:10px 0 0;align-items:center}
-#wingtour .tdots i{width:8px;height:8px;border-radius:50%;background:#4a3a1e}
-#wingtour .tdots i.on{background:var(--gold)}
-#wingtour .tnum{font-size:.78em;color:var(--mut);margin-left:auto}
-.jahtour-ring{outline:3px solid var(--gold)!important;outline-offset:3px;border-radius:8px}
-#wingguide{position:fixed;left:0;right:0;bottom:0;z-index:200;max-height:72vh;overflow:auto;background:#14100a;border-top:2px solid var(--gold);padding:6px 0 26px;display:none}
+/* FIRST-TIME USER GUIDE (2026-10-04 standard): centered welcome overlay + guide panel.
+   No auto-scroll, no spotlight, no scrollIntoView — page stays put. Theme untouched. */
+#jahwelcome{position:fixed;inset:0;z-index:500;background:rgba(10,7,2,.78);display:none;align-items:center;justify-content:center;padding:16px}
+#jahwelcome.show{display:flex}
+#jahwelcome .wcard{max-width:min(480px,94vw);max-height:88vh;overflow:auto;background:#1a1408;border:2px solid var(--gold);border-radius:14px;padding:20px 20px 18px;box-shadow:0 12px 44px rgba(0,0,0,.65);color:var(--parch)}
+#jahwelcome .wk{font-size:.72em;letter-spacing:.22em;color:var(--gold);font-weight:700}
+#jahwelcome h3{margin:.3em 0;color:var(--gold2);font-size:1.15em}
+#jahwelcome ol{margin:.4em 0 .2em;padding-left:22px;font-size:.95em}
+#jahwelcome li{margin:9px 0}
+#jahwelcome li b{color:var(--gold2)}
+#jahwelcome .wok{display:block;width:100%;min-height:52px;font-size:1.05em;font-weight:700;background:#2a2110;color:var(--gold2);border:2px solid var(--gold);border-radius:10px;cursor:pointer;touch-action:manipulation;margin-top:14px}
+#jahwelcome .wok:hover{background:#3a2d15}
+#jahwelcome .wfull{display:block;width:100%;min-height:44px;margin-top:8px;font-size:.92em;background:none;color:var(--mut);border:1px solid var(--line);border-radius:10px;cursor:pointer;touch-action:manipulation}
+#wingguide{position:fixed;left:0;right:0;bottom:0;z-index:500;max-height:72vh;overflow:auto;background:#14100a;border-top:2px solid var(--gold);padding:6px 0 26px;display:none}
 #wingguide.show{display:block}
 #wingguide h2{color:var(--gold2);font-size:1.3em}
 #wingguide h3{color:var(--gold2);font-size:1em;margin:1.1em 0 .3em}

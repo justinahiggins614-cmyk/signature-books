@@ -150,21 +150,21 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 .jaicard{border:1px solid #6b5a2e;border-radius:10px;padding:10px 14px;margin:12px 0;font-size:.88em;background:#1a1408}
 .jaicard b{color:var(--gold2)}
 .ownerlab{font-size:.7em;font-weight:800;letter-spacing:.06em;color:var(--gold2);margin-left:8px;white-space:nowrap}
-/* FIRST-TIME USER GUIDE — spotlight tour + guide panel (additive; theme untouched) */
-#jahtour{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:200;max-width:min(580px,94vw);background:#1a1408;border:2px solid var(--gold);border-radius:14px;padding:14px 18px;box-shadow:0 12px 44px rgba(0,0,0,.65);display:none}
-#jahtour.show{display:block}
-#jahtour .tk{font-size:.72em;letter-spacing:.22em;color:var(--gold);font-weight:700}
-#jahtour h3{margin:.3em 0;color:var(--gold2);font-size:1.08em}
-#jahtour .tw{font-size:.9em;margin:.25em 0}
-#jahtour .tw b{color:var(--gold2)}
-#jahtour .trow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-#jahtour .btn{min-height:44px}
-#jahtour .tdots{display:flex;gap:6px;margin:10px 0 0;align-items:center}
-#jahtour .tdots i{width:8px;height:8px;border-radius:50%;background:#4a3a1e}
-#jahtour .tdots i.on{background:var(--gold)}
-#jahtour .tnum{font-size:.78em;color:var(--mut);margin-left:auto}
-.jahtour-ring{outline:3px solid var(--gold)!important;outline-offset:3px;border-radius:8px}
-#guidepanel{position:fixed;left:0;right:0;bottom:0;z-index:200;max-height:72vh;overflow:auto;background:#14100a;border-top:2px solid var(--gold);padding:6px 0 26px;display:none}
+/* FIRST-TIME USER GUIDE (2026-10-04 standard): centered welcome overlay + guide panel.
+   The page stays put — no auto-scroll, no spotlight jumps, no scrollIntoView. Theme untouched. */
+#jahwelcome{position:fixed;inset:0;z-index:500;background:rgba(10,7,2,.78);display:none;align-items:center;justify-content:center;padding:16px}
+#jahwelcome.show{display:flex}
+#jahwelcome .wcard{max-width:min(480px,94vw);max-height:88vh;overflow:auto;background:#1a1408;border:2px solid var(--gold);border-radius:14px;padding:20px 20px 18px;box-shadow:0 12px 44px rgba(0,0,0,.65);color:var(--parch)}
+#jahwelcome .wk{font-size:.72em;letter-spacing:.22em;color:var(--gold);font-weight:700}
+#jahwelcome h3{margin:.3em 0;color:var(--gold2);font-size:1.15em}
+#jahwelcome ol{margin:.4em 0 .2em;padding-left:22px;font-size:.95em}
+#jahwelcome li{margin:9px 0}
+#jahwelcome li b{color:var(--gold2)}
+#jahwelcome .wrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+#jahwelcome .wok{display:block;width:100%;min-height:52px;font-size:1.05em;font-weight:700;background:#2a2110;color:var(--gold2);border:2px solid var(--gold);border-radius:10px;cursor:pointer;touch-action:manipulation}
+#jahwelcome .wok:hover{background:#3a2d15}
+#jahwelcome .wfull{display:block;width:100%;min-height:44px;margin-top:8px;font-size:.92em;background:none;color:var(--mut);border:1px solid var(--line);border-radius:10px;cursor:pointer;touch-action:manipulation}
+#guidepanel{position:fixed;left:0;right:0;bottom:0;z-index:500;max-height:72vh;overflow:auto;background:#14100a;border-top:2px solid var(--gold);padding:6px 0 26px;display:none}
 #guidepanel.show{display:block}
 #guidepanel h2{color:var(--gold2);font-size:1.3em}
 #guidepanel h3{color:var(--gold2);font-size:1em;margin:1.1em 0 .3em}
@@ -229,20 +229,23 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 
 <div id="rdbar"><span>🔊 <span class="prog" id="rdprog">Reading…</span></span><button class="btn" id="rdstop">⏹ Stop</button></div>
 
-<!-- FIRST-TIME USER GUIDE: spotlight tour card + permanent guide panel -->
-<div id="jahtour" role="dialog" aria-label="Site tour" aria-hidden="true">
-<div class="tk">📚 FIRST-TIME GUIDE</div>
-<h3 id="jtTitle"></h3>
-<p class="tw" id="jtWhat"></p>
-<p class="tw" id="jtDoes"></p>
-<p class="tw" id="jtHow"></p>
-<div class="trow">
-<button class="btn" id="jtStart">▶ Start the tour</button>
-<button class="btn ghost" id="jtBack">← Back</button>
-<button class="btn ghost" id="jtNext">Next →</button>
-<button class="btn ghost" id="jtSkip">Skip</button>
+<!-- FIRST-TIME USER GUIDE: centered welcome overlay (no auto-scroll, no spotlight) + permanent guide panel -->
+<div id="jahwelcome" role="dialog" aria-modal="true" aria-label="Welcome to the Book Depository">
+<div class="wcard">
+<div class="wk">📚 FIRST-TIME GUIDE</div>
+<h3>Welcome to the Book Depository</h3>
+<p style="font-size:.95em;margin:.3em 0">Every book on these shelves is a finished, original Signature work — free, no login. Here's how to use it:</p>
+<ol>
+<li><b>Search the shelves.</b> Type in the search box — it matches titles, descriptions, and JAH-BOOK IDs. A full ID like JAH-BOOK-000123 jumps that exact book to the top.</li>
+<li><b>Filter &amp; browse.</b> Genre, Source, and Sort menus plus the A–Z letter row narrow the shelves. 🖼 Covers / ☰ List switch views; 🎲 Random opens a surprise book.</li>
+<li><b>Tap any cover</b> to open the full book — description, ⛓ source lineage, chapters, and the complete text. Every book has a stable ?book= link that survives sharing.</li>
+<li><b>Read, listen, take it with you.</b> 🔊 Read aloud reads the whole book; 📖 Reader mode + A−/A+ tune the layout; ⧉ Copy, ⬇ downloads, ↗ Share; Ask AI answers from the book's own text.</li>
+</ol>
+<div class="wrow">
+<button class="wok" id="jahwOk">GOT IT — SHOW ME THE SHELVES</button>
+<button class="wfull" id="jahwFull">Full guide →</button>
 </div>
-<div class="tdots" id="jtDots"></div>
+</div>
 </div>
 <div id="guidepanel" role="dialog" aria-label="How to use this site">
 <div class="wrap">
@@ -497,15 +500,11 @@ function init(){
     var pick=pool[Math.floor(Math.random()*pool.length)];
     location.hash="#book="+pick.id;
   };
-  $("guidebtn").onclick=function(){Guide.toggle()};
-  $("jtStart").onclick=function(){Tour.start()};
-  $("jtBack").onclick=function(){Tour.back()};
-  $("jtNext").onclick=function(){Tour.next()};
-  $("jtSkip").onclick=function(){Tour.skip()};
+  $("guidebtn").onclick=function(){Welcome.open()};
   $("gclose").onclick=function(){Guide.close()};
   window.addEventListener("hashchange",route);
   route();
-  Tour.maybeInvite();
+  Welcome.maybeShow();
 }
 function buildAZ(){
   var box=$("az");box.innerHTML="";
@@ -877,108 +876,36 @@ function download(name,text,mime){
   a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000);
 }
 
-/* ============ FIRST-TIME USER GUIDE: spotlight tour + guide panel ============
-   localStorage key: jah-tour-seen-books. Non-modal, never blocks content. */
-var Tour={i:0,
+/* ============ FIRST-TIME USER GUIDE (2026-10-04 standard): centered welcome overlay.
+   No auto-scroll, no spotlight ring, no scrollIntoView. The page stays put; the
+   overlay does the teaching. One OK button ends it; ? Guide re-opens it anytime. */
+var Welcome={
  key:"jah-tour-seen-books",
- steps:[
-  {t:"Welcome to the Book Depository",
-   what:"<b>WHAT:</b> a 1-minute tour of these shelves.",
-   does:"<b>WHAT IT DOES:</b> walks you through search, filters, views, and opening a book — then gets out of the way forever.",
-   how:"<b>HOW:</b> tap <b>Start the tour</b>, or <b>Skip</b> any time. → / ← keys move, Esc ends it.",
-   target:null},
-  {t:"🔎 Search the shelves",
-   what:"<b>WHAT:</b> the search box at the top of the page.",
-   does:"<b>WHAT IT DOES:</b> matches book <b>titles</b>, <b>descriptions</b>, and <b>book IDs</b>. Typing a full ID like JAH-BOOK-000123 jumps that exact book to the top.",
-   how:"<b>HOW:</b> just type — the shelves narrow as you type.",
-   target:"#q"},
-  {t:"🎛 Filters",
-   what:"<b>WHAT:</b> the genre, source, and sort menus plus the A–Z letter row.",
-   does:"<b>WHAT IT DOES:</b> <b>Genre</b> picks one shelf section; <b>Source</b> picks what seeded the book (Signature originals, or derived from a spec, wiki article, dossier, patent, AI, or mall product); <b>Sort</b> orders newest / A–Z / longest; letters filter by title's first letter.",
-   how:"<b>HOW:</b> pick from the menus, tap a letter — tap ★ for all.",
-   target:"#genre"},
-  {t:"🖼 Covers / ☰ List",
-   what:"<b>WHAT:</b> the view buttons.",
-   does:"<b>WHAT IT DOES:</b> switches the same books between the cover grid and a compact list.",
-   how:"<b>HOW:</b> tap <b>🖼 Covers</b> or <b>☰ List</b>.",
-   target:".viewtoggle"},
-  {t:"🎲 Random",
-   what:"<b>WHAT:</b> the Random button.",
-   does:"<b>WHAT IT DOES:</b> opens one surprise book from your current filter — always a real book on the shelf.",
-   how:"<b>HOW:</b> tap <b>🎲 Random</b>.",
-   target:"#randombtn"},
-  {t:"🔎 Book Finder",
-   what:"<b>WHAT:</b> the Book Finder box below the controls.",
-   does:"<b>WHAT IT DOES:</b> you describe what you want in plain words (“a spooky mystery for kids”) and it matches the shelves' own catalog records. It never invents books.",
-   how:"<b>HOW:</b> type a description, tap <b>Find</b>.",
-   target:"#finder"},
-  {t:"📖 Opening a book",
-   what:"<b>WHAT:</b> any cover on the shelf.",
-   does:"<b>WHAT IT DOES:</b> opens the full record — cover, title, byline, chips, description, <b>⛓ Source lineage</b>, and the complete text. Every book also has a stable link like <b>?book=JAH-BOOK-000123</b> that survives refresh and sharing.",
-   how:"<b>HOW:</b> tap a cover, or its <b>📖 Read</b> button.",
-   target:"#results"},
-  {t:"📑 Chapters · 🔊 Read aloud · ⧉ Copy",
-   what:"<b>WHAT:</b> inside an open book.",
-   does:"<b>WHAT IT DOES:</b> the <b>Contents</b> list jumps to any chapter (and offers to resume where you left off); <b>🔊 Read aloud</b> reads the book with a floating bar; <b>📖 Reader mode</b> + <b>A−/A+</b> tune the reading layout; <b>⧉ Copy</b>, <b>⬇ .txt / .json</b>, <b>📄 Plain text</b>, <b>↗ Share</b> and <b>⧉ Cite</b> take the book with you.",
-   how:"<b>HOW:</b> open any book and the buttons are all above the description.",
-   target:"#results"},
-  {t:"? Guide — always here",
-   what:"<b>WHAT:</b> the <b>? Guide</b> button in the top bar.",
-   does:"<b>WHAT IT DOES:</b> opens this whole guide as a panel any time you need it — every feature in plain words.",
-   how:"<b>HOW:</b> tap <b>? Guide</b>. That's the tour — happy reading! 📚",
-   target:"#guidebtn"}
- ],
- isSeen:function(){try{return localStorage.getItem(this.key)==="1"}catch(e){return true}},
- markSeen:function(){try{localStorage.setItem(this.key,"1")}catch(e){}},
- clearRing:function(){var r=document.querySelectorAll(".jahtour-ring");for(var i=0;i<r.length;i++)r[i].classList.remove("jahtour-ring")},
- ring:function(sel){
-   this.clearRing();if(!sel)return;
-   try{var el=document.querySelector(sel);if(!el)return;
-     if(el.scrollIntoView)el.scrollIntoView({block:"center",behavior:"smooth"});
-     el.classList.add("jahtour-ring")}catch(e){}
- },
- show:function(i){
-   this.i=Math.max(0,Math.min(i,this.steps.length-1));
-   var s=this.steps[this.i],card=$("jahtour");
-   $("jtTitle").textContent=s.t;
-   $("jtWhat").innerHTML=s.what;$("jtDoes").innerHTML=s.does;$("jtHow").innerHTML=s.how;
-   this.ring(s.target);
-   var dots=$("jtDots");dots.innerHTML="";
-   for(var d=0;d<this.steps.length;d++){var dot=document.createElement("i");if(d===this.i)dot.className="on";dots.appendChild(dot)}
-   var num=document.createElement("span");num.className="tnum";num.textContent=(this.i+1)+" of "+this.steps.length;dots.appendChild(num);
-   $("jtStart").style.display=this.i===0?"":"none";
-   $("jtBack").style.display=this.i===0?"none":"";
-   $("jtNext").textContent=this.i===this.steps.length-1?"✓ Done":"Next →";
-   card.classList.add("show");card.setAttribute("aria-hidden","false");
- },
- hide:function(){this.clearRing();var c=$("jahtour");if(c){c.classList.remove("show");c.setAttribute("aria-hidden","true")}},
- start:function(){this.show(1)},
- next:function(){if(this.i>=this.steps.length-1){this.done()}else this.show(this.i+1)},
- back:function(){this.show(this.i-1)},
- skip:function(){this.markSeen();this.hide()},
- done:function(){this.markSeen();this.hide()},
- maybeInvite:function(){
-   if(this.isSeen())return;
+ el:null,
+ open:function(){var w=this.el||document.getElementById("jahwelcome");this.el=w;if(w){w.classList.add("show");var b=document.getElementById("jahwOk");if(b)b.focus()}},
+ close:function(){if(this.el)this.el.classList.remove("show");try{localStorage.setItem(this.key,"1")}catch(e){}},
+ maybeShow:function(){
+   var seen=true;try{seen=!!localStorage.getItem(this.key)}catch(e){}
+   if(seen)return;
    var deep=false;
-   try{
-     deep=/(^#book=|[?&]book=)/.test(location.hash||"")||!!new URLSearchParams(location.search).get("book");
-   }catch(e){}
-   if(deep){this.markSeen();return}
-   this.show(0);
+   try{deep=/(^#book=|[?&]book=)/.test(location.hash||"")||!!new URLSearchParams(location.search).get("book")}catch(e){}
+   if(deep){try{localStorage.setItem(this.key,"1")}catch(e){}return}
+   var self=this;setTimeout(function(){try{if(!localStorage.getItem(self.key))self.open()}catch(e){}},1200);
  }
 };
+document.getElementById("jahwOk").onclick=function(){Welcome.close()};
+document.getElementById("jahwelcome").onclick=function(e){if(e.target===this)Welcome.close()};
+document.getElementById("jahwFull").onclick=function(){Welcome.close();Guide.open()};
 var Guide={
  open:function(){var p=$("guidepanel");if(p){p.classList.add("show");var c=$("gclose");if(c)c.focus()}},
  close:function(){var p=$("guidepanel");if(p)p.classList.remove("show")},
  toggle:function(){var p=$("guidepanel");if(p&&p.classList.contains("show"))this.close();else this.open()}
 };
 document.addEventListener("keydown",function(e){
-  var tc=$("jahtour"),tourOn=tc&&tc.classList.contains("show");
-  var gp=$("guidepanel"),guideOn=gp&&gp.classList.contains("show");
-  if(e.key==="Escape"){if(tourOn){Tour.skip()}else if(guideOn){Guide.close()}return}
-  if(!tourOn)return;
-  if(e.key==="ArrowRight"){e.preventDefault();Tour.next()}
-  else if(e.key==="ArrowLeft"){e.preventDefault();Tour.back()}
+  if(e.key!=="Escape")return;
+  var w=document.getElementById("jahwelcome");
+  if(w&&w.classList.contains("show")){Welcome.close();return}
+  Guide.close();
 });
 
 /* ============ read aloud: tiered TTS (proven pattern: ResponsiveVoice en-US
