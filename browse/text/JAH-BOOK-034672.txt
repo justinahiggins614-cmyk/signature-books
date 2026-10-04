@@ -1,0 +1,20 @@
+The Living World: Genetics & DNA (Vol. 34672)
+by Justin Addam Higgins · JAH-BOOK-034672
+Genre: Biology · 1,022 words
+
+Summary:
+A complete Signature Biology textbook covering Genetics & DNA, Classification of Life, Ecology & Ecosystems — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-760591.
+
+Chapters:
+  1. Genetics & DNA: Foundations
+  2. Genetics & DNA: Going Deeper
+  3. Classification of Life: Foundations
+  4. Classification of Life: Going Deeper
+  5. Ecology & Ecosystems: Foundations
+  6. Ecology & Ecosystems: Going Deeper
+  7. Case Study: Logging tools toolkit for risk scoring using sparse
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034672
+
+An original generated work created by the Signature system. All names, places, and events are invented.

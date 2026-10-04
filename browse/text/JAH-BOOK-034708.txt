@@ -1,0 +1,20 @@
+The Databases Primer (Vol. 34708)
+by Justin Addam Higgins · JAH-BOOK-034708
+Genre: Computer Science · 1,007 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, The Internet & Networks, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (DE8207679U1).
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: GRINDING TOOL FOR GRINDING MACHINES
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034708
+
+An original generated work created by the Signature system. All names, places, and events are invented.

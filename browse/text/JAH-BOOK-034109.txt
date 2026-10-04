@@ -1,0 +1,20 @@
+Code & Concepts: Algorithms & Flowcharts (Vol. 34109)
+by Justin Addam Higgins · JAH-BOOK-034109
+Genre: Computer Science · 1,058 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Cybersecurity Basics, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Family Meeting Guide (JAH-AI-DOM-126).
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Family Meeting Guide
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034109
+
+An original generated work created by the Signature system. All names, places, and events are invented.

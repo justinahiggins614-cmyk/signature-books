@@ -1,0 +1,20 @@
+The Energy & Work Guide (Vol. 34050)
+by Justin Addam Higgins · JAH-BOOK-034050
+Genre: Physics · 1,047 words
+
+Summary:
+A complete Signature Physics textbook covering Energy & Work, Forces & Newton's Laws, Light & Optics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (CN101042583B).
+
+Chapters:
+  1. Energy & Work: Foundations
+  2. Energy & Work: Going Deeper
+  3. Forces & Newton's Laws: Foundations
+  4. Forces & Newton's Laws: Going Deeper
+  5. Light & Optics: Foundations
+  6. Light & Optics: Going Deeper
+  7. Case Study: Specialized processing block for programmable logic device
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034050
+
+An original generated work created by the Signature system. All names, places, and events are invented.

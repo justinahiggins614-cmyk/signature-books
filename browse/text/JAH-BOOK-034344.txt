@@ -1,0 +1,20 @@
+Understanding Gravity & Orbits (Vol. 34344)
+by Justin Addam Higgins · JAH-BOOK-034344
+Genre: Physics · 1,041 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Forces & Newton's Laws, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US7223019B2).
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Forces & Newton's Laws: Foundations
+  4. Forces & Newton's Laws: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Swivel slide bearing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034344
+
+An original generated work created by the Signature system. All names, places, and events are invented.

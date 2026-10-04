@@ -1,0 +1,20 @@
+Signature Geometry & Shapes (Vol. 34336)
+by Justin Addam Higgins · JAH-BOOK-034336
+Genre: Mathematics · 1,096 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Algebra Foundations, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-749062.
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Algebra Foundations: Foundations
+  4. Algebra Foundations: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Experiments array for low-power sensing using flip-chip bonding
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034336
+
+An original generated work created by the Signature system. All names, places, and events are invented.

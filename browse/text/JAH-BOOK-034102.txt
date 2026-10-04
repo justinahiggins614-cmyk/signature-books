@@ -1,0 +1,20 @@
+The The Internet & Networks Primer (Vol. 34102)
+by Justin Addam Higgins · JAH-BOOK-034102
+Genre: Computer Science · 1,066 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Data Structures, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Game Master (RPG) (JAH-AI-DOM-074).
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Game Master RPG
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034102
+
+An original generated work created by the Signature system. All names, places, and events are invented.
