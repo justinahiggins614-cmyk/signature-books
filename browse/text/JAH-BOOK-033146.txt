@@ -1,0 +1,20 @@
+Understanding Light & Optics (Vol. 33146)
+by Justin Addam Higgins · JAH-BOOK-033146
+Genre: Physics · 1,046 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Gravity & Orbits, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-753103.
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Manga suite-Harvester header hybrid for log analysis using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-033146
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Geometry & Shapes Handbook (Vol. 32828)
+by Justin Addam Higgins · JAH-BOOK-032828
+Genre: Mathematics · 1,091 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Fractions & Decimals, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Leftover Reinventor (JAH-AI-DOM-213).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Fractions & Decimals: Foundations
+  4. Fractions & Decimals: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Leftover Reinventor
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-032828
+
+An original generated work created by the Signature system. All names, places, and events are invented.
