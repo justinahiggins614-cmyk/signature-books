@@ -1,0 +1,20 @@
+Algebra Foundations: A Signature Course (Vol. 34932)
+by Justin Addam Higgins · JAH-BOOK-034932
+Genre: Mathematics · 1,069 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Fractions & Decimals, Number Theory — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US20120291918A1).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Fractions & Decimals: Foundations
+  4. Fractions & Decimals: Going Deeper
+  5. Number Theory: Foundations
+  6. Number Theory: Going Deeper
+  7. Case Study: Marking device and harvesting arrangement for tree harvesting
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034932
+
+An original generated work created by the Signature system. All names, places, and events are invented.

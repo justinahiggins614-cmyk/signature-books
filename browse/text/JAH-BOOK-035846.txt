@@ -1,0 +1,20 @@
+Heat & Temperature in Action (Vol. 35846)
+by Justin Addam Higgins · JAH-BOOK-035846
+Genre: Physics · 1,029 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Gravity & Orbits, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve log2(x) = 2 (JAH-MALL-007717).
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Solve log
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-035846
+
+An original generated work created by the Signature system. All names, places, and events are invented.

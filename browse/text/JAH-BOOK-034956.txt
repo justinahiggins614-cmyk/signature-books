@@ -1,0 +1,20 @@
+The Periodic Table Explained (Vol. 34956)
+by Justin Addam Higgins · JAH-BOOK-034956
+Genre: Chemistry · 1,088 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, Reactions & Equations, Atoms & Elements — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Fish Keeper (JAH-AI-DOM-063).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. Atoms & Elements: Foundations
+  6. Atoms & Elements: Going Deeper
+  7. Case Study: Fish Keeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-034956
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Electricity Basics in Action (Vol. 35842)
+by Justin Addam Higgins · JAH-BOOK-035842
+Genre: Physics · 1,018 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Heat & Temperature, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-745339).
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Heat & Temperature: Foundations
+  4. Heat & Temperature: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: Industrial engineering toolkit for fail-safe shutdown using gear
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-035842
+
+An original generated work created by the Signature system. All names, places, and events are invented.

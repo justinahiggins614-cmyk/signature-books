@@ -1,0 +1,20 @@
+States of Matter Explained (Vol. 35855)
+by Justin Addam Higgins · JAH-BOOK-035855
+Genre: Chemistry · 1,066 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Chemical Bonds, Solutions & Mixtures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-676804.
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Chemical Bonds: Foundations
+  4. Chemical Bonds: Going Deeper
+  5. Solutions & Mixtures: Foundations
+  6. Solutions & Mixtures: Going Deeper
+  7. Case Study: PRODUCTLINE
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-035855
+
+An original generated work created by the Signature system. All names, places, and events are invented.

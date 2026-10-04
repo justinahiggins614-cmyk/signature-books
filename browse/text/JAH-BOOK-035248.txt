@@ -1,0 +1,20 @@
+Understanding Gravity & Orbits (Vol. 35248)
+by Justin Addam Higgins · JAH-BOOK-035248
+Genre: Physics · 1,036 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Electricity Basics, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B042747.
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Electricity Basics: Foundations
+  4. Electricity Basics: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Dover Demon Mechanism Study Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-035248
+
+An original generated work created by the Signature system. All names, places, and events are invented.
