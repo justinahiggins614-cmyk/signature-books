@@ -466,7 +466,7 @@ else loadWing("books");
 (function(){
 "use strict";
 var KEY="jah-tour-seen-books-archive",w=document.getElementById("jahwelcome");
-function open(){w.classList.add("show");try{document.getElementById("jahwOk").focus()}catch(e){}}
+function open(){w.classList.add("show");try{document.getElementById("jahwOk").focus({preventScroll:true})}catch(e){}}
 function close(){w.classList.remove("show");try{localStorage.setItem(KEY,"1")}catch(e){}}
 document.getElementById("jahwOk").onclick=close;
 w.onclick=function(e){if(e.target===w)close()};

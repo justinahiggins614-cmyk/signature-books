@@ -944,7 +944,7 @@ function download(name,text,mime){
 var Welcome={
  key:"jah-tour-seen-books",
  el:null,
- open:function(){var w=this.el||document.getElementById("jahwelcome");this.el=w;if(w){w.classList.add("show");var b=document.getElementById("jahwOk");if(b)b.focus()}},
+ open:function(){var w=this.el||document.getElementById("jahwelcome");this.el=w;if(w){w.classList.add("show");var b=document.getElementById("jahwOk");if(b)b.focus({preventScroll:true})}},
  close:function(){if(this.el)this.el.classList.remove("show");try{localStorage.setItem(this.key,"1")}catch(e){}},
  maybeShow:function(){
    var seen=true;try{seen=!!localStorage.getItem(this.key)}catch(e){}
@@ -959,7 +959,7 @@ document.getElementById("jahwOk").onclick=function(){Welcome.close()};
 document.getElementById("jahwelcome").onclick=function(e){if(e.target===this)Welcome.close()};
 document.getElementById("jahwFull").onclick=function(){Welcome.close();Guide.open()};
 var Guide={
- open:function(){var p=$("guidepanel");if(p){p.classList.add("show");var c=$("gclose");if(c)c.focus()}},
+ open:function(){var p=$("guidepanel");if(p){p.classList.add("show");var c=$("gclose");if(c)c.focus({preventScroll:true})}},
  close:function(){var p=$("guidepanel");if(p)p.classList.remove("show")},
  toggle:function(){var p=$("guidepanel");if(p&&p.classList.contains("show"))this.close();else this.open()}
 };

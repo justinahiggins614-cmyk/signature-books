@@ -445,7 +445,7 @@ var WingWelcome={
    w.onclick=function(e){if(e.target===w)WingWelcome.close()};
    $("jahwFull").onclick=function(){WingWelcome.close();WingGuide.open()};
    return w},
- open:function(){var w=this.el();w.classList.add("show");var b=$("jahwOk");if(b)b.focus()},
+ open:function(){var w=this.el();w.classList.add("show");var b=$("jahwOk");if(b)b.focus({preventScroll:true})},
  close:function(){var w=$("jahwelcome");if(w)w.classList.remove("show");try{localStorage.setItem(this.key(),"1")}catch(e){}},
  maybeShow:function(){
    var seen=true;try{seen=!!localStorage.getItem(this.key())}catch(e){}
@@ -474,7 +474,7 @@ var WingGuide={
    document.body.appendChild(p);
    $("wgclose").onclick=function(){WingGuide.close()};
    return p},
- open:function(){this.panel().classList.add("show");var c=$("wgclose");if(c)c.focus()},
+ open:function(){this.panel().classList.add("show");var c=$("wgclose");if(c)c.focus({preventScroll:true})},
  close:function(){var p=$("wingguide");if(p)p.classList.remove("show")},
  toggle:function(){var p=$("wingguide");if(p&&p.classList.contains("show"))this.close();else this.open()}
 };
