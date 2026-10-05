@@ -1,0 +1,20 @@
+Understanding Motion & Speed (Vol. 41553)
+by Justin Addam Higgins · JAH-BOOK-041553
+Genre: Physics · 1,022 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Energy & Work, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-835279.
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Compliance hub for speech transcription using bit-sliced indexing
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-041553
+
+An original generated work created by the Signature system. All names, places, and events are invented.

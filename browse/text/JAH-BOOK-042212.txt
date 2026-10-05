@@ -1,0 +1,20 @@
+Code & Concepts: Programming Basics (Vol. 42212)
+by Justin Addam Higgins · JAH-BOOK-042212
+Genre: Computer Science · 1,004 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, The Internet & Networks, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-834155).
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: Keypoint extractor-Mapping tools engine-Hair dryer-Portable neuroscience hybrid hybrid
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-042212
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Geometry & Shapes: A Signature Course (Vol. 41526)
+by Justin Addam Higgins · JAH-BOOK-041526
+Genre: Mathematics · 1,123 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Ratios & Proportions, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-847905).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Search tools toolkit for capacity planning using reservoir
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-041526
+
+An original generated work created by the Signature system. All names, places, and events are invented.

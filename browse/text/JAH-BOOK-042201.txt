@@ -1,0 +1,20 @@
+AI & Machine Learning Intro: A Signature Course (Vol. 42201)
+by Justin Addam Higgins · JAH-BOOK-042201
+Genre: Computer Science · 1,055 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, The Internet & Networks, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI School Lunch Rotator (JAH-AI-DOM-235).
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: School Lunch Rotator
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-042201
+
+An original generated work created by the Signature system. All names, places, and events are invented.

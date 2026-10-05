@@ -1,0 +1,20 @@
+Signature Number Theory (Vol. 42438)
+by Justin Addam Higgins · JAH-BOOK-042438
+Genre: Mathematics · 1,063 words
+
+Summary:
+A complete Signature Mathematics textbook covering Number Theory, Intro to Calculus, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US7057023B2.
+
+Chapters:
+  1. Number Theory: Foundations
+  2. Number Theory: Going Deeper
+  3. Intro to Calculus: Foundations
+  4. Intro to Calculus: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Methods and apparatus for spinning spider silk protein
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-042438
+
+An original generated work created by the Signature system. All names, places, and events are invented.

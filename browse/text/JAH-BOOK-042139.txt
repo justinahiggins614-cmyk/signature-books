@@ -1,0 +1,20 @@
+Measurement & Units Step by Step (Vol. 42139)
+by Justin Addam Higgins · JAH-BOOK-042139
+Genre: Mathematics · 1,147 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Algebra Foundations, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Seasonality decomposer for autonomous decision making using RDMA transfers (JAH-MALL-000293).
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Algebra Foundations: Foundations
+  4. Algebra Foundations: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Seasonality decomposer for autonomous decision making using RDMA
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-042139
+
+An original generated work created by the Signature system. All names, places, and events are invented.
