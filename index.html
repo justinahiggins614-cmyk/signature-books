@@ -891,7 +891,7 @@ function bookAsk(rec){
   setTimeout(function(){
     var ans;
     if(bookConversational(q.toLowerCase())&&typeof JAHtalk!=="undefined")
-      ans="<p>"+esc(JAHtalk.reply(P,q))+"</p>";
+      ans="<p>"+esc(JAHtalk.chatFor(P,"book:"+rec.id).reply(q))+"</p>";
     else
       ans=bookAnswer(rec,q);
     box.innerHTML=bookGuard(ans,rec);
