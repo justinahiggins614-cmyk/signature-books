@@ -1,0 +1,20 @@
+AI & Machine Learning Intro: A Signature Course (Vol. 42801)
+by Justin Addam Higgins · JAH-BOOK-042801
+Genre: Computer Science · 1,057 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, Programming Basics, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B26097.
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: Baba Yaga Origins First Reports Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-042801
+
+An original generated work created by the Signature system. All names, places, and events are invented.

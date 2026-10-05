@@ -1,0 +1,20 @@
+The World of The Periodic Table (Vol. 43357)
+by Justin Addam Higgins · JAH-BOOK-043357
+Genre: Chemistry · 1,030 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, States of Matter, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve 2^x = 32 (JAH-MALL-007442).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. States of Matter: Foundations
+  4. States of Matter: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Solve
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-043357
+
+An original generated work created by the Signature system. All names, places, and events are invented.

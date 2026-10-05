@@ -1,0 +1,20 @@
+Algorithms & Flowcharts for Builders (Vol. 43401)
+by Justin Addam Higgins · JAH-BOOK-043401
+Genre: Computer Science · 1,046 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, The Internet & Networks, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-828298.
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Movies toolkit for thermal management using cast housings
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-043401
+
+An original generated work created by the Signature system. All names, places, and events are invented.

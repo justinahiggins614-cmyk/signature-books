@@ -1,0 +1,20 @@
+The Living World: Microbes & Disease (Vol. 43070)
+by Justin Addam Higgins · JAH-BOOK-043070
+Genre: Biology · 1,048 words
+
+Summary:
+A complete Signature Biology textbook covering Microbes & Disease, Classification of Life, Cells & Organelles — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product BGP policy engine for image understanding using dictionary compression (JAH-MALL-003427).
+
+Chapters:
+  1. Microbes & Disease: Foundations
+  2. Microbes & Disease: Going Deeper
+  3. Classification of Life: Foundations
+  4. Classification of Life: Going Deeper
+  5. Cells & Organelles: Foundations
+  6. Cells & Organelles: Going Deeper
+  7. Case Study: BGP policy engine for image understanding using dictionary
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-043070
+
+An original generated work created by the Signature system. All names, places, and events are invented.

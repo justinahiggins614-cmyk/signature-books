@@ -1,0 +1,20 @@
+Databases: A Signature Course (Vol. 42803)
+by Justin Addam Higgins · JAH-BOOK-042803
+Genre: Computer Science · 1,023 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, Cybersecurity Basics, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI First-Aid Guide (JAH-AI-DOM-024).
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: First-Aid Guide
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-042803
+
+An original generated work created by the Signature system. All names, places, and events are invented.
