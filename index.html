@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>try{if(localStorage.getItem("jah-theme")==="dark"){document.documentElement.dataset.theme="dark"}}catch(e){}</script>
+<script src="js/signin.js"></script>
+<script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */
+var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>
+<script>try{if(PS.get("jah-theme")==="dark"){document.documentElement.dataset.theme="dark"}}catch(e){}</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Signature Book Depository</title>
@@ -689,13 +692,13 @@ var CUR=null, CURTEXT="";
 /* reader mode (FIX-4): dedicated reading layout — adjustable font size, 1.7
    line height, ~70-char measure. Preference persists across visits. */
 var RDR={on:false,fs:18};
-function rdrInit(){try{var s=JSON.parse(localStorage.getItem("jahb_rdr")||"null");if(s&&typeof s==="object"){RDR.on=!!s.on;RDR.fs=Math.min(26,Math.max(13,s.fs||18))}}catch(e){}}
+function rdrInit(){try{var s=JSON.parse(PS.get("jahb_rdr")||"null");if(s&&typeof s==="object"){RDR.on=!!s.on;RDR.fs=Math.min(26,Math.max(13,s.fs||18))}}catch(e){}}
 function rdrApply(){
   var bv=$("bookview");if(!bv)return;
   bv.className=RDR.on?"wrap reader-on":"wrap";
   var ch=bv.querySelector(".chapters");if(ch)ch.style.fontSize=RDR.on?RDR.fs+"px":"";
   var b=$("rdrbtn");if(b)b.textContent=RDR.on?"\uD83D\uDCD5 Exit reader":"\uD83D\uDCD6 Reader mode";
-  try{localStorage.setItem("jahb_rdr",JSON.stringify(RDR))}catch(e2){}
+  try{PS.set("jahb_rdr",JSON.stringify(RDR))}catch(e2){}
 }
 /* per-book head (meta/canonical) for crawlers & sharing — additive, no visual change */
 var _bhome=null;
@@ -732,9 +735,9 @@ function route(){
 function findIdx(id){for(var i=0;i<IDX.length;i++)if(IDX[i].id===id)return IDX[i];return null}
 /* reading position: saved per book on this device only; offers Resume on reopen */
 function posKey(id){return "jahb_pos_"+id}
-function savePos(id){try{var bv=$("bookview");if(bv&&bv.style.display!=="none")localStorage.setItem(posKey(id),String(window.scrollY||0))}catch(e){}}
-function getPos(id){try{var v=parseInt(localStorage.getItem(posKey(id))||"0",10);return v>120?v:0}catch(e){return 0}}
-function clearPos(id){try{localStorage.removeItem(posKey(id))}catch(e){}}
+function savePos(id){try{var bv=$("bookview");if(bv&&bv.style.display!=="none")PS.set(posKey(id),String(window.scrollY||0))}catch(e){}}
+function getPos(id){try{var v=parseInt(PS.get(posKey(id))||"0",10);return v>120?v:0}catch(e){return 0}}
+function clearPos(id){try{PS.remove(posKey(id))}catch(e){}}
 function openBook(id){
   rdStop();$("home").style.display="none";var bv=$("bookview");bv.style.display="block";
   bv.innerHTML='<div class="loading">Opening '+esc(id)+'…</div>';
@@ -890,8 +893,10 @@ function bookAsk(rec){
   var P=bookAIProfile(rec);
   setTimeout(function(){
     var ans;
-    if(bookConversational(q.toLowerCase())&&typeof JAHtalk!=="undefined")
-      ans="<p>"+esc(JAHtalk.chatFor(P,"book:"+rec.id).reply(q))+"</p>";
+    if(bookConversational(q.toLowerCase())&&typeof JAHtalk!=="undefined"){
+      var _bck=(typeof JAHProfile!=="undefined")?JAHProfile.chatKey("book:"+rec.id):("book:"+rec.id);
+      ans="<p>"+esc(JAHtalk.chatFor(P,_bck).reply(q))+"</p>";
+    }
     else
       ans=bookAnswer(rec,q);
     box.innerHTML=bookGuard(ans,rec);
@@ -942,14 +947,14 @@ var Welcome={
  key:"jah-tour-seen-books",
  el:null,
  open:function(){var w=this.el||document.getElementById("jahwelcome");this.el=w;if(w){w.classList.add("show");var b=document.getElementById("jahwOk");if(b)b.focus({preventScroll:true})}},
- close:function(){if(this.el)this.el.classList.remove("show");try{localStorage.setItem(this.key,"1")}catch(e){}},
+ close:function(){if(this.el)this.el.classList.remove("show");try{PS.set(this.key,"1")}catch(e){}},
  maybeShow:function(){
-   var seen=true;try{seen=!!localStorage.getItem(this.key)}catch(e){}
+   var seen=true;try{seen=!!PS.get(this.key)}catch(e){}
    if(seen)return;
    var deep=false;
    try{deep=/(^#book=|[?&]book=)/.test(location.hash||"")||!!new URLSearchParams(location.search).get("book")}catch(e){}
-   if(deep){try{localStorage.setItem(this.key,"1")}catch(e){}return}
-   var self=this;setTimeout(function(){try{if(!localStorage.getItem(self.key))self.open()}catch(e){}},1200);
+   if(deep){try{PS.set(this.key,"1")}catch(e){}return}
+   var self=this;setTimeout(function(){try{if(!PS.get(self.key))self.open()}catch(e){}},1200);
  }
 };
 document.getElementById("jahwOk").onclick=function(){Welcome.close()};
@@ -1048,7 +1053,7 @@ $("rdstop").onclick=rdStop;
 init();
 </script>
 <script>(function(){var d=document.querySelectorAll(".statdrop");if(!window.matchMedia||!window.matchMedia("(max-width:767px)").matches)return;for(var i=0;i<d.length;i++)d[i].removeAttribute("open")})();</script>
-<button id="jahThemeBtn" title="Dark mode" aria-label="Toggle dark mode">◐</button><script>(function(){try{var b=document.getElementById("jahThemeBtn");function paint(){b.textContent=document.documentElement.dataset.theme==="dark"?"◑":"◐"}b.onclick=function(){var d=document.documentElement;if(d.dataset.theme==="dark"){d.dataset.theme="";try{localStorage.removeItem("jah-theme")}catch(e){}}else{d.dataset.theme="dark";try{localStorage.setItem("jah-theme","dark")}catch(e){}}paint()};paint()}catch(e){}})();</script>
+<button id="jahThemeBtn" title="Dark mode" aria-label="Toggle dark mode">◐</button><script>(function(){try{var b=document.getElementById("jahThemeBtn");function paint(){b.textContent=document.documentElement.dataset.theme==="dark"?"◑":"◐"}b.onclick=function(){var d=document.documentElement;if(d.dataset.theme==="dark"){d.dataset.theme="";try{PS.remove("jah-theme")}catch(e){}}else{d.dataset.theme="dark";try{PS.set("jah-theme","dark")}catch(e){}}paint()};paint()}catch(e){}})();</script>
 <script>/* jah-session-restore: localStorage only, nothing leaves the device */
 (function(){try{
 var SITE="sigbooks",DEEP=["book"],path=location.pathname;
@@ -1062,18 +1067,18 @@ var deep=hasDeep();
 var lid=null;(function(){var q=new URLSearchParams(location.search),i;
  for(i=0;i<DEEP.length;i++){var v=q.get(DEEP[i]);if(v){lid=v;break}}
  if(!lid){var m=/[#&?](?:book|issue|course|print|edition|degree|college|paper|series|hero)=([A-Za-z0-9-_.]+)/.exec(location.hash||"");if(m)lid=m[1]}})();
-if(lid){try{localStorage.setItem("jah-last-"+SITE,lid)}catch(e){}}
+if(lid){try{PS.set("jah-last-"+SITE,lid)}catch(e){}}
 document.addEventListener("click",function(e){try{var t=e.target&&e.target.closest?e.target.closest("[data-id]"):null;
- if(t&&t.getAttribute("data-id")){localStorage.setItem("jah-last-"+SITE,t.getAttribute("data-id"));return}
+ if(t&&t.getAttribute("data-id")){PS.set("jah-last-"+SITE,t.getAttribute("data-id"));return}
  var a=e.target&&e.target.closest?e.target.closest("a[href]"):null;
- if(a){var hr=a.getAttribute("href")||"";for(var i=0;i<DEEP.length;i++){var m2=new RegExp("[?&]"+DEEP[i]+"=([A-Za-z0-9-_.]+)").exec(hr);if(m2){localStorage.setItem("jah-last-"+SITE,m2[1]);break}}}}catch(x){}},true);
+ if(a){var hr=a.getAttribute("href")||"";for(var i=0;i<DEEP.length;i++){var m2=new RegExp("[?&]"+DEEP[i]+"=([A-Za-z0-9-_.]+)").exec(hr);if(m2){PS.set("jah-last-"+SITE,m2[1]);break}}}}catch(x){}},true);
 /* (a) scroll save/restore per page path */
 var SK="jah-scroll-"+SITE+"-"+path,st=null;
-window.addEventListener("scroll",function(){clearTimeout(st);st=setTimeout(function(){try{localStorage.setItem(SK,String(window.scrollY))}catch(e){}},400)},{passive:true});
-if(!deep){var sv=null;try{sv=localStorage.getItem(SK)}catch(e){}
+window.addEventListener("scroll",function(){clearTimeout(st);st=setTimeout(function(){try{PS.set(SK,String(window.scrollY))}catch(e){}},400)},{passive:true});
+if(!deep){var sv=null;try{sv=PS.get(SK)}catch(e){}
  if(sv&&+sv>40){requestAnimationFrame(function(){window.scrollTo(0,+sv)})}}
 /* (c2) on listing page, scroll last-opened record into view */
-if(!deep){var rid=null;try{rid=localStorage.getItem("jah-last-"+SITE)}catch(e){}
+if(!deep){var rid=null;try{rid=PS.get("jah-last-"+SITE)}catch(e){}
  if(rid){var sel=document.querySelector('[data-id="'+rid+'"]')||document.querySelector('a[href*="'+rid+'"]');
   if(sel){var r=sel.getBoundingClientRect();
    if(r.top<0||r.bottom>window.innerHeight){setTimeout(function(){sel.scrollIntoView({block:"center"})},600)}}}}
@@ -1081,15 +1086,26 @@ if(!deep){var rid=null;try{rid=localStorage.getItem("jah-last-"+SITE)}catch(e){}
 var TK="jah-tabs-"+SITE+"-"+path;
 document.addEventListener("click",function(e){try{var b=e.target&&e.target.closest?e.target.closest(".tab,[data-tab]"):null;
  if(!b)return;var id=b.getAttribute("data-tab")||b.getAttribute("data-s")||b.id||(b.textContent||"").trim();
- var o={};try{o=JSON.parse(localStorage.getItem(TK)||"{}")}catch(x){}
+ var o={};try{o=JSON.parse(PS.get(TK)||"{}")}catch(x){}
  var c=b.closest(".tabs")||b.parentElement;
  o[c?(c.id||"i"+Array.prototype.indexOf.call((c.parentElement||document.body).children,c)):"x"]=id;
- localStorage.setItem(TK,JSON.stringify(o))}catch(x){}},true);
-if(!deep){(function(){var o=null;try{o=JSON.parse(localStorage.getItem(TK)||"{}")}catch(x){}
+ PS.set(TK,JSON.stringify(o))}catch(x){}},true);
+if(!deep){(function(){var o=null;try{o=JSON.parse(PS.get(TK)||"{}")}catch(x){}
  if(!o)return;Object.keys(o).forEach(function(k){var cont=document.getElementById(k),btn=null;
   if(cont){btn=cont.querySelector('[data-tab="'+o[k]+'"],[data-s="'+o[k]+'"]')}
   else{try{btn=document.querySelector('.tab[id="'+o[k]+'"]')}catch(x){}}
   if(btn&&!btn.classList.contains("on")&&btn.offsetParent!==null){btn.click()}})})()}
 }catch(e){}})();</script>
+<script>
+(function () {
+  /* mount into the header; falls back gracefully when the header markup differs */
+  var mount = document.querySelector('header .booksearch') ||
+              document.querySelector('nav.jtabbar') ||
+              document.querySelector('header nav') ||
+              document.querySelector('header') ||
+              document.body;
+  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);
+})();
+</script>
 </body>
 </html>

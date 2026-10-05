@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../js/signin.js"></script>
+<script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */
+var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Signature books — Science Fiction</title>
@@ -4073,5 +4076,16 @@ ul{list-style:none;padding:0}li{margin:.35em 0}
 <li><a href="../?book=JAH-BOOK-040230">The Last Lift Outpost</a> <span class="meta">Science Fiction &middot; 1,939 words &middot; JAH-BOOK-040230 &middot; <a href="text/JAH-BOOK-040230.txt">plain text</a></span><br><span class="sum">Belnor Luwick never meant to carry the desk beacon — but some roads choose their people. Book 40230 in the Signature Science Fiction collection — a complete original…</span></li>
 </ul>
 </div>
+<script>
+(function () {
+  /* mount into the header; falls back gracefully when the header markup differs */
+  var mount = document.querySelector('header .booksearch') ||
+              document.querySelector('nav.jtabbar') ||
+              document.querySelector('header nav') ||
+              document.querySelector('header') ||
+              document.body;
+  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);
+})();
+</script>
 </body>
 </html>

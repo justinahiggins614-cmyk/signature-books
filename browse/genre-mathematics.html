@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../js/signin.js"></script>
+<script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */
+var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Signature books — Mathematics</title>
@@ -2453,5 +2456,16 @@ ul{list-style:none;padding:0}li{margin:.35em 0}
 <li><a href="../?book=JAH-BOOK-040340">Mastering Ratios &amp; Proportions (Vol. 40340)</a> <span class="meta">Mathematics &middot; 1,152 words &middot; JAH-BOOK-040340 &middot; <a href="text/JAH-BOOK-040340.txt">plain text</a></span><br><span class="sum">A complete Signature Mathematics textbook covering Ratios &amp; Proportions, Fractions &amp; Decimals, Intro to Calculus — definitions, worked examples with real computed…</span></li>
 </ul>
 </div>
+<script>
+(function () {
+  /* mount into the header; falls back gracefully when the header markup differs */
+  var mount = document.querySelector('header .booksearch') ||
+              document.querySelector('nav.jtabbar') ||
+              document.querySelector('header nav') ||
+              document.querySelector('header') ||
+              document.body;
+  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);
+})();
+</script>
 </body>
 </html>

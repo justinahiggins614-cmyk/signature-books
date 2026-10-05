@@ -37,12 +37,12 @@ def slug(g):
 
 
 def page(title, desc, body, canon):
-    return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n"
+    return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<script src='../js/signin.js'></script><script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script><meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n"
             f"<title>{html.escape(title)}</title>\n"
             f"<meta name=\"description\" content=\"{html.escape(desc)}\">\n"
             f"<link rel=\"canonical\" href=\"{canon}\">\n"
-            f"<style>{CSS}</style>\n</head>\n<body>\n<div class=\"wrap\">\n{body}\n</div>\n</body>\n</html>\n")
+            f"<style>{CSS}</style>\n</head>\n<body>\n<div class=\"wrap\">\n{body}\n</div>\n<script>(function () {{  var mount = document.querySelector('header .booksearch') ||              document.querySelector('nav.jtabbar') ||              document.querySelector('header nav') ||              document.querySelector('header') ||              document.body;  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);}})();</script></body>\n</html>\n")
 
 
 def summary(r):

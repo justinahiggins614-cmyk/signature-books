@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="js/signin.js"></script>
+<script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */
+var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Page not found — The Signature Book Depository</title>
@@ -20,5 +23,16 @@ p{max-width:560px;margin:0 auto 1.4em}
 <p>The shelf you reached for is empty. No cover, no chapters, no last page — this volume was never written. But thousands of finished Signature books stand ready on the shelves, every one complete from cover to final chapter.</p>
 <div class="links"><a href="./">📚 Home</a><a href="./">🔎 Search the shelves</a><a href="./browse/genres.html">🗂 Browse by genre</a><a href="./browse/">📖 Browse all books</a></div>
 <div class="foot">Marching to 1,000,000 finished volumes.</div>
+<script>
+(function () {
+  /* mount into the header; falls back gracefully when the header markup differs */
+  var mount = document.querySelector('header .booksearch') ||
+              document.querySelector('nav.jtabbar') ||
+              document.querySelector('header nav') ||
+              document.querySelector('header') ||
+              document.body;
+  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);
+})();
+</script>
 </body>
 </html>

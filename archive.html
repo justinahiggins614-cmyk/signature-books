@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>try{if(localStorage.getItem("jah-theme")==="dark"){document.documentElement.dataset.theme="dark"}}catch(e){}</script>
+<script src="js/signin.js"></script>
+<script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */
+var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>
+<script>try{if(PS.get("jah-theme")==="dark"){document.documentElement.dataset.theme="dark"}}catch(e){}</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Full Archive A&ndash;Z &mdash; The Signature Book Depository</title>
@@ -533,13 +536,24 @@ else loadWing("books");
 "use strict";
 var KEY="jah-tour-seen-books-archive",w=document.getElementById("jahwelcome");
 function open(){w.classList.add("show");try{document.getElementById("jahwOk").focus({preventScroll:true})}catch(e){}}
-function close(){w.classList.remove("show");try{localStorage.setItem(KEY,"1")}catch(e){}}
+function close(){w.classList.remove("show");try{PS.set(KEY,"1")}catch(e){}}
 document.getElementById("jahwOk").onclick=close;
 w.onclick=function(e){if(e.target===w)close()};
 document.getElementById("guidebtn").onclick=open;
 document.addEventListener("keydown",function(e){if(e.key==="Escape")close()});
-var seen=true;try{seen=!!localStorage.getItem(KEY)}catch(e){}
-if(!seen)setTimeout(function(){try{if(!localStorage.getItem(KEY))open()}catch(e){}},1200);
+var seen=true;try{seen=!!PS.get(KEY)}catch(e){}
+if(!seen)setTimeout(function(){try{if(!PS.get(KEY))open()}catch(e){}},1200);
+})();
+</script>
+<script>
+(function () {
+  /* mount into the header; falls back gracefully when the header markup differs */
+  var mount = document.querySelector('header .booksearch') ||
+              document.querySelector('nav.jtabbar') ||
+              document.querySelector('header nav') ||
+              document.querySelector('header') ||
+              document.body;
+  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);
 })();
 </script>
 </body>

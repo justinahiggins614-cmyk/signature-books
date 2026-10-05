@@ -446,15 +446,15 @@ var WingWelcome={
    $("jahwFull").onclick=function(){WingWelcome.close();WingGuide.open()};
    return w},
  open:function(){var w=this.el();w.classList.add("show");var b=$("jahwOk");if(b)b.focus({preventScroll:true})},
- close:function(){var w=$("jahwelcome");if(w)w.classList.remove("show");try{localStorage.setItem(this.key(),"1")}catch(e){}},
+ close:function(){var w=$("jahwelcome");if(w)w.classList.remove("show");try{PS.set(this.key(),"1")}catch(e){}},
  maybeShow:function(){
-   var seen=true;try{seen=!!localStorage.getItem(this.key())}catch(e){}
+   var seen=true;try{seen=!!PS.get(this.key())}catch(e){}
    if(seen)return;
    var deep=false;
    try{var qp=new URLSearchParams(location.search).get(WING.deepParam);
      deep=!!qp||new RegExp("[#&]"+WING.deepParam+"=").test(location.hash||"")}catch(e){}
-   if(deep){try{localStorage.setItem(this.key(),"1")}catch(e){}return}
-   var self=this;setTimeout(function(){try{if(!localStorage.getItem(self.key()))self.open()}catch(e){}},1200)}
+   if(deep){try{PS.set(this.key(),"1")}catch(e){}return}
+   var self=this;setTimeout(function(){try{if(!PS.get(self.key()))self.open()}catch(e){}},1200)}
 };
 var WingGuide={
  panel:function(){var p=$("wingguide");if(p)return p;

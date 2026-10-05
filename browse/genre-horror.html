@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="../js/signin.js"></script>
+<script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */
+var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Signature books — Horror</title>
@@ -2453,5 +2456,16 @@ ul{list-style:none;padding:0}li{margin:.35em 0}
 <li><a href="../?book=JAH-BOOK-040322">The Old Sanatorium Kanamycin Stair</a> <span class="meta">Horror &middot; 1,839 words &middot; JAH-BOOK-040322 &middot; <a href="text/JAH-BOOK-040322.txt">plain text</a></span><br><span class="sum">Hallith Natal never meant to chase the soluble kanamycin static — but some stories choose their people. Book 40322 in the Signature Horror collection — a complete…</span></li>
 </ul>
 </div>
+<script>
+(function () {
+  /* mount into the header; falls back gracefully when the header markup differs */
+  var mount = document.querySelector('header .booksearch') ||
+              document.querySelector('nav.jtabbar') ||
+              document.querySelector('header nav') ||
+              document.querySelector('header') ||
+              document.body;
+  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);
+})();
+</script>
 </body>
 </html>
