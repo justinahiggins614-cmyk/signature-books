@@ -1,0 +1,20 @@
+Measurement & Units: A Signature Course (Vol. 43927)
+by Justin Addam Higgins · JAH-BOOK-043927
+Genre: Mathematics · 1,097 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Ratios & Proportions, Probability Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US20120053069A1).
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Probability Basics: Foundations
+  6. Probability Basics: Going Deeper
+  7. Case Study: Determination of Genotype of an Amplification Product at
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-043927
+
+An original generated work created by the Signature system. All names, places, and events are invented.

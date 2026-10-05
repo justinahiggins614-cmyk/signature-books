@@ -1,0 +1,20 @@
+Databases for Builders (Vol. 44613)
+by Justin Addam Higgins · JAH-BOOK-044613
+Genre: Computer Science · 1,025 words
+
+Summary:
+A complete Signature Computer Science textbook covering Databases, Data Structures, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JP3063591U).
+
+Chapters:
+  1. Databases: Foundations
+  2. Databases: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Easily clean hair salt flour and other particles
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-044613
+
+An original generated work created by the Signature system. All names, places, and events are invented.

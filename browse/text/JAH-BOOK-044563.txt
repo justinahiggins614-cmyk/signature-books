@@ -1,0 +1,20 @@
+Acids & Bases: A Signature Course (Vol. 44563)
+by Justin Addam Higgins · JAH-BOOK-044563
+Genre: Chemistry · 1,090 words
+
+Summary:
+A complete Signature Chemistry textbook covering Acids & Bases, Reactions & Equations, Chemical Bonds — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-825379.
+
+Chapters:
+  1. Acids & Bases: Foundations
+  2. Acids & Bases: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. Chemical Bonds: Foundations
+  6. Chemical Bonds: Going Deeper
+  7. Case Study: Crop sprayer boom for impedance matching using eutectic
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-044563
+
+An original generated work created by the Signature system. All names, places, and events are invented.

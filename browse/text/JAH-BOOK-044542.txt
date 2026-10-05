@@ -1,0 +1,20 @@
+Understanding Gravity & Orbits (Vol. 44542)
+by Justin Addam Higgins · JAH-BOOK-044542
+Genre: Physics · 1,044 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Energy & Work, Electricity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-865075.
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Electricity Basics: Foundations
+  6. Electricity Basics: Going Deeper
+  7. Case Study: Bill validator for passive cooling using flex-rigid PCBs
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-044542
+
+An original generated work created by the Signature system. All names, places, and events are invented.

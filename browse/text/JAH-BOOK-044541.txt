@@ -1,0 +1,19 @@
+The Light & Optics Guide (Vol. 44541)
+by Justin Addam Higgins · JAH-BOOK-044541
+Genre: Physics · 989 words
+
+Summary:
+A complete Signature Physics textbook covering Light & Optics, Waves & Sound, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text.
+
+Chapters:
+  1. Light & Optics: Foundations
+  2. Light & Optics: Going Deeper
+  3. Waves & Sound: Foundations
+  4. Waves & Sound: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-044541
+
+An original generated work created by the Signature system. All names, places, and events are invented.

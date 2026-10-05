@@ -1,0 +1,25 @@
+The Signature The source record Book (Vol. 44648)
+by Justin Addam Higgins · JAH-BOOK-044648
+Genre: Poetry · 1,379 words
+
+Summary:
+A complete original poetry collection: 12 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-861084).
+
+Chapters:
+  1. The evaluator prime
+  2. Field Notes on geofence
+  3. Elegy for scoring
+  4. What the merkle-chained Said
+  5. Ode to prime
+  6. Ode to scoring
+  7. Elegy for geofence
+  8. What the evaluator Said
+  9. Small Book of merkle-chained
+  10. Field Notes on evaluator
+  11. Field Notes on scoring
+  12. evaluator and logging
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-044648
+
+An original generated work created by the Signature system. All names, places, and events are invented.

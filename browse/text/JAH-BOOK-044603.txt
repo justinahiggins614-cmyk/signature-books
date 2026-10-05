@@ -1,0 +1,20 @@
+AI & Machine Learning Intro for Builders (Vol. 44603)
+by Justin Addam Higgins · JAH-BOOK-044603
+Genre: Computer Science · 1,107 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, How Computers Think, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Solve the system: 4x + 3y = 2; 5x + 1y = 8 (JAH-MALL-008644).
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Solve the system
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-044603
+
+An original generated work created by the Signature system. All names, places, and events are invented.

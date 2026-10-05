@@ -1,0 +1,20 @@
+Signature Geometry & Shapes (Vol. 43924)
+by Justin Addam Higgins · JAH-BOOK-043924
+Genre: Mathematics · 1,169 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Number Theory, Ratios & Proportions — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Methods for controlling deployment of an occupant restraint in a vehicle and ... (JAH-MALL-000911).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Ratios & Proportions: Foundations
+  6. Ratios & Proportions: Going Deeper
+  7. Case Study: Methods for controlling deployment of an occupant restraint
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-043924
+
+An original generated work created by the Signature system. All names, places, and events are invented.

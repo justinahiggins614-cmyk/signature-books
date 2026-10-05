@@ -1,0 +1,20 @@
+Cybersecurity Basics for Builders (Vol. 44606)
+by Justin Addam Higgins · JAH-BOOK-044606
+Genre: Computer Science · 1,044 words
+
+Summary:
+A complete Signature Computer Science textbook covering Cybersecurity Basics, AI & Machine Learning Intro, Programming Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (AU5224079A).
+
+Chapters:
+  1. Cybersecurity Basics: Foundations
+  2. Cybersecurity Basics: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. Programming Basics: Foundations
+  6. Programming Basics: Going Deeper
+  7. Case Study: Expanded mesh sheet from deformable strip
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-044606
+
+An original generated work created by the Signature system. All names, places, and events are invented.

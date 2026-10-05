@@ -1,0 +1,20 @@
+The World of Chemical Bonds (Vol. 43957)
+by Justin Addam Higgins · JAH-BOOK-043957
+Genre: Chemistry · 1,079 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, Intro to Organic Chemistry, Reactions & Equations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US9050659B2.
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. Intro to Organic Chemistry: Foundations
+  4. Intro to Organic Chemistry: Going Deeper
+  5. Reactions & Equations: Foundations
+  6. Reactions & Equations: Going Deeper
+  7. Case Study: Drilling tool
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-043957
+
+An original generated work created by the Signature system. All names, places, and events are invented.
