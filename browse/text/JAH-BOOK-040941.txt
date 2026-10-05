@@ -1,0 +1,20 @@
+The Forces & Newton's Laws Guide (Vol. 40941)
+by Justin Addam Higgins · JAH-BOOK-040941
+Genre: Physics · 1,093 words
+
+Summary:
+A complete Signature Physics textbook covering Forces & Newton's Laws, Motion & Speed, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Sky Kitchen Captain (JAH-AI-MIX-000001).
+
+Chapters:
+  1. Forces & Newton's Laws: Foundations
+  2. Forces & Newton's Laws: Going Deeper
+  3. Motion & Speed: Foundations
+  4. Motion & Speed: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Sky Kitchen Captain
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040941
+
+An original generated work created by the Signature system. All names, places, and events are invented.

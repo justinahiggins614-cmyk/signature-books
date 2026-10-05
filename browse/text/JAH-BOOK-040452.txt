@@ -1,0 +1,24 @@
+Autocomplete and Other Poems
+by Justin Addam Higgins · JAH-BOOK-040452
+Genre: Poetry · 1,280 words
+
+Summary:
+A complete original poetry collection: 11 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on mall product Autocomplete trie for risk scoring using CQRS projections — Vertical search mixer Core Series V2 (JAH-MALL-004551).
+
+Chapters:
+  1. Scoring Song
+  2. Vertical Song
+  3. Small Book of risk
+  4. Elegy for scoring
+  5. Hymn of autocomplete
+  6. What the projections Said
+  7. Field Notes on cqrs
+  8. Search Song
+  9. The projections autocomplete
+  10. Autocomplete Song
+  11. Small Book of vertical
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040452
+
+An original generated work created by the Signature system. All names, places, and events are invented.

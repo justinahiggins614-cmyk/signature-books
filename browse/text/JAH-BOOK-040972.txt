@@ -1,0 +1,20 @@
+The Living World: Evolution & Natural Selection (Vol. 40972)
+by Justin Addam Higgins · JAH-BOOK-040972
+Genre: Biology · 1,056 words
+
+Summary:
+A complete Signature Biology textbook covering Evolution & Natural Selection, Genetics & DNA, Ecology & Ecosystems — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-772886.
+
+Chapters:
+  1. Evolution & Natural Selection: Foundations
+  2. Evolution & Natural Selection: Going Deeper
+  3. Genetics & DNA: Foundations
+  4. Genetics & DNA: Going Deeper
+  5. Ecology & Ecosystems: Foundations
+  6. Ecology & Ecosystems: Going Deeper
+  7. Case Study: Ai models toolkit for autonomous decision making using
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040972
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Motion & Speed: A Signature Course (Vol. 40647)
+by Justin Addam Higgins · JAH-BOOK-040647
+Genre: Physics · 1,078 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Light & Optics, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Bird Watcher (JAH-AI-DOM-062).
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Light & Optics: Foundations
+  4. Light & Optics: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Bird Watcher
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040647
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Measurement & Units Step by Step (Vol. 40629)
+by Justin Addam Higgins · JAH-BOOK-040629
+Genre: Mathematics · 1,114 words
+
+Summary:
+A complete Signature Mathematics textbook covering Measurement & Units, Number Theory, Algebra Foundations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-859601.
+
+Chapters:
+  1. Measurement & Units: Foundations
+  2. Measurement & Units: Going Deeper
+  3. Number Theory: Foundations
+  4. Number Theory: Going Deeper
+  5. Algebra Foundations: Foundations
+  6. Algebra Foundations: Going Deeper
+  7. Case Study: Growler capper for energy harvesting using resonant tuning
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040629
+
+An original generated work created by the Signature system. All names, places, and events are invented.

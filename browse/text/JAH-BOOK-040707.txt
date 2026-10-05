@@ -1,0 +1,20 @@
+Code & Concepts: Data Structures (Vol. 40707)
+by Justin Addam Higgins · JAH-BOOK-040707
+Genre: Computer Science · 1,058 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, The Internet & Networks, Algorithms & Flowcharts — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (WO1993015550A1).
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. The Internet & Networks: Foundations
+  4. The Internet & Networks: Going Deeper
+  5. Algorithms & Flowcharts: Foundations
+  6. Algorithms & Flowcharts: Going Deeper
+  7. Case Study: Reluctance motor and rotor of high-speed reluctance motor
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040707
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Motion & Speed Guide (Vol. 40654)
+by Justin Addam Higgins · JAH-BOOK-040654
+Genre: Physics · 1,073 words
+
+Summary:
+A complete Signature Physics textbook covering Motion & Speed, Gravity & Orbits, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Signature Zephyrhelm Engine (JAH-AI-SL-168).
+
+Chapters:
+  1. Motion & Speed: Foundations
+  2. Motion & Speed: Going Deeper
+  3. Gravity & Orbits: Foundations
+  4. Gravity & Orbits: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Signature Zephyrhelm Engine
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040654
+
+An original generated work created by the Signature system. All names, places, and events are invented.
