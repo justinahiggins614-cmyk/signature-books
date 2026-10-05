@@ -724,9 +724,9 @@ function setBookSchema(rec){
 }
 function route(){
   var m=/^#book=(JAH-BOOK-\d{6})/.exec(location.hash||"");
-  if(!m){var qb=null;try{qb=new URLSearchParams(location.search).get("book")}catch(e){}
-    if(qb&&/^JAH-BOOK-\d{6}$/.test(qb)){try{history.replaceState(null,"","./")}catch(e2){}location.hash="#book="+qb;return;}}
-  else openBook(m[0].slice(6));
+  if(m){openBook(m[1]);return}
+  var qb=null;try{qb=new URLSearchParams(location.search).get("book")}catch(e){}
+  if(qb&&/^JAH-BOOK-\d{6}$/.test(qb)){try{history.replaceState(null,"","./")}catch(e2){}location.hash="#book="+qb;return}
   rdStop();$("bookview").style.display="none";$("home").style.display="block";document.title="The Signature Book Depository";setBookHead(null);setBookSchema(null);
 }
 function findIdx(id){for(var i=0;i<IDX.length;i++)if(IDX[i].id===id)return IDX[i];return null}
