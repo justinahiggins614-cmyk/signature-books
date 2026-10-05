@@ -24,7 +24,7 @@ ul{list-style:none;padding:0}li{margin:.35em 0}
 .top{border-bottom:1px solid #4a3d24;padding-bottom:10px;margin-bottom:16px}"""
 
 def page(title, desc, body, canon):
-    return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<script src='../js/signin.js'></script><script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script><meta charset=\"utf-8\">\n"
+    return ("<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<script src='../js/signin.js'></script><script src='../js/godmode.js'></script><script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script><meta charset=\"utf-8\">\n"
             "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n"
             f"<title>{html.escape(title)}</title>\n"
             f"<meta name=\"description\" content=\"{html.escape(desc)}\">\n"

@@ -300,7 +300,7 @@ else loadWing("books");
 .azlist.flat .azrow{border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin-bottom:6px}
 </style>"""
 
-    head = ('<!DOCTYPE html>\n<html lang="en">\n<head>\n' + "<script src='js/signin.js'></script><script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>" + '\n' + theme_script +
+    head = ('<!DOCTYPE html>\n<html lang="en">\n<head>\n' + "<script src='js/signin.js'></script><script src='js/godmode.js'></script><script>/* JAHProfile storage: signed-out behavior is byte-identical to before; signed-in profiles get per-profile namespaced storage. */var PS = (typeof JAHProfile !== 'undefined') ? JAHProfile.store : localStorage;</script>" + '\n' + theme_script +
             '\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">' +
             '\n<title>The Full Archive A&ndash;Z &mdash; The Signature Book Depository</title>' +
             '\n<meta name="description" content="The full A-to-Z archive of The Signature Book Depository: every finished book, magazine issue and library artifact, browsable by letter. Free, no login.">' +
