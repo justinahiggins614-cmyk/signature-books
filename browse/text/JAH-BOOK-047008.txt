@@ -1,0 +1,20 @@
+The The Internet & Networks Primer (Vol. 47008)
+by Justin Addam Higgins · JAH-BOOK-047008
+Genre: Computer Science · 1,065 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, How Computers Think, Data Structures — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B049160.
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. Data Structures: Foundations
+  6. Data Structures: Going Deeper
+  7. Case Study: Telekinesis Origins First Reports Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047008
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Gravity & Orbits Guide (Vol. 47552)
+by Justin Addam Higgins · JAH-BOOK-047552
+Genre: Physics · 1,036 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Energy & Work, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-547032.
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: VARIANT
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047552
+
+An original generated work created by the Signature system. All names, places, and events are invented.

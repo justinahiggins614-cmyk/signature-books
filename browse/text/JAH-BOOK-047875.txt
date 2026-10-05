@@ -1,0 +1,20 @@
+The Living World: Microbes & Disease (Vol. 47875)
+by Justin Addam Higgins · JAH-BOOK-047875
+Genre: Biology · 976 words
+
+Summary:
+A complete Signature Biology textbook covering Microbes & Disease, Genetics & DNA, Plants & Photosynthesis — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US20060099450A1).
+
+Chapters:
+  1. Microbes & Disease: Foundations
+  2. Microbes & Disease: Going Deeper
+  3. Genetics & DNA: Foundations
+  4. Genetics & DNA: Going Deeper
+  5. Plants & Photosynthesis: Foundations
+  6. Plants & Photosynthesis: Going Deeper
+  7. Case Study: Organic electroluminescent device
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047875
+
+An original generated work created by the Signature system. All names, places, and events are invented.

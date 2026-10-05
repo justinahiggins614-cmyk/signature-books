@@ -1,0 +1,20 @@
+The Fractions & Decimals Handbook (Vol. 47226)
+by Justin Addam Higgins · JAH-BOOK-047226
+Genre: Mathematics · 1,089 words
+
+Summary:
+A complete Signature Mathematics textbook covering Fractions & Decimals, Geometry & Shapes, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent JPS6228146B2.
+
+Chapters:
+  1. Fractions & Decimals: Foundations
+  2. Fractions & Decimals: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Patent JPS
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047226
+
+An original generated work created by the Signature system. All names, places, and events are invented.

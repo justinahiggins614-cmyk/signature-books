@@ -1,0 +1,23 @@
+Science and Other Poems
+by Justin Addam Higgins · JAH-BOOK-047049
+Genre: Poetry · 1,215 words
+
+Summary:
+A complete original poetry collection: 10 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-895597).
+
+Chapters:
+  1. Low-latency Song
+  2. inference and indexing
+  3. Ode to inference
+  4. learned and indexing
+  5. Field Notes on low-latency
+  6. Ode to low-latency
+  7. The low-latency learned
+  8. Small Book of low-latency
+  9. Small Book of science
+  10. The math Hour
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047049
+
+An original generated work created by the Signature system. All names, places, and events are invented.

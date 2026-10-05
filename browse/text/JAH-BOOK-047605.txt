@@ -1,0 +1,20 @@
+Data Structures for Builders (Vol. 47605)
+by Justin Addam Higgins · JAH-BOOK-047605
+Genre: Computer Science · 1,052 words
+
+Summary:
+A complete Signature Computer Science textbook covering Data Structures, AI & Machine Learning Intro, How Computers Think — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI News Explainer (JAH-AI-DOM-059).
+
+Chapters:
+  1. Data Structures: Foundations
+  2. Data Structures: Going Deeper
+  3. AI & Machine Learning Intro: Foundations
+  4. AI & Machine Learning Intro: Going Deeper
+  5. How Computers Think: Foundations
+  6. How Computers Think: Going Deeper
+  7. Case Study: News Explainer
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047605
+
+An original generated work created by the Signature system. All names, places, and events are invented.

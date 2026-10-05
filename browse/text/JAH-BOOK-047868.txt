@@ -1,0 +1,20 @@
+Practical Intro to Organic Chemistry (Vol. 47868)
+by Justin Addam Higgins · JAH-BOOK-047868
+Genre: Chemistry · 1,146 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, Atoms & Elements, Reactions & Equations — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US6889032B2).
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. Atoms & Elements: Foundations
+  4. Atoms & Elements: Going Deeper
+  5. Reactions & Equations: Foundations
+  6. Reactions & Equations: Going Deeper
+  7. Case Study: Mobile base station for disseminating information
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047868
+
+An original generated work created by the Signature system. All names, places, and events are invented.

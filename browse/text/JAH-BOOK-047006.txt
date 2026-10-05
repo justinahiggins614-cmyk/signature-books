@@ -1,0 +1,20 @@
+The How Computers Think Primer (Vol. 47006)
+by Justin Addam Higgins · JAH-BOOK-047006
+Genre: Computer Science · 1,088 words
+
+Summary:
+A complete Signature Computer Science textbook covering How Computers Think, Data Structures, The Internet & Networks — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-844604.
+
+Chapters:
+  1. How Computers Think: Foundations
+  2. How Computers Think: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. The Internet & Networks: Foundations
+  6. The Internet & Networks: Going Deeper
+  7. Case Study: Standards array-Industrial goods hub-Portable biology-Portable diagnostic tools hybrid
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047006
+
+An original generated work created by the Signature system. All names, places, and events are invented.

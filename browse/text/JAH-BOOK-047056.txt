@@ -1,0 +1,25 @@
+The Signature The source record Book (Vol. 47056)
+by Justin Addam Higgins · JAH-BOOK-047056
+Genre: Poetry · 1,447 words
+
+Summary:
+A complete original poetry collection: 12 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH Wiki article (JAH-SPEC-817363).
+
+Chapters:
+  1. Ode to waves
+  2. Field Notes on waves
+  3. Small Book of webassembly
+  4. What the translation Said
+  5. Tide Song
+  6. Hymn of tide
+  7. The sandboxing Hour
+  8. language and translation
+  9. Language Song
+  10. Small Book of translation
+  11. Small Book of calculator
+  12. Field Notes on calculator
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047056
+
+An original generated work created by the Signature system. All names, places, and events are invented.

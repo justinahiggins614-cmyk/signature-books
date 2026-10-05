@@ -1,0 +1,23 @@
+The Signature The source record Book (Vol. 47650)
+by Justin Addam Higgins · JAH-BOOK-047650
+Genre: Poetry · 1,113 words
+
+Summary:
+A complete original poetry collection: 10 poems on the source record, each in full. Written fresh for the Signature depository — no borrowed lines, no borrowed voices. Themed on Based on JAH-SPEC-892342.
+
+Chapters:
+  1. sandboxing and webassembly
+  2. Elegy for edition
+  3. Small Book of edition
+  4. Elegy for inference
+  5. Low-latency Song
+  6. Engine Song
+  7. The sandboxing Hour
+  8. Field Notes on engine
+  9. engine and hash
+  10. Ode to low-latency
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047650
+
+An original generated work created by the Signature system. All names, places, and events are invented.

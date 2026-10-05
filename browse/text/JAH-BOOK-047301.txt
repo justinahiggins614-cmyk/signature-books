@@ -1,0 +1,20 @@
+The Internet & Networks for Builders (Vol. 47301)
+by Justin Addam Higgins · JAH-BOOK-047301
+Genre: Computer Science · 1,057 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Cybersecurity Basics, AI & Machine Learning Intro — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (DE69707328T2).
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Cybersecurity Basics: Foundations
+  4. Cybersecurity Basics: Going Deeper
+  5. AI & Machine Learning Intro: Foundations
+  6. AI & Machine Learning Intro: Going Deeper
+  7. Case Study: Sieve for paper pulp
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-047301
+
+An original generated work created by the Signature system. All names, places, and events are invented.
