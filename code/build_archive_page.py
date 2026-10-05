@@ -313,7 +313,7 @@ else loadWing("books");
 
     # JAH NETWORK nav sits at the BOTTOM: below all content, directly above the
     # footer, one instance per page (Manon's standing order).
-    page = head + body + "\n" + jahnet + "\n" + footer + "\n" + js + "\n" + "<script>(function () {  var mount = document.querySelector('header .booksearch') ||              document.querySelector('nav.jtabbar') ||              document.querySelector('header nav') ||              document.querySelector('header') ||              document.body;  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);})();</script>" + "</body>\n</html>\n"
+    page = head + body + "\n" + jahnet + "\n" + footer + "\n" + js + "\n" + "<script>(function () {  var mount = document.querySelector('header .booksearch') ||              document.querySelector('nav.jtabbar') ||              document.querySelector('header nav') ||              document.querySelector('header') ||              document.body;  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);})();</script><script>(function () { if (window.JAHProfile && JAHProfile.ui) { var mount = document.querySelector('header') || document.body; JAHProfile.ui.renderGreeting(mount); } })();</script>" + "</body>\n</html>\n"
     with open(os.path.join(ROOT, "archive.html"), "w", encoding="utf-8") as f:
         f.write(page)
     print("archive.html written: books=%d mags=%d libs=%d" % (books, mags, libs))

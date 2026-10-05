@@ -29,7 +29,7 @@ def page(title, desc, body, canon):
             f"<title>{html.escape(title)}</title>\n"
             f"<meta name=\"description\" content=\"{html.escape(desc)}\">\n"
             f"<link rel=\"canonical\" href=\"{canon}\">\n"
-            f"<style>{CSS}</style>\n</head>\n<body>\n<div class=\"wrap\">\n{body}\n</div>\n<script>(function () {{  var mount = document.querySelector('header .booksearch') ||              document.querySelector('nav.jtabbar') ||              document.querySelector('header nav') ||              document.querySelector('header') ||              document.body;  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);}})();</script></body>\n</html>\n")
+            f"<style>{CSS}</style>\n</head>\n<body>\n<div class=\"wrap\">\n{body}\n</div>\n<script>(function () {{  var mount = document.querySelector('header .booksearch') ||              document.querySelector('nav.jtabbar') ||              document.querySelector('header nav') ||              document.querySelector('header') ||              document.body;  if (window.JAHProfile && JAHProfile.ui) JAHProfile.ui.renderButton(mount);}})();</script><script>(function () {{ if (window.JAHProfile && JAHProfile.ui) {{ var mount = document.querySelector('header') || document.body; JAHProfile.ui.renderGreeting(mount); }} }})();</script></body>\n</html>\n")
 
 def build(wing, idx_name, idkey, linkfn, linefn, title, desc_tmpl, home, prefix):
     with gzip.open(os.path.join(ROOT, "data", wing, "index", idx_name), "rt") as f:
