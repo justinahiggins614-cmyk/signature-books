@@ -1,0 +1,20 @@
+Signature Intro to Calculus (Vol. 46323)
+by Justin Addam Higgins · JAH-BOOK-046323
+Genre: Mathematics · 1,064 words
+
+Summary:
+A complete Signature Mathematics textbook covering Intro to Calculus, Geometry & Shapes, Measurement & Units — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US20160083147A1.
+
+Chapters:
+  1. Intro to Calculus: Foundations
+  2. Intro to Calculus: Going Deeper
+  3. Geometry & Shapes: Foundations
+  4. Geometry & Shapes: Going Deeper
+  5. Measurement & Units: Foundations
+  6. Measurement & Units: Going Deeper
+  7. Case Study: Protective bag
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-046323
+
+An original generated work created by the Signature system. All names, places, and events are invented.

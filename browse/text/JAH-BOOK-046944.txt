@@ -1,0 +1,20 @@
+Electricity Basics in Action (Vol. 46944)
+by Justin Addam Higgins · JAH-BOOK-046944
+Genre: Physics · 1,053 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Waves & Sound, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-873871).
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Waves & Sound: Foundations
+  4. Waves & Sound: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Software engineering toolkit for fraud detection using homomorphic
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-046944
+
+An original generated work created by the Signature system. All names, places, and events are invented.

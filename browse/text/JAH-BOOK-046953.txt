@@ -1,0 +1,20 @@
+The Heat & Temperature Guide (Vol. 46953)
+by Justin Addam Higgins · JAH-BOOK-046953
+Genre: Physics · 1,034 words
+
+Summary:
+A complete Signature Physics textbook covering Heat & Temperature, Forces & Newton's Laws, Energy & Work — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent DE4118828A1.
+
+Chapters:
+  1. Heat & Temperature: Foundations
+  2. Heat & Temperature: Going Deeper
+  3. Forces & Newton's Laws: Foundations
+  4. Forces & Newton's Laws: Going Deeper
+  5. Energy & Work: Foundations
+  6. Energy & Work: Going Deeper
+  7. Case Study: EXTENSION MODE ZERO CURRENT SWITCHING CONVERTER
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-046953
+
+An original generated work created by the Signature system. All names, places, and events are invented.

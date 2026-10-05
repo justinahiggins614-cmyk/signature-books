@@ -1,0 +1,20 @@
+States of Matter Explained (Vol. 46961)
+by Justin Addam Higgins · JAH-BOOK-046961
+Genre: Chemistry · 1,053 words
+
+Summary:
+A complete Signature Chemistry textbook covering States of Matter, Reactions & Equations, Intro to Organic Chemistry — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Leftover Reinventor (JAH-AI-DOM-213).
+
+Chapters:
+  1. States of Matter: Foundations
+  2. States of Matter: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. Intro to Organic Chemistry: Foundations
+  6. Intro to Organic Chemistry: Going Deeper
+  7. Case Study: Leftover Reinventor
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-046961
+
+An original generated work created by the Signature system. All names, places, and events are invented.

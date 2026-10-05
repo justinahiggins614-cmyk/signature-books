@@ -1,0 +1,20 @@
+Human Body Systems: A Signature Course (Vol. 46082)
+by Justin Addam Higgins · JAH-BOOK-046082
+Genre: Biology · 1,026 words
+
+Summary:
+A complete Signature Biology textbook covering Human Body Systems, Microbes & Disease, Ecology & Ecosystems — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-839517.
+
+Chapters:
+  1. Human Body Systems: Foundations
+  2. Human Body Systems: Going Deeper
+  3. Microbes & Disease: Foundations
+  4. Microbes & Disease: Going Deeper
+  5. Ecology & Ecosystems: Foundations
+  6. Ecology & Ecosystems: Going Deeper
+  7. Case Study: Calibration target for dead reckoning using silicon interposers
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-046082
+
+An original generated work created by the Signature system. All names, places, and events are invented.
