@@ -1,0 +1,20 @@
+The Probability Basics Handbook (Vol. 45729)
+by Justin Addam Higgins · JAH-BOOK-045729
+Genre: Mathematics · 1,131 words
+
+Summary:
+A complete Signature Mathematics textbook covering Probability Basics, Ratios & Proportions, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Signature Valefield Reel (JAH-AI-SL-070).
+
+Chapters:
+  1. Probability Basics: Foundations
+  2. Probability Basics: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Signature Valefield Reel
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045729
+
+An original generated work created by the Signature system. All names, places, and events are invented.

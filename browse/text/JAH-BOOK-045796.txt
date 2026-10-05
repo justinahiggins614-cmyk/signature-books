@@ -1,0 +1,20 @@
+Primary Sources & Evidence: A Signature Course (Vol. 45796)
+by Justin Addam Higgins · JAH-BOOK-045796
+Genre: History · 1,007 words
+
+Summary:
+A complete Signature History textbook covering Primary Sources & Evidence, Revolutions & Independence, History Study Skills — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-861907).
+
+Chapters:
+  1. Primary Sources & Evidence: Foundations
+  2. Primary Sources & Evidence: Going Deeper
+  3. Revolutions & Independence: Foundations
+  4. Revolutions & Independence: Going Deeper
+  5. History Study Skills: Foundations
+  6. History Study Skills: Going Deeper
+  7. Case Study: Finance module for user segmentation using token bucket
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045796
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The World of Atoms & Elements (Vol. 45761)
+by Justin Addam Higgins · JAH-BOOK-045761
+Genre: Chemistry · 1,099 words
+
+Summary:
+A complete Signature Chemistry textbook covering Atoms & Elements, Chemical Bonds, States of Matter — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (JAH-SPEC-895454).
+
+Chapters:
+  1. Atoms & Elements: Foundations
+  2. Atoms & Elements: Going Deeper
+  3. Chemical Bonds: Foundations
+  4. Chemical Bonds: Going Deeper
+  5. States of Matter: Foundations
+  6. States of Matter: Going Deeper
+  7. Case Study: Digital media engine for fail-safe shutdown using aluminum
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045761
+
+An original generated work created by the Signature system. All names, places, and events are invented.

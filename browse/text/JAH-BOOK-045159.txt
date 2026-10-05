@@ -1,0 +1,20 @@
+Chemical Bonds: A Signature Course (Vol. 45159)
+by Justin Addam Higgins · JAH-BOOK-045159
+Genre: Chemistry · 1,051 words
+
+Summary:
+A complete Signature Chemistry textbook covering Chemical Bonds, Reactions & Equations, The Periodic Table — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US20200372928A1).
+
+Chapters:
+  1. Chemical Bonds: Foundations
+  2. Chemical Bonds: Going Deeper
+  3. Reactions & Equations: Foundations
+  4. Reactions & Equations: Going Deeper
+  5. The Periodic Table: Foundations
+  6. The Periodic Table: Going Deeper
+  7. Case Study: Communication transmission device and voice quality determination method
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045159
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Geometry & Shapes Handbook (Vol. 45723)
+by Justin Addam Higgins · JAH-BOOK-045723
+Genre: Mathematics · 1,140 words
+
+Summary:
+A complete Signature Mathematics textbook covering Geometry & Shapes, Probability Basics, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Refund reconciler for capacity planning using leaky bucket pacing Rev 4 (JAH-MALL-003011).
+
+Chapters:
+  1. Geometry & Shapes: Foundations
+  2. Geometry & Shapes: Going Deeper
+  3. Probability Basics: Foundations
+  4. Probability Basics: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Refund reconciler for capacity planning using leaky bucket
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045723
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Understanding Electricity Basics (Vol. 45149)
+by Justin Addam Higgins · JAH-BOOK-045149
+Genre: Physics · 1,061 words
+
+Summary:
+A complete Signature Physics textbook covering Electricity Basics, Energy & Work, Waves & Sound — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Civil engineering engine for intrusion detection using contrastive pretraining (JAH-MALL-003114).
+
+Chapters:
+  1. Electricity Basics: Foundations
+  2. Electricity Basics: Going Deeper
+  3. Energy & Work: Foundations
+  4. Energy & Work: Going Deeper
+  5. Waves & Sound: Foundations
+  6. Waves & Sound: Going Deeper
+  7. Case Study: Civil engineering engine for intrusion detection using contrastive
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045149
+
+An original generated work created by the Signature system. All names, places, and events are invented.

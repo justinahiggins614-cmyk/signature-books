@@ -1,0 +1,20 @@
+AI & Machine Learning Intro: A Signature Course (Vol. 45205)
+by Justin Addam Higgins · JAH-BOOK-045205
+Genre: Computer Science · 1,149 words
+
+Summary:
+A complete Signature Computer Science textbook covering AI & Machine Learning Intro, How Computers Think, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product Request deduplicator for autonomous decision making using differential privacy noise (Hybrid Edition) (Rev 2) (JAH-MALL-005074).
+
+Chapters:
+  1. AI & Machine Learning Intro: Foundations
+  2. AI & Machine Learning Intro: Going Deeper
+  3. How Computers Think: Foundations
+  4. How Computers Think: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Request deduplicator for autonomous decision making using differential
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045205
+
+An original generated work created by the Signature system. All names, places, and events are invented.

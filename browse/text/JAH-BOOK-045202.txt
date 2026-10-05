@@ -1,0 +1,20 @@
+The Internet & Networks for Builders (Vol. 45202)
+by Justin Addam Higgins · JAH-BOOK-045202
+Genre: Computer Science · 1,050 words
+
+Summary:
+A complete Signature Computer Science textbook covering The Internet & Networks, Databases, Cybersecurity Basics — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on dossier JAH-LEAK-B063101.
+
+Chapters:
+  1. The Internet & Networks: Foundations
+  2. The Internet & Networks: Going Deeper
+  3. Databases: Foundations
+  4. Databases: Going Deeper
+  5. Cybersecurity Basics: Foundations
+  6. Cybersecurity Basics: Going Deeper
+  7. Case Study: Fast Radio Bursts Comparative Cases Case
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045202
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+The Periodic Table: A Signature Course (Vol. 45765)
+by Justin Addam Higgins · JAH-BOOK-045765
+Genre: Chemistry · 1,133 words
+
+Summary:
+A complete Signature Chemistry textbook covering The Periodic Table, States of Matter, Acids & Bases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on mall product TLS terminator for clinical triage using vector quantization (JAH-MALL-004869).
+
+Chapters:
+  1. The Periodic Table: Foundations
+  2. The Periodic Table: Going Deeper
+  3. States of Matter: Foundations
+  4. States of Matter: Going Deeper
+  5. Acids & Bases: Foundations
+  6. Acids & Bases: Going Deeper
+  7. Case Study: TLS terminator for clinical triage using vector quantization
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-045765
+
+An original generated work created by the Signature system. All names, places, and events are invented.
