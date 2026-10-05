@@ -1,0 +1,20 @@
+Algorithms & Flowcharts: A Signature Course (Vol. 40112)
+by Justin Addam Higgins · JAH-BOOK-040112
+Genre: Computer Science · 1,031 words
+
+Summary:
+A complete Signature Computer Science textbook covering Algorithms & Flowcharts, Programming Basics, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (US8722328B2).
+
+Chapters:
+  1. Algorithms & Flowcharts: Foundations
+  2. Algorithms & Flowcharts: Going Deeper
+  3. Programming Basics: Foundations
+  4. Programming Basics: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Methods compositions and kits for recovery of nucleic
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040112
+
+An original generated work created by the Signature system. All names, places, and events are invented.

@@ -1,0 +1,20 @@
+Understanding Gravity & Orbits (Vol. 39442)
+by Justin Addam Higgins · JAH-BOOK-039442
+Genre: Physics · 996 words
+
+Summary:
+A complete Signature Physics textbook covering Gravity & Orbits, Light & Optics, Heat & Temperature — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on patent US8357816B2.
+
+Chapters:
+  1. Gravity & Orbits: Foundations
+  2. Gravity & Orbits: Going Deeper
+  3. Light & Optics: Foundations
+  4. Light & Optics: Going Deeper
+  5. Heat & Temperature: Foundations
+  6. Heat & Temperature: Going Deeper
+  7. Case Study: Chemical compounds
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-039442
+
+An original generated work created by the Signature system. All names, places, and events are invented.

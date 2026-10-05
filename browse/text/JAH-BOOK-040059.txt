@@ -1,0 +1,20 @@
+Intro to Organic Chemistry: A Signature Course (Vol. 40059)
+by Justin Addam Higgins · JAH-BOOK-040059
+Genre: Chemistry · 1,105 words
+
+Summary:
+A complete Signature Chemistry textbook covering Intro to Organic Chemistry, States of Matter, The Periodic Table — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on AI Kanban Helper (JAH-AI-DOM-143).
+
+Chapters:
+  1. Intro to Organic Chemistry: Foundations
+  2. Intro to Organic Chemistry: Going Deeper
+  3. States of Matter: Foundations
+  4. States of Matter: Going Deeper
+  5. The Periodic Table: Foundations
+  6. The Periodic Table: Going Deeper
+  7. Case Study: Kanban Helper
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040059
+
+An original generated work created by the Signature system. All names, places, and events are invented.

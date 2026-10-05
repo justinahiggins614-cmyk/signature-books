@@ -1,0 +1,20 @@
+The Programming Basics Primer (Vol. 40097)
+by Justin Addam Higgins · JAH-BOOK-040097
+Genre: Computer Science · 995 words
+
+Summary:
+A complete Signature Computer Science textbook covering Programming Basics, Data Structures, Databases — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH-SPEC-828747.
+
+Chapters:
+  1. Programming Basics: Foundations
+  2. Programming Basics: Going Deeper
+  3. Data Structures: Foundations
+  4. Data Structures: Going Deeper
+  5. Databases: Foundations
+  6. Databases: Going Deeper
+  7. Case Study: Portable ai frameworks for feature engineering using eBPF
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-040097
+
+An original generated work created by the Signature system. All names, places, and events are invented.

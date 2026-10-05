@@ -1,0 +1,20 @@
+Algebra Foundations: A Signature Course (Vol. 39734)
+by Justin Addam Higgins · JAH-BOOK-039734
+Genre: Mathematics · 1,121 words
+
+Summary:
+A complete Signature Mathematics textbook covering Algebra Foundations, Ratios & Proportions, Intro to Calculus — definitions, worked examples with real computed answers, practice tasks, and study notes. 6 chapters of original instructional text. Includes a case study drawn from Based on JAH Wiki article (RU2314715C2).
+
+Chapters:
+  1. Algebra Foundations: Foundations
+  2. Algebra Foundations: Going Deeper
+  3. Ratios & Proportions: Foundations
+  4. Ratios & Proportions: Going Deeper
+  5. Intro to Calculus: Foundations
+  6. Intro to Calculus: Going Deeper
+  7. Case Study: Soybean-mushroom product
+
+Read the full volume (cover, chapters, read-aloud) at:
+https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-039734
+
+An original generated work created by the Signature system. All names, places, and events are invented.
