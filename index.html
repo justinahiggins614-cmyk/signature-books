@@ -198,7 +198,7 @@ footer .sites{margin:10px 0;line-height:2;font-family:Arial,Helvetica,sans-serif
 
 <div id="home">
 <header class="hero wrap">
-<div class="jnkicker">SITE 11 OF 35 · THE JAH NETWORK</div>
+<div class="jnkicker">SITE 11 OF 37 · THE JAH NETWORK</div>
 <h1>📚 The Signature Book Depository</h1>
 <div class="sub">Every book finished — a complete draft from cover to last chapter, written by the Signature system (not a professionally edited print edition). Fiction, textbooks, children's, poetry &amp; manuals.</div>
 <p style="margin:.6em 0"><a class="btn" href="archive.html">🗂 Browse the full A–Z archive — every book, magazine &amp; artifact</a> <button class="btn ghost" id="guidebtn" aria-label="How to use this site">? Guide</button></p>
@@ -589,7 +589,11 @@ function renderBook(rec){
   $("aibtn").onclick=function(){var p=$("aipanel");p.style.display=p.style.display==="none"?"block":"none";if(p.style.display==="block"){$("aiq").focus();
     if(typeof JAHtalk!=="undefined"&&!$("aians").dataset.greeted){$("aians").dataset.greeted="1";
       $("aians").innerHTML="<p class='ainone'>"+esc(JAHtalk.greet(bookAIProfile(rec)))+"</p>"}}};
-  $("sharebtn").onclick=function(){cardAct("share",rec.id,$("sharebtn"))};
+  $("sharebtn").onclick=function(){var u=bookURL(rec.id),b=$("sharebtn");
+    function done(ok){b.textContent=ok?"\u2713 Link copied":"Copy failed";setTimeout(function(){b.textContent="\u2197 Share"},1800)}
+    function cp(){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(u).then(function(){done(true)},function(){done(false)});else{var ta=document.createElement("textarea");ta.value=u;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done(true)}catch(e){done(false)}ta.remove()}}
+    if(navigator.share){try{navigator.share({title:rec.title+" \u2014 The Signature Book Depository",url:u}).catch(function(){cp()});return}catch(e){}}
+    cp();};
   $("citebtn").onclick=function(){copyText(citeText(rec),"citebtn")};
   $("repbtn").onclick=function(){
     copyText("BOOK PROBLEM REPORT\nBook: "+rec.id+" — "+rec.title+"\nURL: "+bookURL(rec.id)+
@@ -702,6 +706,7 @@ function bookAnswer(rec,q){
   if(start>0)ex="…"+ex;if(start+420<b.length)ex=ex+"…";
   return "<p>From <b>“"+esc(best.c.t)+"”</b>:</p><blockquote class='aiquote'>"+esc(ex)+"</blockquote><p class='aimeta'>Answered from this book’s own text.</p>";
 }
+function bookURL(id){return "https://justinahiggins614-cmyk.github.io/signature-books/?book="+id}
 function copyText(t,btnId){
   function done(ok){var b=$(btnId);if(b)b.textContent=ok?"✓ Copied":"Copy failed";setTimeout(function(){if(b)b.textContent="⧉ Copy text"},1800)}
   if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){done(true)},function(){done(false)});

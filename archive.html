@@ -380,21 +380,31 @@ var plain="Best of the Best — Echoes Of The Nebula, JAH-BOOK-000001. The first
 var dl="THE SIGNATURE BOOK DEPOSITORY — BEST OF THE BEST\nEchoes Of The Nebula — JAH-BOOK-000001 (book 1 of 36,000)\nScience Fiction — 2,168 words — 11 chapters — by Justin Addam Higgins\n\nWHY THIS IS THE BEST\nThe first finished book ever published in this depository — the genesis novel. A complete Signature book: full text, deterministic cover, read-aloud, lineage to JAH-SPEC-022648.\n\nWHAT IT DOES\nA sweeping tale of courage: Halhal Corwick and Owick Rogwen journey toward the Kepler Belt, where the variant beacon will decide everything.\n\nIMPLICATIONS\nAll 36,000 finished books are built the same way — derived from a network record, written in full, never stubs, never regenerated.\n\nFull book: https://justinahiggins614-cmyk.github.io/signature-books/?book=JAH-BOOK-000001";
 function copyText(t,btn){function done(ok){var o=btn.textContent;btn.textContent=ok?"Copied ✓":"Copy failed";setTimeout(function(){btn.textContent=o;},1500);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){done(true);},function(){done(false);});}else{var ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done(true);}catch(e){done(false);}document.body.removeChild(ta);}}
 function download(name,text){try{var url=URL.createObjectURL(new Blob([text],{type:"text/plain"}));var a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){document.body.removeChild(a);try{URL.revokeObjectURL(url);}catch(e){}},800);}catch(e){}}
-var speakTimer=null;
-function speakStop(){try{if(window.speechSynthesis)window.speechSynthesis.cancel();}catch(e){}if(speakTimer){clearTimeout(speakTimer);speakTimer=null;}}
+var speakTimer=null, speakAudio=null;
+var TTS_URLS_BEST=[
+ function(t){return "https://code.responsivevoice.org/getvoice.php?t="+encodeURIComponent(t)+"&tl=en-US&sv=g2&vn=&pitch=0.5&rate=0.95";},
+ function(t){return "https://translate.google.com/translate_tts?ie=UTF-8&q="+encodeURIComponent(t)+"&tl=en&client=tw-ob";},
+ function(t){return "https://translate.googleapis.com/translate_tts?ie=UTF-8&q="+encodeURIComponent(t)+"&tl=en&client=tw-ob";}];
+function speakStop(){if(speakAudio){try{speakAudio.pause();}catch(e){}speakAudio=null;}if(speakTimer){clearTimeout(speakTimer);speakTimer=null;}var b=document.getElementById("best-speak");if(b)b.textContent="\uD83D\uDD0A Read aloud";}
 var speakBtn=document.getElementById("best-speak");
 speakBtn.onclick=function(){
-  speakStop();
-  try{
-    if(!("speechSynthesis" in window)){speakBtn.textContent="No voice on this device";setTimeout(function(){speakBtn.textContent="🔊 Read aloud";},1800);return;}
-    if(window.speechSynthesis.speaking){speakBtn.textContent="🔊 Read aloud";return;}
-    var u=new SpeechSynthesisUtterance(plain);
-    speakBtn.textContent="⏹ Stop";
-    u.onend=function(){speakBtn.textContent="🔊 Read aloud";};
-    u.onerror=function(){speakBtn.textContent="🔊 Read aloud";};
-    window.speechSynthesis.speak(u);
-    speakTimer=setTimeout(function(){speakBtn.textContent="🔊 Read aloud";},30000);
-  }catch(e){speakBtn.textContent="🔊 Read aloud";}
+  if(speakAudio){speakStop();return;}
+  speakBtn.textContent="\u23F9 Stop";
+  var chunks=[],cur="",parts=String(plain).split(/(?<=[.!?])\s+/);
+  parts.forEach(function(s){if((cur+" "+s).length>170){if(cur)chunks.push(cur);cur=s;}else cur=(cur?cur+" ":"")+s;});
+  if(cur)chunks.push(cur);chunks=chunks.slice(0,40);
+  var i=0;
+  (function audioChunk(tier){
+    if(i>=chunks.length){speakStop();return;}
+    if(tier>=TTS_URLS_BEST.length){i++;audioChunk(0);return;}
+    try{
+      var a=new Audio(TTS_URLS_BEST[tier](chunks[i]));speakAudio=a;
+      a.onended=function(){if(speakAudio===a)speakAudio=null;i++;audioChunk(0);};
+      a.onerror=function(){if(speakAudio===a)speakAudio=null;audioChunk(tier+1);};
+      var pr=a.play();if(pr&&pr.catch)pr.catch(function(){if(speakAudio===a)speakAudio=null;audioChunk(tier+1);});
+    }catch(e){audioChunk(tier+1);}
+  })(0);
+  speakTimer=setTimeout(function(){speakStop();},120000);
 };
 document.getElementById("best-copy").onclick=function(){copyText(dl,this);};
 document.getElementById("best-dl").onclick=function(){download("JAH-BOOK-000001-best.txt",dl);};
@@ -433,10 +443,19 @@ function renderAz(payload){
   var ALL="ABCDEFGHIJKLMNOPQRSTUVWXYZ#".split("");
   for(i=0;i<ALL.length;i++){var k=ALL[i], rows=L[k]||[];
     if(!rows.length)continue;
-    h+='<details class="azdet" id="det-'+esc(k)+'"><summary><b>'+esc(k)+'</b><span class="azcount">'+rows.length.toLocaleString()+' record'+(rows.length===1?"":"s")+'</span></summary><div class="azlist">';
-    for(var j=0;j<rows.length;j++)h+=entryRow(rows[j]);
-    h+='</div></details>'}
+    h+='<details class="azdet" id="det-'+esc(k)+'" data-k="'+esc(k)+'"><summary><b>'+esc(k)+'</b><span class="azcount">'+rows.length.toLocaleString()+' record'+(rows.length===1?"":"s")+'</span></summary><div class="azlist"><p class="loading">Opening this letter&hellip;</p></div></details>'}
   $("results").innerHTML=h;
+  /* lazy per-letter: only the opened letter's records enter the DOM (Manon's
+     rule — a giant archive must never render everything at once) */
+  Array.prototype.forEach.call(document.querySelectorAll("#results details.azdet"),function(d){
+    d.addEventListener("toggle",function(){
+      if(!d.open||d.getAttribute("data-done"))return;
+      d.setAttribute("data-done","1");
+      var rows=((CACHE[WING]||{}).letters||{})[d.getAttribute("data-k")]||[], hh="";
+      for(var j=0;j<rows.length;j++)hh+=entryRow(rows[j]);
+      d.querySelector(".azlist").innerHTML=hh||'<p class="honest">No records under this letter.</p>';
+    });
+  });
   var az=$("az");az.innerHTML="";
   /* full A-Z jump list: letters with no records render disabled, never vanish */
   ALL.forEach(function(k){var b=document.createElement("button");b.textContent=k;
